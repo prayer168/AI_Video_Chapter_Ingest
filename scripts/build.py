@@ -27,6 +27,15 @@ def source_files() -> list[Path]:
     return [path for path in paths if path.exists()]
 
 
+def book_chapters() -> list[Path]:
+    """Return only canonical chapter manuscripts for reader-edition exports."""
+    return sorted(
+        path
+        for path in (ROOT / "chapters").glob("*.md")
+        if path.name[:2].isdigit()
+    )
+
+
 def split_front_matter(text: str) -> tuple[dict, str]:
     match = re.match(r"\A---\s*\n(.*?)\n---\s*\n", text, re.S)
     if not match:
@@ -154,7 +163,11 @@ def combined_markdown(sources: list[Path]) -> Path:
         text = source.read_text(encoding="utf-8-sig")
         metadata, body = split_front_matter(text)
         title = metadata.get("title") or page_title(source, text)
-        sections.append(f"# {title}\n\n{body.strip()}")
+        # Chapter manuscripts already carry their own H1. Avoid adding a
+        # duplicate title that would create two chapter headings in exports.
+        if not re.search(r"^#\s+", body, re.M):
+            body = f"# {title}\n\n{body}"
+        sections.append(body.strip())
     target = OUT / "book-source.md"
     target.write_text("\n\n\\newpage\n\n".join(sections), encoding="utf-8")
     return target
@@ -162,13 +175,36 @@ def combined_markdown(sources: list[Path]) -> Path:
 
 def build_docx(sources: list[Path], font: str) -> int:
     pandoc = shutil.which("pandoc")
-    source = combined_markdown(sources)
+    source = combined_markdown(book_chapters())
     target = OUT / "AI-Filmmaking-Bible.docx"
     if pandoc:
-        return subprocess.run(
+        result = subprocess.run(
             [pandoc, str(source), "-o", str(target), "-V", f"mainfont={font}"],
             cwd=ROOT,
-        ).returncode
+        )
+        if result.returncode:
+            return result.returncode
+        try:
+            from docx import Document
+            from docx.oxml.ns import qn
+        except ImportError:
+            print("DOCX created; install python-docx to apply the requested CJK font to Word styles.", file=sys.stderr)
+        else:
+            document = Document(target)
+            for style_name in ("Normal", "Heading 1", "Heading 2", "Heading 3"):
+                style = document.styles[style_name]
+                style.font.name = font
+                properties = style._element.get_or_add_rPr()
+                fonts = properties.rFonts
+                if fonts is None:
+                    from docx.oxml import OxmlElement
+                    fonts = OxmlElement("w:rFonts")
+                    properties.append(fonts)
+                for key in ("ascii", "hAnsi", "eastAsia", "cs"):
+                    fonts.set(qn(f"w:{key}"), font)
+            document.save(target)
+        print(f"Built DOCX: {target}")
+        return 0
     try:
         from docx import Document
     except ImportError:
@@ -200,7 +236,36 @@ def build_pdf(sources: list[Path], font: str) -> int:
     if not pandoc or not xelatex:
         print("PDF requires Pandoc and XeLaTeX on PATH", file=sys.stderr)
         return 2
-    source = combined_markdown(sources)
+    source = combined_markdown(book_chapters())
+    svg_converter = shutil.which("inkscape")
+    image_pattern = re.compile(r"(!\[[^\]]*\]\()([^\s)]+\.svg)([^)]*\))", re.I)
+
+    def convert_svg(match: re.Match) -> str:
+        image_path = (source.parent / match.group(2)).resolve()
+        if not image_path.exists():
+            raise FileNotFoundError(f"SVG image not found: {image_path}")
+        if not svg_converter:
+            raise RuntimeError("PDF includes SVG figures. Install Inkscape and ensure 'inkscape' is on PATH.")
+        media_dir = OUT / "pdf-media"
+        media_dir.mkdir(parents=True, exist_ok=True)
+        relative_name = "--".join(image_path.relative_to(ROOT).parts).removesuffix(".svg") + ".pdf"
+        converted = media_dir / relative_name
+        result = subprocess.run(
+            [svg_converter, str(image_path), f"--export-filename={converted}"],
+            cwd=ROOT,
+        )
+        if result.returncode:
+            raise RuntimeError(f"Inkscape failed to convert {image_path.name} to PDF")
+        replacement = Path(os.path.relpath(converted, source.parent)).as_posix()
+        return f"{match.group(1)}{replacement}{match.group(3)}"
+
+    try:
+        source_text = source.read_text(encoding="utf-8")
+        source_text = image_pattern.sub(convert_svg, source_text)
+        source.write_text(source_text, encoding="utf-8")
+    except (FileNotFoundError, RuntimeError) as exc:
+        print(str(exc), file=sys.stderr)
+        return 2
     target = OUT / "AI-Filmmaking-Bible.pdf"
     result = subprocess.run(
         [pandoc, str(source), "-o", str(target), "--pdf-engine=xelatex", "-V", f"mainfont={font}"],

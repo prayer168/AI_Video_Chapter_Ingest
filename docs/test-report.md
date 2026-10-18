@@ -1,6 +1,6 @@
 # Test report
 
-Run date: 2026-10-18 (Asia/Taipei)
+Run date: 2026-10-18 (Asia/Taipei); font alias recheck: 2026-10-18
 
 ## Passed
 
@@ -13,8 +13,8 @@ Run date: 2026-10-18 (Asia/Taipei)
 ## Pending environment/tooling
 
 - DOCX build not produced: neither Pandoc nor `python-docx` is installed in this environment.
-- PDF build not produced: Pandoc and XeLaTeX are not installed.
-- `Noto Serif CJK TC` is not confirmed installed; CJK font embedding and final PDF rendering therefore remain unverified.
+- PDF build not produced: Pandoc, XeLaTeX, and Inkscape (SVG-to-PDF conversion) are not installed.
+- Windows font registry contains `Noto Serif TC` and `Noto Sans TC`; the old check used a mismatched family alias. The checker now accepts the installed TC family names. PDF embedding and final PDF rendering remain unverified because no PDF was generated.
 - The chapter is a draft. Shot/scene definitions still need source page locators; the SAGE article's full text should be reviewed before making detailed claims.
 
 Automated checks do not confer `verified` editorial status.
