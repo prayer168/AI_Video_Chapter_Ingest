@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Illustrative AI filmmaking shot record",
+  "type": "object",
+  "required": [
+    "project_id",
+    "scene_id",
+    "shot_id",
+    "narrative_purpose",
+    "duration_seconds",
+    "shot_type",
+    "camera",
+    "subject",
+    "lighting",
+    "continuity",
+    "audio",
+    "generation",
+    "quality_checks"
+  ],
+  "properties": {
+    "project_id": {
+      "type": "string"
+    },
+    "scene_id": {
+      "type": "string"
+    },
+    "shot_id": {
+      "type": "string"
+    },
+    "narrative_purpose": {
+      "type": "string"
+    },
+    "duration_seconds": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "shot_type": {
+      "type": "string"
+    },
+    "camera": {
+      "type": "object"
+    },
+    "subject": {
+      "type": "object"
+    },
+    "lighting": {
+      "type": "object"
+    },
+    "continuity": {
+      "type": "object"
+    },
+    "audio": {
+      "type": "object"
+    },
+    "generation": {
+      "type": "object",
+      "required": [
+        "mode",
+        "status",
+        "reference_image",
+        "reference_image_status"
+      ],
+      "properties": {
+        "mode": {
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "planned",
+            "generated",
+            "reviewed",
+            "selected"
+          ]
+        },
+        "reference_image": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reference_image_status": {
+          "type": "string"
+        }
+      }
+    },
+    "quality_checks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

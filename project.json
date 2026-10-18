@@ -1,0 +1,14 @@
+{
+  "name": "AI-Filmmaking-Bible",
+  "title": "AI 電影製作聖經：從電影語言到 AI Agent 自動化製片",
+  "version": "0.2.0",
+  "language": "zh-TW",
+  "parts_expected": 12,
+  "chapters_expected": 60,
+  "publication_formats": [
+    "html",
+    "docx",
+    "pdf"
+  ],
+  "chapter_ingest_skill": ".codex/skills/chapter-material-ingest/SKILL.md"
+}

@@ -2,11 +2,13 @@
 
 **《AI 電影製作聖經：從電影語言到 AI Agent 自動化製片》** 是長期開源的繁體中文電影製作百科與 AI 影視技術教科書計畫，並維護專業術語、提示詞資料庫和自動出版系統。
 
-> 第一階段工程骨架 v0.1.0。目錄和模板已建立；60 章正文尚未撰寫。
+> 第一階段工程骨架與第一章草稿 v0.2.0。目錄和模板已建立；其餘 59 章正文尚未撰寫。
 
 ## 專案文件
 
 - [全書目錄](docs/TOC.md)
+- [章節素材匯入流程](docs/CHAPTER-INGEST.md)
+- [Codex 匯入技能](.codex/skills/chapter-material-ingest/SKILL.md)
 - [章節模板](templates/chapter-template.md)
 - [術語資料模型](docs/TERMINOLOGY.md)
 - [引用與證據規範](docs/REFERENCES.md)
@@ -18,7 +20,7 @@
 
 ## 快速開始
 
-需要 Python 3.10 或更新版本。HTML 使用標準函式庫；DOCX 需 `python-docx`；PDF 需 Pandoc 和 XeLaTeX。
+需要 Python 3.10 或更新版本及 `pip install -r requirements.txt`。HTML 由 Python Markdown 建置；DOCX 需 Pandoc 或 `python-docx`；PDF 需 Pandoc 和 XeLaTeX。
 
 ```powershell
 python scripts/validate_project.py

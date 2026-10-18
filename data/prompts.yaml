@@ -1,1 +1,15 @@
-prompts: []
+- id: PROMPT-CH01-S03-I2V
+  chapter_id: 01-01
+  path: chapters/01-01-cinematic-language-assets/S03-image-to-video.txt
+  purpose: Image-to-video motion prompt example for shot S03
+  modality: image-to-video
+  tool: null
+  model_version: null
+  status: illustrative-not-tested
+  input_assets: []
+  parameters:
+    duration_target_seconds: 7
+    aspect_ratio: '16:9'
+  verification: No generated output or tool-specific execution is included in the
+    source pack.
+  updated: '2026-10-18'

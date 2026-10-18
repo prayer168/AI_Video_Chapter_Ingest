@@ -1,1 +1,260 @@
-terms: []
+- id: TERM-01-01-FRAME
+  zh_TW: 影格
+  en: Frame
+  variants: []
+  definition: 影片時間序列中的單幅影像
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology
+    review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-SHOT
+  zh_TW: 鏡頭
+  en: Shot
+  variants: []
+  definition: 成片中的一段連續影像，或拍攝設置的稱呼
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology
+    review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-TAKE
+  zh_TW: 拍攝次數
+  en: Take
+  variants: []
+  definition: 一次實際錄製嘗試
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology
+    review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-SCENE
+  zh_TW: 場景／一場戲
+  en: Scene
+  variants: []
+  definition: 特定戲劇時空中的行動單元
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology
+    review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-SEQUENCE
+  zh_TW: 敘事段落
+  en: Sequence
+  variants: []
+  definition: 完成相對完整敘事目的的一組場景
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology
+    review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-MISE-EN-SC-NE
+  zh_TW: 場面調度
+  en: Mise-en-scène
+  variants: []
+  definition: 鏡頭前人物、道具、空間、光線等安排
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology
+    review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-BLOCKING
+  zh_TW: 走位／調度
+  en: Blocking
+  variants: []
+  definition: 演員位置及動作路徑的設計
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology
+    review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-FRAMING
+  zh_TW: 取景／構圖
+  en: Framing
+  variants: []
+  definition: 畫面內外的選擇與元素配置
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology
+    review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-SHOT-SIZE
+  zh_TW: 景別
+  en: Shot Size
+  variants: []
+  definition: 主體在畫面中相對呈現的尺度
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology
+    review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-CAMERA-ANGLE
+  zh_TW: 攝影角度
+  en: Camera Angle
+  variants: []
+  definition: 攝影機觀察主體的角度
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology
+    review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-CAMERA-MOVEMENT
+  zh_TW: 運鏡
+  en: Camera Movement
+  variants: []
+  definition: 攝影機位置或朝向的變化
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology
+    review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-COVERAGE
+  zh_TW: 拍攝涵蓋素材
+  en: Coverage
+  variants: []
+  definition: 不同角度與景別、供剪輯使用的素材組
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology
+    review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-MASTER-SHOT
+  zh_TW: 主鏡頭
+  en: Master Shot
+  variants: []
+  definition: 涵蓋某場戲主要行動的鏡頭
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology
+    review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-REACTION-SHOT
+  zh_TW: 反應鏡頭
+  en: Reaction Shot
+  variants: []
+  definition: 呈現人物對事件的反應
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology
+    review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-INSERT-SHOT
+  zh_TW: 插入鏡頭
+  en: Insert Shot
+  variants: []
+  definition: 突出物件或行動細節
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology
+    review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-CUTAWAY
+  zh_TW: 切出鏡頭
+  en: Cutaway
+  variants: []
+  definition: 暫時切至主要行動以外的相關畫面
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology
+    review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-CONTINUITY
+  zh_TW: 連續性
+  en: Continuity
+  variants: []
+  definition: 維持動作、位置、時間與視覺邏輯
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology
+    review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-MATCH-ON-ACTION
+  zh_TW: 動作接剪
+  en: Match on Action
+  variants: []
+  definition: 以動作持續性銜接鏡頭
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology
+    review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-MONTAGE
+  zh_TW: 蒙太奇
+  en: Montage
+  variants: []
+  definition: 由鏡頭組合建立意義或濃縮時間
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology
+    review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-DIEGETIC-SOUND
+  zh_TW: 故事世界內聲音
+  en: Diegetic Sound
+  variants: []
+  definition: 來自故事世界內的可想像聲源
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology
+    review remain pending.
+  updated: '2026-10-18'

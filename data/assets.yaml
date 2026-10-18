@@ -1,1 +1,28 @@
-assets: []
+- id: ASSET-CH01-FIG-01
+  path: assets/diagrams/ch01-film-unit-hierarchy.svg
+  type: original-svg-diagram
+  description: Chapter 1 teaching-model diagram of film, sequence, scene, shot and
+    frame.
+  creator: AI-Filmmaking-Bible project editors
+  source_url: null
+  created_at: '2026-10-18'
+  license: CC BY-SA 4.0
+  permission: original-project-work
+  attribution: AI-Filmmaking-Bible
+  chapter_ids:
+  - 01-01
+  notes: Original schematic; not an external film still.
+- id: ASSET-CH01-SHOT-S03
+  path: chapters/01-01-cinematic-language-assets/shot-S03.json
+  type: illustrative-shot-specification
+  description: Structured illustrative shot specification included in the original
+    source pack.
+  creator: Source-pack contributor; attribution to be confirmed
+  source_url: null
+  created_at: null
+  license: Unconfirmed
+  permission: Review provenance before public release
+  attribution: Attribution pending confirmation
+  chapter_ids:
+  - 01-01
+  notes: JSON example is data, not a claim of a completed generation.

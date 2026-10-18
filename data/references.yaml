@@ -1,14 +1,90 @@
-- id: S001
-  type: placeholder
-  title: "請以已核對的正式來源取代本佔位項"
-  creator: null
-  publisher: null
-  publication_date: null
-  edition: null
+- id: R001
+  type: book
+  title: 'Film Art: An Introduction'
+  authors:
+  - David Bordwell
+  - Kristin Thompson
+  - Jeff Smith
+  publisher: McGraw Hill
+  edition: 13th edition
+  publication_date: 2026 release (publisher listing)
   version: null
   doi: null
-  url: null
-  accessed: null
+  url: https://www.mheducation.com/highered/product/Film-Art-An-Introduction-Bordwell.html
+  accessed: '2026-10-18'
   locator: null
-  language: null
-  notes: "此範例不可作為章節證據。"
+  language: en
+  status: verified-bibliography-locator-pending
+  notes: Publisher page identifies authors, 13th edition and 2026 current release.
+    No specific page has yet been checked for this chapter.
+- id: R002
+  type: official-documentation
+  title: Prompting Guide
+  authors:
+  - Runway Academy
+  publisher: Runway
+  edition: null
+  publication_date: null
+  version: Page describes Gen-4.5 as of access date
+  doi: null
+  url: https://academy.runwayml.com/guides/prompting-guide
+  accessed: '2026-10-18'
+  locator: Image to Video; best practices
+  language: en
+  status: verified-current-page
+  notes: Official guidance; product/model details are time-sensitive and must be rechecked
+    before release.
+- id: R003
+  type: official-documentation
+  title: Image to Video Prompting Guide
+  authors:
+  - Runway Help Center
+  publisher: Runway
+  edition: null
+  publication_date: null
+  version: Guide says optimized for Gen-4.5 at access date
+  doi: null
+  url: https://help.runwayml.com/hc/en-us/articles/48324313115155-Image-to-Video-Prompting-Guide
+  accessed: '2026-10-18'
+  locator: Introduction; core prompt elements
+  language: en
+  status: verified-current-page
+  notes: Official guidance; model-specific claims must be checked against current
+    version before release.
+- id: R004
+  type: official-documentation
+  title: 'Video transitions: Learn types of transitions in film'
+  authors:
+  - Adobe
+  publisher: Adobe
+  edition: null
+  publication_date: null
+  version: null
+  doi: null
+  url: https://www.adobe.com/creativecloud/video/post-production/transitions.html
+  accessed: '2026-10-18'
+  locator: J cuts and L cuts using sound transitions
+  language: en
+  status: verified-current-page
+  notes: Official editing explanation.
+- id: R005
+  type: journal-article
+  title: Does the Kuleshov Effect Really Exist? Revisiting a Classic Film Experiment
+    on Facial Expressions and Emotional Contexts
+  authors:
+  - Daniel Barratt
+  - Anna Cabak Rédei
+  - Åse Innes-Ker
+  - Joost van de Weijer
+  publisher: Perception (SAGE Journals)
+  edition: null
+  publication_date: '2016'
+  version: null
+  doi: 10.1177/0301006616638595
+  url: https://journals.sagepub.com/doi/10.1177/0301006616638595
+  accessed: '2026-10-18'
+  locator: null
+  language: en
+  status: verified-bibliography-abstract-reviewed
+  notes: Research article reassessing the classic experiment; consult full paper and
+    report limits precisely before final claims.
