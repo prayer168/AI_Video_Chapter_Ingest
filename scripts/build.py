@@ -18,6 +18,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "dist"
 HTML = OUT / "html"
+IMAGE_PATTERN = re.compile(r"(!\[[^\]]*\]\()([^\s)]+)([^)]*\))")
 
 
 def source_files() -> list[Path]:
@@ -163,6 +164,7 @@ def combined_markdown(sources: list[Path]) -> Path:
         text = source.read_text(encoding="utf-8-sig")
         metadata, body = split_front_matter(text)
         title = metadata.get("title") or page_title(source, text)
+        body = rewrite_image_paths(body, source.parent)
         # Chapter manuscripts already carry their own H1. Avoid adding a
         # duplicate title that would create two chapter headings in exports.
         if not re.search(r"^#\s+", body, re.M):
@@ -173,11 +175,66 @@ def combined_markdown(sources: list[Path]) -> Path:
     return target
 
 
+def rewrite_image_paths(text: str, base_dir: Path) -> str:
+    """Rewrite existing local Markdown images to paths rooted at the repo."""
+    def replace(match: re.Match) -> str:
+        prefix, raw_target, suffix = match.groups()
+        parsed = urlparse(raw_target)
+        if parsed.scheme or parsed.netloc or raw_target.startswith("#"):
+            return match.group(0)
+        image_path = (base_dir / raw_target).resolve()
+        if not image_path.exists() or not image_path.is_relative_to(ROOT):
+            return match.group(0)
+        rooted_path = image_path.relative_to(ROOT).as_posix()
+        return f"{prefix}{rooted_path}{suffix}"
+
+    return IMAGE_PATTERN.sub(replace, text)
+
+
+def convert_svg_images(source: Path, output_format: str) -> int:
+    """Convert SVGs to a format supported by the selected Pandoc writer."""
+    svg_converter = shutil.which("inkscape")
+    media_dir = OUT / f"{output_format}-media"
+    source_text = source.read_text(encoding="utf-8")
+
+    def convert(match: re.Match) -> str:
+        prefix, raw_target, suffix = match.groups()
+        if Path(urlparse(raw_target).path).suffix.casefold() != ".svg":
+            return match.group(0)
+        image_path = (ROOT / raw_target).resolve()
+        if not image_path.exists():
+            raise FileNotFoundError(f"SVG image not found: {image_path}")
+        if not svg_converter:
+            raise RuntimeError("This export contains SVG figures. Install Inkscape and ensure 'inkscape' is on PATH.")
+        media_dir.mkdir(parents=True, exist_ok=True)
+        relative_name = "--".join(image_path.relative_to(ROOT).parts).removesuffix(".svg")
+        converted = media_dir / f"{relative_name}.{output_format}"
+        result = subprocess.run(
+            [svg_converter, str(image_path), f"--export-filename={converted}"],
+            cwd=ROOT,
+        )
+        if result.returncode:
+            raise RuntimeError(f"Inkscape failed to convert {image_path.name} to {output_format.upper()}")
+        rooted_path = converted.relative_to(ROOT).as_posix()
+        return f"{prefix}{rooted_path}{suffix}"
+
+    try:
+        source_text = IMAGE_PATTERN.sub(convert, source_text)
+    except (FileNotFoundError, RuntimeError) as exc:
+        print(str(exc), file=sys.stderr)
+        return 2
+    source.write_text(source_text, encoding="utf-8")
+    return 0
+
+
 def build_docx(sources: list[Path], font: str) -> int:
     pandoc = shutil.which("pandoc")
     source = combined_markdown(book_chapters())
     target = OUT / "AI-Filmmaking-Bible.docx"
     if pandoc:
+        conversion_status = convert_svg_images(source, "png")
+        if conversion_status:
+            return conversion_status
         result = subprocess.run(
             [pandoc, str(source), "-o", str(target), "-V", f"mainfont={font}"],
             cwd=ROOT,
@@ -237,38 +294,22 @@ def build_pdf(sources: list[Path], font: str) -> int:
         print("PDF requires Pandoc and XeLaTeX on PATH", file=sys.stderr)
         return 2
     source = combined_markdown(book_chapters())
-    svg_converter = shutil.which("inkscape")
-    image_pattern = re.compile(r"(!\[[^\]]*\]\()([^\s)]+\.svg)([^)]*\))", re.I)
-
-    def convert_svg(match: re.Match) -> str:
-        image_path = (source.parent / match.group(2)).resolve()
-        if not image_path.exists():
-            raise FileNotFoundError(f"SVG image not found: {image_path}")
-        if not svg_converter:
-            raise RuntimeError("PDF includes SVG figures. Install Inkscape and ensure 'inkscape' is on PATH.")
-        media_dir = OUT / "pdf-media"
-        media_dir.mkdir(parents=True, exist_ok=True)
-        relative_name = "--".join(image_path.relative_to(ROOT).parts).removesuffix(".svg") + ".pdf"
-        converted = media_dir / relative_name
-        result = subprocess.run(
-            [svg_converter, str(image_path), f"--export-filename={converted}"],
-            cwd=ROOT,
-        )
-        if result.returncode:
-            raise RuntimeError(f"Inkscape failed to convert {image_path.name} to PDF")
-        replacement = Path(os.path.relpath(converted, source.parent)).as_posix()
-        return f"{match.group(1)}{replacement}{match.group(3)}"
-
-    try:
-        source_text = source.read_text(encoding="utf-8")
-        source_text = image_pattern.sub(convert_svg, source_text)
-        source.write_text(source_text, encoding="utf-8")
-    except (FileNotFoundError, RuntimeError) as exc:
-        print(str(exc), file=sys.stderr)
-        return 2
+    conversion_status = convert_svg_images(source, "pdf")
+    if conversion_status:
+        return conversion_status
     target = OUT / "AI-Filmmaking-Bible.pdf"
     result = subprocess.run(
-        [pandoc, str(source), "-o", str(target), "--pdf-engine=xelatex", "-V", f"mainfont={font}"],
+        [
+            pandoc,
+            str(source),
+            "-o",
+            str(target),
+            "--pdf-engine=xelatex",
+            "-V",
+            f"mainfont={font}",
+            "-V",
+            f"CJKmainfont={font}",
+        ],
         cwd=ROOT,
     )
     if result.returncode == 0:

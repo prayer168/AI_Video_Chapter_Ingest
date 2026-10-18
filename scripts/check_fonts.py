@@ -81,7 +81,10 @@ def check_pdf_fonts(path: Path) -> int:
     if not rows:
         print("WARNING: no PDF fonts were listed; inspect the document manually.")
         return 0
-    missing = [row[0] for row in rows if len(row) >= 4 and row[3].casefold() != "yes"]
+    # The PDF font ``type`` and ``encoding`` columns can contain spaces, so
+    # fixed token positions are unreliable. The five trailing tokens are
+    # consistently: emb, sub, uni, object number, generation number.
+    missing = [row[0] for row in rows if len(row) >= 7 and row[-5].casefold() != "yes"]
     if missing:
         print("ERROR: fonts are not embedded: " + ", ".join(missing), file=sys.stderr)
         return 1

@@ -24,7 +24,17 @@ python scripts/build.py --format docx --font "Noto Serif TC"
 python scripts/build.py --format pdf --font "Noto Serif TC"
 ```
 
-HTML 輸出在 `dist/html/`，包含專案文件與章節頁面。DOCX/PDF 只收錄 `chapters/` 根目錄下的編號章稿，避免把 README、出版規範等內部文件放進讀者版。DOCX 用 Pandoc 保留標題、表格與程式碼，再由 `python-docx` 設定中英文字型樣式。PDF 使用 XeLaTeX 字型名稱；若章節含 SVG，建置器會呼叫 Inkscape 將圖轉成 PDF。請從 [Inkscape 官方網站](https://inkscape.org/) 安裝並確認 `inkscape --version` 可執行。
+HTML 輸出在 `dist/html/`，包含專案文件與章節頁面。DOCX/PDF 只收錄 `chapters/` 根目錄下的編號章稿，避免把 README、出版規範等內部文件放進讀者版。DOCX 用 Pandoc 保留標題、表格與程式碼，再由 `python-docx` 設定中英文字型樣式。PDF 同時指定 `mainfont` 與 `CJKmainfont`，由 XeLaTeX 排版繁體中文字元；章稿含 SVG 時，建置器會呼叫 Inkscape 分別轉成 DOCX 用 PNG 與 PDF 用 PDF 圖檔，並把資源路徑改寫成 repo 根目錄相對路徑。
+
+若 PowerShell 找不到 Inkscape，但已安裝在預設位置，先保存目前 Python 路徑，再將 Inkscape 目錄加到目前工作階段 PATH 尾端。不要放到 PATH 最前面，否則可能優先執行 Inkscape 隨附的 Python：
+
+```powershell
+$pythonExe = (Get-Command python).Source
+$env:Path += ';C:\Program Files\Inkscape\bin'
+Get-Command python, pandoc, xelatex, inkscape
+& $pythonExe scripts/build.py --format docx --font "Noto Serif TC"
+& $pythonExe scripts/build.py --format pdf --font "Noto Serif TC"
+```
 
 ## 4. 驗證字型
 
@@ -35,7 +45,7 @@ python scripts/check_fonts.py --font "Noto Serif TC"
 python scripts/check_fonts.py --font "Noto Serif TC" --pdf dist/AI-Filmmaking-Bible.pdf
 ```
 
-第二個命令若系統安裝 `pdffonts`，會檢查 PDF 每個字型的 embedded 欄位是否為 yes。沒有 `pdffonts` 時，請在 Acrobat 或其他 PDF 閱讀器的文件屬性檢視 Fonts。最後需抽查繁體中文、標點、箭頭和表格換頁；字型已安裝不等於 PDF 已嵌入，也不等於所有字形正確。
+第二個命令若系統安裝 `pdffonts`，會檢查 PDF 每個字型的 embedded 欄位是否為 yes。沒有 `pdffonts` 時，請在 Acrobat 或其他 PDF 閱讀器的文件屬性檢視 Fonts。最後需抽查繁體中文、標點、箭頭、插圖和表格換頁；字型已安裝不等於 PDF 已嵌入，也不等於所有字形正確。MiKTeX 若提示尚未檢查更新，建議發布前開啟 MiKTeX Console 執行更新，再重新建置。
 
 ## 5. 引用連結
 
