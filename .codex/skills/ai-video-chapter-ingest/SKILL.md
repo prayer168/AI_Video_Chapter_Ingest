@@ -1,11 +1,12 @@
 ---
-name: chapter-material-ingest
+name: ai-video-chapter-ingest
 description: Ingest and editorially integrate new manuscript drafts or source packs into the AI-Filmmaking-Bible chapter repository. Use when the user asks to process files placed under chapters/ or provides a chapter source pack.
 metadata:
   short-description: Process book chapter source packs
+  display-name: AI_Video_Chapter_Ingest
 ---
 
-# Chapter material intake
+# AI Video Chapter Ingest workflow
 
 Use this skill for the AI-Filmmaking-Bible repository. The user's writing workflow is: ChatGPT researches and finalizes chapter drafts; Codex preserves originals, integrates, checks, formats, and manages versions.
 

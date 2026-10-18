@@ -1,4 +1,4 @@
-# Chapter material intake workflow
+# AI_Video_Chapter_Ingest workflow
 
 Identify new source material under `chapters/` using explicit chapter IDs, title, and `docs/TOC.md`. Preserve original files unchanged in `chapters/source-packs/`. Check archive member paths before extraction. Create the canonical `NN-NN-slug.md` and companion folder `chapters/NN-NN-slug-assets/`. Update reference, term, prompt, and asset registries as needed.
 

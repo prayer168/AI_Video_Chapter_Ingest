@@ -8,7 +8,7 @@
 
 - [全書目錄](docs/TOC.md)
 - [章節素材匯入流程](docs/CHAPTER-INGEST.md)
-- [Codex 匯入技能](.codex/skills/chapter-material-ingest/SKILL.md)
+- [Codex 章稿匯入技能：AI_Video_Chapter_Ingest](.codex/skills/ai-video-chapter-ingest/SKILL.md)
 - [章節模板](templates/chapter-template.md)
 - [術語資料模型](docs/TERMINOLOGY.md)
 - [引用與證據規範](docs/REFERENCES.md)

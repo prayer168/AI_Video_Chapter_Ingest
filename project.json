@@ -10,5 +10,5 @@
     "docx",
     "pdf"
   ],
-  "chapter_ingest_skill": ".codex/skills/chapter-material-ingest/SKILL.md"
+  "chapter_ingest_skill": ".codex/skills/ai-video-chapter-ingest/SKILL.md"
 }
