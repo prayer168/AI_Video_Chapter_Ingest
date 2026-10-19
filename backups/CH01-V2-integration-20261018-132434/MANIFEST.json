@@ -1,0 +1,104 @@
+[
+  {
+    "Path": "content\\zh-TW\\chapters\\CH01-cinematic-language.md",
+    "Kind": "file",
+    "Length": 1214,
+    "SHA256": "0734F6619D3D86E92F212D91379FE13876B34A64BAEAD73B2F9B66F95457D58C"
+  },
+  {
+    "Path": "content\\en-US\\chapters\\CH01-cinematic-language.md",
+    "Kind": "file",
+    "Length": 1143,
+    "SHA256": "DE5873FDBEEAD97D3205B53459F1227ECA366B0421B9467E5493B2D1C964EDAB"
+  },
+  {
+    "Path": "assets\\chapters\\CH01\\figure-manifest.yaml",
+    "Kind": "file",
+    "Length": 31,
+    "SHA256": "18C3B9B5494DFC0E42ED1CA6BFD4371E44B9DC8599B185D1F947F44AED19A957"
+  },
+  {
+    "Path": "data\\terms.yaml",
+    "Kind": "file",
+    "Length": 18326,
+    "SHA256": "4636757842B16AE70C84071F79DB3C735F29722CBA6899FBBBC5A526E5D428C1"
+  },
+  {
+    "Path": "data\\references.yaml",
+    "Kind": "file",
+    "Length": 7121,
+    "SHA256": "95FC62AB4F0DAACE4B3B0ED25FE568D3652BAA751DF56A1834BD91FB1ABBB57D"
+  },
+  {
+    "Path": "data\\prompts.yaml",
+    "Kind": "file",
+    "Length": 3299,
+    "SHA256": "A8ED0ADA436EF77B224A7BBE3EE0238F5A4867D1DB3A627065362A8CC3AAED57"
+  },
+  {
+    "Path": "data\\assets.yaml",
+    "Kind": "file",
+    "Length": 5298,
+    "SHA256": "43BC5B7780E181F528E30331928978F5393D7B10D4D5BE21120AF40E88714E38"
+  },
+  {
+    "Path": "metadata\\chapters.yaml",
+    "Kind": "file",
+    "Length": 15436,
+    "SHA256": "30F08E9D9D44D3190104C1991344CF6164EDF669E4B1FCF2AD425FAAA07F5115"
+  },
+  {
+    "Path": "planning-v2\\CH01-V2-WORKPLAN.md",
+    "Kind": "file",
+    "Length": 8329,
+    "SHA256": "50A0D512AFB8AE68D2DAEB91618F68F0DBDA8C6D4F794ABB4A003A0A6186CE17"
+  },
+  {
+    "Path": "chapters\\AI-Video-Bible-Homage-V1-CH01-Supplement-DRAFT.zip",
+    "Kind": "file",
+    "Length": 24909,
+    "SHA256": "B469758444CBA4E1DF42A2082F7C6AB12C8D17C829B32AAA4AF3B258AF3A3522"
+  },
+  {
+    "Path": "chapters\\source-packs\\AI-Filmmaking-Bible-CH01-Codex.zip",
+    "Kind": "file",
+    "Length": 10412,
+    "SHA256": "E5D1A4C2961E252804DB03EB1868763AC7AA6E2BE5F79D96917F81CCAEDC3789"
+  },
+  {
+    "Path": "scripts/v2_validate.py",
+    "Kind": "file",
+    "Length": 8941,
+    "SHA256": "e4a7065e0650688375b314fbd02d7b4b1182a5215b9f32b9d49b7132859c734b"
+  },
+  {
+    "Path": "metadata/terminology.yaml",
+    "Kind": "file",
+    "Length": 104,
+    "SHA256": "b6b52716a1019e8dc158502996b3073f3d565a5054facb8098d4a035fa081fdc"
+  },
+  {
+    "Path": "metadata/references.bib",
+    "Kind": "file",
+    "Length": 77,
+    "SHA256": "949e39520f806e7ac814e5631359cabc49b285882878f8366d648257157c4f50"
+  },
+  {
+    "Path": "metadata/figure-registry.yaml",
+    "Kind": "file",
+    "Length": 124,
+    "SHA256": "d2cd31ca667fc22e3ff7e73d0645ce8f644327d96fa9a7ad00e26dfb9dfcb07a"
+  },
+  {
+    "Path": "BUILD-VALIDATION-V2.md",
+    "Kind": "file",
+    "Length": 12526,
+    "SHA256": "c64acf6c0e381ce990271eefd31a3d74266df2ea224237f9c62762f991f804c7"
+  },
+  {
+    "Path": "history.md",
+    "Kind": "file",
+    "Length": 36717,
+    "SHA256": "3c0160fcbefc52151fc430051365a504b1725398ee8ef98cabb0b1fb17a39e63"
+  }
+]

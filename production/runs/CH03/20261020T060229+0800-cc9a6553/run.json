@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "run_id": "20261020T060229+0800-cc9a6553",
+  "chapter_id": "CH03",
+  "created_at": "2026-10-20T06:02:29.405754+08:00",
+  "status": "partial",
+  "chapter": {
+    "chapter_id": "CH03",
+    "part_id": "P01",
+    "number": 3,
+    "slug": "chapter-03",
+    "title_zh": "景別、視點與觀看位置",
+    "title_en": "",
+    "legacy_status": "planned",
+    "zh_status": "planned",
+    "en_status": "translation-needed"
+  },
+  "translation_status": {
+    "zh-TW": "planned",
+    "en-US": "translation-needed",
+    "sync_revision": null
+  },
+  "existing_files": [
+    {
+      "path": "content/zh-TW/chapters/CH03-chapter-03.md",
+      "bytes": 1063,
+      "sha256": "57161f6d89bcda29f7c36394dd02c2db49963cc6740f34f0095e7891a8b750d0"
+    },
+    {
+      "path": "content/en-US/chapters/CH03-chapter-03.md",
+      "bytes": 1135,
+      "sha256": "ee2984e67da064bc6c12b0284b20cb87d9833ecf0f5777999b41f70e4ad26413"
+    },
+    {
+      "path": "assets/chapters/CH03/figure-manifest.yaml",
+      "bytes": 31,
+      "sha256": "1c268e53a13dace5d247d0eca8dd0e4d56c994777b23ab507004b273638b3f20"
+    }
+  ],
+  "steps": {
+    "inventory": {
+      "status": "pass",
+      "note": "Confirmed chapter title and bilingual scaffold; no CH03 staging/source pack; source registry is data/references.yaml and BibTeX metadata/references.bib, not metadata/references.yaml. CH02 remains review-needed; user now directs CH03 continuation."
+    },
+    "research": {
+      "status": "pass",
+      "note": "Researched with open university film textbook: Oklahoma State University Introduction to Film & TV, Cinematography and Narrative chapters; primary line-level web evidence captured in task; publisher bibliography locators remain pending."
+    },
+    "zh-draft": {
+      "status": "pass",
+      "note": "CH03-S00-S14 substantive Traditional Chinese research draft completed; source citations and claim limitations included."
+    },
+    "en-translation": {
+      "status": "pass",
+      "note": "Paired English draft completed with matching stable anchors; not human-approved and remains review-needed."
+    },
+    "film-cases": {
+      "status": "needs-human-review",
+      "note": "Two sourced case-study entries included; lawful edition, viewing log and precise timecode not independently verified."
+    },
+    "figure-assets": {
+      "status": "pass",
+      "note": "Two original SVGs with bilingual captions/alt, hash, provenance and pending rights review registered."
+    },
+    "svg-diagrams": {
+      "status": "pass",
+      "note": "Two editable authored SVG teaching diagrams validated and rendered via Inkscape-derived PNGs for draft layouts."
+    },
+    "website": {
+      "status": "pass",
+      "note": "Astro check 0 diagnostics; local build 123 pages; zh-tw/en CH03 routes contain two figures each. No deployment."
+    },
+    "books": {
+      "status": "pass",
+      "note": "zh-TW/en-US DOCX/PDF/EPUB drafts created under gitignored tmp; EPUBCheck 5.4.0 passes both locales; PDF fonts embedded and pages inspected. Pandoc zh-TW template localization warnings remain."
+    },
+    "tests": {
+      "status": "pass",
+      "note": "v2_validate, validate_project, site sync check, 40/40 unit tests, Astro check/build, font gates, EPUBCheck, figure/path/alignment checks passed."
+    },
+    "editorial-review": {
+      "status": "needs-human-review",
+      "note": "Deferred by user decision until all chapters are drafted; English and cinema theory not human-signed."
+    },
+    "rights-review": {
+      "status": "needs-human-review",
+      "note": "SVG creatorship attribution and rights/technical/accessibility/publication approvals remain pending."
+    },
+    "author-approval": {
+      "status": "needs-human-review",
+      "note": "Author approval intentionally deferred until the full book review."
+    },
+    "chapter-audit": {
+      "status": "pass",
+      "note": "CH03-FINAL-ACCEPTANCE.md completed with evidence and remaining human-review items; chapter is draft, not publication-ready."
+    }
+  },
+  "events": [
+    {
+      "time": "2026-10-20T06:02:29.405754+08:00",
+      "event": "Checkpoint created. No manuscripts, images, or publication outputs changed."
+    },
+    {
+      "time": "2026-10-20T06:02:58.520540+08:00",
+      "event": "Stage inventory recorded as pass.",
+      "note": "Confirmed chapter title and bilingual scaffold; no CH03 staging/source pack; source registry is data/references.yaml and BibTeX metadata/references.bib, not metadata/references.yaml. CH02 remains review-needed; user now directs CH03 continuation."
+    },
+    {
+      "time": "2026-10-20T06:03:06.225859+08:00",
+      "event": "Stage research recorded as pass.",
+      "note": "Researched with open university film textbook: Oklahoma State University Introduction to Film & TV, Cinematography and Narrative chapters; primary line-level web evidence captured in task; publisher bibliography locators remain pending."
+    },
+    {
+      "time": "2026-10-20T06:14:21.688848+08:00",
+      "event": "Stage zh-draft recorded as pass.",
+      "note": "CH03-S00-S14 substantive Traditional Chinese research draft completed; source citations and claim limitations included."
+    },
+    {
+      "time": "2026-10-20T06:14:21.950460+08:00",
+      "event": "Stage en-translation recorded as pass.",
+      "note": "Paired English draft completed with matching stable anchors; not human-approved and remains review-needed."
+    },
+    {
+      "time": "2026-10-20T06:14:22.195940+08:00",
+      "event": "Stage film-cases recorded as needs-human-review.",
+      "note": "Two sourced case-study entries included; lawful edition, viewing log and precise timecode not independently verified."
+    },
+    {
+      "time": "2026-10-20T06:14:22.415386+08:00",
+      "event": "Stage figure-assets recorded as pass.",
+      "note": "Two original SVGs with bilingual captions/alt, hash, provenance and pending rights review registered."
+    },
+    {
+      "time": "2026-10-20T06:14:22.645996+08:00",
+      "event": "Stage svg-diagrams recorded as pass.",
+      "note": "Two editable authored SVG teaching diagrams validated and rendered via Inkscape-derived PNGs for draft layouts."
+    },
+    {
+      "time": "2026-10-20T06:14:22.898769+08:00",
+      "event": "Stage website recorded as pass.",
+      "note": "Astro check 0 diagnostics; local build 123 pages; zh-tw/en CH03 routes contain two figures each. No deployment."
+    },
+    {
+      "time": "2026-10-20T06:14:23.158988+08:00",
+      "event": "Stage books recorded as pass.",
+      "note": "zh-TW/en-US DOCX/PDF/EPUB drafts created under gitignored tmp; EPUBCheck 5.4.0 passes both locales; PDF fonts embedded and pages inspected. Pandoc zh-TW template localization warnings remain."
+    },
+    {
+      "time": "2026-10-20T06:14:23.424597+08:00",
+      "event": "Stage tests recorded as pass.",
+      "note": "v2_validate, validate_project, site sync check, 40/40 unit tests, Astro check/build, font gates, EPUBCheck, figure/path/alignment checks passed."
+    },
+    {
+      "time": "2026-10-20T06:14:23.643586+08:00",
+      "event": "Stage editorial-review recorded as needs-human-review.",
+      "note": "Deferred by user decision until all chapters are drafted; English and cinema theory not human-signed."
+    },
+    {
+      "time": "2026-10-20T06:14:23.874948+08:00",
+      "event": "Stage rights-review recorded as needs-human-review.",
+      "note": "SVG creatorship attribution and rights/technical/accessibility/publication approvals remain pending."
+    },
+    {
+      "time": "2026-10-20T06:14:24.098272+08:00",
+      "event": "Stage author-approval recorded as needs-human-review.",
+      "note": "Author approval intentionally deferred until the full book review."
+    },
+    {
+      "time": "2026-10-20T06:14:24.364219+08:00",
+      "event": "Stage chapter-audit recorded as pass.",
+      "note": "CH03-FINAL-ACCEPTANCE.md completed with evidence and remaining human-review items; chapter is draft, not publication-ready."
+    },
+    {
+      "time": "2026-10-20T06:14:24.642387+08:00",
+      "event": "Run finished as partial.",
+      "note": ""
+    }
+  ],
+  "finished_at": "2026-10-20T06:14:24.642387+08:00"
+}

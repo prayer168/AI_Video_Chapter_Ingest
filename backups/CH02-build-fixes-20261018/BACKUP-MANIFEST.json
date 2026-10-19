@@ -1,0 +1,32 @@
+[
+  {
+    "file": "history.md",
+    "sha256": "384a035398620aa6452932d320b44272b0e3ec99432fbc6976ed97f837e38c9c",
+    "bytes": 67172
+  },
+  {
+    "file": "production__runs__CH02__20261018T215615+0800-55868375__run.json",
+    "sha256": "a1cfee44c98ad4e2ef5ba3c2a057cee4de105e25b9968f5f55568aee98fdd9ca",
+    "bytes": 7110
+  },
+  {
+    "file": "reports__CH02-V4-ACCEPTANCE-20261018.md",
+    "sha256": "8001e48ea88b1a934a46ed20e36f99abccaa4216b8453d05d1c4f9fcf1c2d807",
+    "bytes": 6897
+  },
+  {
+    "file": "scripts__publishing__figure-captions.lua",
+    "sha256": "f62ecb786d25df4e6aef6e7168ac1b7121e1d43d23096cf2052107abaed00b0f",
+    "bytes": 3244
+  },
+  {
+    "file": "staging__CH02-V4__en-US__CH02-camera-language.md",
+    "sha256": "4e450dd909fe5558da5c22cb0428bd67aff862b46574d82562e996811f2225ba",
+    "bytes": 26337
+  },
+  {
+    "file": "staging__CH02-V4__zh-TW__CH02-camera-language.md",
+    "sha256": "cef27d5ba1e46fa89421454467aed1291c25c31b68dbf43cba6e7504a6280367",
+    "bytes": 36245
+  }
+]

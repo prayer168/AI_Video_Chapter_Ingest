@@ -1,0 +1,71 @@
+chapter_id: CH03
+revision: 2.1.0-draft
+status: draft-alignment-pending-human-review
+section_pairs:
+- section_id: CH03-S00
+  zh_heading: 章節標題
+  en_heading: Chapter title
+- section_id: CH03-S01
+  zh_heading: 學習目標
+  en_heading: Learning Objectives
+- section_id: CH03-S02
+  zh_heading: 先備知識
+  en_heading: Prerequisites
+- section_id: CH03-S03
+  zh_heading: 核心術語
+  en_heading: Key Terms
+- section_id: CH03-S04
+  zh_heading: 歷史與基本原理
+  en_heading: History and Principles
+- section_id: CH03-S05
+  zh_heading: 傳統製作方法
+  en_heading: Traditional Production Practice
+- section_id: CH03-S06
+  zh_heading: AI 時代的技術轉換與限制
+  en_heading: AI-Era Workflow and Limitations
+- section_id: CH03-S07
+  zh_heading: 詳細工作流程
+  en_heading: Step-by-Step Workflow
+- section_id: CH03-S08
+  zh_heading: 提示詞與技術參數
+  en_heading: Prompt and Technical Parameters
+- section_id: CH03-S09
+  zh_heading: 鏡頭／影片／電影案例
+  en_heading: Shot, Film, and Case Studies
+- section_id: CH03-S10
+  zh_heading: 原創技術圖
+  en_heading: Original Technical Figures
+- section_id: CH03-S11
+  zh_heading: 錯誤與品質檢查
+  en_heading: Common Errors and Quality Checks
+- section_id: CH03-S12
+  zh_heading: 練習與評量
+  en_heading: Exercises and Assessment
+- section_id: CH03-S13
+  zh_heading: 延伸研究與參考資料
+  en_heading: Further Research and References
+- section_id: CH03-S14
+  zh_heading: 結語
+  en_heading: Conclusion
+term_ids:
+- TERM-CH03-SHOT-SCALE
+- TERM-CH03-CAMERA-DISTANCE
+- TERM-CH03-CAMERA-ANGLE
+- TERM-CH03-CAMERA-HEIGHT
+- TERM-CH03-POV-SHOT
+- TERM-CH03-EYELINE-MATCH
+- TERM-CH03-REACTION-SHOT
+- TERM-CH03-SPECTATOR-POSITION
+figure_pairs:
+- figure_id: CH03-FIG-001
+  display_number: 3-1
+  asset: CH03-FIG-001-shot-scale.svg
+- figure_id: CH03-FIG-002
+  display_number: 3-2
+  asset: CH03-FIG-002-pov-sequence.svg
+source_ids:
+- R022
+- R030
+notes:
+- Section anchor sets must match exactly; machine alignment does not establish semantic translation approval.
+- Film edition and timecode have not been independently verified.

@@ -11,3 +11,14 @@ Thumbs.db
 !.env.example
 *.key
 *.pem
+
+# Node build dependencies
+node_modules/
+apps/web/node_modules/
+apps/web/dist/
+apps/web/.astro/
+/apps/web/src/content/docs/zh-tw/CH*.mdx
+/apps/web/src/content/docs/en/CH*.mdx
+
+# Local work files and smoke-test outputs; never formal publication artifacts
+/tmp/

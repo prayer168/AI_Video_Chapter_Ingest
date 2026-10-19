@@ -14,6 +14,10 @@ from urllib.parse import urlparse
 
 import markdown
 import yaml
+from image_policy import (
+    IMAGE_SUFFIXES, approved_image_paths, publication_blockers,
+    redact_unapproved_images,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "dist"
@@ -113,15 +117,20 @@ def page_title(source: Path, text: str) -> str:
     return source.stem.replace("-", " ").title()
 
 
-def build_html(sources: list[Path]) -> None:
+def build_html(sources: list[Path], *, preview: bool = False, publication_target: str = "zh-TW-site", approved: set[Path] | None = None) -> None:
+    approved = approved or set()
     HTML.mkdir(parents=True, exist_ok=True)
     known = {path.resolve() for path in sources}
     for source in sources:
-        target = output_path(source)
-        target.parent.mkdir(parents=True, exist_ok=True)
+        target_path = output_path(source)
+        target_path.parent.mkdir(parents=True, exist_ok=True)
         text = source.read_text(encoding="utf-8-sig")
+        if preview:
+            text = redact_unapproved_images(text, ROOT, source, publication_target)
         title = page_title(source, text)
-        content = markdown_body(text, source, target, known)
+        content = markdown_body(text, source, target_path, known)
+        if preview:
+            content = '<p class="draft-preview-notice"><strong>草稿預覽</strong>：未核准的插圖已省略，正式出版前須完成審查。</p>' + content
         page = f"""<!doctype html>
 <html lang="zh-Hant">
 <head>
@@ -143,12 +152,20 @@ pre{{overflow:auto;padding:1rem;background:#f2f5f7;border-radius:8px}}code{{font
 </head>
 <body><main class="markdown-body">{content}</main></body>
 </html>"""
-        target.write_text(page, encoding="utf-8")
+        target_path.write_text(page, encoding="utf-8")
+    def ignore_unapproved_images(directory: str, names: list[str]) -> set[str]:
+        base = Path(directory)
+        return {
+            name for name in names
+            if (base / name).suffix.casefold() in IMAGE_SUFFIXES
+            and (base / name).resolve() not in approved
+        }
+
     assets = ROOT / "assets"
     if assets.exists():
-        shutil.copytree(assets, HTML / "assets", dirs_exist_ok=True)
+        shutil.copytree(assets, HTML / "assets", dirs_exist_ok=True, ignore=ignore_unapproved_images)
     for folder in (ROOT / "chapters").glob("*-assets"):
-        shutil.copytree(folder, HTML / folder.name, dirs_exist_ok=True)
+        shutil.copytree(folder, HTML / folder.name, dirs_exist_ok=True, ignore=ignore_unapproved_images)
     links = []
     for source in sources:
         destination = output_path(source).relative_to(HTML).as_posix()
@@ -158,12 +175,14 @@ pre{{overflow:auto;padding:1rem;background:#f2f5f7;border-radius:8px}}code{{font
     print(f"Built HTML: {HTML}")
 
 
-def combined_markdown(sources: list[Path]) -> Path:
+def combined_markdown(sources: list[Path], *, preview: bool = False, target: str = "zh-TW-book") -> Path:
     sections = []
     for source in sources:
         text = source.read_text(encoding="utf-8-sig")
         metadata, body = split_front_matter(text)
         title = metadata.get("title") or page_title(source, text)
+        if preview:
+            body = redact_unapproved_images(body, ROOT, source, target)
         body = rewrite_image_paths(body, source.parent)
         # Chapter manuscripts already carry their own H1. Avoid adding a
         # duplicate title that would create two chapter headings in exports.
@@ -171,7 +190,8 @@ def combined_markdown(sources: list[Path]) -> Path:
             body = f"# {title}\n\n{body}"
         sections.append(body.strip())
     target = OUT / "book-source.md"
-    target.write_text("\n\n\\newpage\n\n".join(sections), encoding="utf-8")
+    prefix = "> 草稿預覽：未通過出版審查的插圖已省略。\n\n" if preview else ""
+    target.write_text(prefix + "\n\n\\newpage\n\n".join(sections), encoding="utf-8")
     return target
 
 
@@ -227,9 +247,9 @@ def convert_svg_images(source: Path, output_format: str) -> int:
     return 0
 
 
-def build_docx(sources: list[Path], font: str) -> int:
+def build_docx(sources: list[Path], font: str, *, preview: bool = False, target_scope: str = "zh-TW-book") -> int:
     pandoc = shutil.which("pandoc")
-    source = combined_markdown(book_chapters())
+    source = combined_markdown(book_chapters(), preview=preview, target=target_scope)
     target = OUT / "AI-Filmmaking-Bible.docx"
     if pandoc:
         conversion_status = convert_svg_images(source, "png")
@@ -260,7 +280,7 @@ def build_docx(sources: list[Path], font: str) -> int:
                 for key in ("ascii", "hAnsi", "eastAsia", "cs"):
                     fonts.set(qn(f"w:{key}"), font)
             document.save(target)
-        print(f"Built DOCX: {target}")
+        print(f"Built DOCX{' draft preview' if preview else ''}: {target}")
         return 0
     try:
         from docx import Document
@@ -284,16 +304,16 @@ def build_docx(sources: list[Path], font: str) -> int:
             else:
                 document.add_paragraph(stripped)
     document.save(target)
-    print(f"Built DOCX: {target}")
+    print(f"Built DOCX{' draft preview' if preview else ''}: {target}")
     return 0
 
 
-def build_pdf(sources: list[Path], font: str) -> int:
+def build_pdf(sources: list[Path], font: str, *, preview: bool = False, target_scope: str = "zh-TW-book") -> int:
     pandoc, xelatex = shutil.which("pandoc"), shutil.which("xelatex")
     if not pandoc or not xelatex:
         print("PDF requires Pandoc and XeLaTeX on PATH", file=sys.stderr)
         return 2
-    source = combined_markdown(book_chapters())
+    source = combined_markdown(book_chapters(), preview=preview, target=target_scope)
     conversion_status = convert_svg_images(source, "pdf")
     if conversion_status:
         return conversion_status
@@ -313,27 +333,72 @@ def build_pdf(sources: list[Path], font: str) -> int:
         cwd=ROOT,
     )
     if result.returncode == 0:
-        print(f"Built PDF: {target}")
+        print(f"Built PDF{' draft preview' if preview else ''}: {target}")
+    return result.returncode
+
+
+
+def build_epub(font: str = "Noto Serif CJK TC", *, preview: bool = False, target_scope: str = "zh-TW-book") -> int:
+    pandoc = shutil.which("pandoc")
+    if not pandoc:
+        print("EPUB requires Pandoc on PATH", file=sys.stderr)
+        return 2
+    source = combined_markdown(book_chapters(), preview=preview, target=target_scope)
+    conversion_status = convert_svg_images(source, "png")
+    if conversion_status:
+        return conversion_status
+    target = OUT / "AI-Filmmaking-Bible.epub"
+    result = subprocess.run(
+        [pandoc, str(source), "-o", str(target), "--split-level=1", "-M", "title=AI 電影製作聖經", "-M", "lang=zh-TW"],
+        cwd=ROOT,
+    )
+    if result.returncode == 0:
+        print(f"Built EPUB{' draft preview' if preview else ''}: {target}")
     return result.returncode
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--format", required=True, choices=["html", "docx", "pdf", "all"])
+    parser.add_argument("--format", required=True, choices=["html", "docx", "pdf", "epub", "all"])
+    parser.add_argument("--preview", action="store_true", help="Build a draft preview and replace unapproved images with notices")
     parser.add_argument("--font", default="Noto Serif CJK TC")
     args = parser.parse_args()
+    formats = ["html", "docx", "pdf", "epub"] if args.format == "all" else [args.format]
+    def scope_for(output_format: str) -> str:
+        return "zh-TW-site" if output_format == "html" else "zh-TW-book"
+
+    if args.preview:
+        global OUT, HTML
+        OUT = ROOT / "dist" / "preview"
+        HTML = OUT / "html"
+    else:
+        all_blockers: list[str] = []
+        for output_format in formats:
+            scope = scope_for(output_format)
+            blockers = publication_blockers(ROOT, scope, include_docs=output_format == "html")
+            all_blockers.extend(f"{scope}: {item}" for item in blockers)
+        if all_blockers:
+            print("PUBLICATION BLOCKED: resolve image review items or use --preview", file=sys.stderr)
+            for blocker in dict.fromkeys(all_blockers):
+                print(f"- {blocker}", file=sys.stderr)
+            return 2
     sources = source_files()
     OUT.mkdir(parents=True, exist_ok=True)
-    formats = ["html", "docx", "pdf"] if args.format == "all" else [args.format]
     for output_format in formats:
+        target_scope = scope_for(output_format)
+        approved = approved_image_paths(ROOT, target_scope)
         if output_format == "html":
-            build_html(sources)
+            build_html(sources, preview=args.preview, publication_target=target_scope, approved=approved)
         elif output_format == "docx":
-            result = build_docx(sources, args.font)
+            result = build_docx(sources, args.font, preview=args.preview, target_scope=target_scope)
+            if result:
+                return result
+        elif output_format == "pdf":
+            result = build_pdf(sources, args.font, preview=args.preview, target_scope=target_scope)
             if result:
                 return result
         else:
-            result = build_pdf(sources, args.font)
+            result = build_epub(args.font, preview=args.preview, target_scope=target_scope)
             if result:
                 return result
     return 0

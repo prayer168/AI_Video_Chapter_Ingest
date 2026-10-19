@@ -1,0 +1,1 @@
+Compare the reference frame and candidate shot. Report differences in character identity, clothing, glass shape, prop position, window direction, eyeline, lighting direction and camera framing. Separate observed mismatches from uncertain observations. Do not claim physical accuracy from appearance alone.

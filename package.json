@@ -1,0 +1,10 @@
+{
+  "name": "ai-video-bible-v2",
+  "private": true,
+  "scripts": {
+    "web:install": "npm --prefix apps/web install",
+    "web:dev": "npm --prefix apps/web run dev",
+    "web:build": "npm --prefix apps/web run build",
+    "validate:v2": "python scripts/v2_validate.py"
+  }
+}

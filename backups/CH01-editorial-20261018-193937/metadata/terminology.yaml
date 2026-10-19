@@ -1,0 +1,118 @@
+schema_version: 1
+terms:
+- term_id: TERM-CH01-DEEP-FOCUS
+  preferred:
+    zh-TW: 深焦攝影
+    en-US: Deep focus
+  definitions:
+    zh-TW: 同一鏡頭中，前景與背景等不同距離的元素可同時保持可辨識的清晰度；效果受光學、光圈、照明、感光材料及觀看條件影響。
+    en-US: A shot in which elements at different distances, including foreground and background, remain legibly sharp; results
+      depend on optics, aperture, lighting, capture medium, and viewing conditions.
+  domain: film-form analysis
+  context: CH01 film-homage case studies; draft definition, not approved.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R013
+  - R020
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-MULTIPLE-PERSPECTIVE
+  preferred:
+    zh-TW: 多重觀點敘事
+    en-US: Multiple perspectives
+  definitions:
+    zh-TW: 透過不同人物或資訊範圍呈現同一事件的不同觀點；觀點不同本身不能證明敘述者說謊。
+    en-US: Different characters or information ranges present an event from distinct viewpoints; difference alone does not
+      prove that a narrator is lying.
+  domain: narrative analysis
+  context: CH01 film-homage case studies; draft definition, not approved.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R014
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-OFFSCREEN-SPACE
+  preferred:
+    zh-TW: 畫外空間
+    en-US: Offscreen space
+  definitions:
+    zh-TW: 畫框之外但可由聲音、視線、動作或剪輯關係被觀眾推知的空間。
+    en-US: Space beyond the frame that viewers may infer through sound, eyelines, movement, or editing relations.
+  domain: film space
+  context: CH01 film-homage case studies; draft definition, not approved.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R016
+  - R017
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-LONG-TAKE
+  preferred:
+    zh-TW: 長鏡頭
+    en-US: Long take
+  definitions:
+    zh-TW: 持續時間較長且內部未剪接的單一鏡頭；本詞沒有跨作品通用的秒數門檻。
+    en-US: A single uncut shot of comparatively extended duration; there is no universal duration threshold across films.
+  domain: editing and cinematography
+  context: CH01 film-homage case studies; draft definition, not approved.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R017
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-FRAME-WITHIN-FRAME
+  preferred:
+    zh-TW: 框中框構圖
+    en-US: Frame within a frame
+  definitions:
+    zh-TW: 利用門、窗或其他畫面內邊界形成次級框景，改變可見範圍、遮擋或空間層次。
+    en-US: A doorway, window, or other in-frame boundary creates a secondary frame that changes visibility, occlusion, or
+      spatial layering.
+  domain: composition
+  context: CH01 film-homage case studies; draft definition, not approved.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R017
+  - R019
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-LAYERED-COMPOSITION
+  preferred:
+    zh-TW: 層次構圖
+    en-US: Layered composition
+  definitions:
+    zh-TW: 透過景深、前後景、反射或遮擋同時安排多組可見資訊；不等同固定鏡頭類型或必然心理效果。
+    en-US: Depth, foreground/background, reflections, or occlusion arrange multiple visible information layers; this is neither
+      a fixed shot type nor a guaranteed psychological effect.
+  domain: composition
+  context: CH01 film-homage case studies; draft definition, not approved.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R013
+  - R019
+  status: draft
+  reviewed_by: null
+  reviewed_on: null

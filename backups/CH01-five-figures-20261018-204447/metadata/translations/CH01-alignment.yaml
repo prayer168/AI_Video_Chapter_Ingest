@@ -1,0 +1,150 @@
+schema_version: 1
+chapter_id: CH01
+revision: 2.1.0
+source_locale: zh-TW
+target_locale: en-US
+translation_status: review-needed
+policy: Structural and semantic alignment is recorded; English remains subject to a professional bilingual editor.
+review:
+  translator: AI-assisted draft, editor not assigned
+  reviewer: null
+  reviewed_on: null
+  notes: >-
+    Stable anchors and case IDs pair the two manuscripts. Translation alignment does not certify factual claims,
+    terminology, citations, or literary quality. Changes to the source require a renewed bilingual comparison.
+sections:
+  - section_id: CH01-S01
+    title_zh: 學習目標
+    title_en: Learning objectives
+    zh_status: draft
+    en_status: draft
+  - section_id: CH01-S02
+    title_zh: 先備知識
+    title_en: Prerequisites
+    zh_status: draft
+    en_status: draft
+  - section_id: CH01-S03
+    title_zh: 核心術語
+    title_en: Key terms
+    zh_status: draft
+    en_status: draft
+    term_ids:
+      - TERM-CH01-FRAME
+      - TERM-CH01-SHOT
+      - TERM-CH01-TAKE
+      - TERM-CH01-SCENE
+      - TERM-CH01-SEQUENCE
+      - TERM-CH01-MISE-EN-SCENE
+      - TERM-CH01-BLOCKING
+      - TERM-CH01-FRAMING
+      - TERM-CH01-SHOT-SIZE
+      - TERM-CH01-CAMERA-ANGLE
+      - TERM-CH01-CAMERA-MOVEMENT
+      - TERM-CH01-COVERAGE
+      - TERM-CH01-MASTER-SHOT
+      - TERM-CH01-REACTION-SHOT
+      - TERM-CH01-INSERT-SHOT
+      - TERM-CH01-CUTAWAY
+      - TERM-CH01-CONTINUITY
+      - TERM-CH01-MATCH-ON-ACTION
+      - TERM-CH01-MONTAGE
+      - TERM-CH01-DIEGETIC-SOUND
+      - TERM-CH01-DEEP-FOCUS
+      - TERM-CH01-MULTIPLE-PERSPECTIVE
+      - TERM-CH01-OFFSCREEN-SPACE
+      - TERM-CH01-LONG-TAKE
+      - TERM-CH01-FRAME-WITHIN-FRAME
+      - TERM-CH01-LAYERED-COMPOSITION
+  - section_id: CH01-S04
+    title_zh: 歷史與基本原理
+    title_en: History and principles
+    zh_status: draft
+    en_status: draft
+  - section_id: CH01-S05
+    title_zh: 傳統製作方法
+    title_en: Traditional production practice
+    zh_status: draft
+    en_status: draft
+  - section_id: CH01-S06
+    title_zh: AI 時代的技術轉換與限制
+    title_en: AI-era workflow and limitations
+    zh_status: draft
+    en_status: draft
+  - section_id: CH01-S07
+    title_zh: 詳細工作流程
+    title_en: Step-by-step workflow
+    zh_status: draft
+    en_status: draft
+  - section_id: CH01-S08
+    title_zh: 提示詞與技術參數
+    title_en: Prompt and technical parameters
+    zh_status: draft
+    en_status: draft
+  - section_id: CH01-S09
+    title_zh: 鏡頭／影片案例
+    title_en: Shot / film case studies
+    zh_status: draft
+    en_status: draft
+    paired_case_ids:
+      - CH01-P001
+      - CH01-P002
+      - CH01-P003
+      - CH01-P004
+      - CH01-P005
+    paired_demo: The First Light by the Window / 窗邊的第一道光
+  - section_id: CH01-S10
+    title_zh: 常見錯誤與品質檢查
+    title_en: Common errors and quality checks
+    zh_status: draft
+    en_status: draft
+  - section_id: CH01-S11
+    title_zh: 練習、評量與延伸研究
+    title_en: Exercises, assessment, and further research
+    zh_status: draft
+    en_status: draft
+  - section_id: CH01-S12
+    title_zh: 參考文獻與來源
+    title_en: References and sources
+    zh_status: draft
+    en_status: draft
+  - section_id: CH01-S13
+    title_zh: 結語
+    title_en: Conclusion
+    zh_status: draft
+    en_status: draft
+sources:
+  shared_reference_ids:
+    - R001
+    - R005
+    - R013
+    - R014
+    - R015
+    - R016
+    - R018
+    - R019
+    - R020
+    - R021
+    - R022
+    - R023
+    - R024
+figures:
+  - figure_id: CH01-HOMAGE-FIG-001
+    caption_zh: 原創虛構教室示意圖，以前景、中景與背景人物說明不同距離的資訊層次；不是《公民凱恩》劇照，圖檔尚未製作。
+    caption_en: An original fictional-classroom diagram uses foreground, middle-ground, and background figures to explain information across depth planes. It is not a still from Citizen Kane; no image file has been made.
+    status: brief-only-needs-creation-and-review
+  - figure_id: CH01-HOMAGE-FIG-002
+    caption_zh: 原創三視點平面圖標示攝影機、視線與各角色可見範圍；不使用《羅生門》畫面，圖檔尚未製作。
+    caption_en: An original three-viewpoint floor plan marks cameras, eyelines, and each character’s visible area. It uses no Rashomon imagery; no image file has been made.
+    status: brief-only-needs-creation-and-review
+  - figure_id: CH01-HOMAGE-FIG-003
+    caption_zh: 原創虛構餐廳剖面圖標示門窗、畫外聲源與人物聆聽方向；不是電影劇照，圖檔尚未製作。
+    caption_en: An original fictional dining-room section diagram marks doors, windows, an offscreen source, and listening directions. It is not a film still; no image file has been made.
+    status: brief-only-needs-creation-and-review
+  - figure_id: CH01-HOMAGE-FIG-004
+    caption_zh: 原創公共走道向量圖以門框與前景遮擋呈現重複路徑；不仿製電影畫面，圖檔尚未製作。
+    caption_en: An original public-corridor vector diagram uses a doorway and foreground occlusion to show a repeated path. It does not imitate the film’s imagery; no image file has been made.
+    status: brief-only-needs-creation-and-review
+  - figure_id: CH01-HOMAGE-FIG-005
+    caption_zh: 原創校園走廊向量圖標示人物、玻璃面及可見反射路徑；不使用《一一》劇照，圖檔尚未製作。
+    caption_en: An original school-corridor vector diagram marks people, glass, and visible reflection paths. It uses no Yi Yi still; no image file has been made.
+    status: brief-only-needs-creation-and-review

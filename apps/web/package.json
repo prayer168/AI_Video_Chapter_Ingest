@@ -1,0 +1,20 @@
+{
+  "name": "ai-video-bible-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "python ../../scripts/publishing/sync_site_content.py && astro build",
+    "sync": "python ../../scripts/publishing/sync_site_content.py",
+    "sync:check": "python ../../scripts/publishing/sync_site_content.py --check",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.37.0",
+    "astro": "^5.14.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "typescript": "^5.9.0"
+  }
+}

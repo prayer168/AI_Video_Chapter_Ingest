@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "run_id": "20261018T215615+0800-55868375",
+  "chapter_id": "CH02",
+  "created_at": "2026-10-18T21:56:15.501442+08:00",
+  "status": "partial",
+  "chapter": {
+    "chapter_id": "CH02",
+    "part_id": "P01",
+    "number": 2,
+    "slug": "camera-language",
+    "title_zh": "鏡頭、場面與剪接：電影語言的基本單位",
+    "title_en": "",
+    "legacy_status": "planned",
+    "zh_status": "draft-migration-pending",
+    "en_status": "translation-needed"
+  },
+  "translation_status": {
+    "zh-TW": "draft-migration-pending",
+    "en-US": "translation-needed",
+    "sync_revision": null
+  },
+  "existing_files": [
+    {
+      "path": "content/zh-TW/chapters/CH02-camera-language.md",
+      "bytes": 1192,
+      "sha256": "5466d04997977707aed56fc5ee20d01800bf091053ebd2b75ba3cf3e598613f3"
+    },
+    {
+      "path": "content/en-US/chapters/CH02-camera-language.md",
+      "bytes": 1140,
+      "sha256": "d8d725590bfb23439d2d65a9472c6b26f5cb253fd885c7d2c9a15389646325da"
+    },
+    {
+      "path": "assets/chapters/CH02/figure-manifest.yaml",
+      "bytes": 31,
+      "sha256": "bdf27fbe2861f98e17de668fd1136443b2123b112746064024cb5ac044182d6a"
+    }
+  ],
+  "steps": {
+    "inventory": {
+      "status": "pass",
+      "note": "Legacy source ZIP and V1/V2 canonical files inventoried; backup manifests record originals."
+    },
+    "research": {
+      "status": "needs-human-review",
+      "note": "Source crosswalk and R025-R029 added; book page locators and exact film sequence/timecode await human verification."
+    },
+    "zh-draft": {
+      "status": "pass",
+      "note": "Substantive 13-section Traditional Chinese staging draft created; editorial status remains draft."
+    },
+    "en-translation": {
+      "status": "needs-human-review",
+      "note": "Substantive English translation and 13 aligned anchors staged; professional bilingual editing remains."
+    },
+    "film-cases": {
+      "status": "needs-human-review",
+      "note": "Jaws dolly-zoom source cited; verify lawful edition, exact sequence and timecode."
+    },
+    "figure-assets": {
+      "status": "needs-human-review",
+      "note": "Five original SVG assets and hashes verified; editorial/accessibility/rights sign-off pending."
+    },
+    "svg-diagrams": {
+      "status": "pass",
+      "note": "Five editable SVGs parse as XML, are hashed, and appear in bilingual staged manuscripts."
+    },
+    "website": {
+      "status": "blocked",
+      "note": "Canonical Astro check/build passed (123 pages), but CH02 V4 staging intentionally not projected before review; CH02 staging route not tested."
+    },
+    "books": {
+      "status": "blocked",
+      "note": "Pandoc, XeLaTeX, pdffonts and EPUBCheck absent from current PATH; no CH02 book artifacts created."
+    },
+    "tests": {
+      "status": "pass",
+      "note": "40/40 unittest; V2/registry/sync/compile/diff checks pass; Astro check/build pass."
+    },
+    "editorial-review": {
+      "status": "needs-human-review",
+      "note": "English, terminology, source locators, title, film facts, and SVG pedagogy need qualified human review."
+    },
+    "rights-review": {
+      "status": "needs-human-review",
+      "note": "SVG is project-authored; final rights and editorial clearance not yet approved."
+    },
+    "author-approval": {
+      "status": "needs-human-review",
+      "note": "Author approval required before publication-ready status."
+    }
+  },
+  "events": [
+    {
+      "time": "2026-10-18T21:56:15.501442+08:00",
+      "event": "Checkpoint created. No manuscripts, images, or publication outputs changed."
+    },
+    {
+      "time": "2026-10-18T22:05:56.287565+08:00",
+      "event": "Stage inventory recorded as pass.",
+      "note": "Legacy source ZIP and V1/V2 canonical files inventoried; backup manifests record originals."
+    },
+    {
+      "time": "2026-10-18T22:05:56.499245+08:00",
+      "event": "Stage research recorded as needs-human-review.",
+      "note": "Source crosswalk and R025-R029 added; book page locators and exact film sequence/timecode await human verification."
+    },
+    {
+      "time": "2026-10-18T22:05:56.701951+08:00",
+      "event": "Stage zh-draft recorded as pass.",
+      "note": "Substantive 13-section Traditional Chinese staging draft created; editorial status remains draft."
+    },
+    {
+      "time": "2026-10-18T22:05:56.900886+08:00",
+      "event": "Stage en-translation recorded as needs-human-review.",
+      "note": "Substantive English translation and 13 aligned anchors staged; professional bilingual editing remains."
+    },
+    {
+      "time": "2026-10-18T22:05:57.108523+08:00",
+      "event": "Stage film-cases recorded as needs-human-review.",
+      "note": "Jaws dolly-zoom source cited; verify lawful edition, exact sequence and timecode."
+    },
+    {
+      "time": "2026-10-18T22:05:57.310743+08:00",
+      "event": "Stage figure-assets recorded as needs-human-review.",
+      "note": "Five original SVG assets and hashes verified; editorial/accessibility/rights sign-off pending."
+    },
+    {
+      "time": "2026-10-18T22:05:57.522907+08:00",
+      "event": "Stage svg-diagrams recorded as pass.",
+      "note": "Five editable SVGs parse as XML, are hashed, and appear in bilingual staged manuscripts."
+    },
+    {
+      "time": "2026-10-18T22:05:57.751305+08:00",
+      "event": "Stage website recorded as blocked.",
+      "note": "Canonical Astro check/build passed (123 pages), but CH02 V4 staging intentionally not projected before review; CH02 staging route not tested."
+    },
+    {
+      "time": "2026-10-18T22:05:57.965610+08:00",
+      "event": "Stage books recorded as blocked.",
+      "note": "Pandoc, XeLaTeX, pdffonts and EPUBCheck absent from current PATH; no CH02 book artifacts created."
+    },
+    {
+      "time": "2026-10-18T22:05:58.174312+08:00",
+      "event": "Stage tests recorded as pass.",
+      "note": "40/40 unittest; V2/registry/sync/compile/diff checks pass; Astro check/build pass."
+    },
+    {
+      "time": "2026-10-18T22:05:58.385600+08:00",
+      "event": "Stage editorial-review recorded as needs-human-review.",
+      "note": "English, terminology, source locators, title, film facts, and SVG pedagogy need qualified human review."
+    },
+    {
+      "time": "2026-10-18T22:05:58.593570+08:00",
+      "event": "Stage rights-review recorded as needs-human-review.",
+      "note": "SVG is project-authored; final rights and editorial clearance not yet approved."
+    },
+    {
+      "time": "2026-10-18T22:05:58.803453+08:00",
+      "event": "Stage author-approval recorded as needs-human-review.",
+      "note": "Author approval required before publication-ready status."
+    },
+    {
+      "time": "2026-10-18T22:05:59.006376+08:00",
+      "event": "Run finished as partial.",
+      "note": "Bilingual staging draft and automated checks complete; editorial and publication gates remain open."
+    }
+  ],
+  "finished_at": "2026-10-18T22:05:59.006376+08:00"
+}

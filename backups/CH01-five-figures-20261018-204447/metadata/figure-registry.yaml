@@ -1,0 +1,86 @@
+schema_version: 1
+figures:
+- figure_id: CH01-HOMAGE-FIG-001
+  chapter_id: CH01
+  section_id: CH01-S09
+  placement_after: CH01-P001
+  source_film_ref: FILM-001
+  source_ids:
+  - R013
+  brief_file: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-001.md
+  asset_original: null
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: not-generated
+  research_sources:
+  - source_id: R013
+    accessed: '2026-10-18'
+    purpose: BFI film metadata and formal technique summary.
+  - source_id: R020
+    accessed: '2026-10-18'
+    purpose: BFI discussion of a deep-focus example and cinematographer credit.
+- figure_id: CH01-HOMAGE-FIG-002
+  chapter_id: CH01
+  section_id: CH01-S09
+  placement_after: CH01-P002
+  source_film_ref: FILM-002
+  source_ids:
+  - R014
+  brief_file: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-002.md
+  asset_original: null
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: not-generated
+- figure_id: CH01-HOMAGE-FIG-003
+  chapter_id: CH01
+  section_id: CH01-S09
+  placement_after: CH01-P003
+  source_film_ref: FILM-003
+  source_ids:
+  - R015
+  brief_file: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-003.md
+  asset_original: null
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: not-generated
+- figure_id: CH01-HOMAGE-FIG-004
+  chapter_id: CH01
+  section_id: CH01-S09
+  placement_after: CH01-P004
+  source_film_ref: FILM-004
+  source_ids:
+  - R018
+  brief_file: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-004.md
+  asset_original: null
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: not-generated
+  research_sources:
+  - source_id: R018
+    accessed: '2026-10-18'
+    purpose: Film metadata and production credits.
+  - source_id: R021
+    accessed: '2026-10-18'
+    purpose: Critical observations on sound, image, and time.
+- figure_id: CH01-HOMAGE-FIG-005
+  chapter_id: CH01
+  section_id: CH01-S09
+  placement_after: CH01-P005
+  source_film_ref: FILM-005
+  source_ids:
+  - R019
+  brief_file: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-005.md
+  asset_original: null
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: not-generated

@@ -1,0 +1,49 @@
+# V2 part registry
+- part_id: P01
+  number: 1
+  title_zh: "電影語言與影視美學"
+  title_en: "" # editorial translation pending
+- part_id: P02
+  number: 2
+  title_zh: "故事、編劇與敘事架構"
+  title_en: "" # editorial translation pending
+- part_id: P03
+  number: 3
+  title_zh: "導演、場面調度與分鏡"
+  title_en: "" # editorial translation pending
+- part_id: P04
+  number: 4
+  title_zh: "攝影、構圖、運鏡與鏡頭光學"
+  title_en: "" # editorial translation pending
+- part_id: P05
+  number: 5
+  title_zh: "燈光、色彩、場景與美術"
+  title_en: "" # editorial translation pending
+- part_id: P06
+  number: 6
+  title_zh: "動畫原理與生成式影片"
+  title_en: "" # editorial translation pending
+- part_id: P07
+  number: 7
+  title_zh: "旁白、配音、音效與電影配樂"
+  title_en: "" # editorial translation pending
+- part_id: P08
+  number: 8
+  title_zh: "專業剪輯、特效與完片"
+  title_en: "" # editorial translation pending
+- part_id: P09
+  number: 9
+  title_zh: "AI Agent、提示詞與程式化製片"
+  title_en: "" # editorial translation pending
+- part_id: P10
+  number: 10
+  title_zh: "製片、成本、法律與品質管理"
+  title_en: "" # editorial translation pending
+- part_id: P11
+  number: 11
+  title_zh: "不同影視類型的完整實戰"
+  title_en: "" # editorial translation pending
+- part_id: P12
+  number: 12
+  title_zh: "教學、研究、出版與產業應用"
+  title_en: "" # editorial translation pending

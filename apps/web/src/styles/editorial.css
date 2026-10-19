@@ -1,0 +1,7 @@
+:root { --sl-content-width: 58rem; --sl-sidebar-width: 17rem; --sl-color-accent-low: #e8ded0; --sl-color-accent: #8b4b32; --sl-color-accent-high: #4f261a; }
+.sl-markdown-content { line-height: 1.82; }
+.sl-markdown-content h1 { font-family: Georgia, 'Noto Serif TC', serif; letter-spacing: .015em; }
+.sl-markdown-content img { background: transparent; border-radius: 0; box-shadow: none; }
+.sl-markdown-content figure { margin-inline: 0; }
+.sl-markdown-content figcaption { color: var(--sl-color-gray-3); font-size: .88rem; max-width: 48rem; }
+/* Editorial rhythm: avoid card grids and hard boxed callouts as the default layout. */

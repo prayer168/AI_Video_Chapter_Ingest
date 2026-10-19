@@ -1,0 +1,93 @@
+{
+  "title": "光從哪裡來？",
+  "duration_seconds": 60,
+  "aspect_ratio": "16:9",
+  "fps": 24,
+  "shots": [
+    {
+      "shot_id": "S01",
+      "start_seconds": 0,
+      "end_seconds": 7,
+      "shot_size": "EWS",
+      "angle": "eye-level",
+      "movement": "locked-off",
+      "narrative_purpose": "建立時間地點",
+      "audio": "room tone",
+      "status": "planned",
+      "selected_take": null
+    },
+    {
+      "shot_id": "S02",
+      "start_seconds": 7,
+      "end_seconds": 16,
+      "shot_size": "MS",
+      "angle": "eye-level",
+      "movement": "lateral track",
+      "narrative_purpose": "引入學生和杯子",
+      "audio": "table sounds",
+      "status": "planned",
+      "selected_take": null
+    },
+    {
+      "shot_id": "S03",
+      "start_seconds": 16,
+      "end_seconds": 24,
+      "shot_size": "CU",
+      "angle": "eye-level",
+      "movement": "locked-off",
+      "narrative_purpose": "觀察變化",
+      "audio": "music cue",
+      "status": "planned",
+      "selected_take": null
+    },
+    {
+      "shot_id": "S04",
+      "start_seconds": 24,
+      "end_seconds": 31,
+      "shot_size": "MCU",
+      "angle": "eye-level",
+      "movement": "locked-off",
+      "narrative_purpose": "人物疑惑",
+      "audio": "question",
+      "status": "planned",
+      "selected_take": null
+    },
+    {
+      "shot_id": "S05",
+      "start_seconds": 31,
+      "end_seconds": 42,
+      "shot_size": "OTS",
+      "angle": "slight high-angle",
+      "movement": "gentle push-in",
+      "narrative_purpose": "教師引導",
+      "audio": "narration",
+      "status": "planned",
+      "selected_take": null
+    },
+    {
+      "shot_id": "S06",
+      "start_seconds": 42,
+      "end_seconds": 53,
+      "shot_size": "Insert",
+      "angle": "overhead",
+      "movement": "locked-off",
+      "narrative_purpose": "筆記與假設",
+      "audio": "writing sounds",
+      "status": "planned",
+      "selected_take": null
+    },
+    {
+      "shot_id": "S07",
+      "start_seconds": 53,
+      "end_seconds": 60,
+      "shot_size": "WS",
+      "angle": "eye-level",
+      "movement": "slow pull-back",
+      "narrative_purpose": "收束提問",
+      "audio": "music close",
+      "status": "planned",
+      "selected_take": null
+    }
+  ],
+  "notice": "AI 光學示意不得作為實驗證據"
+}

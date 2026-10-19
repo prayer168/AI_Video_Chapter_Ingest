@@ -1,0 +1,144 @@
+chapter_id: CH01
+figures:
+- figure_id: CH01-HOMAGE-FIG-001
+  chapter_id: CH01
+  section_id: CH01-S09
+  placement_after: CH01-P001
+  kind: original-ai-teaching-illustration
+  teaching_goal: deep focus
+  asset_original: null
+  asset_approved: null
+  overlay_zh: null
+  overlay_en: null
+  captions:
+    zh-TW: 規劃中的原創教學圖以新人物及場景說明「deep focus」；尚未生成，非《公民凱恩》劇照。
+    en-US: Planned original teaching illustration using new characters and a new setting to explain deep focus; not generated
+      and not a still from *Citizen Kane*.
+  alt:
+    zh-TW: 規劃以原創人物與場景呈現「deep focus」的教學示意圖；圖片尚未生成。
+    en-US: Planned instructional illustration of deep focus using original characters and a new setting; image not generated.
+  generation:
+    tool: null
+    version: null
+    date: null
+    prompt_file: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-001.md
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  research_sources:
+  - source_id: R013
+    accessed: '2026-10-18'
+    purpose: BFI film metadata and formal technique summary.
+  - source_id: R020
+    accessed: '2026-10-18'
+    purpose: BFI discussion of a deep-focus example and cinematographer credit.
+- figure_id: CH01-HOMAGE-FIG-002
+  chapter_id: CH01
+  section_id: CH01-S09
+  placement_after: CH01-P002
+  kind: original-ai-teaching-illustration
+  teaching_goal: multiple perspectives
+  asset_original: null
+  asset_approved: null
+  overlay_zh: null
+  overlay_en: null
+  captions:
+    zh-TW: 規劃中的原創教學圖以新人物及場景說明「multiple perspectives」；尚未生成，非《羅生門》劇照。
+    en-US: Planned original teaching illustration using new characters and a new setting to explain multiple perspectives;
+      not generated and not a still from *Rashomon*.
+  alt:
+    zh-TW: 規劃以原創人物與場景呈現「multiple perspectives」的教學示意圖；圖片尚未生成。
+    en-US: Planned instructional illustration of multiple perspectives using original characters and a new setting; image
+      not generated.
+  generation:
+    tool: null
+    version: null
+    date: null
+    prompt_file: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-002.md
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+- figure_id: CH01-HOMAGE-FIG-003
+  chapter_id: CH01
+  section_id: CH01-S09
+  placement_after: CH01-P003
+  kind: original-ai-teaching-illustration
+  teaching_goal: offscreen space
+  asset_original: null
+  asset_approved: null
+  overlay_zh: null
+  overlay_en: null
+  captions:
+    zh-TW: 規劃中的原創教學圖以新人物及場景說明「offscreen space」；尚未生成，非《悲情城市》劇照。
+    en-US: Planned original teaching illustration using new characters and a new setting to explain offscreen space; not generated
+      and not a still from *A City of Sadness*.
+  alt:
+    zh-TW: 規劃以原創人物與場景呈現「offscreen space」的教學示意圖；圖片尚未生成。
+    en-US: Planned instructional illustration of offscreen space using original characters and a new setting; image not generated.
+  generation:
+    tool: null
+    version: null
+    date: null
+    prompt_file: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-003.md
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+- figure_id: CH01-HOMAGE-FIG-004
+  chapter_id: CH01
+  section_id: CH01-S09
+  placement_after: CH01-P004
+  kind: original-ai-teaching-illustration
+  teaching_goal: framing and repeated rhythm
+  asset_original: null
+  asset_approved: null
+  overlay_zh: null
+  overlay_en: null
+  captions:
+    zh-TW: 規劃中的原創教學圖以新人物及場景說明「framing and repeated rhythm」；尚未生成，非《花樣年華》劇照。
+    en-US: Planned original teaching illustration using new characters and a new setting to explain framing and repeated rhythm;
+      not generated and not a still from *In the Mood for Love*.
+  alt:
+    zh-TW: 規劃以原創人物與場景呈現「framing and repeated rhythm」的教學示意圖；圖片尚未生成。
+    en-US: Planned instructional illustration of framing and repeated rhythm using original characters and a new setting;
+      image not generated.
+  generation:
+    tool: null
+    version: null
+    date: null
+    prompt_file: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-004.md
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  research_sources:
+  - source_id: R018
+    accessed: '2026-10-18'
+    purpose: Film metadata and production credits.
+  - source_id: R021
+    accessed: '2026-10-18'
+    purpose: Critical observations on sound, image, and time.
+- figure_id: CH01-HOMAGE-FIG-005
+  chapter_id: CH01
+  section_id: CH01-S09
+  placement_after: CH01-P005
+  kind: original-ai-teaching-illustration
+  teaching_goal: layered composition and reflection
+  asset_original: null
+  asset_approved: null
+  overlay_zh: null
+  overlay_en: null
+  captions:
+    zh-TW: 規劃中的原創教學圖以新人物及場景說明「layered composition and reflection」；尚未生成，非《一一》劇照。
+    en-US: Planned original teaching illustration using new characters and a new setting to explain layered composition and
+      reflection; not generated and not a still from *Yi Yi*.
+  alt:
+    zh-TW: 規劃以原創人物與場景呈現「layered composition and reflection」的教學示意圖；圖片尚未生成。
+    en-US: Planned instructional illustration of layered composition and reflection using original characters and a new setting;
+      image not generated.
+  generation:
+    tool: null
+    version: null
+    date: null
+    prompt_file: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-005.md
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending

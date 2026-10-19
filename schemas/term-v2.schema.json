@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ai-video-bible:term-v2",
+  "title": "AI Video Bible bilingual terminology record",
+  "type": "object",
+  "required": ["term_id", "preferred", "definitions", "domain", "context", "references", "status"],
+  "properties": {
+    "term_id": {"type": "string", "pattern": "^TERM-[A-Z0-9][A-Z0-9-]*$"},
+    "preferred": {"$ref": "#/$defs/bilingualText"},
+    "definitions": {"$ref": "#/$defs/bilingualText"},
+    "domain": {"type": "string", "minLength": 1},
+    "context": {"type": "string", "minLength": 1},
+    "synonyms": {"type": "object", "properties": {"zh-TW": {"type": "array", "items": {"type": "string"}}, "en-US": {"type": "array", "items": {"type": "string"}}}, "additionalProperties": false},
+    "see_also": {"type": "array", "items": {"type": "string", "pattern": "^TERM-"}},
+    "references": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^R[0-9]{3,}$"}},
+    "status": {"enum": ["draft", "review-needed", "approved", "deprecated"]},
+    "reviewed_by": {"type": ["string", "null"]},
+    "reviewed_on": {"type": ["string", "null"], "format": "date"}
+  },
+  "$defs": {
+    "bilingualText": {
+      "type": "object",
+      "required": ["zh-TW", "en-US"],
+      "properties": {"zh-TW": {"type": "string", "minLength": 1}, "en-US": {"type": "string", "minLength": 1}},
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

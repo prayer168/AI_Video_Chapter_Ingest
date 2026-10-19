@@ -1,0 +1,57 @@
+[
+  {
+    "path": "content/zh-TW/chapters/CH01-cinematic-language.md",
+    "backup_path": "backups\\CH01-five-figures-20261018-204447/content/zh-TW/chapters/CH01-cinematic-language.md",
+    "sha256": "387daa465bf0519f63567ac3046db2238e1036a104ed5e9d1ca26d88b17d333f"
+  },
+  {
+    "path": "content/en-US/chapters/CH01-cinematic-language.md",
+    "backup_path": "backups\\CH01-five-figures-20261018-204447/content/en-US/chapters/CH01-cinematic-language.md",
+    "sha256": "0fa3bac419e230635152b729f2cc55c9e4de2c590cf47253097f6406ddd51010"
+  },
+  {
+    "path": "assets/chapters/CH01/figure-manifest.yaml",
+    "backup_path": "backups\\CH01-five-figures-20261018-204447/assets/chapters/CH01/figure-manifest.yaml",
+    "sha256": "d4d6525880ab1a13d3fbd6db2aa063958afa26499313b1bc108911013e8720a9"
+  },
+  {
+    "path": "metadata/figure-registry.yaml",
+    "backup_path": "backups\\CH01-five-figures-20261018-204447/metadata/figure-registry.yaml",
+    "sha256": "7df73625ecbc48d03ea2dfd24a04090405d480bd141e60a64521452815e7ce21"
+  },
+  {
+    "path": "metadata/translations/CH01-alignment.yaml",
+    "backup_path": "backups\\CH01-five-figures-20261018-204447/metadata/translations/CH01-alignment.yaml",
+    "sha256": "a66e1af5557d88e9e8960d4f0e4a7cbf4a97fe11e6179c13c8dd7a7d30a6ec0b"
+  },
+  {
+    "path": "reports/CH01-FINAL-ACCEPTANCE.md",
+    "backup_path": "backups\\CH01-five-figures-20261018-204447/reports/CH01-FINAL-ACCEPTANCE.md",
+    "sha256": "265373cab4c5a99f04f42044563831a27c53b1c1b7036c9ff915682ac22aa5f1"
+  },
+  {
+    "path": "tests/test_ch01_content.py",
+    "backup_path": "backups\\CH01-five-figures-20261018-204447/tests/test_ch01_content.py",
+    "sha256": "dcd6431402d8a65381c4c2087ca61f38a67b06797762f93f1867f74228e41353"
+  },
+  {
+    "path": "scripts/publishing/sync_site_content.py",
+    "backup_path": "backups\\CH01-five-figures-20261018-204447/scripts/publishing/sync_site_content.py",
+    "sha256": "cc5a6a5ecc06dcf7e6a9e1fbd25901b1ec909c6a3beb956bb59e6576d83bd80c"
+  },
+  {
+    "path": "apps/web/src/content/docs/zh-tw/CH01-cinematic-language.md",
+    "backup_path": "backups\\CH01-five-figures-20261018-204447/apps/web/src/content/docs/zh-tw/CH01-cinematic-language.md",
+    "sha256": "6b1989ea593ecfe7a6d274618a552d05384756b7507cc70a0e1d2e6e983a80be"
+  },
+  {
+    "path": "apps/web/src/content/docs/en/CH01-cinematic-language.md",
+    "backup_path": "backups\\CH01-five-figures-20261018-204447/apps/web/src/content/docs/en/CH01-cinematic-language.md",
+    "sha256": "8cb23ec565f20dae61e20b2ca374d699dd681ebf730a0d11672c3cb4f57bfebe"
+  },
+  {
+    "path": "history.md",
+    "backup_path": "backups\\CH01-five-figures-20261018-204447/history.md",
+    "sha256": "b0461cd6f66681433015c16b7f179b0d3ed08ea03b53d0ed3a115d1d2560f8b5"
+  }
+]

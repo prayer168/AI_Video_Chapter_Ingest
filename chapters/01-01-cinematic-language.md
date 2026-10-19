@@ -66,7 +66,9 @@ Sequence 常由多個 Scene 組成，形成相對完整的敘事目標。「出�
 
 ![電影單位的教學層級示意圖：電影、敘事段落、場景、鏡頭與影格](../assets/diagrams/ch01-film-unit-hierarchy.svg)
 
-圖 1-1。專案原創教學示意圖；它表示本章採用的分析路徑，不宣稱是普遍且嚴格的本體層級。
+**圖 1-1｜電影單位的教學層級示意圖。** 此圖呈現本章採用的分析路徑，不宣稱為普遍且嚴格的層級。
+
+**Figure 1-1 | Instructional hierarchy of film units.** This diagram presents the analytical model used in this chapter, not a universal or strictly nested ontology.
 
 **概念測驗：** 人物在教室中連續跟拍 15 秒、沒有剪輯，通常是一個成片 Shot，而不是 15 個。
 

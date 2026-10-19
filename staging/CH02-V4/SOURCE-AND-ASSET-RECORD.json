@@ -1,0 +1,31 @@
+{
+  "chapter_id": "CH02",
+  "run_id": "20261018T215615+0800-55868375",
+  "archive_sha256": "d448defde21abe8802ad87684928eaade0f7c39101b423159073391457a519a5",
+  "legacy_sha256": "a669651d795bba3e02933f1771a1ee5b53855daebb11fa2452850c38363138af",
+  "canonical_zh_sha256_before": "5466d04997977707aed56fc5ee20d01800bf091053ebd2b75ba3cf3e598613f3",
+  "canonical_en_sha256_before": "d8d725590bfb23439d2d65a9472c6b26f5cb253fd885c7d2c9a15389646325da",
+  "staging": "staging/CH02-V4",
+  "generated_svgs": [
+    {
+      "path": "staging/CH02-V4/figures/CH02-DIAG-01-shot-scale.svg",
+      "sha256": "4353fb31203bb61f120cb1c1c8e9758f86032bc2d6246c00ed7deadcca22032e"
+    },
+    {
+      "path": "staging/CH02-V4/figures/CH02-DIAG-02-dolly-vs-zoom.svg",
+      "sha256": "10da321be40a816a1e5c95260809856429069d27642e74a2ebb3d1f67b40e02f"
+    },
+    {
+      "path": "staging/CH02-V4/figures/CH02-DIAG-03-pan-vs-truck.svg",
+      "sha256": "18481c9c9c75ea3530b0f5b0991cf924e49aea5daf38e31a8167f8a1f9adfe5c"
+    },
+    {
+      "path": "staging/CH02-V4/figures/CH02-DIAG-04-180-axis.svg",
+      "sha256": "fd343f81a83c289bfb6167e5d8d2886520066f67a6a6d4f2ed3613c6e51be050"
+    },
+    {
+      "path": "staging/CH02-V4/figures/CH02-DIAG-05-aspect-safe-area.svg",
+      "sha256": "418ec642df712d3b9810ae29c89db728bc76a3fab6867178889d2bb35c4b7e53"
+    }
+  ]
+}

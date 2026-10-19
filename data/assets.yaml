@@ -1,22 +1,54 @@
 - id: ASSET-CH01-FIG-01
   path: assets/diagrams/ch01-film-unit-hierarchy.svg
   type: original-svg-diagram
-  description: Chapter 1 teaching-model diagram of film, sequence, scene, shot and
-    frame.
-  creator: AI-Filmmaking-Bible project editors
+  description: 原創 SVG 教學示意圖，呈現電影、敘事段落、場景、鏡頭及影格的分析路徑。
+  creator: 待確認；原 SVG 未記錄可追溯作者身分
   source_url: null
-  created_at: '2026-10-18'
-  license: CC BY-SA 4.0
-  permission: original-project-work
-  attribution: AI-Filmmaking-Bible
+  created_at: null
+  license: Unconfirmed
+  permission: Not approved for publication pending provenance and rights review
+  attribution: Creator/attribution pending confirmation
   chapter_ids:
   - 01-01
-  notes: Original schematic; not an external film still.
+  notes: 此 SVG 雖為專案內原創示意圖，既有來源及 CC BY-SA 聲明尚無可追溯創作證據；在作者、授權與品質審查完成前，正式出版建置必須阻擋。
+  media_kind: image
+  figure_id: FIG-01-01-01
+  paragraph_reference: 01-01 §1.1.5
+  teaching_purpose: 協助讀者理解本章採用的電影單位教學模型；圖示明確表示這不是普遍且嚴格的本體層級。
+  research_sources:
+  - source_id: R001
+    accessed: '2026-10-18'
+    locator: null
+    purpose: 章節採用的教學分類依據；具體頁碼尚未核對。
+  original_prompt_or_method: 以 SVG 原始碼手工編排文字、方框及箭頭；具體作者與編修歷程未記錄，待確認。
+  tool_name: null
+  tool_version: null
+  production_log:
+  - date: null
+    change: 原始檔為可編輯 SVG；來源包未提供作者、日期及歷次修改紀錄。2026-10-18 登錄本政策所需欄位並將出版狀態設為待審。
+  caption_zh_tw: 圖 1-1｜電影單位的教學層級示意圖。此圖呈現本章採用的分析路徑，不宣稱為普遍且嚴格的層級。
+  caption_en: Figure 1-1 | Instructional hierarchy of film units. This diagram presents the analytical
+    model used in this chapter, not a universal or strictly nested ontology.
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-18'
+    reviewer: Codex preliminary review
+    findings: 圖中未辨識出第三方作品、人物肖像或商標；仍缺可追溯作者及原始創作紀錄，現有授權聲明缺乏證據，需權利人／編輯確認。不得宣稱完整或排他的著作權。
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
 - id: ASSET-CH01-SHOT-S03
   path: chapters/01-01-cinematic-language-assets/shot-S03.json
   type: illustrative-shot-specification
-  description: Structured illustrative shot specification included in the original
-    source pack.
+  description: Structured illustrative shot specification included in the original source pack.
   creator: Source-pack contributor; attribution to be confirmed
   source_url: null
   created_at: null
@@ -26,3 +58,59 @@
   chapter_ids:
   - 01-01
   notes: JSON example is data, not a claim of a completed generation.
+- id: ASSET-CH02-SHOTLIST
+  path: chapters/01-02-camera-language-assets/shot-lists/CH02-science-shortfilm.json
+  type: illustrative-shot-list
+  description: 60 秒七鏡頭科普短片的規劃清單；尚未拍攝或生成。
+  creator: Source-pack contributor; attribution to be confirmed
+  source_url: null
+  created_at: null
+  license: Unconfirmed
+  permission: Review provenance before public release
+  attribution: Attribution pending confirmation
+  chapter_ids:
+  - 01-02
+  notes: Preserved as an editable derivative of the original CH02 ZIP; do not treat as independently created
+    or licensed material.
+- id: ASSET-CH02-GLOSSARY
+  path: chapters/01-02-camera-language-assets/glossary/CH02-glossary.json
+  type: source-glossary-json
+  description: 來源素材包中的 26 個核心術語對照資料。
+  creator: Source-pack contributor; attribution to be confirmed
+  source_url: null
+  created_at: null
+  license: Unconfirmed
+  permission: Review provenance before public release
+  attribution: Attribution pending confirmation
+  chapter_ids:
+  - 01-02
+  notes: Preserved as an editable derivative of the original CH02 ZIP; do not treat as independently created
+    or licensed material.
+- id: ASSET-CH02-ASSESSMENT
+  path: chapters/01-02-camera-language-assets/exercises/CH02-assessment.md
+  type: assessment-source
+  description: 來源素材包中的實作交件要求與評分權重。
+  creator: Source-pack contributor; attribution to be confirmed
+  source_url: null
+  created_at: null
+  license: Unconfirmed
+  permission: Review provenance before public release
+  attribution: Attribution pending confirmation
+  chapter_ids:
+  - 01-02
+  notes: Preserved as an editable derivative of the original CH02 ZIP; do not treat as independently created
+    or licensed material.
+- id: ASSET-CH02-ILLUSTRATION-README
+  path: chapters/01-02-camera-language-assets/assets/README.md
+  type: illustration-provenance-note
+  description: 素材包對尚未建立或授權插圖的來源說明。
+  creator: Source-pack contributor; attribution to be confirmed
+  source_url: null
+  created_at: null
+  license: Unconfirmed
+  permission: Review provenance before public release
+  attribution: Attribution pending confirmation
+  chapter_ids:
+  - 01-02
+  notes: Preserved as an editable derivative of the original CH02 ZIP; do not treat as independently created
+    or licensed material.

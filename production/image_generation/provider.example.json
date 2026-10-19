@@ -1,0 +1,8 @@
+{
+  "provider": "disabled",
+  "enabled": false,
+  "budget_approved": false,
+  "max_spend_usd": 0,
+  "model": null,
+  "notes": "Example only. Never place API keys here. No provider is enabled by default."
+}

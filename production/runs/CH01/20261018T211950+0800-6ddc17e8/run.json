@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "run_id": "20261018T211950+0800-6ddc17e8",
+  "chapter_id": "CH01",
+  "created_at": "2026-10-18T21:19:50.081485+08:00",
+  "status": "partial",
+  "chapter": {
+    "chapter_id": "CH01",
+    "part_id": "P01",
+    "number": 1,
+    "slug": "cinematic-language",
+    "title_zh": "電影視聽語言：從單一鏡頭到完整敘事",
+    "title_en": "Cinematic Language: From the Shot to Audiovisual Narrative",
+    "legacy_status": "planned",
+    "zh_status": "review-needed",
+    "en_status": "review-needed"
+  },
+  "translation_status": {
+    "zh-TW": "review-needed",
+    "en-US": "review-needed",
+    "sync_revision": "2.1.0"
+  },
+  "existing_files": [
+    {
+      "path": "content/zh-TW/chapters/CH01-cinematic-language.md",
+      "bytes": 36192,
+      "sha256": "310895f67d71e6ecfdf500e5d8d3255c19217e405409dab32b3e1daef2e176a0"
+    },
+    {
+      "path": "content/en-US/chapters/CH01-cinematic-language.md",
+      "bytes": 40880,
+      "sha256": "ec7320da5f1b16049d7eb700945b9cf6bf62a466f16e7c7c2569ece3626fc706"
+    },
+    {
+      "path": "assets/chapters/CH01/figure-manifest.yaml",
+      "bytes": 18259,
+      "sha256": "25c33862a5e0dc61cb00dec59cca6c4e37f368403d1c9324b82c55a2485bf02b"
+    },
+    {
+      "path": "metadata/translations/CH01-alignment.yaml",
+      "bytes": 10379,
+      "sha256": "a4b6f07155d17cdbcfd6f259aefef11b891050cb95e0d1d9bfad47d9d677ec85"
+    }
+  ],
+  "steps": {
+    "inventory": {
+      "status": "pass",
+      "note": "Existing registry and bilingual sources SHA-256 inventoried."
+    },
+    "research": {
+      "status": "needs-human-review",
+      "note": "Existing citations need source locator and film version/timecode verification."
+    },
+    "zh-draft": {
+      "status": "pass",
+      "note": "Substantive existing zh-TW canonical draft retained; no rewriting."
+    },
+    "en-translation": {
+      "status": "needs-human-review",
+      "note": "Existing en-US draft needs professional bilingual edit and alignment approval."
+    },
+    "film-cases": {
+      "status": "needs-human-review",
+      "note": "Existing cases need edition, source and timecode confirmation."
+    },
+    "figure-assets": {
+      "status": "needs-human-review",
+      "note": "Five existing PNGs retained; rights, provenance and editorial review pending."
+    },
+    "svg-diagrams": {
+      "status": "blocked",
+      "note": "No existing canonical CH01 SVG; new figure scope/placement needs editorial decision."
+    },
+    "website": {
+      "status": "pass",
+      "note": "Astro check 0 diagnostics; build generated 123 pages."
+    },
+    "books": {
+      "status": "pass",
+      "note": "Reused previously inspected CH01 PDF/EPUB draft proof; no V4 rebuild because source files unchanged."
+    },
+    "tests": {
+      "status": "pass",
+      "note": "35 Python tests; V2 validation, project validation and site sync passed."
+    },
+    "editorial-review": {
+      "status": "needs-human-review",
+      "note": "Professional film/theory and bilingual editorial review pending."
+    },
+    "rights-review": {
+      "status": "needs-human-review",
+      "note": "Figure provenance, similarity and rights review pending."
+    },
+    "author-approval": {
+      "status": "needs-human-review",
+      "note": "Author has not approved publication."
+    }
+  },
+  "events": [
+    {
+      "time": "2026-10-18T21:19:50.081485+08:00",
+      "event": "Checkpoint created. No manuscripts, images, or publication outputs changed."
+    },
+    {
+      "time": "2026-10-18T21:23:14.142749+08:00",
+      "event": "Stage inventory recorded as pass.",
+      "note": "Existing registry and bilingual sources SHA-256 inventoried."
+    },
+    {
+      "time": "2026-10-18T21:23:15.191528+08:00",
+      "event": "Stage research recorded as needs-human-review.",
+      "note": "Existing citations need source locator and film version/timecode verification."
+    },
+    {
+      "time": "2026-10-18T21:23:16.218088+08:00",
+      "event": "Stage zh-draft recorded as pass.",
+      "note": "Substantive existing zh-TW canonical draft retained; no rewriting."
+    },
+    {
+      "time": "2026-10-18T21:23:17.183488+08:00",
+      "event": "Stage en-translation recorded as needs-human-review.",
+      "note": "Existing en-US draft needs professional bilingual edit and alignment approval."
+    },
+    {
+      "time": "2026-10-18T21:23:18.212632+08:00",
+      "event": "Stage film-cases recorded as needs-human-review.",
+      "note": "Existing cases need edition, source and timecode confirmation."
+    },
+    {
+      "time": "2026-10-18T21:23:19.155639+08:00",
+      "event": "Stage figure-assets recorded as needs-human-review.",
+      "note": "Five existing PNGs retained; rights, provenance and editorial review pending."
+    },
+    {
+      "time": "2026-10-18T21:23:19.923378+08:00",
+      "event": "Stage svg-diagrams recorded as blocked.",
+      "note": "No existing canonical CH01 SVG; new figure scope/placement needs editorial decision."
+    },
+    {
+      "time": "2026-10-18T21:23:20.175869+08:00",
+      "event": "Stage website recorded as pass.",
+      "note": "Astro check 0 diagnostics; build generated 123 pages."
+    },
+    {
+      "time": "2026-10-18T21:23:20.381740+08:00",
+      "event": "Stage books recorded as pass.",
+      "note": "Reused previously inspected CH01 PDF/EPUB draft proof; no V4 rebuild because source files unchanged."
+    },
+    {
+      "time": "2026-10-18T21:23:20.601015+08:00",
+      "event": "Stage tests recorded as pass.",
+      "note": "35 Python tests; V2 validation, project validation and site sync passed."
+    },
+    {
+      "time": "2026-10-18T21:23:20.822098+08:00",
+      "event": "Stage editorial-review recorded as needs-human-review.",
+      "note": "Professional film/theory and bilingual editorial review pending."
+    },
+    {
+      "time": "2026-10-18T21:23:21.020397+08:00",
+      "event": "Stage rights-review recorded as needs-human-review.",
+      "note": "Figure provenance, similarity and rights review pending."
+    },
+    {
+      "time": "2026-10-18T21:23:21.225919+08:00",
+      "event": "Stage author-approval recorded as needs-human-review.",
+      "note": "Author has not approved publication."
+    },
+    {
+      "time": "2026-10-18T21:23:21.438002+08:00",
+      "event": "Run finished as partial.",
+      "note": "Technical checks passed; editorial, provenance, rights and author gates remain."
+    }
+  ],
+  "finished_at": "2026-10-18T21:23:21.438002+08:00"
+}

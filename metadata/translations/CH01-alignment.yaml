@@ -1,0 +1,208 @@
+schema_version: 1
+chapter_id: CH01
+revision: 2.1.0
+source_locale: zh-TW
+target_locale: en-US
+translation_status: review-needed
+policy: Structural and semantic alignment is recorded; English remains subject to a professional bilingual editor.
+review:
+  translator: AI-assisted draft, editor not assigned
+  reviewer: null
+  reviewed_on: null
+  notes: Stable anchors and case IDs pair the two manuscripts. Translation alignment does not certify factual claims,
+    terminology, citations, or literary quality. Changes to the source require a renewed bilingual comparison.
+sections:
+- section_id: CH01-S01
+  title_zh: 學習目標
+  title_en: Learning objectives
+  zh_status: draft
+  en_status: draft
+- section_id: CH01-S02
+  title_zh: 先備知識
+  title_en: Prerequisites
+  zh_status: draft
+  en_status: draft
+- section_id: CH01-S03
+  title_zh: 核心術語
+  title_en: Key terms
+  zh_status: draft
+  en_status: draft
+  term_ids:
+  - TERM-CH01-FRAME
+  - TERM-CH01-SHOT
+  - TERM-CH01-TAKE
+  - TERM-CH01-SCENE
+  - TERM-CH01-SEQUENCE
+  - TERM-CH01-MISE-EN-SCENE
+  - TERM-CH01-BLOCKING
+  - TERM-CH01-FRAMING
+  - TERM-CH01-SHOT-SIZE
+  - TERM-CH01-CAMERA-ANGLE
+  - TERM-CH01-CAMERA-MOVEMENT
+  - TERM-CH01-COVERAGE
+  - TERM-CH01-MASTER-SHOT
+  - TERM-CH01-REACTION-SHOT
+  - TERM-CH01-INSERT-SHOT
+  - TERM-CH01-CUTAWAY
+  - TERM-CH01-CONTINUITY
+  - TERM-CH01-MATCH-ON-ACTION
+  - TERM-CH01-MONTAGE
+  - TERM-CH01-DIEGETIC-SOUND
+  - TERM-CH01-DEEP-FOCUS
+  - TERM-CH01-MULTIPLE-PERSPECTIVE
+  - TERM-CH01-OFFSCREEN-SPACE
+  - TERM-CH01-LONG-TAKE
+  - TERM-CH01-FRAME-WITHIN-FRAME
+  - TERM-CH01-LAYERED-COMPOSITION
+- section_id: CH01-S04
+  title_zh: 歷史與基本原理
+  title_en: History and principles
+  zh_status: draft
+  en_status: draft
+- section_id: CH01-S05
+  title_zh: 傳統製作方法
+  title_en: Traditional production practice
+  zh_status: draft
+  en_status: draft
+- section_id: CH01-S06
+  title_zh: AI 時代的技術轉換與限制
+  title_en: AI-era workflow and limitations
+  zh_status: draft
+  en_status: draft
+- section_id: CH01-S07
+  title_zh: 詳細工作流程
+  title_en: Step-by-step workflow
+  zh_status: draft
+  en_status: draft
+- section_id: CH01-S08
+  title_zh: 提示詞與技術參數
+  title_en: Prompt and technical parameters
+  zh_status: draft
+  en_status: draft
+- section_id: CH01-S09
+  title_zh: 鏡頭／影片案例
+  title_en: Shot / film case studies
+  zh_status: draft
+  en_status: draft
+  paired_case_ids:
+  - CH01-P001
+  - CH01-P002
+  - CH01-P003
+  - CH01-P004
+  - CH01-P005
+  paired_demo: The First Light by the Window / 窗邊的第一道光
+- section_id: CH01-S10
+  title_zh: 常見錯誤與品質檢查
+  title_en: Common errors and quality checks
+  zh_status: draft
+  en_status: draft
+- section_id: CH01-S11
+  title_zh: 練習、評量與延伸研究
+  title_en: Exercises, assessment, and further research
+  zh_status: draft
+  en_status: draft
+- section_id: CH01-S12
+  title_zh: 參考文獻與來源
+  title_en: References and sources
+  zh_status: draft
+  en_status: draft
+- section_id: CH01-S13
+  title_zh: 結語
+  title_en: Conclusion
+  zh_status: draft
+  en_status: draft
+sources:
+  shared_reference_ids:
+  - R001
+  - R005
+  - R013
+  - R014
+  - R015
+  - R016
+  - R018
+  - R019
+  - R020
+  - R021
+  - R022
+  - R023
+  - R024
+figures:
+- figure_id: CH01-HOMAGE-FIG-001
+  caption_zh: 圖 1-3A｜本圖為原創示意圖，參考《公民凱恩》（*Citizen Kane*, 1941）中可供討論的深度與畫面多層資訊，安排前景、中景及窗邊遠景人物；並非電影原劇照。人物、場景與構圖相似性及出版權利仍待人工審查。
+  caption_en: Figure 1-3A. This is an original illustrative image inspired by discussions of depth and layered visual
+    information in *Citizen Kane* (1941), arranging figures in the foreground, middle ground, and by a distant window.
+    It is not an official film still. Similarity of people, setting, and composition, as well as publication rights,
+    remains pending human review.
+  status: draft-generated-pending-editorial-rights-review
+  display_number: 1-3A
+  title_zh: 前中後景中的凝視
+  title_en: A Gaze Across Foreground, Middle Ground, and Background
+  alt_zh: 黑白室內場景中，前景男子坐在桌旁，中景女子站在門邊，遠景人物面向明亮窗戶。
+  alt_en: In a monochrome interior, a seated man occupies the foreground, a woman stands in the middle ground, and
+    a distant figure faces a bright window.
+  file_path: assets/chapters/CH01/figures/originals/CH01-HOMAGE-001-Citizen-Kane.png
+  asset_status: draft-generated
+  rights_status: original-ai-illustration-pending-final-review
+- figure_id: CH01-HOMAGE-FIG-002
+  caption_zh: 圖 1-4A｜本圖為原創示意圖，參考《羅生門》（*Rashomon*, 1950）對事件敘述與觀點差異的討論，以霧林中的三格求生情境呈現資訊分配；並非電影原劇照。此圖不是對電影場面的重建，人物、服裝、武器及構圖相似性仍待人工審查。
+  caption_en: Figure 1-4A. This is an original illustrative image inspired by discussions of differing accounts
+    and viewpoints in *Rashomon* (1950), using a three-panel survival scene in a misty forest to suggest information
+    distribution. It is not an official film still. It does not reconstruct a scene from the film. Similarity in
+    characters, costumes, weapons, and composition remains pending human review.
+  status: draft-generated-pending-editorial-rights-review
+  display_number: 1-4A
+  title_zh: 霧林中的三段求生瞬間
+  title_en: Three Moments of Survival in a Misty Forest
+  alt_zh: 霧林中三格連續畫面呈現一名女子在持刀人物附近伸手求生，左右前景各有旁觀者。
+  alt_en: Three panels in a misty forest show a woman reaching for help near a sword-bearing figure, with observers
+    framing the foreground.
+  file_path: assets/chapters/CH01/figures/originals/CH01-HOMAGE-002-Rashomon.png
+  asset_status: draft-generated
+  rights_status: original-ai-illustration-pending-final-review
+- figure_id: CH01-HOMAGE-FIG-003
+  caption_zh: 圖 1-4B｜本圖為原創示意圖，參考《悲情城市》（*A City of Sadness*, 1989）以家庭生活連結公共歷史的討論，安排室內家庭與門外街景並置；並非電影原劇照，也不宣稱是特定歷史事件的寫實重建。街景、人物、服裝及歷史語境均待人工審查。
+  caption_en: Figure 1-4B. This is an original illustrative image inspired by discussions of how *A City of Sadness*
+    (1989) connects family life with public history, placing a family interior beside a street beyond the doorway.
+    It is not an official film still. It does not claim to reconstruct a specific historical event. The street,
+    people, costumes, and historical context require human review.
+  status: draft-generated-pending-editorial-rights-review
+  display_number: 1-4B
+  title_zh: 門口之外的動盪
+  title_en: Turmoil Beyond the Doorway
+  alt_zh: 老屋室內的一家人圍坐桌邊，左側門外可見雨濕街道、車輛與行人。
+  alt_en: A family sits around a table inside an old house; through the doorway at left, a wet street, a vehicle,
+    and pedestrians are visible.
+  file_path: assets/chapters/CH01/figures/originals/CH01-HOMAGE-003-A-City-of-Sadness.png
+  asset_status: draft-generated
+  rights_status: original-ai-illustration-pending-final-review
+- figure_id: CH01-HOMAGE-FIG-004
+  caption_zh: 圖 1-4C｜本圖為原創示意圖，參考《花樣年華》（*In the Mood for Love*, 2000）對門框、色彩、人物距離與反覆相遇的形式討論，呈現兩人在紅綠走道擦肩的原創情境；並非電影原劇照。服裝、場景及構圖是否過度接近特定電影表現，仍待人工權利與編輯審查。
+  caption_en: Figure 1-4C. This is an original illustrative image inspired by formal discussions of doorways, color,
+    interpersonal distance, and repeated encounters in *In the Mood for Love* (2000), depicting two people passing
+    in a red-and-green corridor. It is not an official film still. Whether its costumes, setting, or composition
+    are too close to protected expression requires human rights and editorial review.
+  status: draft-generated-pending-editorial-rights-review
+  display_number: 1-4C
+  title_zh: 紅綠暮色中的擦肩
+  title_en: Passing in a Red-and-Green Corridor at Dusk
+  alt_zh: 紅色與綠色門框圍住狹長走道，一名穿紅色服裝的女子與一名男子背向而行。
+  alt_en: Red and green door frames enclose a narrow corridor as a woman in red and a man walk away from one another.
+  file_path: assets/chapters/CH01/figures/originals/CH01-HOMAGE-004-In-the-Mood-for-Love.png
+  asset_status: draft-generated
+  rights_status: original-ai-illustration-pending-final-review
+- figure_id: CH01-HOMAGE-FIG-005
+  caption_zh: 圖 1-5A｜本圖為原創示意圖，參考《一一》（*Yi Yi*, 2000）對日常觀看、城市景觀、窗面反射及前後景層次的形式討論，呈現少年隔窗凝望城市的原創情境；並非電影原劇照。人物、地標、反射與構圖相似性及出版權利仍待人工審查。
+  caption_en: Figure 1-5A. This is an original illustrative image inspired by formal discussions of everyday looking,
+    city views, window reflections, and foreground/background layers in *Yi Yi* (2000), depicting a boy looking
+    out at a city through a window. It is not an official film still. Similarity in people, landmarks, reflections,
+    and composition, as well as publication rights, remains pending human review.
+  status: draft-generated-pending-editorial-rights-review
+  display_number: 1-5A
+  title_zh: 窗前凝望城市
+  title_en: Looking Out at the City
+  alt_zh: 一名少年倚在室內窗邊望向暮色城市，玻璃上映出室內人物，遠處有高樓天際線。
+  alt_en: A boy leans by an interior window and looks toward a city at dusk; figures reflect in the glass and a
+    high-rise skyline stands in the distance.
+  file_path: assets/chapters/CH01/figures/originals/CH01-HOMAGE-005-Yi-Yi.png
+  asset_status: draft-generated
+  rights_status: original-ai-illustration-pending-final-review

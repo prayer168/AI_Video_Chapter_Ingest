@@ -60,10 +60,45 @@ for row in [*registries["terms"], *registries["assets"], *registries["prompts"]]
 
 chapter_schema = load_json(ROOT / "schemas" / "chapter.schema.json")
 shot_schema = load_json(ROOT / "schemas" / "shot.schema.json")
+shot_list_schema = load_json(ROOT / "schemas" / "shot-list.schema.json")
 try:
     from jsonschema import validate as validate_schema
 except ImportError:
     validate_schema = None
+
+from image_policy import _local_path, image_registry, markdown_image_refs
+image_schema = load_json(ROOT / "schemas" / "image-asset.schema.json")
+image_rows = image_registry(ROOT)
+registered_image_paths = {(ROOT / row["path"]).resolve(): row for row in image_rows if row.get("path")}
+for row in image_rows:
+    if validate_schema and image_schema:
+        try:
+            validate_schema(row, image_schema)
+        except Exception as exc:
+            ERRORS.append(f"Image asset {row.get('id')}: schema error: {getattr(exc, 'message', str(exc))}")
+    if not (ROOT / str(row.get("path", ""))).is_file():
+        ERRORS.append(f"Image asset {row.get('id')}: file missing at {row.get('path')}")
+    for research_source in row.get("research_sources", []):
+        if research_source.get("source_id") not in reference_ids:
+            ERRORS.append(f"Image asset {row.get('id')}: unknown research source ID {research_source.get('source_id')}")
+
+for chapter_path in sorted((ROOT / "chapters").glob("*.md")):
+    chapter_text = chapter_path.read_text(encoding="utf-8-sig")
+    for raw_target, alt in markdown_image_refs(chapter_text):
+        image_path = _local_path(ROOT, chapter_path, raw_target)
+        if not alt.strip():
+            ERRORS.append(f"{chapter_path.name}: embedded image needs descriptive alt text: {raw_target}")
+        if image_path is None:
+            ERRORS.append(f"{chapter_path.name}: external or unsupported embedded image source {raw_target}")
+        elif image_path not in registered_image_paths:
+            ERRORS.append(f"{chapter_path.name}: image must have an image record in data/assets.yaml: {raw_target} (alt: {alt})")
+        else:
+            record = registered_image_paths[image_path]
+            compact_text = re.sub(r"[\s*]+", "", chapter_text)
+            for caption_field in ("caption_zh_tw", "caption_en"):
+                caption = re.sub(r"\s+", "", str(record.get(caption_field, "")))
+                if caption and caption not in compact_text:
+                    ERRORS.append(f"{chapter_path.name}: {caption_field} for {record.get('id')} is missing from the chapter text")
 
 chapters = sorted((ROOT / "chapters").glob("*.md"))
 chapter_ids: set[str] = set()
@@ -119,6 +154,26 @@ for path in sorted((ROOT / "chapters").glob("**/*.json")):
             validate_schema(data, shot_schema)
         except Exception as exc:
             ERRORS.append(f"{path.relative_to(ROOT)}: shot schema error: {getattr(exc, 'message', str(exc))}")
+    if "-assets" in path.parts and "shot-lists" in path.parts and validate_schema and shot_list_schema and data is not None:
+        relative = path.relative_to(ROOT)
+        try:
+            validate_schema(data, shot_list_schema)
+        except Exception as exc:
+            ERRORS.append(f"{relative}: shot-list schema error: {getattr(exc, 'message', str(exc))}")
+        else:
+            expected_start = 0
+            seen_shots = set()
+            for shot in data["shots"]:
+                if shot["shot_id"] in seen_shots:
+                    ERRORS.append(f"{relative}: duplicate shot ID {shot['shot_id']}")
+                seen_shots.add(shot["shot_id"])
+                if shot["start_seconds"] != expected_start:
+                    ERRORS.append(f"{relative}: timeline gap/overlap before {shot['shot_id']} (expected {expected_start}, got {shot['start_seconds']})")
+                if shot["end_seconds"] <= shot["start_seconds"]:
+                    ERRORS.append(f"{relative}: non-positive duration for {shot['shot_id']}")
+                expected_start = shot["end_seconds"]
+            if expected_start != data["duration_seconds"]:
+                ERRORS.append(f"{relative}: final shot ends at {expected_start}s; duration_seconds is {data['duration_seconds']}s")
 
 toc_path = ROOT / "docs" / "TOC.md"
 toc = toc_path.read_text(encoding="utf-8-sig")

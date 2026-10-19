@@ -1,0 +1,145 @@
+chapter_id: CH01
+figures:
+- figure_id: CH01-HOMAGE-FIG-001
+  chapter_id: CH01
+  section_id: CH01-S09
+  placement_after: CH01-P001
+  kind: original-ai-teaching-illustration
+  teaching_goal: deep focus
+  asset_original: null
+  asset_approved: null
+  overlay_zh: null
+  overlay_en: null
+  captions:
+    zh-TW: 原創虛構教室示意圖，以前景、中景與背景人物說明不同距離的資訊層次；不是《公民凱恩》劇照，圖檔尚未製作。
+    en-US: 虛構教室內三個距離平面各有一名人物，顯示可同時安排的前、中、後景資訊。
+  alt:
+    zh-TW: An original fictional-classroom diagram uses foreground, middle-ground, and background figures to explain
+      information across depth planes. It is not a still from Citizen Kane; no image file has been made.
+    en-US: Three people at different distances in a fictional classroom show how foreground, middle-ground, and
+      background information can coexist.
+  generation:
+    tool: null
+    version: null
+    date: null
+    prompt_file: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-001.md
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  research_sources:
+  - source_id: R013
+    accessed: '2026-10-18'
+    purpose: BFI film metadata and formal technique summary.
+  - source_id: R020
+    accessed: '2026-10-18'
+    purpose: BFI discussion of a deep-focus example and cinematographer credit.
+- figure_id: CH01-HOMAGE-FIG-002
+  chapter_id: CH01
+  section_id: CH01-S09
+  placement_after: CH01-P002
+  kind: original-ai-teaching-illustration
+  teaching_goal: multiple perspectives
+  asset_original: null
+  asset_approved: null
+  overlay_zh: null
+  overlay_en: null
+  captions:
+    zh-TW: 原創三視點平面圖標示攝影機、視線與各角色可見範圍；不使用《羅生門》畫面，圖檔尚未製作。
+    en-US: 教室意外示意圖以三個攝影機位置標出不同角色可見及被遮擋的區域。
+  alt:
+    zh-TW: An original three-viewpoint floor plan marks cameras, eyelines, and each character’s visible area. It
+      uses no Rashomon imagery; no image file has been made.
+    en-US: Three camera positions around a classroom accident show the areas visible or occluded for each character.
+  generation:
+    tool: null
+    version: null
+    date: null
+    prompt_file: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-002.md
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+- figure_id: CH01-HOMAGE-FIG-003
+  chapter_id: CH01
+  section_id: CH01-S09
+  placement_after: CH01-P003
+  kind: original-ai-teaching-illustration
+  teaching_goal: offscreen space
+  asset_original: null
+  asset_approved: null
+  overlay_zh: null
+  overlay_en: null
+  captions:
+    zh-TW: 原創虛構餐廳剖面圖標示門窗、畫外聲源與人物聆聽方向；不是電影劇照，圖檔尚未製作。
+    en-US: 餐廳內人物朝向畫框外聲源，剖面圖標示聲音可能來自相鄰空間。
+  alt:
+    zh-TW: An original fictional dining-room section diagram marks doors, windows, an offscreen source, and listening
+      directions. It is not a film still; no image file has been made.
+    en-US: People in a dining room face an offscreen sound; the section diagram shows a possible source in an adjoining
+      space.
+  generation:
+    tool: null
+    version: null
+    date: null
+    prompt_file: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-003.md
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+- figure_id: CH01-HOMAGE-FIG-004
+  chapter_id: CH01
+  section_id: CH01-S09
+  placement_after: CH01-P004
+  kind: original-ai-teaching-illustration
+  teaching_goal: framing and repeated rhythm
+  asset_original: null
+  asset_approved: null
+  overlay_zh: null
+  overlay_en: null
+  captions:
+    zh-TW: 原創公共走道向量圖以門框與前景遮擋呈現重複路徑；不仿製電影畫面，圖檔尚未製作。
+    en-US: 公共走道中人物沿同一路徑三次經過，門框及前景遮擋位置以簡圖標示。
+  alt:
+    zh-TW: An original public-corridor vector diagram uses a doorway and foreground occlusion to show a repeated
+      path. It does not imitate the film’s imagery; no image file has been made.
+    en-US: A figure passes three times along the same public corridor route as a diagram marks doorway and foreground
+      occlusion.
+  generation:
+    tool: null
+    version: null
+    date: null
+    prompt_file: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-004.md
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  research_sources:
+  - source_id: R018
+    accessed: '2026-10-18'
+    purpose: Film metadata and production credits.
+  - source_id: R021
+    accessed: '2026-10-18'
+    purpose: Critical observations on sound, image, and time.
+- figure_id: CH01-HOMAGE-FIG-005
+  chapter_id: CH01
+  section_id: CH01-S09
+  placement_after: CH01-P005
+  kind: original-ai-teaching-illustration
+  teaching_goal: layered composition and reflection
+  asset_original: null
+  asset_approved: null
+  overlay_zh: null
+  overlay_en: null
+  captions:
+    zh-TW: 原創校園走廊向量圖標示人物、玻璃面及可見反射路徑；不使用《一一》劇照，圖檔尚未製作。
+    en-US: 校園走廊人物與玻璃反射分列兩個視覺層，箭頭標示攝影機、玻璃及光線方向。
+  alt:
+    zh-TW: An original school-corridor vector diagram marks people, glass, and visible reflection paths. It uses
+      no Yi Yi still; no image file has been made.
+    en-US: People and their reflections occupy two visual layers in a school corridor; arrows mark the camera, glass,
+      and light direction.
+  generation:
+    tool: null
+    version: null
+    date: null
+    prompt_file: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-005.md
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending

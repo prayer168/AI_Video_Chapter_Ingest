@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Shot scale comparison</title><desc id="desc">Three equal frames compare a small full-body figure, a waist-up figure, and a close facial framing.</desc>
+  <rect width="1200" height="520" fill="#f4f0e8"/>
+  <g font-family="sans-serif" fill="#202a35" text-anchor="middle">
+    <text x="200" y="54" font-size="30" font-weight="700">WIDE / 遠景</text><text x="600" y="54" font-size="30" font-weight="700">MEDIUM / 中景</text><text x="1000" y="54" font-size="30" font-weight="700">CLOSE / 近景</text>
+    <g fill="#fff" stroke="#34495e" stroke-width="5"><rect x="45" y="85" width="310" height="350"/><rect x="445" y="85" width="310" height="350"/><rect x="845" y="85" width="310" height="350"/></g>
+    <g stroke="#526777" stroke-width="3" fill="none"><path d="M80 380H320M480 380H720M880 380H1120"/></g>
+    <g fill="#b65d43" stroke="#542f2a" stroke-width="4"><circle cx="200" cy="205" r="22"/><path d="M180 229 Q200 220 220 229 L230 320 L170 320Z"/><path d="M180 315L174 375M220 315L226 375M180 250L145 300M220 250L255 300" fill="none"/><circle cx="600" cy="190" r="37"/><path d="M555 230 Q600 208 645 230 L660 365 L540 365Z"/><ellipse cx="1000" cy="254" rx="93" ry="125"/><path d="M925 245Q1000 165 1075 245" fill="none"/></g>
+    <g font-size="22" fill="#34495e"><text x="200" y="476">主體與環境關係</text><text x="600" y="476">人物與動作</text><text x="1000" y="476">臉部／細節權重</text></g>
+  </g>
+</svg>

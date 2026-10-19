@@ -1,0 +1,542 @@
+# Stable chapter registry; IDs persist across locales and URL changes.
+- chapter_id: CH01
+  part_id: P01
+  number: 1
+  slug: cinematic-language
+  title_zh: "電影視聽語言：從單一鏡頭到完整敘事"
+  title_en: "Cinematic Language: From the Shot to Audiovisual Narrative"
+  legacy_status: planned
+  zh_status: review-needed
+  en_status: review-needed
+- chapter_id: CH02
+  part_id: P01
+  number: 2
+  slug: camera-language
+  title_zh: "鏡頭、場面與剪接：電影語言的基本單位"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: draft-migration-pending
+  en_status: translation-needed
+- chapter_id: CH03
+  part_id: P01
+  number: 3
+  slug: chapter-03
+  title_zh: "景別、視點與觀看位置"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH04
+  part_id: P01
+  number: 4
+  slug: chapter-04
+  title_zh: "電影形式、風格與作者性"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH05
+  part_id: P01
+  number: 5
+  slug: chapter-05
+  title_zh: "類型、再現與影視倫理"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH06
+  part_id: P02
+  number: 6
+  slug: chapter-06
+  title_zh: "故事、情節與因果結構"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH07
+  part_id: P02
+  number: 7
+  slug: chapter-07
+  title_zh: "人物、欲望、衝突與角色弧線"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH08
+  part_id: P02
+  number: 8
+  slug: chapter-08
+  title_zh: "場景、節拍、對白與潛台詞"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH09
+  part_id: P02
+  number: 9
+  slug: chapter-09
+  title_zh: "類型劇作、系列敘事與非線性結構"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH10
+  part_id: P02
+  number: 10
+  slug: chapter-10
+  title_zh: "劇本格式、改編與版本管理"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH11
+  part_id: P03
+  number: 11
+  slug: chapter-11
+  title_zh: "導演工作：意圖、溝通與決策"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH12
+  part_id: P03
+  number: 12
+  slug: chapter-12
+  title_zh: "演員調度、走位與表演連續性"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH13
+  part_id: P03
+  number: 13
+  slug: chapter-13
+  title_zh: "場面調度：空間、動線與視線"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH14
+  part_id: P03
+  number: 14
+  slug: chapter-14
+  title_zh: "分鏡、預視覺化與鏡頭清單"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH15
+  part_id: P03
+  number: 15
+  slug: chapter-15
+  title_zh: "現場導演：排演、覆蓋與臨場修正"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH16
+  part_id: P04
+  number: 16
+  slug: chapter-16
+  title_zh: "曝光、感光元件與影像形成"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH17
+  part_id: P04
+  number: 17
+  slug: chapter-17
+  title_zh: "構圖、透視、焦距與景深"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH18
+  part_id: P04
+  number: 18
+  slug: chapter-18
+  title_zh: "鏡頭光學、濾鏡與焦點控制"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH19
+  part_id: P04
+  number: 19
+  slug: chapter-19
+  title_zh: "攝影機運動、穩定與主觀視點"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH20
+  part_id: P04
+  number: 20
+  slug: chapter-20
+  title_zh: "色彩管理、紀錄格式與攝影工作流"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH21
+  part_id: P05
+  number: 21
+  slug: chapter-21
+  title_zh: "光的性質、光比與曝光控制"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH22
+  part_id: P05
+  number: 22
+  slug: chapter-22
+  title_zh: "燈具、控光附件與現場布光"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH23
+  part_id: P05
+  number: 23
+  slug: chapter-23
+  title_zh: "色彩心理、調色與視覺連貫"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH24
+  part_id: P05
+  number: 24
+  slug: chapter-24
+  title_zh: "場景設計、道具、服裝與造型"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH25
+  part_id: P05
+  number: 25
+  slug: chapter-25
+  title_zh: "美術部門協作、搭景與外景管理"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH26
+  part_id: P06
+  number: 26
+  slug: chapter-26
+  title_zh: "動畫原理、時間與動作設計"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH27
+  part_id: P06
+  number: 27
+  slug: chapter-27
+  title_zh: "2D、3D、定格與混合媒材流程"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH28
+  part_id: P06
+  number: 28
+  slug: chapter-28
+  title_zh: "生成式影片模型與能力邊界"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH29
+  part_id: P06
+  number: 29
+  slug: chapter-29
+  title_zh: "角色、場景、鏡頭的生成一致性"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH30
+  part_id: P06
+  number: 30
+  slug: chapter-30
+  title_zh: "合成、追蹤、補幀與生成式影像修復"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH31
+  part_id: P07
+  number: 31
+  slug: chapter-31
+  title_zh: "聲音敘事、聆聽視點與聲畫關係"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH32
+  part_id: P07
+  number: 32
+  slug: chapter-32
+  title_zh: "收音、麥克風、現場錄音與素材管理"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH33
+  part_id: P07
+  number: 33
+  slug: chapter-33
+  title_zh: "對白剪輯、旁白與配音製作"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH34
+  part_id: P07
+  number: 34
+  slug: chapter-34
+  title_zh: "音效設計、擬音與空間聲音"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH35
+  part_id: P07
+  number: 35
+  slug: chapter-35
+  title_zh: "電影配樂、音樂授權與混音交付"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH36
+  part_id: P08
+  number: 36
+  slug: chapter-36
+  title_zh: "剪輯語法、連戲與節奏"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH37
+  part_id: P08
+  number: 37
+  slug: chapter-37
+  title_zh: "敘事剪輯、試映與版本迭代"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH38
+  part_id: P08
+  number: 38
+  slug: chapter-38
+  title_zh: "視覺特效、合成與鏡頭交接"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH39
+  part_id: P08
+  number: 39
+  slug: chapter-39
+  title_zh: "調色、母版、字幕與無障礙交付"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH40
+  part_id: P08
+  number: 40
+  slug: chapter-40
+  title_zh: "片尾、格式、封裝與品質控制"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH41
+  part_id: P09
+  number: 41
+  slug: chapter-41
+  title_zh: "AI Agent 基礎、工具使用與人類監督"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH42
+  part_id: P09
+  number: 42
+  slug: chapter-42
+  title_zh: "提示詞設計、測試集與可重現性"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH43
+  part_id: P09
+  number: 43
+  slug: chapter-43
+  title_zh: "劇本分析、分鏡生成與製片文件自動化"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH44
+  part_id: P09
+  number: 44
+  slug: chapter-44
+  title_zh: "多代理工作流、狀態管理與錯誤恢復"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH45
+  part_id: P09
+  number: 45
+  slug: chapter-45
+  title_zh: "Python、資料格式與程式化影音工具"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH46
+  part_id: P10
+  number: 46
+  slug: chapter-46
+  title_zh: "製片流程、企劃開發與風險管理"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH47
+  part_id: P10
+  number: 47
+  slug: chapter-47
+  title_zh: "預算、排程、資源配置與成本追蹤"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH48
+  part_id: P10
+  number: 48
+  slug: chapter-48
+  title_zh: "著作權、授權、肖像與合約基礎"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH49
+  part_id: P10
+  number: 49
+  slug: chapter-49
+  title_zh: "生成式 AI 的揭露、來源與權利風險"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH50
+  part_id: P10
+  number: 50
+  slug: chapter-50
+  title_zh: "片場安全、資料治理與品質制度"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH51
+  part_id: P11
+  number: 51
+  slug: chapter-51
+  title_zh: "劇情短片：從劇本到成片"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH52
+  part_id: P11
+  number: 52
+  slug: chapter-52
+  title_zh: "紀錄片：研究、田野與真實倫理"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH53
+  part_id: P11
+  number: 53
+  slug: chapter-53
+  title_zh: "廣告與品牌影片：需求、版本與審核"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH54
+  part_id: P11
+  number: 54
+  slug: chapter-54
+  title_zh: "音樂錄影帶、實驗影像與視覺化敘事"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH55
+  part_id: P11
+  number: 55
+  slug: chapter-55
+  title_zh: "教育影片、直播與社群短影音"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH56
+  part_id: P12
+  number: 56
+  slug: chapter-56
+  title_zh: "電影教學設計、課堂製作與評量"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH57
+  part_id: P12
+  number: 57
+  slug: chapter-57
+  title_zh: "影像研究方法、案例分析與引用"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH58
+  part_id: P12
+  number: 58
+  slug: chapter-58
+  title_zh: "技術出版、文件網站與版本化知識"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH59
+  part_id: P12
+  number: 59
+  slug: chapter-59
+  title_zh: "團隊導入、流程治理與產業應用"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+- chapter_id: CH60
+  part_id: P12
+  number: 60
+  slug: chapter-60
+  title_zh: "未來趨勢、研究議程與持續更新"
+  title_en: "" # editorial translation pending
+  legacy_status: planned
+  zh_status: planned
+  en_status: translation-needed
+

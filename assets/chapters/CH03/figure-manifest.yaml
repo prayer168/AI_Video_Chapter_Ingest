@@ -1,0 +1,72 @@
+chapter_id: CH03
+figures:
+- figure_id: CH03-FIG-001
+  chapter_id: CH03
+  section_id: CH03-S10
+  placement_after: after:CH03-S10
+  asset_original: assets/chapters/CH03/figures/originals/CH03-FIG-001-shot-scale.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 3-1
+  asset_status: draft-original-svg
+  rights_status: original-project-generated-pending-editorial-review
+  sha256: b21910ecdd5f324502ef9d198e776ad1d72fc2176b78280a5a2168f2baf1b0e1
+  width: 1200
+  height: 520
+  bytes: 1581
+  method: Hand-authored original SVG schematic authored for CH03; no third-party image or external image asset incorporated.
+  caption_zh: 景別改變主體在畫框中的尺度 原創可編輯 SVG 示意圖，僅呈現構圖尺度差異，不代表固定情緒效果。
+  caption_en: Shot scale changes the subject’s size within the frame. This is an original editable SVG schematic
+    showing compositional scale only; it does not imply a fixed emotional effect.
+  alt_zh: 在相同畫框中示意遠景、中景與近景的主體尺度差異。
+  alt_en: Diagram comparing subject scale in wide, medium, and close framings within the same frame.
+  research_sources:
+  - source_id: R022
+    accessed: '2026-10-20'
+    purpose: Supports framing and point-of-view concepts; not evidence that the diagram depicts a film still.
+  creator: AI Video Bible project; individual creator not recorded
+  attribution: Original project schematic; individual creator attribution pending confirmation.
+  permission: Project diagram; publication approval pending.
+  original_prompt_or_method: Hand-authored SVG source; not AI-generated and contains no third-party imagery.
+  production_log:
+  - date: '2026-10-20'
+    change: Created original editable SVG for CH03 teaching draft.
+  note: Pending human technical, editorial, accessibility, and publication-rights review; not publication-approved.
+- figure_id: CH03-FIG-002
+  chapter_id: CH03
+  section_id: CH03-S10
+  placement_after: after:CH03-S10
+  asset_original: assets/chapters/CH03/figures/originals/CH03-FIG-002-pov-sequence.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 3-2
+  asset_status: draft-original-svg
+  rights_status: original-project-generated-pending-editorial-review
+  sha256: 38f6eb8121943380feb91fbe9a36dabb3839e682f9df8a2793c5fc95b311c80f
+  width: 1200
+  height: 520
+  bytes: 2042
+  method: Hand-authored original SVG schematic authored for CH03; no third-party image or external image asset incorporated.
+  caption_zh: 視線鏡頭、所見鏡頭與反應鏡頭的敘事配對 本圖為原創可編輯 SVG 示意圖；是否構成 POV 仍須由上下文判讀。
+  caption_en: Narrative pairing of a look, a view, and a reaction. This is an original editable SVG schematic; whether
+    the sequence constitutes POV still depends on context.
+  alt_zh: 以人物看向畫外、再切至所見、最後回到反應的三鏡頭示意。
+  alt_en: 'Three-shot diagram: a character looks offscreen, the viewed object appears, and the character reacts.'
+  research_sources:
+  - source_id: R022
+    accessed: '2026-10-20'
+    purpose: Supports framing and point-of-view concepts; not evidence that the diagram depicts a film still.
+  creator: AI Video Bible project; individual creator not recorded
+  attribution: Original project schematic; individual creator attribution pending confirmation.
+  permission: Project diagram; publication approval pending.
+  original_prompt_or_method: Hand-authored SVG source; not AI-generated and contains no third-party imagery.
+  production_log:
+  - date: '2026-10-20'
+    change: Created original editable SVG for CH03 teaching draft.
+  note: Pending human technical, editorial, accessibility, and publication-rights review; not publication-approved.

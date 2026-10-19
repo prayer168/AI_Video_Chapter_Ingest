@@ -1,0 +1,422 @@
+schema_version: 1
+figures:
+- figure_id: CH01-HOMAGE-FIG-001
+  chapter_id: CH01
+  section_id: CH01-S02
+  placement_after: after:CH01-S02
+  source_film_ref: FILM-001
+  source_ids:
+  - R013
+  brief_file: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-001.md
+  asset_original: assets/chapters/CH01/figures/originals/CH01-HOMAGE-001-Citizen-Kane.png
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  research_sources:
+  - source_id: R013
+    accessed: '2026-10-18'
+    purpose: BFI film metadata and formal technique summary.
+  - source_id: R020
+    accessed: '2026-10-18'
+    purpose: BFI discussion of a deep-focus example and cinematographer credit.
+  display_number: 1-3A
+  asset_status: draft-generated
+  rights_status: original-ai-illustration-pending-final-review
+  source_name: 黑白電影感的沉思室內_сц景.png
+  sha256: e19bb8618a00fa38b0482bb5c8857048aed5b650aee54cddc645a50161266de0
+  width: 1619
+  height: 971
+  bytes: 2012518
+  note: 視覺內容是寫實室內人物場景，和原 brief 的教室向量圖不同；檢查人物肖像相似度及與原片可辨識造型／構圖的接近程度。
+  archive_sha256: 98099da5f231060fe6548afe1238ce2c6000545f250cf47cda9e862670d392ec
+  caption_zh: 圖 1-3A｜本圖為原創示意圖，參考《公民凱恩》（*Citizen Kane*, 1941）中可供討論的深度與畫面多層資訊，安排前景、中景及窗邊遠景人物；並非電影原劇照。人物、場景與構圖相似性及出版權利仍待人工審查。
+  caption_en: Figure 1-3A. This is an original illustrative image inspired by discussions of depth and layered visual
+    information in *Citizen Kane* (1941), arranging figures in the foreground, middle ground, and by a distant window.
+    It is not an official film still. Similarity of people, setting, and composition, as well as publication rights,
+    remains pending human review.
+  alt_zh: 黑白室內場景中，前景男子坐在桌旁，中景女子站在門邊，遠景人物面向明亮窗戶。
+  alt_en: In a monochrome interior, a seated man occupies the foreground, a woman stands in the middle ground, and
+    a distant figure faces a bright window.
+- figure_id: CH01-HOMAGE-FIG-002
+  chapter_id: CH01
+  section_id: CH01-S04
+  placement_after: after:CH01-S04-EDITING
+  source_film_ref: FILM-002
+  source_ids:
+  - R014
+  brief_file: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-002.md
+  asset_original: assets/chapters/CH01/figures/originals/CH01-HOMAGE-002-Rashomon.png
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 1-4A
+  asset_status: draft-generated
+  rights_status: original-ai-illustration-pending-final-review
+  source_name: 霧林三視角_劍刃下的求生瞬間.png
+  sha256: 298d54dbcde59498d27d7ea5a172fca994393720bb517c51e4397c41857d2577
+  width: 1619
+  height: 971
+  bytes: 2418742
+  note: 三格構圖呈現連續動作，不可未經逐格分析就稱為不同敘述者視點；原 brief 的平面視點圖與本圖內容不同。
+  archive_sha256: 98099da5f231060fe6548afe1238ce2c6000545f250cf47cda9e862670d392ec
+  caption_zh: 圖 1-4A｜本圖為原創示意圖，參考《羅生門》（*Rashomon*, 1950）對事件敘述與觀點差異的討論，以霧林中的三格求生情境呈現資訊分配；並非電影原劇照。此圖不是對電影場面的重建，人物、服裝、武器及構圖相似性仍待人工審查。
+  caption_en: Figure 1-4A. This is an original illustrative image inspired by discussions of differing accounts
+    and viewpoints in *Rashomon* (1950), using a three-panel survival scene in a misty forest to suggest information
+    distribution. It is not an official film still. It does not reconstruct a scene from the film. Similarity in
+    characters, costumes, weapons, and composition remains pending human review.
+  alt_zh: 霧林中三格連續畫面呈現一名女子在持刀人物附近伸手求生，左右前景各有旁觀者。
+  alt_en: Three panels in a misty forest show a woman reaching for help near a sword-bearing figure, with observers
+    framing the foreground.
+- figure_id: CH01-HOMAGE-FIG-003
+  chapter_id: CH01
+  section_id: CH01-S04
+  placement_after: after:CH01-S04-SPATIAL
+  source_film_ref: FILM-003
+  source_ids:
+  - R015
+  brief_file: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-003.md
+  asset_original: assets/chapters/CH01/figures/originals/CH01-HOMAGE-003-A-City-of-Sadness.png
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 1-4B
+  asset_status: draft-generated
+  rights_status: original-ai-illustration-pending-final-review
+  source_name: 雨巷門前的沉默一家人.png
+  sha256: 339ef01de3aaa486c045ec4b1a13bf1643e01ac210b9e608e1391c5e5b6e8a43
+  width: 1619
+  height: 971
+  bytes: 2014162
+  note: 實際生成內容為家庭室內與門外街景，和原 brief 的餐廳剖面向量圖不同；不得把畫面中的軍人或街景當作已查證的歷史再現。
+  archive_sha256: 98099da5f231060fe6548afe1238ce2c6000545f250cf47cda9e862670d392ec
+  caption_zh: 圖 1-4B｜本圖為原創示意圖，參考《悲情城市》（*A City of Sadness*, 1989）以家庭生活連結公共歷史的討論，安排室內家庭與門外街景並置；並非電影原劇照，也不宣稱是特定歷史事件的寫實重建。街景、人物、服裝及歷史語境均待人工審查。
+  caption_en: Figure 1-4B. This is an original illustrative image inspired by discussions of how *A City of Sadness*
+    (1989) connects family life with public history, placing a family interior beside a street beyond the doorway.
+    It is not an official film still. It does not claim to reconstruct a specific historical event. The street,
+    people, costumes, and historical context require human review.
+  alt_zh: 老屋室內的一家人圍坐桌邊，左側門外可見雨濕街道、車輛與行人。
+  alt_en: A family sits around a table inside an old house; through the doorway at left, a wet street, a vehicle,
+    and pedestrians are visible.
+- figure_id: CH01-HOMAGE-FIG-004
+  chapter_id: CH01
+  section_id: CH01-S04
+  placement_after: after:CH01-S04-LATE
+  source_film_ref: FILM-004
+  source_ids:
+  - R018
+  brief_file: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-004.md
+  asset_original: assets/chapters/CH01/figures/originals/CH01-HOMAGE-004-In-the-Mood-for-Love.png
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  research_sources:
+  - source_id: R018
+    accessed: '2026-10-18'
+    purpose: Film metadata and production credits.
+  - source_id: R021
+    accessed: '2026-10-18'
+    purpose: Critical observations on sound, image, and time.
+  display_number: 1-4C
+  asset_status: draft-generated
+  rights_status: original-ai-illustration-pending-final-review
+  source_name: 紅綠暮色中的擦肩而過.png
+  sha256: 18975a63bd94ceb4a4aca479aaf6acf860a39636b176ecd852c54c37f4d624f5
+  width: 1619
+  height: 971
+  bytes: 1830132
+  note: 紅色服裝、狹窄走道與色彩設計可能形成較強的電影風格聯想，必須由作者／權利審查者評估相似性；原 brief 的向量走道圖與本圖內容不同。
+  archive_sha256: 98099da5f231060fe6548afe1238ce2c6000545f250cf47cda9e862670d392ec
+  caption_zh: 圖 1-4C｜本圖為原創示意圖，參考《花樣年華》（*In the Mood for Love*, 2000）對門框、色彩、人物距離與反覆相遇的形式討論，呈現兩人在紅綠走道擦肩的原創情境；並非電影原劇照。服裝、場景及構圖是否過度接近特定電影表現，仍待人工權利與編輯審查。
+  caption_en: Figure 1-4C. This is an original illustrative image inspired by formal discussions of doorways, color,
+    interpersonal distance, and repeated encounters in *In the Mood for Love* (2000), depicting two people passing
+    in a red-and-green corridor. It is not an official film still. Whether its costumes, setting, or composition
+    are too close to protected expression requires human rights and editorial review.
+  alt_zh: 紅色與綠色門框圍住狹長走道，一名穿紅色服裝的女子與一名男子背向而行。
+  alt_en: Red and green door frames enclose a narrow corridor as a woman in red and a man walk away from one another.
+- figure_id: CH01-HOMAGE-FIG-005
+  chapter_id: CH01
+  section_id: CH01-S05
+  placement_after: after:CH01-S05
+  source_film_ref: FILM-005
+  source_ids:
+  - R019
+  brief_file: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-005.md
+  asset_original: assets/chapters/CH01/figures/originals/CH01-HOMAGE-005-Yi-Yi.png
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 1-5A
+  asset_status: draft-generated
+  rights_status: original-ai-illustration-pending-final-review
+  source_name: 暮色窗前的城市凝望.png
+  sha256: 73cb8d090d330bbe6dc8d0490b5a27bd400d61869d1d030c4d83bac344305aed
+  width: 1619
+  height: 971
+  bytes: 1842968
+  note: 畫面可見高辨識度城市地標及玻璃反射，須審查地標呈現、反射細節及是否過度接近電影中特定構圖；原 brief 的校園走廊向量圖與本圖內容不同。
+  archive_sha256: 98099da5f231060fe6548afe1238ce2c6000545f250cf47cda9e862670d392ec
+  caption_zh: 圖 1-5A｜本圖為原創示意圖，參考《一一》（*Yi Yi*, 2000）對日常觀看、城市景觀、窗面反射及前後景層次的形式討論，呈現少年隔窗凝望城市的原創情境；並非電影原劇照。人物、地標、反射與構圖相似性及出版權利仍待人工審查。
+  caption_en: Figure 1-5A. This is an original illustrative image inspired by formal discussions of everyday looking,
+    city views, window reflections, and foreground/background layers in *Yi Yi* (2000), depicting a boy looking
+    out at a city through a window. It is not an official film still. Similarity in people, landmarks, reflections,
+    and composition, as well as publication rights, remains pending human review.
+  alt_zh: 一名少年倚在室內窗邊望向暮色城市，玻璃上映出室內人物，遠處有高樓天際線。
+  alt_en: A boy leans by an interior window and looks toward a city at dusk; figures reflect in the glass and a
+    high-rise skyline stands in the distance.
+- figure_id: CH02-FIG-001
+  chapter_id: CH02
+  section_id: CH02-S04
+  placement_after: '## 2.3 構圖（Composition）與視覺重心'
+  source_staging_figure_id: CH02-DIAG-001
+  asset_original: assets/chapters/CH02/figures/originals/CH02-DIAG-01-shot-scale.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 2-1A
+  asset_status: draft-original-svg
+  rights_status: original-project-generated-pending-editorial-review
+  sha256: 4353fb31203bb61f120cb1c1c8e9758f86032bc2d6246c00ed7deadcca22032e
+  width: 1200
+  height: 620
+  bytes: 1829
+  method: Hand-authored SVG source generated by production/runs/CH02/<run-id>/prepare_stage.py; no third-party images
+    or fonts embedded.
+  caption_zh: 示意五種景別中人物相對畫框的尺度。 本圖為原創可編輯 SVG 示意圖，非實拍或工具實測。
+  caption_en: Original schematic comparing subject scale across five shot sizes. This is an original editable SVG
+    schematic, not a filmed example or tool benchmark.
+  alt_zh: 示意五種景別中人物相對畫框的尺度。
+  alt_en: Original schematic comparing subject scale across five shot sizes.
+  research_sources:
+  - source_id: R001
+    accessed: '2026-10-19'
+    purpose: Supports the diagram’s underlying camera-language concept; not evidence that the diagram depicts a
+      film still.
+  - source_id: R009
+    accessed: '2026-10-19'
+    purpose: Supports the diagram’s underlying camera-language concept; not evidence that the diagram depicts a
+      film still.
+  - source_id: R010
+    accessed: '2026-10-19'
+    purpose: Supports the diagram’s underlying camera-language concept; not evidence that the diagram depicts a
+      film still.
+  - source_id: R011
+    accessed: '2026-10-19'
+    purpose: Supports the diagram’s underlying camera-language concept; not evidence that the diagram depicts a
+      film still.
+  creator: AI Video Bible project; hand-authored SVG source (individual creator not recorded)
+  attribution: Original project diagram; no third-party image incorporated; attribution review pending
+  permission: Project original; publication approval pending
+  original_prompt_or_method: Hand-authored SVG source generated by production/runs/CH02/<run-id>/prepare_stage.py;
+    no third-party images or fonts embedded.
+  production_log:
+  - date: '2026-10-18'
+    change: Staged hand-authored SVG; copied byte-for-byte into canonical CH02 originals directory on 2026-10-19.
+  note: Pending human technical, editorial, accessibility, and publication-rights review. Not publication-approved.
+- figure_id: CH02-FIG-002
+  chapter_id: CH02
+  section_id: CH02-S04
+  placement_after: '## 2.6 運鏡（Camera Movement）完整入門'
+  source_staging_figure_id: CH02-DIAG-002
+  asset_original: assets/chapters/CH02/figures/originals/CH02-DIAG-02-dolly-vs-zoom.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 2-1B
+  asset_status: draft-original-svg
+  rights_status: original-project-generated-pending-editorial-review
+  sha256: 10da321be40a816a1e5c95260809856429069d27642e74a2ebb3d1f67b40e02f
+  width: 1200
+  height: 640
+  bytes: 1493
+  method: Hand-authored SVG source generated by production/runs/CH02/<run-id>/prepare_stage.py; no third-party images
+    or fonts embedded.
+  caption_zh: 攝影機平移改變視點與視差；變焦改變視角。 本圖為原創可編輯 SVG 示意圖，非實拍或工具實測。
+  caption_en: Camera translation changes viewpoint and parallax; zoom changes angle of view. This is an original
+    editable SVG schematic, not a filmed example or tool benchmark.
+  alt_zh: 攝影機平移改變視點與視差；變焦改變視角。
+  alt_en: Camera translation changes viewpoint and parallax; zoom changes angle of view.
+  research_sources:
+  - source_id: R001
+    accessed: '2026-10-19'
+    purpose: Supports the diagram’s underlying camera-language concept; not evidence that the diagram depicts a
+      film still.
+  - source_id: R009
+    accessed: '2026-10-19'
+    purpose: Supports the diagram’s underlying camera-language concept; not evidence that the diagram depicts a
+      film still.
+  - source_id: R010
+    accessed: '2026-10-19'
+    purpose: Supports the diagram’s underlying camera-language concept; not evidence that the diagram depicts a
+      film still.
+  - source_id: R011
+    accessed: '2026-10-19'
+    purpose: Supports the diagram’s underlying camera-language concept; not evidence that the diagram depicts a
+      film still.
+  creator: AI Video Bible project; hand-authored SVG source (individual creator not recorded)
+  attribution: Original project diagram; no third-party image incorporated; attribution review pending
+  permission: Project original; publication approval pending
+  original_prompt_or_method: Hand-authored SVG source generated by production/runs/CH02/<run-id>/prepare_stage.py;
+    no third-party images or fonts embedded.
+  production_log:
+  - date: '2026-10-18'
+    change: Staged hand-authored SVG; copied byte-for-byte into canonical CH02 originals directory on 2026-10-19.
+  note: Pending human technical, editorial, accessibility, and publication-rights review. Not publication-approved.
+- figure_id: CH02-FIG-003
+  chapter_id: CH02
+  section_id: CH02-S04
+  placement_after: '## 2.7 空間連續性與 180 度規則'
+  source_staging_figure_id: CH02-DIAG-003
+  asset_original: assets/chapters/CH02/figures/originals/CH02-DIAG-03-pan-vs-truck.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 2-1C
+  asset_status: draft-original-svg
+  rights_status: original-project-generated-pending-editorial-review
+  sha256: 18481c9c9c75ea3530b0f5b0991cf924e49aea5daf38e31a8167f8a1f9adfe5c
+  width: 1100
+  height: 560
+  bytes: 1145
+  method: Hand-authored SVG source generated by production/runs/CH02/<run-id>/prepare_stage.py; no third-party images
+    or fonts embedded.
+  caption_zh: Pan 改變方向，Truck 改變攝影機位置。 本圖為原創可編輯 SVG 示意圖，非實拍或工具實測。
+  caption_en: Pan changes orientation; truck changes camera position. This is an original editable SVG schematic,
+    not a filmed example or tool benchmark.
+  alt_zh: Pan 改變方向，Truck 改變攝影機位置。
+  alt_en: Pan changes orientation; truck changes camera position.
+  research_sources:
+  - source_id: R001
+    accessed: '2026-10-19'
+    purpose: Supports the diagram’s underlying camera-language concept; not evidence that the diagram depicts a
+      film still.
+  - source_id: R009
+    accessed: '2026-10-19'
+    purpose: Supports the diagram’s underlying camera-language concept; not evidence that the diagram depicts a
+      film still.
+  - source_id: R010
+    accessed: '2026-10-19'
+    purpose: Supports the diagram’s underlying camera-language concept; not evidence that the diagram depicts a
+      film still.
+  - source_id: R011
+    accessed: '2026-10-19'
+    purpose: Supports the diagram’s underlying camera-language concept; not evidence that the diagram depicts a
+      film still.
+  creator: AI Video Bible project; hand-authored SVG source (individual creator not recorded)
+  attribution: Original project diagram; no third-party image incorporated; attribution review pending
+  permission: Project original; publication approval pending
+  original_prompt_or_method: Hand-authored SVG source generated by production/runs/CH02/<run-id>/prepare_stage.py;
+    no third-party images or fonts embedded.
+  production_log:
+  - date: '2026-10-18'
+    change: Staged hand-authored SVG; copied byte-for-byte into canonical CH02 originals directory on 2026-10-19.
+  note: Pending human technical, editorial, accessibility, and publication-rights review. Not publication-approved.
+- figure_id: CH02-FIG-004
+  chapter_id: CH02
+  section_id: CH02-S04
+  placement_after: '## 傳統攝影製作流程'
+  source_staging_figure_id: CH02-DIAG-004
+  asset_original: assets/chapters/CH02/figures/originals/CH02-DIAG-04-180-axis.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 2-1D
+  asset_status: draft-original-svg
+  rights_status: original-project-generated-pending-editorial-review
+  sha256: fd343f81a83c289bfb6167e5d8d2886520066f67a6a6d4f2ed3613c6e51be050
+  width: 1000
+  height: 700
+  bytes: 1538
+  method: Hand-authored SVG source generated by production/runs/CH02/<run-id>/prepare_stage.py; no third-party images
+    or fonts embedded.
+  caption_zh: 以俯視示意對話動作軸及常用攝影機側。 本圖為原創可編輯 SVG 示意圖，非實拍或工具實測。
+  caption_en: Top-down schematic of an action axis and conventional camera side. This is an original editable SVG
+    schematic, not a filmed example or tool benchmark.
+  alt_zh: 以俯視示意對話動作軸及常用攝影機側。
+  alt_en: Top-down schematic of an action axis and conventional camera side.
+  research_sources:
+  - source_id: R025
+    accessed: '2026-10-19'
+    purpose: Supports the diagram’s underlying camera-language concept; not evidence that the diagram depicts a
+      film still.
+  - source_id: R026
+    accessed: '2026-10-19'
+    purpose: Supports the diagram’s underlying camera-language concept; not evidence that the diagram depicts a
+      film still.
+  creator: AI Video Bible project; hand-authored SVG source (individual creator not recorded)
+  attribution: Original project diagram; no third-party image incorporated; attribution review pending
+  permission: Project original; publication approval pending
+  original_prompt_or_method: Hand-authored SVG source generated by production/runs/CH02/<run-id>/prepare_stage.py;
+    no third-party images or fonts embedded.
+  production_log:
+  - date: '2026-10-18'
+    change: Staged hand-authored SVG; copied byte-for-byte into canonical CH02 originals directory on 2026-10-19.
+  note: Pending human technical, editorial, accessibility, and publication-rights review. Not publication-approved.
+- figure_id: CH02-FIG-005
+  chapter_id: CH02
+  section_id: CH02-S04
+  placement_after: '## 2.4 攝影角度與敘事視點'
+  source_staging_figure_id: CH02-DIAG-005
+  asset_original: assets/chapters/CH02/figures/originals/CH02-DIAG-05-aspect-safe-area.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 2-1E
+  asset_status: draft-original-svg
+  rights_status: original-project-generated-pending-editorial-review
+  sha256: 418ec642df712d3b9810ae29c89db728bc76a3fab6867178889d2bb35c4b7e53
+  width: 1200
+  height: 620
+  bytes: 1626
+  method: Hand-authored SVG source generated by production/runs/CH02/<run-id>/prepare_stage.py; no third-party images
+    or fonts embedded.
+  caption_zh: 示意直式裁切範圍及主體安全構圖。 本圖為原創可編輯 SVG 示意圖，非實拍或工具實測。
+  caption_en: Schematic portrait crop and subject-safe framing. This is an original editable SVG schematic, not
+    a filmed example or tool benchmark.
+  alt_zh: 示意直式裁切範圍及主體安全構圖。
+  alt_en: Schematic portrait crop and subject-safe framing.
+  research_sources:
+  - source_id: R001
+    accessed: '2026-10-19'
+    purpose: Supports the diagram’s underlying camera-language concept; not evidence that the diagram depicts a
+      film still.
+  - source_id: R009
+    accessed: '2026-10-19'
+    purpose: Supports the diagram’s underlying camera-language concept; not evidence that the diagram depicts a
+      film still.
+  - source_id: R010
+    accessed: '2026-10-19'
+    purpose: Supports the diagram’s underlying camera-language concept; not evidence that the diagram depicts a
+      film still.
+  - source_id: R011
+    accessed: '2026-10-19'
+    purpose: Supports the diagram’s underlying camera-language concept; not evidence that the diagram depicts a
+      film still.
+  creator: AI Video Bible project; hand-authored SVG source (individual creator not recorded)
+  attribution: Original project diagram; no third-party image incorporated; attribution review pending
+  permission: Project original; publication approval pending
+  original_prompt_or_method: Hand-authored SVG source generated by production/runs/CH02/<run-id>/prepare_stage.py;
+    no third-party images or fonts embedded.
+  production_log:
+  - date: '2026-10-18'
+    change: Staged hand-authored SVG; copied byte-for-byte into canonical CH02 originals directory on 2026-10-19.
+  note: Pending human technical, editorial, accessibility, and publication-rights review. Not publication-approved.

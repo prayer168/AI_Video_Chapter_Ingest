@@ -55,3 +55,28 @@ python scripts/check_links.py --online
 ```
 
 線上檢查遇到 403、逾時或限流時列為待人工確認，不直接判定來源失效。術語定義的頁碼必須對應到本書採用的確切版次；建議在術語資料補上版次、ISBN、頁碼或章節定位。若不同版次頁碼不同，記錄可追溯的章節/節標題，並把頁碼標為待核。出版輸出是生成物，預設不納入 Git；發布時記錄專案版本、Git commit、建置工具版本、字型名稱和日期。
+
+
+## 插圖核准與正式出版閘門
+
+正式 HTML、DOCX、PDF、EPUB 建置會先依輸出目標檢查章稿使用的所有圖片；任何外部圖像、缺少 `data/assets.yaml` 登錄或尚未完成權利／技術／品質核准的圖片，都會使建置中止。HTML 網站輸出也檢查 README 與 `docs/` 內容。檢查單一目標：
+
+```powershell
+python scripts/image_policy.py --target zh-TW-site --include-docs
+python scripts/image_policy.py --target zh-TW-book
+python scripts/image_policy.py --target en-site --include-docs
+python scripts/image_policy.py --target en-book
+```
+
+英文檢查只代表核准資料狀態；目前書籍建置輸入仍取自現有繁中章稿，並不會自動翻譯或產出英文版本。
+
+編輯中的草稿預覽會省略尚未核准的圖像，並以待審文字替代：
+
+```powershell
+python scripts/build.py --format html --preview
+python scripts/build.py --format docx --preview
+python scripts/build.py --format pdf --preview --font "PMingLiU"
+python scripts/build.py --format epub --preview
+```
+
+預覽輸出位於 `dist/preview/`，不可直接作正式出版物。完整欄位和狀態定義見 [插圖原創與著作權管理規範](IMAGE-RIGHTS-POLICY.md)。

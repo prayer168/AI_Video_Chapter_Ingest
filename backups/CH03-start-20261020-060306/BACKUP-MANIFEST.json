@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-10-20T06:03:06.024174+08:00",
+  "files": [
+    {
+      "path": "content/zh-TW/chapters/CH03-chapter-03.md",
+      "sha256": "57161f6d89bcda29f7c36394dd02c2db49963cc6740f34f0095e7891a8b750d0",
+      "bytes": 1063
+    },
+    {
+      "path": "content/en-US/chapters/CH03-chapter-03.md",
+      "sha256": "ee2984e67da064bc6c12b0284b20cb87d9833ecf0f5777999b41f70e4ad26413",
+      "bytes": 1135
+    },
+    {
+      "path": "assets/chapters/CH03/figure-manifest.yaml",
+      "sha256": "1c268e53a13dace5d247d0eca8dd0e4d56c994777b23ab507004b273638b3f20",
+      "bytes": 31
+    },
+    {
+      "path": "metadata/chapters.yaml",
+      "sha256": "208f1488e55d14854706559baa83e8e48025ff88c85bb5163a4a2ddb897abd86",
+      "bytes": 13341
+    },
+    {
+      "path": "metadata/translation-status.yaml",
+      "sha256": "57bffd3e0168d6dfd633c5ea7cde165200bfff66e89e0565b5bc76aa7de8f29d",
+      "bytes": 5379
+    },
+    {
+      "path": "metadata/terminology.yaml",
+      "sha256": "5327cacab83c36285168ee9be41579c5dddefb9f11fb1e1122c42d93d5366cb5",
+      "bytes": 30474
+    },
+    {
+      "path": "metadata/figure-registry.yaml",
+      "sha256": "6a93e40f8abb323d4d235cdbedf71b280aac21620beca9bca14de145e9576f3b",
+      "bytes": 24047
+    },
+    {
+      "path": "metadata/references.bib",
+      "sha256": "e7d3a42e18e5c3a016b30f7714e4d23ac5ab0371ecce6893aad1f7b3211694c8",
+      "bytes": 11020
+    },
+    {
+      "path": "data/references.yaml",
+      "sha256": "27a618f58103d8ed39c8be65f8fc1bbaabedccd8188b2d72e35248ba5dfb269e",
+      "bytes": 14334
+    },
+    {
+      "path": "history.md",
+      "sha256": "899206ef54cfcf49468c60574308c8e6d16d9d8bbc5de6cb7bd6e82a211820a3",
+      "bytes": 85122
+    }
+  ]
+}

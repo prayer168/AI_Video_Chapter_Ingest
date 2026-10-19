@@ -1,0 +1,30 @@
+[
+  {
+    "Path": "D:\\我的雲端硬碟\\google drive\\000000000backup\\00000黑熊講師\\00000著作\\AI_Video_Bible\\backups\\CH02-post-chapter-audit-20261018-222009\\AI-VIDEO-BIBLE-SOP-V4.md",
+    "Hash": "D9385752302A7D16B09546F8E7EE116293C5E017D3607F0250515B7E72C0C290"
+  },
+  {
+    "Path": "D:\\我的雲端硬碟\\google drive\\000000000backup\\00000黑熊講師\\00000著作\\AI_Video_Bible\\backups\\CH02-post-chapter-audit-20261018-222009\\history.md",
+    "Hash": "7C50786238B6E2DD4D96453CC487F022FD181234EE42DB7186426E34F43818E9"
+  },
+  {
+    "Path": "D:\\我的雲端硬碟\\google drive\\000000000backup\\00000黑熊講師\\00000著作\\AI_Video_Bible\\backups\\CH02-post-chapter-audit-20261018-222009\\.codex\\skills\\ai-video-bible-chapter-pipeline\\SKILL.md",
+    "Hash": "11917A8E2DEA94D77F3E4C89AD27E3F28FE254EECCE649922A9C3FFD107B63AD"
+  },
+  {
+    "Path": "D:\\我的雲端硬碟\\google drive\\000000000backup\\00000黑熊講師\\00000著作\\AI_Video_Bible\\backups\\CH02-post-chapter-audit-20261018-222009\\.codex\\skills\\ai-video-bible-chapter-pipeline\\templates\\acceptance-report.md",
+    "Hash": "9D5553DCC1831842B195F0B054EFA70467A0257E67303503409468FEEED46749"
+  },
+  {
+    "Path": "D:\\我的雲端硬碟\\google drive\\000000000backup\\00000黑熊講師\\00000著作\\AI_Video_Bible\\backups\\CH02-post-chapter-audit-20261018-222009\\reports\\CH02-V4-ACCEPTANCE-20261018.md",
+    "Hash": "E2CD493797CA0F89CD611716419C9354A93E1EAA46CCF214D951F8E8B9BDD64B"
+  },
+  {
+    "Path": "D:\\我的雲端硬碟\\google drive\\000000000backup\\00000黑熊講師\\00000著作\\AI_Video_Bible\\backups\\CH02-post-chapter-audit-20261018-222009\\scripts\\chapter_pipeline.py",
+    "Hash": "04C5DCDE07762558A6634F67B4C86F3C97E3F8ED568028957766E64C44A29BDA"
+  },
+  {
+    "Path": "D:\\我的雲端硬碟\\google drive\\000000000backup\\00000黑熊講師\\00000著作\\AI_Video_Bible\\backups\\CH02-post-chapter-audit-20261018-222009\\tests\\test_chapter_pipeline.py",
+    "Hash": "42AECC07ACAEA3779AD1CF7A19E1339E1488080B76F8A02407683E344EE1DC23"
+  }
+]

@@ -1,0 +1,16 @@
+figure_id: CHXX-FIG-001
+chapter_id: CHXX
+section_id: CHXX-S01
+placement_after: CHXX-P001
+kind: cinematic-still # cinematic-still | technical-vector | workflow
+teaching_goal: ""
+asset_original: assets/chapters/CHXX/figures/originals/CHXX-FIG-001.png
+asset_approved: null
+overlay_zh: null
+overlay_en: null
+captions: {zh-TW: "", en-US: ""}
+alt: {zh-TW: "", en-US: ""}
+generation: {tool: "", version: null, date: null, prompt_file: null}
+rights_review: pending
+technical_review: pending
+editorial_review: pending

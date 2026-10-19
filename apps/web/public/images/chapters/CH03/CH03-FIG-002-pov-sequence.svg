@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Look, view, reaction sequence</title><desc id="desc">Three original schematic frames show a character looking right, a view of a smoking lamp, and the character reacting.</desc>
+  <rect width="1200" height="520" fill="#f4f0e8"/>
+  <g font-family="sans-serif" text-anchor="middle" fill="#202a35" font-size="27" font-weight="700"><text x="200" y="52">1 LOOK / 視線</text><text x="600" y="52">2 VIEW / 所見</text><text x="1000" y="52">3 REACTION / 反應</text></g>
+  <g fill="#fff" stroke="#34495e" stroke-width="5"><rect x="35" y="80" width="330" height="330"/><rect x="435" y="80" width="330" height="330"/><rect x="835" y="80" width="330" height="330"/></g>
+  <g fill="#b65d43" stroke="#542f2a" stroke-width="4"><circle cx="150" cy="200" r="38"/><path d="M105 244Q150 220 195 244L210 370H90Z"/></g>
+  <path d="M198 190L330 160M198 205L330 205M198 220L330 250" stroke="#396d83" stroke-width="5" stroke-dasharray="10 10"/><path d="M315 148L337 160L316 174" fill="none" stroke="#396d83" stroke-width="5"/>
+  <g stroke="#34495e" stroke-width="7" fill="none"><path d="M500 330H700M530 330V355M670 330V355"/><path d="M565 320V255H635V320Z"/></g>
+  <path d="M600 255C560 220 635 210 600 175C570 147 625 130 612 112" stroke="#718b8d" stroke-width="6" fill="none" stroke-dasharray="8 8"/>
+  <g fill="#b65d43" stroke="#542f2a" stroke-width="4"><circle cx="1000" cy="200" r="38"/><path d="M955 244Q1000 220 1045 244L1060 370H940Z"/></g>
+  <path d="M976 195Q1000 210 1024 195" stroke="#202a35" stroke-width="5" fill="none"/><circle cx="986" cy="185" r="5"/><circle cx="1014" cy="185" r="5"/>
+  <g font-family="sans-serif" text-anchor="middle" fill="#34495e" font-size="21"><text x="200" y="450">眼線提供方向線索</text><text x="600" y="450">畫面是否屬於角色所見，須靠剪接脈絡</text><text x="1000" y="450">反應可對齊角色，不等於唯一心理解釋</text></g>
+</svg>

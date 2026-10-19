@@ -1,0 +1,408 @@
+- id: R001
+  type: book
+  title: 'Film Art: An Introduction'
+  authors:
+  - David Bordwell
+  - Kristin Thompson
+  - Jeff Smith
+  publisher: McGraw Hill
+  edition: 13th edition
+  publication_date: 2026 release (publisher listing)
+  version: null
+  doi: null
+  url: https://www.mheducation.com/highered/product/Film-Art-An-Introduction-Bordwell.html
+  accessed: '2026-10-18'
+  locator: null
+  language: en
+  status: verified-bibliography-locator-pending
+  notes: Publisher page identifies authors, 13th edition and 2026 current release. No specific page has yet been
+    checked for this chapter.
+- id: R002
+  type: official-documentation
+  title: Prompting Guide
+  authors:
+  - Runway Academy
+  publisher: Runway
+  edition: null
+  publication_date: null
+  version: Page describes Gen-4.5 as of access date
+  doi: null
+  url: https://academy.runwayml.com/guides/prompting-guide
+  accessed: '2026-10-18'
+  locator: Image to Video; best practices
+  language: en
+  status: verified-current-page
+  notes: Official guidance; product/model details are time-sensitive and must be rechecked before release.
+- id: R003
+  type: official-documentation
+  title: Image to Video Prompting Guide
+  authors:
+  - Runway Help Center
+  publisher: Runway
+  edition: null
+  publication_date: null
+  version: Guide says optimized for Gen-4.5 at access date
+  doi: null
+  url: https://help.runwayml.com/hc/en-us/articles/48324313115155-Image-to-Video-Prompting-Guide
+  accessed: '2026-10-18'
+  locator: Introduction; core prompt elements
+  language: en
+  status: verified-current-page
+  notes: Official guidance; model-specific claims must be checked against current version before release.
+- id: R004
+  type: official-documentation
+  title: 'Video transitions: Learn types of transitions in film'
+  authors:
+  - Adobe
+  publisher: Adobe
+  edition: null
+  publication_date: null
+  version: null
+  doi: null
+  url: https://www.adobe.com/creativecloud/video/post-production/transitions.html
+  accessed: '2026-10-18'
+  locator: J cuts and L cuts using sound transitions
+  language: en
+  status: verified-current-page
+  notes: Official editing explanation.
+- id: R005
+  type: journal-article
+  title: Does the Kuleshov Effect Really Exist? Revisiting a Classic Film Experiment on Facial Expressions and Emotional
+    Contexts
+  authors:
+  - Daniel Barratt
+  - Anna Cabak Rédei
+  - Åse Innes-Ker
+  - Joost van de Weijer
+  publisher: Perception (SAGE Journals)
+  edition: null
+  publication_date: '2016'
+  version: null
+  doi: 10.1177/0301006616638595
+  url: https://journals.sagepub.com/doi/10.1177/0301006616638595
+  accessed: '2026-10-18'
+  locator: null
+  language: en
+  status: verified-bibliography-abstract-reviewed
+  notes: Research article reassessing the classic experiment; consult full paper and report limits precisely before
+    final claims.
+- id: R006
+  type: official-documentation
+  title: Gen-4 Video Prompting Guide
+  authors:
+  - Runway Help Center
+  publisher: Runway
+  edition: null
+  publication_date: null
+  version: Gen-4-specific guide; access-date snapshot
+  doi: null
+  url: https://help.runwayml.com/hc/en-us/articles/39789879462419-Gen-4-Video-Prompting-Guide
+  accessed: '2026-10-18'
+  locator: Prompting basics and iteration guidance
+  language: en
+  status: verified-current-page
+  notes: Official product guidance for a named model generation; not assumed to apply to other models.
+- id: R007
+  type: official-product-education
+  title: 'AI camera prompts: How to control camera movement, angles and shots in AI video'
+  authors:
+  - Leah Retta
+  publisher: Runway Resources
+  edition: null
+  publication_date: '2026-08-21'
+  version: Page as accessed 2026-10-18
+  doi: null
+  url: https://runway.com/resources/ai-camera-prompts
+  accessed: '2026-10-18'
+  locator: Camera prompt formula; camera movement and framing examples
+  language: en
+  status: verified-current-page
+  notes: Vendor education; its reliability claims are not independent comparative tests.
+- id: R008
+  type: official-product-education
+  title: 'AI camera control: 5 methods and how to choose one'
+  authors:
+  - Leah Retta
+  publisher: Runway Resources
+  edition: null
+  publication_date: '2026-10-12'
+  version: Page as accessed 2026-10-18
+  doi: null
+  url: https://runway.com/resources/ai-camera-control
+  accessed: '2026-10-18'
+  locator: Camera control methods and model/tool support discussion
+  language: en
+  status: verified-current-page
+  notes: Vendor education; model availability and product features are time-sensitive.
+- id: R009
+  type: book
+  title: 'The Visual Story: Creating the Visual Structure of Film, TV, and Digital Media'
+  authors:
+  - Bruce Block
+  publisher: Routledge
+  edition: null
+  publication_date: null
+  version: null
+  doi: null
+  url: https://www.routledge.com/The-Visual-Story-Creating-the-Visual-Structure-of-Film-TV-and-Digital-Media/Block/p/book/9781138014152
+  accessed: '2026-10-18'
+  locator: null
+  language: en
+  status: bibliographic-lead-locator-pending
+  notes: Publisher book record and ISBN 9781138014152 identified; edition and chapter-specific page locators require
+    inspection of the adopted copy.
+- id: R010
+  type: book
+  title: 'The Five C’s of Cinematography: Motion Picture Filming Techniques'
+  authors:
+  - Joseph V. Mascelli
+  publisher: Silman-James Press
+  edition: null
+  publication_date: null
+  version: null
+  doi: null
+  url: https://www.silmanjamespress.com/shop/filmmaking-directing/the-five-cs-of-cinematography/
+  accessed: '2026-10-18'
+  locator: null
+  language: en
+  status: verified-bibliography-locator-pending
+  notes: Publisher page confirms author, title, ISBN 9781879505414, 252 pages and subject coverage; adopted edition
+    and page locators need confirmation.
+- id: R011
+  type: book
+  title: 'Cinematography: Theory and Practice: Image Making for Cinematographers and Directors'
+  authors:
+  - Blain Brown
+  publisher: Routledge
+  edition: null
+  publication_date: null
+  version: null
+  doi: null
+  url: https://www.routledge.com/Cinematography-Theory-and-Practice-Image-Making-for-Cinematographers-and-Directors/Brown/p/book/9780367373450
+  accessed: '2026-10-18'
+  locator: null
+  language: en
+  status: bibliographic-lead-locator-pending
+  notes: Publisher book record and ISBN 9780367373450 identified; edition and chapter-specific page locators require
+    inspection of the adopted copy.
+- id: R012
+  type: institutional-glossary
+  title: Camera Movement
+  authors:
+  - Columbia University Center for New Media Teaching and Learning
+  publisher: Columbia Film Language Glossary
+  edition: null
+  publication_date: null
+  version: Page as accessed 2026-10-18
+  doi: null
+  url: https://filmglossary.ccnmtl.columbia.edu/term/camera-movement/
+  accessed: '2026-10-18'
+  locator: Early Development; Rise of Narrative; Transition to Sound; Post-War Period; Today
+  language: en
+  status: verified-current-page-history-summary-needs-corroboration
+  notes: Educational glossary; it explicitly cautions that the first instance of camera movement cannot be identified
+    with certainty. Corroborate its historical summary with specialist film history before publication.
+- id: R013
+  type: institutional-film-record
+  title: Citizen Kane (1941)
+  authors:
+  - British Film Institute
+  publisher: British Film Institute
+  edition: null
+  publication_date: null
+  version: Web page accessed 2026-10-18
+  doi: null
+  url: https://www.bfi.org.uk/film/f4c92833-af39-5cd6-a41e-8df5933d0dc1/citizen-kane
+  accessed: '2026-10-18'
+  locator: null
+  language: en
+  status: verified-current-page
+  notes: Film metadata; deep focus, camera angles, non-chronological narration, overlapping dialogue, and Gregg
+    Toland collaboration.
+- id: R014
+  type: institutional-film-analysis
+  title: Where to Begin with Akira Kurosawa
+  authors:
+  - British Film Institute
+  publisher: British Film Institute
+  edition: null
+  publication_date: null
+  version: Web page accessed 2026-10-18
+  doi: null
+  url: https://www.bfi.org.uk/features/where-begin-with-akira-kurosawa
+  accessed: '2026-10-18'
+  locator: null
+  language: en
+  status: verified-current-page
+  notes: Rashomon section; differing testimonies and viewpoints. Article author/date and shot locator remain to
+    be checked.
+- id: R015
+  type: institutional-film-record
+  title: A City of Sadness (1989)
+  authors:
+  - British Film Institute
+  publisher: British Film Institute
+  edition: null
+  publication_date: null
+  version: Web page accessed 2026-10-18
+  doi: null
+  url: https://www.bfi.org.uk/film/989a6349-4d1c-54da-8ea1-0abd2a558d8a/a-city-of-sadness
+  accessed: '2026-10-18'
+  locator: null
+  language: en
+  status: verified-current-page
+  notes: Film year, director, and historical setting.
+- id: R016
+  type: film-criticism
+  title: 'Flowers of Shanghai: Inside the Dream'
+  authors:
+  - Criterion Collection
+  publisher: Criterion Collection
+  edition: null
+  publication_date: null
+  version: Web page accessed 2026-10-18
+  doi: null
+  url: https://www.criterion.com/current/posts/7395-flowers-of-shanghai-inside-the-dream
+  accessed: '2026-10-18'
+  locator: null
+  language: en
+  status: reviewed-secondary
+  notes: Secondary analysis of a specific A City of Sadness restaurant scene, offscreen singing, window, and historical
+    context.
+- id: R017
+  type: film-criticism
+  title: A City of Sadness
+  authors:
+  - The New Yorker
+  publisher: The New Yorker
+  edition: null
+  publication_date: null
+  version: Web page accessed 2026-10-18
+  doi: null
+  url: https://www.newyorker.com/goings-on-about-town/movies/city-sadness
+  accessed: '2026-10-18'
+  locator: null
+  language: en
+  status: reviewed-secondary
+  notes: Secondary discussion of long takes and doorway framing; exact viewed edition/timecode pending.
+- id: R018
+  type: institutional-film-record
+  title: In the Mood for Love (2000)
+  authors:
+  - Criterion Collection
+  publisher: Criterion Collection
+  edition: null
+  publication_date: null
+  version: Web page accessed 2026-10-18
+  doi: null
+  url: https://www.criterion.com/films/198-in-the-mood-for-love
+  accessed: '2026-10-18'
+  locator: null
+  language: en
+  status: verified-current-page
+  notes: Film metadata; visual style, soundtrack, linked critical essays; scene locator pending.
+- id: R019
+  type: film-criticism
+  title: 'Yi Yi: Time and Space'
+  authors:
+  - Kent Jones
+  publisher: Kent Jones
+  edition: null
+  publication_date: '2011-03-15'
+  version: Web page accessed 2026-10-18
+  doi: null
+  url: https://www.criterion.com/current/posts/429-yi-yi-time-and-space
+  accessed: '2026-10-18'
+  locator: null
+  language: en
+  status: reviewed-secondary
+  notes: Secondary interpretation of foreground/background overlap, reflected cityscape, and urban space.
+- id: R020
+  type: film-criticism
+  title: 20 Inspired Visual Moments in Citizen Kane
+  authors:
+  - Leigh Singer
+  publisher: British Film Institute
+  edition: null
+  publication_date: '2016-04-29'
+  version: BFI feature as accessed 2026-10-18
+  doi: null
+  url: https://www.bfi.org.uk/features/20-inspired-visual-moments-citizen-kane
+  accessed: '2026-10-18'
+  locator: Deep-focus shot; Gregg Toland shared credit
+  language: en
+  status: reviewed-secondary
+  notes: Supports BFI’s discussion of a specific deep-focus shot and Toland’s collaboration credit; verify the exact
+    edition and shot before adding a timecode.
+- id: R021
+  type: film-criticism
+  title: Notes on In the Mood for Love
+  authors:
+  - Charles Yu
+  publisher: Criterion Collection
+  edition: null
+  publication_date: '2022-11-01'
+  version: Criterion Current essay as accessed 2026-10-18
+  doi: null
+  url: https://www.criterion.com/current/posts/7976-notes-on-in-the-mood-for-love
+  accessed: '2026-10-18'
+  locator: Color, silence, symmetry, recurring music, and time
+  language: en
+  status: reviewed-secondary
+  notes: Critical reading; do not present the essay as production documentation or a universal theory.
+- id: R022
+  type: open-textbook
+  title: Introduction to Film & TV
+  authors:
+  - Graig Uhlin
+  publisher: Oklahoma State University Libraries
+  edition: null
+  publication_date: '2024-09-05'
+  version: 2024 open textbook
+  doi: 10.22488/okstate.23.000010
+  url: https://open.library.okstate.edu/introfilmtv/
+  accessed: '2026-10-18'
+  locator: null
+  language: en
+  status: verified-bibliography-locator-pending
+  notes: Book record confirms author, 2024 date, and CC BY 4.0; chapter-level locator must be confirmed before citing
+    specific definitions.
+- id: R023
+  type: archive-essay
+  title: The Evidence of the Film
+  authors:
+  - Ned Thanhouser
+  publisher: Library of Congress, National Film Preservation Board
+  edition: null
+  publication_date: null
+  version: PDF essay accessed 2026-10-18
+  doi: null
+  url: https://lcweb2.loc.gov/static/programs/national-film-preservation-board/documents/evidence.pdf
+  accessed: '2026-10-18'
+  locator: 'page 1: transitional era in US cinema ca. 1907–1913; shot and editing discussion'
+  language: en
+  status: verified-current-page
+  notes: Source explicitly limits its historical discussion to US cinema; do not generalize it to global cinema.
+- id: R024
+  type: journal-article
+  title: 'Reexamining the Kuleshov effect: Behavioral and neural evidence from authentic film experiments'
+  authors:
+  - Zhengcao Cao
+  - Yashu Wang
+  - Liangyu Wu
+  - Yapei Xie
+  - Zhichen Shi
+  - Yiren Zhong
+  - Yiwen Wang
+  publisher: PLOS ONE
+  edition: null
+  publication_date: '2024-08-05'
+  version: PLOS ONE 19(8), e0308295
+  doi: 10.1371/journal.pone.0308295
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0308295
+  accessed: '2026-10-18'
+  locator: Abstract and methods; 59 participants in Experiment 1, 31 in Experiment 2
+  language: en
+  status: verified-current-page-abstract-reviewed
+  notes: The reported experiment supports a context effect under its study design; assess methods, sample, and limits
+    before broader conclusions.

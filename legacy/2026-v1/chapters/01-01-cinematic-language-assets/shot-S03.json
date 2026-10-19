@@ -1,0 +1,46 @@
+{
+  "project_id": "window-first-light",
+  "scene_id": "SC01",
+  "shot_id": "S03",
+  "narrative_purpose": "呈現引發科學好奇心的光影",
+  "duration_seconds": 7,
+  "shot_type": "close_up",
+  "camera": {
+    "framing": "glass and refracted light",
+    "angle": "eye level with desktop",
+    "movement": "slow_dolly_in",
+    "lens_look": "moderate telephoto, shallow depth"
+  },
+  "subject": {
+    "main_object": "transparent glass of water",
+    "action": "stationary"
+  },
+  "lighting": {
+    "source": "morning sunlight from classroom window",
+    "direction": "side backlight",
+    "quality": "soft natural light"
+  },
+  "continuity": {
+    "scene_reference": "SC01",
+    "prop_reference": "glass_ref_01",
+    "lighting_reference": "morning_light_01"
+  },
+  "audio": {
+    "dialogue": null,
+    "ambience": "quiet classroom",
+    "music_cue": "first_soft_piano_note"
+  },
+  "generation": {
+    "mode": "image_to_video",
+    "reference_image": null,
+    "status": "planned",
+    "selected_take": null,
+    "reference_image_status": "not-provided-in-source-pack"
+  },
+  "quality_checks": [
+    "stable_glass_geometry",
+    "plausible_light_behavior",
+    "smooth_camera_motion",
+    "match_neighboring_shots"
+  ]
+}

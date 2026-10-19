@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-10-19T22:57:15.670124+08:00",
+  "purpose": "Before CH02 safe staging integration",
+  "files": [
+    {
+      "path": "content/zh-TW/chapters/CH02-camera-language.md",
+      "backup_path": "files/content/zh-TW/chapters/CH02-camera-language.md",
+      "bytes": 1192,
+      "sha256": "5466d04997977707aed56fc5ee20d01800bf091053ebd2b75ba3cf3e598613f3"
+    },
+    {
+      "path": "content/en-US/chapters/CH02-camera-language.md",
+      "backup_path": "files/content/en-US/chapters/CH02-camera-language.md",
+      "bytes": 1140,
+      "sha256": "d8d725590bfb23439d2d65a9472c6b26f5cb253fd885c7d2c9a15389646325da"
+    },
+    {
+      "path": "metadata/chapters.yaml",
+      "backup_path": "files/metadata/chapters.yaml",
+      "bytes": 15436,
+      "sha256": "f2aaa590898c6df971f7d829fc4c9902fff353f779c9a3e050a6980693c317f0"
+    },
+    {
+      "path": "metadata/translation-status.yaml",
+      "backup_path": "files/metadata/translation-status.yaml",
+      "bytes": 5379,
+      "sha256": "bef9052021a9e329f496986e438869ea2134a70ad12390b526d5db0ba2745d3c"
+    },
+    {
+      "path": "metadata/terminology.yaml",
+      "backup_path": "files/metadata/terminology.yaml",
+      "bytes": 14986,
+      "sha256": "1a93859ac6cc2213831c5f8eb403e59fd463cf19a7dd07c3819647ffa6016ad1"
+    },
+    {
+      "path": "metadata/references.bib",
+      "backup_path": "files/metadata/references.bib",
+      "bytes": 9265,
+      "sha256": "6368d962c5c2397375048f95e122cd0cf7f17707a8fde5aded4560b05e632854"
+    },
+    {
+      "path": "metadata/figure-registry.yaml",
+      "backup_path": "files/metadata/figure-registry.yaml",
+      "bytes": 10851,
+      "sha256": "3a56f8f8a09efdb8aae5993e1adfe9566af168ee6fdda2c68142bf6ba3b29105"
+    },
+    {
+      "path": "assets/chapters/CH02/figure-manifest.yaml",
+      "backup_path": "files/assets/chapters/CH02/figure-manifest.yaml",
+      "bytes": 31,
+      "sha256": "bdf27fbe2861f98e17de668fd1136443b2123b112746064024cb5ac044182d6a"
+    },
+    {
+      "path": "history.md",
+      "backup_path": "files/history.md",
+      "bytes": 79317,
+      "sha256": "3fd5065afaf6adbc9847fd58b1a4e406798ac80f8990f7aad864d1f6fbe4c725"
+    },
+    {
+      "path": "apps/web/src/content/docs/zh-tw/CH02-camera-language.md",
+      "backup_path": "files/apps/web/src/content/docs/zh-tw/CH02-camera-language.md",
+      "bytes": 1268,
+      "sha256": "893916f2e855cb016af7343fd1c32fc557d55270cedee8cf7239eb06d51e73e3"
+    },
+    {
+      "path": "apps/web/src/content/docs/en/CH02-camera-language.md",
+      "backup_path": "files/apps/web/src/content/docs/en/CH02-camera-language.md",
+      "bytes": 1216,
+      "sha256": "3614b137989136f1a50ca1cea6f187f2ad39d8e652c027d8af3bdad6b3b55f3a"
+    }
+  ]
+}

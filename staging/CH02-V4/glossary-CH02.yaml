@@ -1,0 +1,404 @@
+schema_version: 1
+chapter_id: CH02
+terms:
+- term_id: TERM-CH02-EWS
+  preferred:
+    zh-TW: 極遠景
+    en-US: Extreme Wide Shot (EWS)
+  definitions:
+    zh-TW: 人物相對於環境極小、環境資訊主導的取景尺度。
+    en-US: A framing scale in which the subject is very small relative to the environment.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-WS
+  preferred:
+    zh-TW: 遠景
+    en-US: Wide Shot (WS)
+  definitions:
+    zh-TW: 呈現人物全身或大部分身體及周遭空間的取景。
+    en-US: A framing that shows a person’s full or most of their body with surrounding
+      space.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-FS
+  preferred:
+    zh-TW: 全身景
+    en-US: Full Shot (FS)
+  definitions:
+    zh-TW: 通常讓人物頭至腳完整入畫；實際邊界依場景與慣例而異。
+    en-US: A framing that generally includes the full body, with conventions varying
+      by context.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-MLS
+  preferred:
+    zh-TW: 中遠景
+    en-US: Medium Long Shot (MLS)
+  definitions:
+    zh-TW: 人物約膝上或相近範圍的取景；非跨製作通用的硬邊界。
+    en-US: A framing often around the knees upward; boundaries are not universal.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-MS
+  preferred:
+    zh-TW: 中景
+    en-US: Medium Shot (MS)
+  definitions:
+    zh-TW: 通常約腰部以上，兼顧表情、手勢與部分環境。
+    en-US: Often frames roughly from the waist up, balancing expression, gesture and
+      context.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-MCU
+  preferred:
+    zh-TW: 中近景
+    en-US: Medium Close-Up (MCU)
+  definitions:
+    zh-TW: 多以胸部以上呈現人物表情與有限環境。
+    en-US: Often frames a person from the chest up with limited context.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-CU
+  preferred:
+    zh-TW: 特寫
+    en-US: Close-Up (CU)
+  definitions:
+    zh-TW: 使臉部或重要物件成為畫面主要資訊。
+    en-US: A framing that makes a face or important object the primary visual information.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-ECU
+  preferred:
+    zh-TW: 大特寫
+    en-US: Extreme Close-Up (ECU)
+  definitions:
+    zh-TW: 只呈現臉或物件很小的局部細節。
+    en-US: Shows only a very small detail of a face or object.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-OTS
+  preferred:
+    zh-TW: 越肩鏡頭
+    en-US: Over-the-Shoulder (OTS)
+  definitions:
+    zh-TW: 以前景人物肩部或頭部作框景，觀看另一人物或空間。
+    en-US: Frames another person or space past a foreground shoulder or head.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-POV
+  preferred:
+    zh-TW: 主觀視角
+    en-US: Point of View (POV)
+  definitions:
+    zh-TW: 將畫面組織為角色所見或感知的視點；需由上下文建立。
+    en-US: Organizes the image as a character’s view or perception, established by
+      context.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-DOLLY
+  preferred:
+    zh-TW: 攝影機前後移動
+    en-US: Dolly Movement
+  definitions:
+    zh-TW: 攝影機機位在空間中前進或後退。
+    en-US: Physical camera translation forward or backward through space.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-ZOOM
+  preferred:
+    zh-TW: 變焦
+    en-US: Zoom
+  definitions:
+    zh-TW: 透過改變焦距改變視角與畫面尺度；攝影機機位可維持不動。
+    en-US: Changes focal length and angle of view, potentially from a fixed camera
+      position.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-PAN
+  preferred:
+    zh-TW: 水平搖攝
+    en-US: Pan
+  definitions:
+    zh-TW: 攝影機繞固定或近似固定支點水平轉動。
+    en-US: Horizontal rotation of the camera around a fixed or near-fixed position.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-TILT
+  preferred:
+    zh-TW: 垂直搖攝
+    en-US: Tilt
+  definitions:
+    zh-TW: 攝影機繞固定或近似固定支點垂直轉動。
+    en-US: Vertical rotation of the camera around a fixed or near-fixed position.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-TRUCK
+  preferred:
+    zh-TW: 橫向平移
+    en-US: Truck Movement
+  definitions:
+    zh-TW: 攝影機機位向側方平移，與原地 Pan 不同。
+    en-US: Camera translation sideways, distinct from a pan in place.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-PEDESTAL
+  preferred:
+    zh-TW: 上下平移
+    en-US: Pedestal
+  definitions:
+    zh-TW: 攝影機整體垂直升降，不等同 Tilt。
+    en-US: Vertical translation of the whole camera, distinct from a tilt.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-ORBIT
+  preferred:
+    zh-TW: 環繞運鏡
+    en-US: Orbit
+  definitions:
+    zh-TW: 攝影機沿主體周圍弧線改變機位。
+    en-US: Camera position moves along an arc around a subject.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-RACK-FOCUS
+  preferred:
+    zh-TW: 轉焦
+    en-US: Rack Focus
+  definitions:
+    zh-TW: 在同一鏡頭中把清晰焦點由一距離平面移向另一平面。
+    en-US: Shifts the plane of sharp focus from one distance to another within a shot.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-DEPTH-OF-FIELD
+  preferred:
+    zh-TW: 景深
+    en-US: Depth of Field (DoF)
+  definitions:
+    zh-TW: 在指定觀看條件下看似可接受清晰的物距範圍。
+    en-US: The range of object distances that appear acceptably sharp under specified
+      viewing conditions.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-CONTINUITY
+  preferred:
+    zh-TW: 連續性
+    en-US: Continuity
+  definitions:
+    zh-TW: 維持跨鏡頭時間、空間、動作、視線與道具關係可理解的剪輯一致性。
+    en-US: Editorial consistency that keeps temporal, spatial, action, eyeline and
+      prop relations understandable.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-180-DEGREE-RULE
+  preferred:
+    zh-TW: 180 度軸線規則
+    en-US: 180-Degree Rule
+  definitions:
+    zh-TW: 常見連戲慣例：攝影機保持在動作軸線同側以維持螢幕方向；可有意跨越但須重新定位觀眾。
+    en-US: A continuity convention that keeps cameras on one side of an action axis
+      to preserve screen direction; intentional crossings require reorientation.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-LEAD-ROOM
+  preferred:
+    zh-TW: 前方留白／視線留白
+    en-US: Lead Room
+  definitions:
+    zh-TW: 人物注視或移動方向前方保留的畫面空間。
+    en-US: Space left in front of a person in the direction of gaze or movement.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-HEADROOM
+  preferred:
+    zh-TW: 頭頂留白
+    en-US: Headroom
+  definitions:
+    zh-TW: 人物頭頂與畫框上緣之間的空間。
+    en-US: Space between the top of a person’s head and the upper frame edge.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-NEGATIVE-SPACE
+  preferred:
+    zh-TW: 負空間
+    en-US: Negative Space
+  definitions:
+    zh-TW: 主體周圍未被主要物件佔據、但具構圖功能的區域。
+    en-US: Areas around the subject not occupied by primary objects but functioning
+      compositionally.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-FOCAL-LENGTH
+  preferred:
+    zh-TW: 焦距
+    en-US: Focal Length
+  definitions:
+    zh-TW: 鏡頭光學系統的焦距，與感光面尺寸共同關聯視角。
+    en-US: A lens-system parameter that, together with sensor size, relates to angle
+      of view.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+- term_id: TERM-CH02-PERSPECTIVE
+  preferred:
+    zh-TW: 透視
+    en-US: Perspective
+  definitions:
+    zh-TW: 畫面中空間深度和物體相對大小／位置的投影關係，受攝影機位置影響。
+    en-US: Projected spatial depth and relative size/position relations, affected
+      by camera position.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011

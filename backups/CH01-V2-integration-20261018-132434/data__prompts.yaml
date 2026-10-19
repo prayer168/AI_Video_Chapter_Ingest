@@ -1,0 +1,98 @@
+- id: PROMPT-CH01-S03-I2V
+  chapter_id: 01-01
+  path: chapters/01-01-cinematic-language-assets/S03-image-to-video.txt
+  purpose: Image-to-video motion prompt example for shot S03
+  modality: image-to-video
+  tool: null
+  model_version: null
+  status: illustrative-not-tested
+  input_assets: []
+  parameters:
+    duration_target_seconds: 7
+    aspect_ratio: '16:9'
+  verification: No generated output or tool-specific execution is included in the
+    source pack.
+  updated: '2026-10-18'
+
+- id: PROMPT-CH02-P01
+  chapter_id: 01-02
+  path: chapters/01-02-camera-language-assets/prompts/P01-establishing-t2v.txt
+  purpose: "建立場景的極遠景示範提示詞"
+  modality: text-to-video
+  tool: null
+  model_version: null
+  status: illustrative-not-tested
+  input_assets: []
+  parameters: null
+  verification: "保留自來源素材包的示範文字；沒有生成輸出或實測紀錄，不代表任何工具功能已驗證。"
+  updated: '2026-10-18'
+
+
+- id: PROMPT-CH02-P02
+  chapter_id: 01-02
+  path: chapters/01-02-camera-language-assets/prompts/P02-tracking-i2v.txt
+  purpose: "人物行走的橫向跟拍示範提示詞"
+  modality: image-to-video
+  tool: null
+  model_version: null
+  status: illustrative-not-tested
+  input_assets: []
+  parameters: null
+  verification: "保留自來源素材包的示範文字；沒有生成輸出或實測紀錄，不代表任何工具功能已驗證。"
+  updated: '2026-10-18'
+
+
+- id: PROMPT-CH02-P03
+  chapter_id: 01-02
+  path: chapters/01-02-camera-language-assets/prompts/P03-dolly-i2v.txt
+  purpose: "固定主體附近緩慢推進的示範提示詞"
+  modality: image-to-video
+  tool: null
+  model_version: null
+  status: illustrative-not-tested
+  input_assets: []
+  parameters: null
+  verification: "保留自來源素材包的示範文字；沒有生成輸出或實測紀錄，不代表任何工具功能已驗證。"
+  updated: '2026-10-18'
+
+
+- id: PROMPT-CH02-P04
+  chapter_id: 01-02
+  path: chapters/01-02-camera-language-assets/prompts/P04-static-i2v.txt
+  purpose: "鎖定攝影機的示範提示詞"
+  modality: image-to-video
+  tool: null
+  model_version: null
+  status: illustrative-not-tested
+  input_assets: []
+  parameters: null
+  verification: "保留自來源素材包的示範文字；沒有生成輸出或實測紀錄，不代表任何工具功能已驗證。"
+  updated: '2026-10-18'
+
+
+- id: PROMPT-CH02-P05
+  chapter_id: 01-02
+  path: chapters/01-02-camera-language-assets/prompts/P05-reaction-i2v.txt
+  purpose: "人物反應近景示範提示詞"
+  modality: image-to-video
+  tool: null
+  model_version: null
+  status: illustrative-not-tested
+  input_assets: []
+  parameters: null
+  verification: "保留自來源素材包的示範文字；沒有生成輸出或實測紀錄，不代表任何工具功能已驗證。"
+  updated: '2026-10-18'
+
+
+- id: PROMPT-CH02-P06
+  chapter_id: 01-02
+  path: chapters/01-02-camera-language-assets/prompts/P06-continuity-review.txt
+  purpose: "跨鏡人物、道具、光線與構圖的審片指令"
+  modality: visual-review
+  tool: null
+  model_version: null
+  status: illustrative-not-tested
+  input_assets: []
+  parameters: null
+  verification: "保留自來源素材包的示範文字；沒有生成輸出或實測紀錄，不代表任何工具功能已驗證。"
+  updated: '2026-10-18'

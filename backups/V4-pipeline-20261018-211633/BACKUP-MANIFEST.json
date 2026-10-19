@@ -1,0 +1,14 @@
+[
+  {
+    "path": "reports/CH01-FINAL-ACCEPTANCE.md",
+    "backup_path": "backups/V4-pipeline-20261018-211633/reports/CH01-FINAL-ACCEPTANCE.md",
+    "sha256": "2e230dd2d9fbfb7c366afb34958b64fb07b94eb7cef29d9bf25813e9e7b614ca",
+    "bytes": 15433
+  },
+  {
+    "path": "history.md",
+    "backup_path": "backups/V4-pipeline-20261018-211633/history.md",
+    "sha256": "a9a60b6bb7dce1cf87264faf89341f53129587d11527a0af2cd0225cf88f5b43",
+    "bytes": 60440
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "path": "content/zh-TW/chapters/CH02-camera-language.md",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\content\\zh-TW\\chapters\\CH02-camera-language.md",
+    "sha256": "5466D04997977707AED56FC5EE20D01800BF091053EBD2B75BA3CF3E598613F3"
+  },
+  {
+    "path": "content/en-US/chapters/CH02-camera-language.md",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\content\\en-US\\chapters\\CH02-camera-language.md",
+    "sha256": "D8D725590BFB23439D2D65A9472C6B26F5CB253FD885C7D2C9A15389646325DA"
+  },
+  {
+    "path": "chapters/01-02-camera-language.md",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\chapters\\01-02-camera-language.md",
+    "sha256": "A669651D795BBA3E02933F1771A1EE5B53855DAEBB11FA2452850C38363138AF"
+  },
+  {
+    "path": "chapters/01-02-camera-language-assets/README.md",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\chapters\\01-02-camera-language-assets\\README.md",
+    "sha256": "B520468485B8A06A8BA46D699F16B80670C73518EDF490EAA36AA2707B948DA5"
+  },
+  {
+    "path": "chapters/01-02-camera-language-assets/CODEX-INSTRUCTIONS.md",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\chapters\\01-02-camera-language-assets\\CODEX-INSTRUCTIONS.md",
+    "sha256": "5DEF2055BFC4EE2CD06BFE0439B530C4030D7A35492B175D14DDDCB5138A003D"
+  },
+  {
+    "path": "chapters/01-02-camera-language-assets/exercises/CH02-assessment.md",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\chapters\\01-02-camera-language-assets\\exercises\\CH02-assessment.md",
+    "sha256": "8BCFFEA37D3CCEEC533FD396773ABA4AED046010215E7D86A05936FB8C73C209"
+  },
+  {
+    "path": "chapters/01-02-camera-language-assets/glossary/CH02-glossary.json",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\chapters\\01-02-camera-language-assets\\glossary\\CH02-glossary.json",
+    "sha256": "63C908B4A7C5FD2574894775611DD0BD6DE19D361915027995A9DD69250EF71D"
+  },
+  {
+    "path": "chapters/01-02-camera-language-assets/references/CH02-references.md",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\chapters\\01-02-camera-language-assets\\references\\CH02-references.md",
+    "sha256": "218F01F3F4B10599773BFD83BCED08A5EED0CE7535DD7C4246A04C35F4D67FD8"
+  },
+  {
+    "path": "chapters/01-02-camera-language-assets/shot-lists/CH02-science-shortfilm.json",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\chapters\\01-02-camera-language-assets\\shot-lists\\CH02-science-shortfilm.json",
+    "sha256": "717DCC9C71438E50EA24A819707986D75CA3BBF69CCD3A881D31CA797A9D295C"
+  },
+  {
+    "path": "chapters/source-packs/AI-Filmmaking-Bible-CH02-Codex.zip",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\chapters\\source-packs\\AI-Filmmaking-Bible-CH02-Codex.zip",
+    "sha256": "D448DEFDE21ABE8802AD87684928EAADE0F7C39101B423159073391457A519A5"
+  },
+  {
+    "path": "metadata/chapters.yaml",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\metadata\\chapters.yaml",
+    "sha256": "F2AAA590898C6DF971F7D829FC4C9902FFF353F779C9A3E050A6980693C317F0"
+  },
+  {
+    "path": "metadata/translation-status.yaml",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\metadata\\translation-status.yaml",
+    "sha256": "BEF9052021A9E329F496986E438869EA2134A70AD12390B526D5DB0BA2745D3C"
+  },
+  {
+    "path": "metadata/terminology.yaml",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\metadata\\terminology.yaml",
+    "sha256": "1A93859AC6CC2213831C5F8EB403E59FD463CF19A7DD07C3819647FFA6016AD1"
+  },
+  {
+    "path": "metadata/references.bib",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\metadata\\references.bib",
+    "sha256": "6368D962C5C2397375048F95E122CD0CF7F17707A8FDE5ADED4560B05E632854"
+  },
+  {
+    "path": "chapters/01-02-camera-language-assets/CODEX-INSTRUCTIONS.md",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\chapters\\01-02-camera-language-assets\\CODEX-INSTRUCTIONS.md",
+    "sha256": "5DEF2055BFC4EE2CD06BFE0439B530C4030D7A35492B175D14DDDCB5138A003D"
+  },
+  {
+    "path": "chapters/01-02-camera-language-assets/README.md",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\chapters\\01-02-camera-language-assets\\README.md",
+    "sha256": "B520468485B8A06A8BA46D699F16B80670C73518EDF490EAA36AA2707B948DA5"
+  },
+  {
+    "path": "chapters/01-02-camera-language-assets/assets/README.md",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\chapters\\01-02-camera-language-assets\\assets\\README.md",
+    "sha256": "D028D662BC42EC9C44F33CAED73AB48C1C54891725F0A6285EB0649F05E38CAE"
+  },
+  {
+    "path": "chapters/01-02-camera-language-assets/exercises/CH02-assessment.md",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\chapters\\01-02-camera-language-assets\\exercises\\CH02-assessment.md",
+    "sha256": "8BCFFEA37D3CCEEC533FD396773ABA4AED046010215E7D86A05936FB8C73C209"
+  },
+  {
+    "path": "chapters/01-02-camera-language-assets/glossary/CH02-glossary.json",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\chapters\\01-02-camera-language-assets\\glossary\\CH02-glossary.json",
+    "sha256": "63C908B4A7C5FD2574894775611DD0BD6DE19D361915027995A9DD69250EF71D"
+  },
+  {
+    "path": "chapters/01-02-camera-language-assets/prompts/P01-establishing-t2v.txt",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\chapters\\01-02-camera-language-assets\\prompts\\P01-establishing-t2v.txt",
+    "sha256": "3326BC3075CA183F1D30A30E97219290532D486812B8C54BF101CA00A6B56C7D"
+  },
+  {
+    "path": "chapters/01-02-camera-language-assets/prompts/P02-tracking-i2v.txt",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\chapters\\01-02-camera-language-assets\\prompts\\P02-tracking-i2v.txt",
+    "sha256": "02FF93C55EB7EC5C20E38BC285B6B42614C1CE94C40D670FFF64DAE80F71C48D"
+  },
+  {
+    "path": "chapters/01-02-camera-language-assets/prompts/P03-dolly-i2v.txt",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\chapters\\01-02-camera-language-assets\\prompts\\P03-dolly-i2v.txt",
+    "sha256": "A9EF5AE3145275321889848F7C11B81E269F02CDC8F43D786B918DA7D8F2B274"
+  },
+  {
+    "path": "chapters/01-02-camera-language-assets/prompts/P04-static-i2v.txt",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\chapters\\01-02-camera-language-assets\\prompts\\P04-static-i2v.txt",
+    "sha256": "F21E80C0B7FCFF6A015D4116408886DEFAA97C420F900D35291C688F7FBDB7E6"
+  },
+  {
+    "path": "chapters/01-02-camera-language-assets/prompts/P05-reaction-i2v.txt",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\chapters\\01-02-camera-language-assets\\prompts\\P05-reaction-i2v.txt",
+    "sha256": "8DB6BE4CDCBEE088D939069D9A0AAF2AA3326F3A93039E4655F3C29AA7513049"
+  },
+  {
+    "path": "chapters/01-02-camera-language-assets/prompts/P06-continuity-review.txt",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\chapters\\01-02-camera-language-assets\\prompts\\P06-continuity-review.txt",
+    "sha256": "619E5290A2041679250D72F54758623D79ED5C047C812D3DBC30DF7D4B7A5BD1"
+  },
+  {
+    "path": "chapters/01-02-camera-language-assets/references/CH02-references.md",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\chapters\\01-02-camera-language-assets\\references\\CH02-references.md",
+    "sha256": "218F01F3F4B10599773BFD83BCED08A5EED0CE7535DD7C4246A04C35F4D67FD8"
+  },
+  {
+    "path": "chapters/01-02-camera-language-assets/shot-lists/CH02-science-shortfilm.json",
+    "backup": "backups\\CH02-pipeline-20261018-215634\\chapters\\01-02-camera-language-assets\\shot-lists\\CH02-science-shortfilm.json",
+    "sha256": "717DCC9C71438E50EA24A819707986D75CA3BBF69CCD3A881D31CA797A9D295C"
+  }
+]

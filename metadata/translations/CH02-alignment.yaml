@@ -1,0 +1,150 @@
+schema_version: 1
+chapter_id: CH02
+status: draft-aligned-needs-human-review
+section_pairs:
+- id: CH02-S00
+  zh-TW: CH02-S00
+  en-US: CH02-S00
+  status: draft-aligned
+- id: CH02-S01
+  zh-TW: CH02-S01
+  en-US: CH02-S01
+  status: draft-aligned
+- id: CH02-S02
+  zh-TW: CH02-S02
+  en-US: CH02-S02
+  status: draft-aligned
+- id: CH02-S03
+  zh-TW: CH02-S03
+  en-US: CH02-S03
+  status: draft-aligned
+- id: CH02-S04
+  zh-TW: CH02-S04
+  en-US: CH02-S04
+  status: draft-aligned
+- id: CH02-S05
+  zh-TW: CH02-S05
+  en-US: CH02-S05
+  status: draft-aligned
+- id: CH02-S06
+  zh-TW: CH02-S06
+  en-US: CH02-S06
+  status: draft-aligned
+- id: CH02-S07
+  zh-TW: CH02-S07
+  en-US: CH02-S07
+  status: draft-aligned
+- id: CH02-S08
+  zh-TW: CH02-S08
+  en-US: CH02-S08
+  status: draft-aligned
+- id: CH02-S09
+  zh-TW: CH02-S09
+  en-US: CH02-S09
+  status: draft-aligned
+- id: CH02-S10
+  zh-TW: CH02-S10
+  en-US: CH02-S10
+  status: draft-aligned
+- id: CH02-S11
+  zh-TW: CH02-S11
+  en-US: CH02-S11
+  status: draft-aligned
+- id: CH02-S12
+  zh-TW: CH02-S12
+  en-US: CH02-S12
+  status: draft-aligned
+term_pairs:
+- term_id: TERM-CH02-EWS
+  status: draft-aligned
+- term_id: TERM-CH02-WS
+  status: draft-aligned
+- term_id: TERM-CH02-FS
+  status: draft-aligned
+- term_id: TERM-CH02-MLS
+  status: draft-aligned
+- term_id: TERM-CH02-MS
+  status: draft-aligned
+- term_id: TERM-CH02-MCU
+  status: draft-aligned
+- term_id: TERM-CH02-CU
+  status: draft-aligned
+- term_id: TERM-CH02-ECU
+  status: draft-aligned
+- term_id: TERM-CH02-OTS
+  status: draft-aligned
+- term_id: TERM-CH02-POV
+  status: draft-aligned
+- term_id: TERM-CH02-DOLLY
+  status: draft-aligned
+- term_id: TERM-CH02-ZOOM
+  status: draft-aligned
+- term_id: TERM-CH02-PAN
+  status: draft-aligned
+- term_id: TERM-CH02-TILT
+  status: draft-aligned
+- term_id: TERM-CH02-TRUCK
+  status: draft-aligned
+- term_id: TERM-CH02-PEDESTAL
+  status: draft-aligned
+- term_id: TERM-CH02-ORBIT
+  status: draft-aligned
+- term_id: TERM-CH02-RACK-FOCUS
+  status: draft-aligned
+- term_id: TERM-CH02-DEPTH-OF-FIELD
+  status: draft-aligned
+- term_id: TERM-CH02-CONTINUITY
+  status: draft-aligned
+- term_id: TERM-CH02-180-DEGREE-RULE
+  status: draft-aligned
+- term_id: TERM-CH02-LEAD-ROOM
+  status: draft-aligned
+- term_id: TERM-CH02-HEADROOM
+  status: draft-aligned
+- term_id: TERM-CH02-NEGATIVE-SPACE
+  status: draft-aligned
+- term_id: TERM-CH02-FOCAL-LENGTH
+  status: draft-aligned
+- term_id: TERM-CH02-PERSPECTIVE
+  status: draft-aligned
+figure_pairs:
+- figure_id: CH02-DIAG-001
+  zh_caption: 示意五種景別中人物相對畫框的尺度。 原創可編輯 SVG 示意圖；非實拍或工具實測。
+  en_caption: Original schematic comparing subject scale across five shot sizes. Original editable SVG schematic;
+    not a filmed example or tool benchmark.
+  zh_alt: 示意五種景別中人物相對畫框的尺度。
+  en_alt: Original schematic comparing subject scale across five shot sizes.
+  status: draft-aligned-needs-human-review
+  canonical_figure_id: CH02-FIG-001
+- figure_id: CH02-DIAG-002
+  zh_caption: 攝影機平移改變視點與視差；變焦改變視角。 原創可編輯 SVG 示意圖；非實拍或工具實測。
+  en_caption: Camera translation changes viewpoint and parallax; zoom changes angle of view. Original editable SVG
+    schematic; not a filmed example or tool benchmark.
+  zh_alt: 攝影機平移改變視點與視差；變焦改變視角。
+  en_alt: Camera translation changes viewpoint and parallax; zoom changes angle of view.
+  status: draft-aligned-needs-human-review
+  canonical_figure_id: CH02-FIG-002
+- figure_id: CH02-DIAG-003
+  zh_caption: Pan 改變方向，Truck 改變攝影機位置。 原創可編輯 SVG 示意圖；非實拍或工具實測。
+  en_caption: Pan changes orientation; truck changes camera position. Original editable SVG schematic; not a filmed
+    example or tool benchmark.
+  zh_alt: Pan 改變方向，Truck 改變攝影機位置。
+  en_alt: Pan changes orientation; truck changes camera position.
+  status: draft-aligned-needs-human-review
+  canonical_figure_id: CH02-FIG-003
+- figure_id: CH02-DIAG-004
+  zh_caption: 以俯視示意對話動作軸及常用攝影機側。 原創可編輯 SVG 示意圖；非實拍或工具實測。
+  en_caption: Top-down schematic of an action axis and conventional camera side. Original editable SVG schematic;
+    not a filmed example or tool benchmark.
+  zh_alt: 以俯視示意對話動作軸及常用攝影機側。
+  en_alt: Top-down schematic of an action axis and conventional camera side.
+  status: draft-aligned-needs-human-review
+  canonical_figure_id: CH02-FIG-004
+- figure_id: CH02-DIAG-005
+  zh_caption: 示意直式裁切範圍及主體安全構圖。 原創可編輯 SVG 示意圖；非實拍或工具實測。
+  en_caption: Schematic portrait crop and subject-safe framing. Original editable SVG schematic; not a filmed example
+    or tool benchmark.
+  zh_alt: 示意直式裁切範圍及主體安全構圖。
+  en_alt: Schematic portrait crop and subject-safe framing.
+  status: draft-aligned-needs-human-review
+  canonical_figure_id: CH02-FIG-005

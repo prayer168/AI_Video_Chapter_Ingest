@@ -1,0 +1,136 @@
+{
+  "chapter": 2,
+  "locale": "zh-TW",
+  "terms": [
+    {
+      "id": "ews",
+      "en": "Extreme Wide Shot",
+      "zh_tw": "極遠景"
+    },
+    {
+      "id": "ws",
+      "en": "Wide Shot",
+      "zh_tw": "遠景"
+    },
+    {
+      "id": "fs",
+      "en": "Full Shot",
+      "zh_tw": "全身景"
+    },
+    {
+      "id": "mls",
+      "en": "Medium Long Shot",
+      "zh_tw": "中遠景"
+    },
+    {
+      "id": "ms",
+      "en": "Medium Shot",
+      "zh_tw": "中景"
+    },
+    {
+      "id": "mcu",
+      "en": "Medium Close-Up",
+      "zh_tw": "中近景"
+    },
+    {
+      "id": "cu",
+      "en": "Close-Up",
+      "zh_tw": "特寫"
+    },
+    {
+      "id": "ecu",
+      "en": "Extreme Close-Up",
+      "zh_tw": "大特寫"
+    },
+    {
+      "id": "ots",
+      "en": "Over-the-Shoulder",
+      "zh_tw": "越肩鏡頭"
+    },
+    {
+      "id": "pov",
+      "en": "Point of View",
+      "zh_tw": "主觀視角"
+    },
+    {
+      "id": "dolly",
+      "en": "Dolly Movement",
+      "zh_tw": "前後移動攝影機"
+    },
+    {
+      "id": "zoom",
+      "en": "Zoom",
+      "zh_tw": "變焦"
+    },
+    {
+      "id": "pan",
+      "en": "Pan",
+      "zh_tw": "水平搖攝"
+    },
+    {
+      "id": "tilt",
+      "en": "Tilt",
+      "zh_tw": "垂直搖攝"
+    },
+    {
+      "id": "truck",
+      "en": "Truck Movement",
+      "zh_tw": "橫向平移"
+    },
+    {
+      "id": "pedestal",
+      "en": "Pedestal",
+      "zh_tw": "上下平移"
+    },
+    {
+      "id": "orbit",
+      "en": "Orbit",
+      "zh_tw": "環繞運鏡"
+    },
+    {
+      "id": "rack-focus",
+      "en": "Rack Focus",
+      "zh_tw": "轉焦"
+    },
+    {
+      "id": "depth-of-field",
+      "en": "Depth of Field",
+      "zh_tw": "景深"
+    },
+    {
+      "id": "continuity",
+      "en": "Continuity",
+      "zh_tw": "連續性"
+    },
+    {
+      "id": "180-degree-rule",
+      "en": "180 Degree Rule",
+      "zh_tw": "180 度軸線規則"
+    },
+    {
+      "id": "lead-room",
+      "en": "Lead Room",
+      "zh_tw": "視線／移動前方留白"
+    },
+    {
+      "id": "headroom",
+      "en": "Headroom",
+      "zh_tw": "頭頂留白"
+    },
+    {
+      "id": "negative-space",
+      "en": "Negative Space",
+      "zh_tw": "負空間"
+    },
+    {
+      "id": "focal-length",
+      "en": "Focal Length",
+      "zh_tw": "焦距"
+    },
+    {
+      "id": "perspective",
+      "en": "Perspective",
+      "zh_tw": "透視"
+    }
+  ]
+}

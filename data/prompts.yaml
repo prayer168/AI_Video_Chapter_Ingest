@@ -13,3 +13,173 @@
   verification: No generated output or tool-specific execution is included in the
     source pack.
   updated: '2026-10-18'
+
+- id: PROMPT-CH02-P01
+  chapter_id: 01-02
+  path: chapters/01-02-camera-language-assets/prompts/P01-establishing-t2v.txt
+  purpose: "建立場景的極遠景示範提示詞"
+  modality: text-to-video
+  tool: null
+  model_version: null
+  status: illustrative-not-tested
+  input_assets: []
+  parameters: null
+  verification: "保留自來源素材包的示範文字；沒有生成輸出或實測紀錄，不代表任何工具功能已驗證。"
+  updated: '2026-10-18'
+
+
+- id: PROMPT-CH02-P02
+  chapter_id: 01-02
+  path: chapters/01-02-camera-language-assets/prompts/P02-tracking-i2v.txt
+  purpose: "人物行走的橫向跟拍示範提示詞"
+  modality: image-to-video
+  tool: null
+  model_version: null
+  status: illustrative-not-tested
+  input_assets: []
+  parameters: null
+  verification: "保留自來源素材包的示範文字；沒有生成輸出或實測紀錄，不代表任何工具功能已驗證。"
+  updated: '2026-10-18'
+
+
+- id: PROMPT-CH02-P03
+  chapter_id: 01-02
+  path: chapters/01-02-camera-language-assets/prompts/P03-dolly-i2v.txt
+  purpose: "固定主體附近緩慢推進的示範提示詞"
+  modality: image-to-video
+  tool: null
+  model_version: null
+  status: illustrative-not-tested
+  input_assets: []
+  parameters: null
+  verification: "保留自來源素材包的示範文字；沒有生成輸出或實測紀錄，不代表任何工具功能已驗證。"
+  updated: '2026-10-18'
+
+
+- id: PROMPT-CH02-P04
+  chapter_id: 01-02
+  path: chapters/01-02-camera-language-assets/prompts/P04-static-i2v.txt
+  purpose: "鎖定攝影機的示範提示詞"
+  modality: image-to-video
+  tool: null
+  model_version: null
+  status: illustrative-not-tested
+  input_assets: []
+  parameters: null
+  verification: "保留自來源素材包的示範文字；沒有生成輸出或實測紀錄，不代表任何工具功能已驗證。"
+  updated: '2026-10-18'
+
+
+- id: PROMPT-CH02-P05
+  chapter_id: 01-02
+  path: chapters/01-02-camera-language-assets/prompts/P05-reaction-i2v.txt
+  purpose: "人物反應近景示範提示詞"
+  modality: image-to-video
+  tool: null
+  model_version: null
+  status: illustrative-not-tested
+  input_assets: []
+  parameters: null
+  verification: "保留自來源素材包的示範文字；沒有生成輸出或實測紀錄，不代表任何工具功能已驗證。"
+  updated: '2026-10-18'
+
+
+- id: PROMPT-CH02-P06
+  chapter_id: 01-02
+  path: chapters/01-02-camera-language-assets/prompts/P06-continuity-review.txt
+  purpose: "跨鏡人物、道具、光線與構圖的審片指令"
+  modality: visual-review
+  tool: null
+  model_version: null
+  status: illustrative-not-tested
+  input_assets: []
+  parameters: null
+  verification: "保留自來源素材包的示範文字；沒有生成輸出或實測紀錄，不代表任何工具功能已驗證。"
+  updated: '2026-10-18'
+
+
+- id: PROMPT-CH01-HOMAGE-FIG-001
+  chapter_id: CH01
+  path: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-001.md
+  purpose: Bilingual original illustration brief for Citizen Kane technique example
+  modality: image-generation
+  tool: null
+  model_version: null
+  status: draft-not-run
+  input_assets: []
+  parameters:
+    output: text-free image; bilingual labels on editable overlay only
+    rights_constraint: new characters and setting; do not reproduce film stills, characters, costumes, posters, or recognizable
+      compositions
+  source_ids:
+  - R013
+  verification: Brief only; no image generation or output inspection has been performed.
+  updated: '2026-10-18'
+- id: PROMPT-CH01-HOMAGE-FIG-002
+  chapter_id: CH01
+  path: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-002.md
+  purpose: Bilingual original illustration brief for Rashomon technique example
+  modality: image-generation
+  tool: null
+  model_version: null
+  status: draft-not-run
+  input_assets: []
+  parameters:
+    output: text-free image; bilingual labels on editable overlay only
+    rights_constraint: new characters and setting; do not reproduce film stills, characters, costumes, posters, or recognizable
+      compositions
+  source_ids:
+  - R014
+  verification: Brief only; no image generation or output inspection has been performed.
+  updated: '2026-10-18'
+- id: PROMPT-CH01-HOMAGE-FIG-003
+  chapter_id: CH01
+  path: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-003.md
+  purpose: Bilingual original illustration brief for A City of Sadness technique example
+  modality: image-generation
+  tool: null
+  model_version: null
+  status: draft-not-run
+  input_assets: []
+  parameters:
+    output: text-free image; bilingual labels on editable overlay only
+    rights_constraint: new characters and setting; do not reproduce film stills, characters, costumes, posters, or recognizable
+      compositions
+  source_ids:
+  - R015
+  verification: Brief only; no image generation or output inspection has been performed.
+  updated: '2026-10-18'
+- id: PROMPT-CH01-HOMAGE-FIG-004
+  chapter_id: CH01
+  path: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-004.md
+  purpose: Bilingual original illustration brief for In the Mood for Love technique example
+  modality: image-generation
+  tool: null
+  model_version: null
+  status: draft-not-run
+  input_assets: []
+  parameters:
+    output: text-free image; bilingual labels on editable overlay only
+    rights_constraint: new characters and setting; do not reproduce film stills, characters, costumes, posters, or recognizable
+      compositions
+  source_ids:
+  - R018
+  verification: Brief only; no image generation or output inspection has been performed.
+  updated: '2026-10-18'
+- id: PROMPT-CH01-HOMAGE-FIG-005
+  chapter_id: CH01
+  path: assets/chapters/CH01/homage/briefs/CH01-HOMAGE-FIG-005.md
+  purpose: Bilingual original illustration brief for Yi Yi technique example
+  modality: image-generation
+  tool: null
+  model_version: null
+  status: draft-not-run
+  input_assets: []
+  parameters:
+    output: text-free image; bilingual labels on editable overlay only
+    rights_constraint: new characters and setting; do not reproduce film stills, characters, costumes, posters, or recognizable
+      compositions
+  source_ids:
+  - R019
+  verification: Brief only; no image generation or output inspection has been performed.
+  updated: '2026-10-18'

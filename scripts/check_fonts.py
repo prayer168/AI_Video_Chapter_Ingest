@@ -10,7 +10,9 @@ from pathlib import Path
 
 FONT_ALIASES = {
     "noto serif cjk tc": ("Noto Serif CJK TC", "Noto Serif TC"),
+    "noto serif tc": ("Noto Serif TC", "Noto Serif CJK TC"),
     "noto sans cjk tc": ("Noto Sans CJK TC", "Noto Sans TC"),
+    "noto sans tc": ("Noto Sans TC", "Noto Sans CJK TC"),
 }
 
 
@@ -55,7 +57,7 @@ def font_is_installed(requested: str) -> bool:
     )
 
 
-def check_pdf_fonts(path: Path) -> int:
+def check_pdf_fonts(path: Path, requested_font: str, strict: bool = False) -> int:
     if not path.exists():
         print(f"PDF does not exist: {path}", file=sys.stderr)
         return 2
@@ -80,7 +82,11 @@ def check_pdf_fonts(path: Path) -> int:
     ]
     if not rows:
         print("WARNING: no PDF fonts were listed; inspect the document manually.")
-        return 0
+        return 1 if strict else 0
+    malformed = [row[0] for row in rows if len(row) < 7]
+    if strict and malformed:
+        print("ERROR: could not parse font embedding status for: " + ", ".join(malformed), file=sys.stderr)
+        return 1
     # The PDF font ``type`` and ``encoding`` columns can contain spaces, so
     # fixed token positions are unreliable. The five trailing tokens are
     # consistently: emb, sub, uni, object number, generation number.
@@ -88,6 +94,14 @@ def check_pdf_fonts(path: Path) -> int:
     if missing:
         print("ERROR: fonts are not embedded: " + ", ".join(missing), file=sys.stderr)
         return 1
+    if strict:
+        normalize = lambda value: "".join(char for char in value.casefold() if char.isalnum())
+        expected = normalize(requested_font)
+        aliases = {normalize(alias) for alias in FONT_ALIASES.get(requested_font.casefold(), (requested_font,))}
+        embedded = {normalize(row[0].split("+")[-1]) for row in rows if row}
+        if not any(any(alias in name or name in alias for alias in aliases) for name in embedded):
+            print(f"ERROR: requested font family not found among embedded PDF fonts: {requested_font}", file=sys.stderr)
+            return 1
     print(f"PDF font embedding confirmed for {len(rows)} font entries.")
     return 0
 
@@ -96,6 +110,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--font", default="Noto Serif TC")
     parser.add_argument("--pdf", type=Path)
+    parser.add_argument("--require-pdffonts", action="store_true", help="Fail if pdffonts is unavailable; use for formal publication gates")
     args = parser.parse_args()
 
     if font_is_installed(args.font):
@@ -104,7 +119,10 @@ def main() -> int:
         print(f"WARNING: font not confirmed: {args.font}")
 
     if args.pdf:
-        return check_pdf_fonts(args.pdf)
+        if args.require_pdffonts and not shutil.which("pdffonts"):
+            print("ERROR: pdffonts is required to verify embedded PDF fonts, but was not found.", file=sys.stderr)
+            return 2
+        return check_pdf_fonts(args.pdf, args.font, args.require_pdffonts)
     return 0
 
 
