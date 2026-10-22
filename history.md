@@ -741,4 +741,9 @@
 - 出版預覽：新增 `tmp/CH16-draft-20261023-r3/`，含中英 DOCX／PDF／EPUB、全套測試 log 及繁中 PDF 第 1 頁與第 5 頁渲染抽查圖。PDF 為 10／14 頁；pdffonts 中英文所有 23／22 個字型皆 embedded。已視覺抽查中文標題／目錄頁及含 FIG-001 頁，圖文未截斷，圖上小字可讀性仍須人工設計審查。中英文 EPUBCheck 5.4.0 各 0 fatal／error／warning／info。
 - 測試：`python -m unittest tests.test_ch16_content -v` 5/5 PASS；`v2_validate.py`、`validate_project.py`、site sync check PASS；網站 build PASS。全套 103 tests 有 1 個既有 CH01 `KeyError: status` error（102 pass／1 error）；本次未改 CH01。
 - 文件更新：CH16 acceptance report、CHAPTER_INTEGRATION_MATRIX、CH01–CH60 tracker、CH16 human-review checklist、source/case notes 與本 history。所有作者、專業、英文、片例、來源 locator、插圖權利與可及性審查仍待辦；CH16 未達正式出版標準。
-- 本次沒有發布網站、commit 或 push；僅處理 CH16。
+- 原 CH16 指令限定不部署、不 commit、不 push；驗收後使用者另行明確要求 commit/push。僅本機建置，沒有部署網站；整批已存在的 CH04–CH16 章節變更及 CH16 產出，與各章備份／run／報告一併提交並推送至 `origin/main`，commit `7a5721d39e982559d921030abec45c39842fc3c2`。本機 `production/runs/CH14/test.tmp` 未納入提交，原樣保留。
+
+### Git 推送紀錄（使用者後續授權）
+
+- 2026-10-23：`git push origin main` 成功；遠端 `refs/heads/main` 與本機 `7a5721d39e982559d921030abec45c39842fc3c2` 一致。
+- Commit message：`Complete AI Video Bible chapters CH04-CH16`；共 580 個檔案變更（包含 CH04–CH16 的未提交稿件、圖稿、驗收資料與備份）。未部署網站。

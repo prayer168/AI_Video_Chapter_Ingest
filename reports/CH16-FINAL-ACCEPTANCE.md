@@ -7,7 +7,7 @@
 - 起始備份：`backups/CH16-start-20261023-062121/`（含起始稿、登錄表、網站投影、Git 狀態及 `SHA256SUMS.txt`）
 - 主要 run：`production/runs/CH16/20261023T061952+0800-95526c49/`
 - 出版狀態：**研究草稿與本機出版預覽完成；尚未達正式出版標準。**
-- 發布邊界：本地建置；本次未發布網站，未 commit、未 push。
+- 發布邊界：只做本機建置，未部署網站。使用者於後續訊息明確要求 commit/push；本次整批章節變更已推送至 `origin/main`，提交 `7a5721d39e982559d921030abec45c39842fc3c2`。
 
 ## 驗收摘要
 
@@ -30,7 +30,7 @@
 | EPUB | PASS（草稿） | 中英文 EPUBCheck 5.4.0 均為 0 fatal errors、0 errors、0 warnings、0 informational；解壓檢查可見正文文字與 2 個圖號。 |
 | 全套測試 | FAIL（既有 CH01 失敗） | `python -m unittest discover -s tests -v`：103 tests，102 通過、1 error。錯誤在 `tests/test_ch01_content.py`，`KeyError: 'status'`；本次未改 CH01，詳見 `tmp/CH16-draft-20261023-r3/full-tests.log`。 |
 | 作者／專業／權利核准 | NEEDS HUMAN REVIEW | `assets/chapters/CH16/CH16-HUMAN-REVIEW-CHECKLIST.md` 列出攝影／DIT／影像科學、英文編輯、來源定位、片例、SVG 可及性／權利及作者簽核待辦。 |
-| run、history 與進度表 | PASS | 主要 run、`history.md`、`reports/CHAPTER-PROGRESS-TRACKER.md` 已更新；本報告記錄剩餘風險與證據。 |
+| run、history 與進度表 | PASS | 主要 run、`history.md`、`reports/CHAPTER-PROGRESS-TRACKER.md` 已更新；本報告記錄剩餘風險與證據。Git 提交 `7a5721d` 已推送到 `origin/main`；未納入的既存臨時檔 `production/runs/CH14/test.tmp` 留在本機。 |
 
 ## 本次完成
 
