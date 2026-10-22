@@ -1,0 +1,98 @@
+{
+  "chapter": "CH10",
+  "run_id": "20261022T062041+0800-d6ab6deb",
+  "created_local": "2026-10-22 Asia/Taipei",
+  "files": [
+    {
+      "path": "content/zh-TW/chapters/CH10-chapter-10.md",
+      "existed": true,
+      "backup_path": "production\\runs\\CH10\\20261022T062041+0800-d6ab6deb\\backup\\pre-edit\\content\\zh-TW\\chapters\\CH10-chapter-10.md",
+      "bytes": 1075,
+      "sha256": "8e633c0ea5bc49484062f197da1be43de03cd992e91d61137d278fa865ec92f4"
+    },
+    {
+      "path": "content/en-US/chapters/CH10-chapter-10.md",
+      "existed": true,
+      "backup_path": "production\\runs\\CH10\\20261022T062041+0800-d6ab6deb\\backup\\pre-edit\\content\\en-US\\chapters\\CH10-chapter-10.md",
+      "bytes": 1135,
+      "sha256": "40eeb74dc07980e4a9d8e8cbe46057814e2ae59e291d193a54a379ab828df7fd"
+    },
+    {
+      "path": "assets/chapters/CH10/figure-manifest.yaml",
+      "existed": true,
+      "backup_path": "production\\runs\\CH10\\20261022T062041+0800-d6ab6deb\\backup\\pre-edit\\assets\\chapters\\CH10\\figure-manifest.yaml",
+      "bytes": 31,
+      "sha256": "51ef7fbc33e5159782b12ccdf41e2777d8b2d12c8577cf9834bd783acc2b3f5f"
+    },
+    {
+      "path": "metadata/chapters.yaml",
+      "existed": true,
+      "backup_path": "production\\runs\\CH10\\20261022T062041+0800-d6ab6deb\\backup\\pre-edit\\metadata\\chapters.yaml",
+      "bytes": 13696,
+      "sha256": "abf6c9321ad89543899f3e50596c546a2547f5ee13a86fe67bb3f33f316e2dce"
+    },
+    {
+      "path": "metadata/translation-status.yaml",
+      "existed": true,
+      "backup_path": "production\\runs\\CH10\\20261022T062041+0800-d6ab6deb\\backup\\pre-edit\\metadata\\translation-status.yaml",
+      "bytes": 5419,
+      "sha256": "8df3fc3d18e061893a2cd07c4eae707671bbb4da697da10adebc19d7677d3d52"
+    },
+    {
+      "path": "metadata/terminology.yaml",
+      "existed": true,
+      "backup_path": "production\\runs\\CH10\\20261022T062041+0800-d6ab6deb\\backup\\pre-edit\\metadata\\terminology.yaml",
+      "bytes": 65055,
+      "sha256": "c9d6a624d45545c62b7603add7fd2f1dfa1f73df94cd535cd5d143fb3abe7c05"
+    },
+    {
+      "path": "data/references.yaml",
+      "existed": true,
+      "backup_path": "production\\runs\\CH10\\20261022T062041+0800-d6ab6deb\\backup\\pre-edit\\data\\references.yaml",
+      "bytes": 42980,
+      "sha256": "e896a14130ac8c8077c3e54afe00eade96f87264ff916200a986b9f58d74f770"
+    },
+    {
+      "path": "metadata/references.bib",
+      "existed": true,
+      "backup_path": "production\\runs\\CH10\\20261022T062041+0800-d6ab6deb\\backup\\pre-edit\\metadata\\references.bib",
+      "bytes": 26702,
+      "sha256": "40c0e1bbaf2a64f4a37589d1f0dac8b0690c17c4a719caf125a4146f881a40b1"
+    },
+    {
+      "path": "metadata/figure-registry.yaml",
+      "existed": true,
+      "backup_path": "production\\runs\\CH10\\20261022T062041+0800-d6ab6deb\\backup\\pre-edit\\metadata\\figure-registry.yaml",
+      "bytes": 56394,
+      "sha256": "f5f9178a58f0c2eae137a646ea52e7a41b8a628aa2fdf09b2f75ba5d9a56cd07"
+    },
+    {
+      "path": "data/assets.yaml",
+      "existed": true,
+      "backup_path": "production\\runs\\CH10\\20261022T062041+0800-d6ab6deb\\backup\\pre-edit\\data\\assets.yaml",
+      "bytes": 41834,
+      "sha256": "3ff16efb568467c81ec1f88aad7a3b596f04853b3e17f8b25cc4ad3aedffb381"
+    },
+    {
+      "path": "history.md",
+      "existed": true,
+      "backup_path": "production\\runs\\CH10\\20261022T062041+0800-d6ab6deb\\backup\\pre-edit\\history.md",
+      "bytes": 127761,
+      "sha256": "2704b814e638e9f3f49b396dc95d1b4859660b126180788c8331975293eb08e0"
+    },
+    {
+      "path": "CHAPTER_INTEGRATION_MATRIX.md",
+      "existed": true,
+      "backup_path": "production\\runs\\CH10\\20261022T062041+0800-d6ab6deb\\backup\\pre-edit\\CHAPTER_INTEGRATION_MATRIX.md",
+      "bytes": 36893,
+      "sha256": "6d1c7deb6d815a269b1bbe3a3c5cfe4c88eef3ae8d9f4dfba258bc36d1311aa8"
+    },
+    {
+      "path": "reports/CHAPTER-PROGRESS-TRACKER.md",
+      "existed": true,
+      "backup_path": "production\\runs\\CH10\\20261022T062041+0800-d6ab6deb\\backup\\pre-edit\\reports\\CHAPTER-PROGRESS-TRACKER.md",
+      "bytes": 14644,
+      "sha256": "15c056d69a419b646dc8d1c6ed75d34cf67438ebb572fa1b43e30a41f6ae972b"
+    }
+  ]
+}

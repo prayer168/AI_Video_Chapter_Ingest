@@ -1,0 +1,39 @@
+chapter_id: CH04
+revision: 2.2.0-draft
+status: draft-alignment-pending-human-review
+title:
+  zh-TW: 電影形式、風格與作者性
+  en-US: Film Form, Style, and Authorship
+section_pairs:
+- {section_id: CH04-S00, zh_heading: 章節標題, en_heading: Chapter title}
+- {section_id: CH04-S01, zh_heading: 學習目標, en_heading: Learning Objectives}
+- {section_id: CH04-S02, zh_heading: 先備知識, en_heading: Prerequisites}
+- {section_id: CH04-S03, zh_heading: 核心術語, en_heading: Key Terms}
+- {section_id: CH04-S04, zh_heading: 歷史與基本原理, en_heading: History and Principles}
+- {section_id: CH04-S05, zh_heading: 傳統製作方法, en_heading: Traditional Production Practice}
+- {section_id: CH04-S06, zh_heading: AI 時代的技術轉換與限制, en_heading: AI-Era Workflow and Limitations}
+- {section_id: CH04-S07, zh_heading: 詳細工作流程, en_heading: Step-by-Step Workflow}
+- {section_id: CH04-S08, zh_heading: 提示詞與技術參數, en_heading: Prompt and Technical Parameters}
+- {section_id: CH04-S09, zh_heading: 鏡頭／影片／電影案例, en_heading: Shot, Film, and Case Studies}
+- {section_id: CH04-S10, zh_heading: 原創示意圖, en_heading: Original Illustrative Diagrams}
+- {section_id: CH04-S11, zh_heading: 常見錯誤與品質檢查, en_heading: Common Errors and Quality Checks}
+- {section_id: CH04-S12, zh_heading: 練習、評量與延伸研究, en_heading: Exercises, Assessment, and Further Research}
+- {section_id: CH04-S13, zh_heading: 參考資料, en_heading: References}
+term_pairs:
+- {term_id: TERM-CH04-FILM-FORM, zh: 電影形式, en: Film form}
+- {term_id: TERM-CH04-FILM-STYLE, zh: 電影風格, en: Film style}
+- {term_id: TERM-CH04-AUTEURISM, zh: 作者論／作者政策, en: Auteur theory / politique des auteurs}
+- {term_id: TERM-CH04-FILM-AUTHORSHIP, zh: 作者性, en: Film authorship}
+- {term_id: TERM-CH04-COLLECTIVE-AUTHORSHIP, zh: 集體作者性, en: Collective authorship}
+- {term_id: TERM-CH04-STYLE-MOTIF, zh: 風格母題, en: Recurring stylistic motif}
+- {term_id: TERM-CH04-STYLE-SPECIFICATION, zh: 風格規格表, en: Style specification}
+- {term_id: TERM-CH04-STYLE-DRIFT, zh: 風格漂移, en: Style drift}
+figure_pairs:
+- {figure_id: CH04-FIG-001, display_number: 4-1, zh_caption: 作者性分析的三條證據線。, en_caption: Three evidence streams for authorship analysis.}
+- {figure_id: CH04-FIG-002, display_number: 4-2, zh_caption: 從創作意圖到可驗收風格規格的工作循環。, en_caption: A workflow from creative intention to assessable style specification.}
+reference_ids: [R031, R032, R033, R034, R035, R036, R037, R038]
+editorial_review: pending
+review_notes:
+- English title is a provisional translation pending the book-wide editor's title review.
+- No film passage timecodes are asserted; readers must log a lawful edition after viewing.
+- Several theory sources were checked via publisher records or abstracts; consult full adopted copies for detailed claims and page locators.

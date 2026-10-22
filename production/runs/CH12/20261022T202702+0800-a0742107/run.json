@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "run_id": "20261022T202702+0800-a0742107",
+  "chapter_id": "CH12",
+  "created_at": "2026-10-22T20:27:02.442048+08:00",
+  "status": "partial",
+  "chapter": {
+    "chapter_id": "CH12",
+    "part_id": "P03",
+    "number": 12,
+    "slug": "chapter-12",
+    "title_zh": "演員調度、走位與表演連續性",
+    "title_en": "",
+    "legacy_status": "planned",
+    "zh_status": "planned",
+    "en_status": "translation-needed"
+  },
+  "translation_status": {
+    "zh-TW": "planned",
+    "en-US": "translation-needed",
+    "sync_revision": null
+  },
+  "existing_files": [
+    {
+      "path": "content/zh-TW/chapters/CH12-chapter-12.md",
+      "bytes": 1081,
+      "sha256": "7780b9d438db96b3ce29b4242f790489e2f655b738b39a937f1d20731c935c7a"
+    },
+    {
+      "path": "content/en-US/chapters/CH12-chapter-12.md",
+      "bytes": 1135,
+      "sha256": "5085554aab33dca3f5d5aa5256cc3e4bca231eb77d0cbcc5797d9d2868facd64"
+    },
+    {
+      "path": "assets/chapters/CH12/figure-manifest.yaml",
+      "bytes": 31,
+      "sha256": "ee19b013fada5c9a08c47cdd8f4cee6f13bac32beca57928e16e6ec104fa3733"
+    }
+  ],
+  "steps": {
+    "inventory": {
+      "status": "pass",
+      "note": "Read SOP, registry, CH12 scaffolds, all CH01-CH11 pages, source manifests, and Git state; backed up 18 files with SHA-256 before edits."
+    },
+    "research": {
+      "status": "pass",
+      "note": "R087-R093 researched and registered with access scope, jurisdiction, and locator limits."
+    },
+    "zh-draft": {
+      "status": "pass",
+      "note": "Substantive Traditional Chinese S00-S13 research draft written; source-draft state retained."
+    },
+    "en-translation": {
+      "status": "pass",
+      "note": "English S00-S13 working translation and bilingual alignment map created; human line edit pending."
+    },
+    "film-cases": {
+      "status": "pass",
+      "note": "Three source-backed film cases drafted; no unverified viewing edition or timecode claimed."
+    },
+    "figure-assets": {
+      "status": "pass",
+      "note": "Two original SVG figures, bilingual captions/alt, hashes and pending review metadata registered."
+    },
+    "svg-diagrams": {
+      "status": "pass",
+      "note": "Both editable SVGs parsed and rendered in bilingual book draft proofs."
+    },
+    "website": {
+      "status": "pass",
+      "note": "Canonical site sync, Astro check and 120-route local build passed; CH12 route IDs/figures/alt verified."
+    },
+    "books": {
+      "status": "pass",
+      "note": "Bilingual DOCX/PDF/EPUB drafts created; fonts embedded, rendered checks and EPUBCheck 5.4.0 passed."
+    },
+    "tests": {
+      "status": "fail",
+      "note": "CH12 tests 5/5 and project validators pass; whole suite 83/84 due pre-existing unrelated CH01 KeyError status."
+    },
+    "editorial-review": {
+      "status": "needs-human-review",
+      "note": "Bilingual, film/performance/safety review and source locators pending."
+    },
+    "rights-review": {
+      "status": "needs-human-review",
+      "note": "SVG attribution, similarity, accessibility and publication rights approval pending."
+    },
+    "author-approval": {
+      "status": "needs-human-review",
+      "note": "Author/publisher final sign-off pending."
+    },
+    "chapter-audit": {
+      "status": "pass",
+      "note": "All required audit categories assigned evidence-backed statuses in reports/CH12-FINAL-ACCEPTANCE.md; all open gates remain explicit."
+    }
+  },
+  "events": [
+    {
+      "time": "2026-10-22T20:27:02.442048+08:00",
+      "event": "Checkpoint created. No manuscripts, images, or publication outputs changed."
+    },
+    {
+      "time": "2026-10-22T20:42:44.943942+08:00",
+      "event": "Stage inventory recorded as pass.",
+      "note": "Read SOP, registry, CH12 scaffolds, all CH01-CH11 pages, source manifests, and Git state; backed up 18 files with SHA-256 before edits."
+    },
+    {
+      "time": "2026-10-22T20:42:45.137437+08:00",
+      "event": "Stage research recorded as pass.",
+      "note": "R087-R093 researched and registered with access scope, jurisdiction, and locator limits."
+    },
+    {
+      "time": "2026-10-22T20:42:45.342291+08:00",
+      "event": "Stage zh-draft recorded as pass.",
+      "note": "Substantive Traditional Chinese S00-S13 research draft written; source-draft state retained."
+    },
+    {
+      "time": "2026-10-22T20:42:45.539749+08:00",
+      "event": "Stage en-translation recorded as pass.",
+      "note": "English S00-S13 working translation and bilingual alignment map created; human line edit pending."
+    },
+    {
+      "time": "2026-10-22T20:42:45.746485+08:00",
+      "event": "Stage film-cases recorded as pass.",
+      "note": "Three source-backed film cases drafted; no unverified viewing edition or timecode claimed."
+    },
+    {
+      "time": "2026-10-22T20:42:45.940141+08:00",
+      "event": "Stage figure-assets recorded as pass.",
+      "note": "Two original SVG figures, bilingual captions/alt, hashes and pending review metadata registered."
+    },
+    {
+      "time": "2026-10-22T20:42:46.148490+08:00",
+      "event": "Stage svg-diagrams recorded as pass.",
+      "note": "Both editable SVGs parsed and rendered in bilingual book draft proofs."
+    },
+    {
+      "time": "2026-10-22T20:42:46.367366+08:00",
+      "event": "Stage website recorded as pass.",
+      "note": "Canonical site sync, Astro check and 120-route local build passed; CH12 route IDs/figures/alt verified."
+    },
+    {
+      "time": "2026-10-22T20:42:46.593958+08:00",
+      "event": "Stage books recorded as pass.",
+      "note": "Bilingual DOCX/PDF/EPUB drafts created; fonts embedded, rendered checks and EPUBCheck 5.4.0 passed."
+    },
+    {
+      "time": "2026-10-22T20:42:46.804598+08:00",
+      "event": "Stage tests recorded as fail.",
+      "note": "CH12 tests 5/5 and project validators pass; whole suite 83/84 due pre-existing unrelated CH01 KeyError status."
+    },
+    {
+      "time": "2026-10-22T20:42:47.013354+08:00",
+      "event": "Stage editorial-review recorded as needs-human-review.",
+      "note": "Bilingual, film/performance/safety review and source locators pending."
+    },
+    {
+      "time": "2026-10-22T20:42:47.230184+08:00",
+      "event": "Stage rights-review recorded as needs-human-review.",
+      "note": "SVG attribution, similarity, accessibility and publication rights approval pending."
+    },
+    {
+      "time": "2026-10-22T20:42:47.448692+08:00",
+      "event": "Stage author-approval recorded as needs-human-review.",
+      "note": "Author/publisher final sign-off pending."
+    },
+    {
+      "time": "2026-10-22T20:42:47.674216+08:00",
+      "event": "Stage chapter-audit recorded as pass.",
+      "note": "All required audit categories assigned evidence-backed statuses in reports/CH12-FINAL-ACCEPTANCE.md; all open gates remain explicit."
+    },
+    {
+      "time": "2026-10-22T20:42:47.894029+08:00",
+      "event": "Run finished as partial.",
+      "note": ""
+    }
+  ],
+  "finished_at": "2026-10-22T20:42:47.894029+08:00"
+}

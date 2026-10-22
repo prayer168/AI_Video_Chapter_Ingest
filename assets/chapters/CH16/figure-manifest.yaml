@@ -1,2 +1,73 @@
 chapter_id: CH16
-figures: []
+figures:
+
+  - figure_id: CH16-FIG-001
+    chapter_id: CH16
+    section_id: CH16-S05
+    display_number: 16-1
+    asset_original: assets/chapters/CH16/figures/originals/CH16-FIG-001-image-formation-pipeline.svg
+    asset_approved: null
+    asset_status: draft-original-svg
+    rights_status: original-project-svg-pending-human-review
+    rights_review: pending
+    technical_review: pending
+    editorial_review: pending
+    publication_status: pending-publication-approval
+    source_ids:
+    - R112
+    - R114
+    - R117
+    - R118
+    teaching_purpose: 對照底片化學成像與數位感光元件訊號鏈，避免把特性曲線與數位 Log 視為相同物理量。
+    caption_zh: 圖 16-1｜底片與數位影像形成路徑。原創手繪技術示意圖，依 R112、R114、R117–R118 文字資料自行繪製，非電影劇照。
+    caption_en: Figure 16-1 | Film and digital image-formation paths. Original hand-authored technical schematic based
+      on R112, R114, R117, and R118; not a film still.
+    alt_zh: 雙欄流程圖比較電影底片與數位感光元件的受光、訊號形成、處理及交付路徑，並標示兩者不可直接等同。
+    alt_en: A two-column flow diagram compares light capture, signal formation, processing, and delivery for film
+      and digital sensors, noting that the processes are not equivalent.
+    creator: AI Video Bible project; individual attribution pending confirmation
+    attribution: Creator and rights-holder attribution pending confirmation.
+    permission: Publication approval pending.
+    original_prompt_or_method: Hand-authored editable bilingual SVG; no third-party imagery or generative image model.
+    note: Draft schematic; do not mark approved or publication-ready.
+    sha256: dfe888848e3c4179a704ac32538462fd6e7d854534e87fd2cc252926b844923b
+    bytes: 3911
+    width: 1400
+    height: 760
+    production_log:
+    - date: '2026-10-23'
+      change: Created original editable SVG and recorded SHA-256.
+  - figure_id: CH16-FIG-002
+    chapter_id: CH16
+    section_id: CH16-S07
+    display_number: 16-2
+    asset_original: assets/chapters/CH16/figures/originals/CH16-FIG-002-exposure-decision-workflow.svg
+    asset_approved: null
+    asset_status: draft-original-svg
+    rights_status: original-project-svg-pending-human-review
+    rights_review: pending
+    technical_review: pending
+    editorial_review: pending
+    publication_status: pending-publication-approval
+    source_ids:
+    - R113
+    - R116
+    teaching_purpose: 把敘事資訊保留、測光測試、訊號確認及交接紀錄整理為可檢查流程。
+    caption_zh: 圖 16-2｜曝光決策與驗證工作流。原創手繪流程示意，非電影畫面或特定器材操作順序。
+    caption_en: Figure 16-2 | Exposure decision and verification workflow. Original hand-authored workflow schematic,
+      not a film image or a device-specific control sequence.
+    alt_zh: 流程圖從敘事優先事項開始，經場景反差與拍攝條件，進入測量、測試、訊號驗證與拍攝紀錄。
+    alt_en: A workflow begins with narrative priorities, moves through scene contrast and capture conditions, then
+      metering, testing, signal verification, and camera-report documentation.
+    creator: AI Video Bible project; individual attribution pending confirmation
+    attribution: Creator and rights-holder attribution pending confirmation.
+    permission: Publication approval pending.
+    original_prompt_or_method: Hand-authored editable bilingual SVG; no third-party imagery or generative image model.
+    note: Draft schematic; do not mark approved or publication-ready.
+    sha256: ff1e72790298093314c494d7b53c775b71c95f1de5dbef28116fee44b477f171
+    bytes: 2670
+    width: 1400
+    height: 820
+    production_log:
+    - date: '2026-10-23'
+      change: Created original editable SVG and recorded SHA-256.

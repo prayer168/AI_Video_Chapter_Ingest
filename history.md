@@ -522,3 +522,223 @@
 - 本輪未發布網站、未 commit、未 push GitHub。下一步：停止 CH03 工作，等待使用者明確指定下一章；全書完成後整合集中人工審核清單。
 
 - CH03 packaging follow-up: created `tmp/CH03-draft-20261020/CH03-Codex-Materials-DRAFT.zip` and then a non-overwriting `-r2` archive after the acceptance report was amended; both are retained and the output manifest records hashes. Updated the CH03 matrix from pending to automated draft checks passed. Material pack remains explicitly draft and unapproved.
+
+## 2026-10-20 — CH04《電影形式、風格與作者性》雙語草稿與章末完整驗收
+
+- 使用者指定 `ch04`；依 `ai-video-bible-chapter-pipeline` Skill、`CHAPTER-PIPELINE-README.md`、`AI-VIDEO-BIBLE-SOP-V4.md` 與 acceptance template 執行。當前 Windows 工作目錄不是儲存庫，先定位到既有 repo `D:\我的雲端硬碟\google drive\000000000backup\00000黑熊講師\00000著作\AI_Video_Bible`；未另建專案。Git branch 為 `main`，原本有多項未提交變更；只在既有章節與相依 registry 範圍內工作，沒有 commit/push。
+- CH04 開始前 registry 顯示中文題名《電影形式、風格與作者性》、英文未定；canonical zh/en 檔及圖 manifest 是 scaffold。以 pipeline run `production/runs/CH04/20261020T203111+0800-3d34a58e/` 建立 checkpoint，備份 12 個修改目標的舊檔並記錄 SHA-256 至 `backup/MANIFEST.json`；其中原中英 scaffold hash 分別為 `70c3f451bf6fac08beaf6aba373f9331ee86b8b8cc67cf07567b17b107f0fc3f`、`16455ddee4fb802765fab4bded30df2ad2154d2dced5a4e1a540d42f75f9b863`，空 manifest 為 `28fb624839293eabccd4c60a2579fa00f86d11a49c2f6ce78aea91eb0e17e91b`。
+- 以 CH04-S00–S13 建立繁中研究草稿及英文對照稿，含 14 個穩定節次、學習目標、先備知識、8 個雙語術語、電影形式／作者論／集體作者性理論脈絡、傳統製作方法、AI 流程與限制、逐步工作流、示範 prompt、電影案例入口、錯誤與品質檢查、練習評量及延伸研究。英文題名暫定為 *Film Form, Style, and Authorship*，兩語均維持 `review-needed`，對齊檔 `metadata/translations/CH04-alignment.yaml` 明列待人工校譯。
+- 新增 R031–R038 書目／來源項：McGraw Hill *Film Art* 第 13 版（出版者頁面）、Cinémathèque française Truffaut 回顧、Andrew Sarris 原文掃描、Pauline Kael 期刊紀錄、Oxford Academic 的 Gaut／Sellors 章節或摘要、BFI *Vertigo* 教育案例頁及 Runway Gen-4 官方提示指南。來源檔標明查閱日、版本、locator 與摘要／全文限制；沒有虛構觀片內容、發行版本或 timecode。理論來源全文和頁碼、電影案例看片仍待集中人工審稿。
+- 新增並登錄兩張手寫、可編輯 SVG：CH04-FIG-001（圖 4-1，作者性證據線）與 CH04-FIG-002（圖 4-2，風格規格循環）。更新章稿、章節 manifest、全域 figure registry、資產表、圖說 Lua filter；兩圖均有中英圖說、alt、製作法、hash、source links、權利／技術／編輯狀態，均 pending。沒有網路抓圖、付費生圖或將圖標為 approved。
+- 初次 `test_ch04_content` 暴露 `figure-manifest.yaml` 中重複的 `research_sources` key、圖說欄位缺失及測試狀態字串不吻合；初次專案驗證另指出 `data/assets.yaml` 的引用來源格式不符 schema、缺 `production_log` 及雙語 caption。已修正資料結構、補雙語 alt/caption/source locator/production log、移除重複 manifest/source key 並修正測試；之後 CH04 專項測試 4/4 PASS、整合 validators PASS。
+- 首次完整 unittest 在網站 canonical source 尚未投影時有 1 項 stale projection 失敗；執行 `sync_site_content.py` 更新兩語 CH04 頁及四個本地 SVG 圖檔後，網站 sync check 與全套測試通過。一次並行啟動的 Astro check 在 loader 輸出 duplicate-ID warning；等待並行程序結束後單獨重跑 `npm --prefix apps/web run check`，結果 0 errors／warnings／hints，後續 Astro build 也無 duplicate warning，產出 123 頁。另以 HTML parser 核對中英 CH04 路由各有唯一 CH04-FIG-001/002、兩張可載入圖片及非空 alt。
+- 本環境的 shell PATH 沒有 Pandoc、XeLaTeX、pdffonts、Inkscape、Java/EPUBCheck 命令；依 history 先前已安裝紀錄定位已存在的使用者本機工具完整路徑，不改永久 PATH、不下載工具。Pandoc 3.12.1、Inkscape 1.4.4、MiKTeX XeLaTeX、Poppler、Java 18 及 repo 暫存 EPUBCheck 5.4.0 均成功用於本機草稿建置。排版用 PNG 由 Inkscape 1600px 輸出到新 gitignored `tmp/CH04-draft-20261020-r1/`，SVG 母檔未改。
+- 中英 DOCX、PDF、EPUB 各 1 份：DOCX ZIP CRC 完整，各嵌入 2 圖；繁中 PDF 10 頁、英文 12 頁，字型 checker strict 模式通過，繁中 Microsoft JhengHei、英文字型 Times New Roman 及混排 CJK 均實際嵌入；PDF 抽字無 U+FFFD，已檢視繁中第 7 頁和英文第 9 頁的圖文排版。EPUBCheck 5.4.0 中英文各 0 errors／warnings／informationals／references，檔案 ZIP CRC 完整、各有 2 張圖與圖號；Pandoc 仍提示繁中 `zh.yaml`、Abstract、Table、Figure 通用翻譯字串不足，記入驗收報告。
+- 完成 `reports/CH04-FINAL-ACCEPTANCE.md`，逐列填妥 32 項章末核對：PASS 16、NEEDS HUMAN REVIEW 16、FAIL/BLOCKED/NOT RUN 為 0（草稿內容完整性／出版可重現檢查，不代表專業或作者核准）。`python scripts/validate/check_links.py` 結果為 0 failures、0 network checked、5 inconclusive；不把未確認連結說成失效或已成功。
+- 產出 `OUTPUT-MANIFEST.json`，並建立 non-overwriting `CH04-Codex-Materials-DRAFT-r2.zip`（18 個成員，ZIP CRC 通過，SHA-256 `d347a28da6a50635f5550c8619a6df5af3122bed2e371d923450d846755c86a2`）。較早的 r1 包亦保留在同 gitignored temp 目錄，r2 含修正後報告。CH04 整合矩陣更新為自動草稿／技術檢核通過，知識涵蓋仍標 PARTIAL。
+- 最終測試：`python scripts/v2_validate.py` PASS；`python scripts/validate_project.py` PASS（12 parts、60 planned chapters、2 canonical chapter files、52 terms、33 references）；`python -m unittest discover -s tests -v` 44/44 PASS；`sync_site_content.py --check` PASS；Astro check 0/0/0；Astro build 123 頁 PASS；`git diff --check` exit 0（僅保留既有 LF/CRLF conversion warnings）。
+- 尚待人工：英文編輯及標題核定；電影理論原文／學術全文及頁碼定位；合法 *Vertigo* 版次、實際片段與 timecode 或撤換觀片主張；兩 SVG 個人繪圖者署名、權利、相似性、無障礙和印刷終審；作者簽核。依使用者「全書完成後再做人工審核」的決定，維持 review-needed/pending，將其納入全書集中簽核，不阻止本章草稿交付。
+- 沒有覆蓋 V1/CH01–CH03 或其他素材、沒有發布網站、沒有 Git commit/push。CH04 完成本輪草稿和章末檢核後停止；下一章須使用者另行指定。
+- CH04 視覺校樣補充：在 PDF 文字抽查後，另以 Poppler/MuPDF 將繁中第 7、8 頁與英文第 9、11 頁渲染成 PNG，逐頁目視確認圖 4-1／4-2 和雙語圖說均在版面內；沒有發現裁切。將驗收報告的抽查頁碼更新，並將新頁面影像和四個 Inkscape PNG 排版衍生檔加進 `OUTPUT-MANIFEST.json` 雜湊清單。
+- 為使壓縮素材包內也包含更新後頁碼的驗收報告，另建不覆蓋的 `CH04-Codex-Materials-DRAFT-r3.zip`（18 個 members、ZIP CRC PASS、SHA-256 `b103ea811dba2fbfff4da1ab15a4ffdc46466144108ece59278cfaef4bc002fa`）；r1、r2 仍保留於同一個 gitignored 草稿目錄以供追溯。`OUTPUT-MANIFEST.json` 現列 16 個媒體／文件輸出項及 r3 包 hash。
+
+- CH04 backup/packaging follow-up: final diff audit found scripts/publishing/figure-captions.lua had only the two new CH04 mapping additions, but the initial run manifest omitted that file. Reconstructed the exact pre-CH04 tracked bytes from git show HEAD, verified the LF/CRLF-normalized file equals the current filter after removing those two additions, and stored the baseline under production/runs/CH04/20261020T203111+0800-3d34a58e/backup/pre-edit/; SHA-256 cf55a73b45d72ed4a61f70ef9435f7ae7ceb36a329f20faef7c384b192f505ff. Updated report and backup manifest to include it; generated non-overwriting CH04-Codex-Materials-DRAFT-r4.zip with updated report (18 members, CRC PASS). r1–r3 remain intact in the ignored draft directory.
+
+## 2026-10-20 — CH05《類型、再現與影視倫理》雙語草稿與出版預檢
+
+- 使用者輸入 `ch05`。依 `.codex/skills/ai-video-bible-chapter-pipeline/SKILL.md`、V4 SOP 和 acceptance template 開始單章工作；repo 為 `D:\我的雲端硬碟\google drive\000000000backup\00000黑熊講師\00000著作\AI_Video_Bible`。CH05 registry 原狀為中文題名《類型、再現與影視倫理》、英文題名空白，雙語 canonical 僅 scaffold，章圖 manifest 空白；未找到 CH05 staging/source ZIP。開始前存在未提交 CH04 工作；本輪保留，不 reset/clean/stage/commit/push/deploy。建立 run `production/runs/CH05/20261020T225328+0800-59388910/`。
+- 編輯前建立 `backups/CH05-start-20261020-225446/` 保存 CH05 及必要全域索引原內容，hash 見 run `backup-sha256.txt`。初次漏列共用 Lua 圖說 filter；事後將不含 CH05 mapping 的前編輯快照保存至 `backup/pre-edit/scripts/publishing/figure-captions.lua`，並記錄 hash。快照保留既有 CH04 mapping，與現行檔僅差 CH05-FIG-001/002 的 5-1/5-2 兩行。CH01–CH04 內容未由本輪改寫。
+- 網路查證日 2026-10-20：JSTOR R039 核對 Altman 論文書目與摘要（全文論證定位待核）；SAGE R040 核對 Hall 編著書資訊（章節頁碼待核）；BFI R041 多元標準頁、R043 再現教學頁；UNESCO R042 2021 AI 倫理建議；BFI R044 片目核實 *Get Out*（2017）片名／年份，沒有看片、不宣稱鏡頭細節或時間碼。電影案例只作合法版次觀片待辦。來源 ID 加入 `data/references.yaml`、`metadata/references.bib` 及雙語稿。
+- 建立繁中研究主稿與英文對照譯稿，各 13 節穩定 IDs；8 個雙語術語；英文題名暫定 *Genre, Representation, and Screen Ethics*。建立 `metadata/translations/CH05-alignment.yaml`。兩語 metadata 維持 `review-needed`。內容包含類型語義／句法、Hall 再現理論、傳統製作倫理、AI 限制與工作流、模型中立示範 prompt、案例入口、品質檢查、練習及延伸研究。
+- 原創繪製 CH05-FIG-001/002 兩張 SVG（類型關係圖、再現倫理檢核圖），各 1200×420，記錄 SHA-256、方法、製作日期、雙語 caption/alt；更新章節 manifest、全域 figure registry、data assets 及 `assets/chapters/CH05/figure-captions.md`。所有圖權利、作者署名、技術／可及性／出版狀態 pending。未下載網路圖片、未用付費生圖、未使用電影劇照。
+- 初次網站同步因圖片路徑多退一層而安全拒絕 project-root escape；修正路徑後通過。資料驗證接續指出 BibTeX 漏 R039–R042、asset schema 欠 permission/attribution/source_ids；補齊後 validators 通過。Astro check 曾在首輪載入輸出 duplicate-ID warning 但 diagnostics 為 0；最後重跑 check 無警告，build 也無該警告，產生 123 頁。雙語 CH05 route 各 40 個唯一 IDs、2 張本地圖與非空 alt。
+- 草稿輸出位於 gitignored `tmp/CH05-draft-20261020-r1/`。Inkscape 1.4.4 將 SVG 轉排版 PNG 衍生檔，母檔不變。Pandoc 3.12.1 中英 DOCX/EPUB 成功；XeLaTeX 首次因未在 PATH 找到而失敗，改用 MiKTeX 絕對引擎路徑後中英 PDF 成功。Pandoc 繁中仍有 zh.yaml、Abstract、Table、Figure 通用字串翻譯警告，留在 log。EPUBCheck 5.4.0 中英皆 0 errors/warnings/informationals/references；DOCX ZIP CRC PASS 且各含 2 張圖；EPUB 各含 2 張圖。PyMuPDF 1.28.0 抽取兩 PDF 的字型 streams 均非空（Microsoft JhengHei、Times New Roman/CJK fallback），抽字 0 U+FFFD，圖文頁渲染並目視檢查。此環境無 `pdffonts`；strict helper 的獨立執行被阻擋，未冒稱該工具通過。
+- 最終檢查：CH05 專項 3/3 PASS；完整 unittest 47/47 PASS；`scripts/v2_validate.py` PASS；`scripts/validate_project.py` PASS（12 parts、60 chapters、52 terms、39 references）；網站 sync check PASS；Astro check 0 errors/warnings/hints；Astro build 123 pages PASS；本地雙語路由／唯一 IDs／alt PASS；EPUBCheck、DOCX CRC/media PASS；PyMuPDF 字型抽取／渲染 PASS；`check_links.py` 0 failures、0 network checked、5 inconclusive；`git diff --check` exit 0（僅既有 CH04/history LF/CRLF 訊息）。
+- `reports/CH05-FINAL-ACCEPTANCE.md` 已依範本完成 32 項逐條 audit：PASS 19、NEEDS HUMAN REVIEW 13、FAIL/BLOCKED/NOT RUN 為 0。剩餘：英文人工校譯；理論全文與頁碼/主張定位；合法 *Get Out* 版次觀片及 locator/timecode；製作倫理、AI/法律/社群專業審查；兩 SVG 個人創作者確認、權利、可及性與出版核准；正式逐頁校樣及作者簽核。依作者偏好，全書人工簽核留到全部章節完成後。
+- 後續封裝雙語 DOCX/PDF/EPUB、canonical 稿、caption/alignment/terms/references/manifest/SVG 原稿及驗收報告為草稿 ZIP，產生 output hash manifest 並更新 run logs；run 應以 `partial` 完成，因人工審核仍待辦。此後停止等待使用者指定 CH06；沒有發布、commit 或 push。
+
+- CH05 packaging follow-up: created `tmp/CH05-draft-20261020-r1/CH05-Codex-Materials-DRAFT.zip` (18 members; CRC PASS; SHA-256 `bdc4c2ddd1c69831ad7ff88ee1303fba9476f9c0786b78e5f20342fa222cd282`). External `OUTPUT-MANIFEST.json` lists artifact hashes; run `verification.json` records route checks, DOCX/EPUB integrity, PDF font streams, and render evidence. Acceptance report now includes package checksum. Pipeline run finished `partial` with chapter audit and automated work done, while English/source/film/rights/editor review and author approval remain pending. No publication, commit, or push.
+- CH05 package revision follow-up: the first archive r1 was retained; after adding the final package section to the acceptance report, created non-overwriting `CH05-Codex-Materials-DRAFT-r2.zip` (18 members, CRC PASS, SHA-256 `5779da3446aa9aeacff7707b0994e01923aa076eb1347d45354d287df3de73f3`). Verified the report inside r2 is byte-identical to the repository report. `OUTPUT-MANIFEST.json` points to r2 and records its checksum; r1 remains preserved for audit history.
+
+## 2026-10-21 — CH05 待辦解法說明與素材包來源清單修正
+
+- 使用者詢問 CH05 驗收報告所列「非正式出版標準」項目的解法。先核對 `reports/CH05-FINAL-ACCEPTANCE.md`、pipeline run 和草稿 ZIP；區分可以自動驗證的出版工程與須由作者／專業審稿者完成的出版決策。未改寫 CH05 正文。
+- 封裝抽查發現 r2 素材包內 `CH05-sources.yaml` 因 ID 篩選錯誤為空，但 canonical `data/references.yaml` 有 R039–R044 六筆來源。由 canonical registry 重新產生來源快照，保留來源各自狀態與定位限制；在驗收報告註明修正範圍，未變更 canonical references、正文、已存在 r1/r2 ZIP。
+- 建立不覆蓋的 `tmp/CH05-draft-20261020-r1/CH05-Codex-Materials-DRAFT-r3.zip`；18 members，ZIP CRC PASS，SHA-256 `88bc374f18691bbcdf7a40028f4a59293cb200a6c279285b40cac4145681854b`。封包內來源清單核對為 R039、R040、R041、R042、R043、R044；外部 `OUTPUT-MANIFEST.json` 已刷新所有檔案長度與 SHA-256。r1/r2 保留供稽核。
+- 正式出版未核准；未執行 commit/push/deploy，未開始 CH06。人工項目仍依使用者決定留待全書完成後集中審核。
+
+## 2026-10-21 — CH05 問題修復與 CH06 接續製作
+
+- 使用者要求先處理 CH05 報告所列問題，再接續 CH06。依其先前規則，CH05 完成章末逐項稽核後才開始下一章；人工簽核仍留至全書完成後集中辦理。
+- CH05 完成安全修補：新增專案自帶 Pandoc zh.yaml 翻譯資料並讓圖書建置器與 smoke test 明確使用 `--data-dir`；新增測試驗證本地繁中翻譯檔。MiKTeX 現有 `pdffonts.exe` 可供嚴格 PDF 字型檢查，未另行安裝工具。中英文 PDF 均確認 7 個字型物件有 embed/subset/ToUnicode，繁中字型正常嵌入，抽字未見 U+FFFD；兩語 EPUBCheck 5.4.0 均 0 errors/warnings/informationals/references。
+- CH05 最新本機輸出為 `tmp/CH05-draft-20261021-r3/`；網站 build 123 pages。CH05 中英路由各 40 個唯一 ID、2 張本地圖片 alt 非空。緊接同步後的一次 Astro check 有 transient loader duplicate-ID console warning；獨立重跑診斷 0/0/0，輸出頁面 ID 實測唯一。此 transient 訊息保留於驗收報告，不宣稱每次執行均無警告。
+- 更新 `reports/CH05-FINAL-ACCEPTANCE.md` 至 2.1.1-draft，修正舊輸出路徑、版本號、網站瞬態 warning 說明、嚴格字型驗證證據和逐項狀態數（PASS 20、NEEDS HUMAN REVIEW 12、FAIL/BLOCKED/NOT RUN 0）。報告結論仍為非正式出版標準。所有未簽核項目維持人工審查狀態。
+- 建立非覆寫素材包 `tmp/CH05-draft-20261021-r3/CH05-Codex-Materials-DRAFT-r4.zip`：29 members，ZIP CRC PASS，SHA-256 `fb39c460d307037612c5e1876465ad4148dc0fe0733b3b4b554f1969a14a48e8`；`OUTPUT-MANIFEST.json` 保存逐檔 SHA-256。原有素材包版本皆保留。CH05 pipeline checkpoint 以 `partial` 結束，章末 audit stage PASS 僅代表逐項稽核程序完成，不是作者或出版核准。
+- 然後按使用者明確指示開始 CH06。初步檢查顯示 canonical 中英檔為空白 scaffold，章名《故事、情節與因果結構》，沒有既存完整正文；本章必須另開獨立 run、先備份並補研究與雙語草稿。已查得主要資料來源為 MIT Internet Classics Archive 的 Aristotle *Poetics*（英譯文本）、Criterion Collection《Rashomon》片目及 Stephen Prince 影評、AFI Silver《Rashomon》資料。其後需謹慎限制理論解讀歸屬，不虛構觀片版次或時間碼。
+- 未發布網站、未 commit、未 push；保留工作區既有 CH04/CH05 及其他未提交變更。
+
+### CH05 packaging correction
+
+- 最初的 r4/r5 素材包封裝檢查發現 canonical CH05 稿的路徑 basename 假設錯誤；不修改或刪除已產生 ZIP，將其作為歷史版本保留。修正打包腳本使用實際檔名 `CH05-chapter-05.md` 後重新封裝 r6。
+- CH05 最終素材包為 `tmp/CH05-draft-20261021-r3/CH05-Codex-Materials-DRAFT-r6.zip`，31 members、ZIP CRC PASS、SHA-256 `fc5aff192e51cf4909bb31d606f60b5611281d5f2a3e188342e5bd4de914e974`；來源稿、manifest、build outputs 和報告在包內核對，r1–r5 均保留。
+
+## 2026-10-21 — CH06《故事、情節與因果結構》雙語研究草稿與出版預檢
+
+- 使用者要求修復 CH05 後接續 CH06。本次先完成 CH05 report/r6 package/run audit，再另開 CH06 pipeline run `production/runs/CH06/20261021T065143+0800-f153e02e/`，並在修改前備份 8 個原 scaffold、registry、引用與矩陣檔案；SHA-256 於 `backup/MANIFEST.json`。CH06 起始只有空白中英 scaffold。V1、CH01–CH05 正文未被本輪改寫；所有既有未提交檔案保持原狀。
+- 2026-10-21 查讀／搜尋 MIT Internet Classics Archive 的 Butcher 英譯 Aristotle *Poetics* 第 6–11 章、University of Wisconsin Press 的 David Bordwell 專書介紹、Criterion《Rashomon》片目與 Stephen Prince 具名影評、AFI Silver 片目。逐來源限制明列於 `production/runs/CH06/.../RESEARCH-SOURCE-CHECK.md`。沒有取得 Bordwell 全文或印刷頁碼；未宣稱作者觀看任何特定《羅生門》版次或鏡頭 timecode。R046–R050 登錄到 YAML/BibTeX。
+- 將 CH06 中英文 canonical 從空白 scaffold 擴寫為 12 個對齊章節錨點的研究稿：術語中英對照、歷史理論及適用範圍、傳統寫作／場景流程、AI 可用工作假設與限制、10 步工作流程、模型中立 JSON 診斷提示詞、*Rashomon* 多視點案例與原創練習、常見錯誤、品質驗收、評量及延伸研究。建立 8 個 draft 術語與 `metadata/translations/CH06-alignment.yaml`；雙語均 review-needed，未標 approved。
+- 一次 metadata 編輯將 CH06 術語區塊插入 CH01 第一條詞目未完成欄位之前，導致 CH01 單元測試暫時失敗；立即用前備份與 YAML 結構定位，將 CH01-DEEP-FOCUS 原 references/status 還原，並將 CH06 詞條移至術語資料庫尾端。CH01 原文／權利／圖片不變；CH01 相關測試重新通過，全套 51 tests 最終 PASS。修復腳本保存在 CH06 run 內。
+- 初次 CH06 format script 找不到 Pandoc，因本 PowerShell session 的 PATH 未載入；確認實際位置 `C:\Users\user\AppData\Local\Pandoc\pandoc.exe` 和 MiKTeX bin 後在 run script 明確使用已安裝路徑。首個空輸出資料夾保留；成功輸出在 `tmp/CH06-draft-20261021-r2/`。沒有重新安裝軟體。
+- 出版預檢：中英文 DOCX/PDF/EPUB 六份草稿建置 exit 0；DOCX ZIP CRC 各 16 members、EPUB ZIP CRC 各 9 members；EPUBCheck 5.4.0 中英皆 0 errors/warnings/informationals/references。strict pdffonts 兩本各 7 字型列均 emb/sub/uni=yes；PyMuPDF 抽字無 U+FFFD；中英文首末頁 proof 已目視檢視，版面可讀且沒有明顯截切。中文 PDF 6 頁、英文 PDF 8 頁。Astro check 0/0/0；site build 123 頁；CH06 route 中英各 32 unique IDs、目前未置入圖片。一次 sync 緊接的 check 曾有 transient duplicate-ID loader console 訊息；獨立重跑和最終 build 無警告，輸出頁 ID 實測唯一。
+- 最終自動驗證：V2 validator PASS；project validator PASS（12 parts、60 planned chapters、52 terms、45 references）；site sync check PASS；全套 unittest 51/51 PASS（含 CH01 regression 和 CH06 專項 3/3）；`git diff --check` exit 0，僅有既有 LF/CRLF working-copy warnings；全域連結掃描 0 failures、0 network-checked、5 inconclusive。嚴格 PDF／EPUB／route 證據記於 `production/runs/CH06/.../verification.json`。
+- 建立 `assets/chapters/CH06/CH06-RASHOMON-VIEWING-LOG.md` 與 `CH06-HUMAN-REVIEW-CHECKLIST.md`；明確留下作者須填合法版本、字幕和 timecodes。CH06 未使用任何圖片，因此沒有第三方影像；原創因果圖、多視點圖、figure manifest 和雙語 caption/alt 尚未製作，報告明列 NEEDS HUMAN REVIEW，沒有把缺圖假報完成。
+- `reports/CH06-FINAL-ACCEPTANCE.md` 列出自動 PASS、來源/雙語/插圖人工項目與證據；結論：可審查雙語草稿和技術草稿完成，但未達正式出版標準。素材包 `tmp/CH06-draft-20261021-r2/CH06-Codex-Materials-DRAFT-r1.zip` 44 members、CRC PASS、SHA-256 `3ebeaf837789f17a5029377e2a156a575a126b7138a099f98050531e032df006`；外部 `OUTPUT-MANIFEST.json` 有逐檔雜湊。CH06 run 應以 partial 結束。
+- 未發布網站、未 commit/push GitHub。下一章不得自動開始，等待使用者明確指定；全書人工簽核仍於所有章節完成後集中辦理。
+## 2026-10-21 — CH06 未完成項目續作與雙語原創圖整合
+
+- 使用者要求續做 CH06。遵循 `ai-video-bible-chapter-pipeline`；建立 continuation run `production/runs/CH06/20261021T164101+0800-10139b29/`，先備份兩語章稿、章圖 manifest、全域圖登錄、資產登錄、來源 BibTeX、測試、驗收報告、矩陣、history、Lua caption filter 和書籍建置器；雜湊列於 run 備份 MANIFEST。CH01–CH05、V1、既有 CH06 r2 草稿包未覆蓋；未發布、未 commit/push。
+- 查證 David Bordwell 作者網站公開 *Poetics of Cinema* 第 3 章 “Three Dimensions of Film Narrative” PDF；其中 “Narration and story” 印刷頁 14–15（PDF 頁 13–14）區分 fabula、syuzhet 與視聽風格。新增 R051 至 `data/references.yaml`、`metadata/references.bib`、雙語章稿及 translation alignment。保留 R047 書目，但不把沒有查閱全文的主張歸給該書。亞里斯多德仍限於悲劇理論詮釋；沒有虛構紙本頁碼。
+- 手寫兩張原創、透明背景、可編輯雙語 SVG：CH06-FIG-001 因果鏈、CH06-FIG-002 故事時間／呈現順序。已附中英文題名、caption、alt、章節 ID、穩定圖號 6-1/6-2、來源用途、製作方式／日期、尺寸／雜湊和 rights/approval 欄位；`figure-captions.md` 及獨立 `CH06-FIGURE-RIGHTS-AND-SOURCES.md` 一併建立。原圖只用抽象文字與向量形狀，無第三方圖片、劇照或特定電影鏡頭。rights/status 皆 pending；創作者／權利人歸屬、可及性、相似性及出版核准保留人工審查。
+- 將 CH06-FIG-001 放在 S07 工作流程之後、提示詞節之前；CH06-FIG-002 放在 S09 案例／觀影練習之後。中英文章稿、manifest、registry、asset registry、對照 YAML、網站投影與 Pandoc caption mapping 同步。新增圖檔雜湊與 pending-rights 測試，並新增 PDF SVG 暫存轉檔的 regression test。
+- 新圖整合初次暴露兩個實際出版缺口：Pandoc 相對資源路徑造成 EPUB/PDF 找不到 SVG；調整 Pandoc 工作目錄後 EPUB/DOCX 可嵌圖。MiKTeX 的 XeLaTeX 需要 `rsvg-convert`，本機未安裝，雖有 Inkscape；因此更新 `build_books.py`，建置前將圖片複製到暫存工作區，PDF 輸出時以 Inkscape 將 SVG 轉成向量 PDF，不改原 SVG。一次初次 `validate_project.py` 因新增 asset 欠 `research_sources` 失敗，已補來源 ID、查閱日及用途後通過。初次未轉檔 r3 PDF 保留於 `tmp/CH06-draft-20261021-r3/` 作錯誤紀錄。
+- 成功輸出雙語 DOCX/PDF/EPUB 至 `tmp/CH06-draft-20261021-r4/`。EPUBCheck 5.4.0 中英文各 0 errors/warnings/informationals/references；DOCX 各含 2 media；EPUB 各含 2 圖與 alt。PDF 嚴格字型檢查中英各 14 個 font entries，全數 emb/sub/uni=yes；MuPDF 抽字 0 replacement chars；圖頁渲染目視檢查通過。Astro check 最終 0 errors/warnings/hints，建置 123 pages；中英文 CH06 route 均含 2 張本章 SVG、非空 alt、無重複 IDs。初次 Astro check 有 transient duplicate loader IDs，後續獨立 clean check/build 無警告，實際輸出唯一。
+- `scripts/v2_validate.py` PASS；`scripts/validate_project.py` PASS（12 parts、60 planned chapters、2 canonical chapter files、52 terms、46 references）；全測試 55/55 PASS（CH06 專項 5/5）。其中 SVG 轉 PDF regression test 使用 test double 驗證 staging 不更動原稿，實際 r4 PDF 則另由本機 Inkscape/XeLaTeX 建置。
+- 人工事項仍未完成：全書末由作者／雙語編輯校譯和術語核定；選定合法《羅生門》版次實看並補版本／字幕／片長／timecodes；確認圖像作者署名／權利、可及性與出版核准。遵循使用者「全部章節完成後再人工審核」安排，本輪不代簽、不標 publication-ready，亦不開始 CH07。
+
+- 封裝雙語原稿、CH06 專屬術語／來源快照、兩張 SVG、權利與觀看紀錄、manifest、驗收報告、build script/log、雙語 DOCX/PDF/EPUB 及校樣 PNG 為非覆寫 `tmp/CH06-draft-20261021-r4/CH06-Codex-Materials-DRAFT-r3.zip`（42 members、CRC PASS）；較早 r2 包保留。`PACKAGE-CHECKSUM.json` 記錄 SHA-256。
+- 實際執行中英書籍與網站 image policy；四個目標均 BLOCKED，原因是全專案仍有圖片 approval/rights/creator/attribution 待核（包含 CH06 pending 圖）。此結果確認正式發布閘門有效；網站僅本地建置。
+
+- 最終 run 狀態依流水線逐項記錄並以 `partial` 結束（自動工程工作完成；人工簽核依作者安排留待全書完成）。更新正式驗收報告與 history 後，另封裝 `CH06-Codex-Materials-DRAFT-r4.zip`，保留 r2/r3，封包含 finalized run.json。
+
+- 回歸審查發現原書籍建置器把 AI 生成模型欄位硬套於手繪 SVG，會阻擋未來合法核准後的向量圖。依檔案類型修正驗收：SVG 必須有方法與製作紀錄；點陣生成圖仍須完整生成 provenance。新增兩項測試；CH06 7/7、全套 55/55 PASS。兩張實際圖權利仍 pending。最終報告／封包升版至 r5，r2–r4 保留。
+
+## 2026-10-21 — CH07《人物、欲望、衝突與角色弧線》雙語草稿與稽核
+
+- 依使用者指定開始 CH07；本輪僅處理 CH07，未開始 CH08。工作前確認 canonical 中英文檔僅為 scaffold，章名為《人物、欲望、衝突與角色弧線》，英文章名先列 working title。Run 為 production/runs/CH07/20261021T185845+0800-c279f9b1；修改前檔案與 SHA-256 留在 run/backup/pre-edit/MANIFEST.json。未覆蓋 CH01–CH06 章稿；專案既有 CH04–CH06 未提交變更保持原狀。
+- 建立 CH07 中英文研究草稿與 CH07-S00–S13 對齊節次，涵蓋角色欲望、目標、阻礙、選擇、代價、角色弧線、傳統寫作流程、AI 工作假設／限制、詳細流程、模型中立提示詞、案例、常見錯誤、練習及研究來源。登錄 8 個 TERM-CH07 詞條、translation alignment、章節來源／案例筆記及人類審查清單；雙語及術語狀態保留 review-needed。未將未核實電影鏡頭時間碼或工具能力寫成已查證事實。
+- 新增兩張透明底、可編輯的原創 SVG：CH07-FIG-001 目標—阻力—選擇—代價流程、CH07-FIG-002 角色弧線證據矩陣。已登錄雙語標題、圖說、alt、SHA-256、原創方法及 pending 權利狀態；非電影劇照、未標核准。為 DOCX staging 及 PDF 向量轉檔新增建置器修正；修復 Pandoc 章節圖號 filter 以顯示 7-1／7-2。SVG 原圖與編輯紀錄保留。
+- 修正過程曾發現透明 SVG 全畫布 rect 在 PDF 渲染成黑底；刪除該透明背景物件後以 r5 重建，人工查看白底 SVG 及 PDF proof，圖文清晰。r1–r4 輸出留作診斷歷史。最終草稿為 tmp/CH07-draft-20261021-r5/，包括中英文 DOCX/PDF/EPUB、build logs 與 proof。
+- 最終測試：CH07 專項 unittest 6/6 PASS；V2 validator PASS；project validator PASS（12 parts、60 planned chapters、52 terms、52 references）。Astro check 0 errors/warnings/hints，網站本機建置 123 pages；中英文 CH07 頁各 43 個唯一 ID、2 張本章圖、所有 alt 非空。網站未發布。中英 PDF strict pdffonts 均有 Microsoft JhengHei，所有字型 emb/sub/uni=yes；PyMuPDF 抽字無 replacement character；PDF 9／12 頁，圖號 7-1/7-2 各出現一次。中英 EPUBCheck logs 均記錄 EPUB 3.4 規則下 0 errors/warnings/references（工具版本未記錄）；DOCX 內含已 staging 圖片。圖面與版面 proof 已人工目視。
+- 全套 unittest discovery 實測 61 tests，60 pass、1 error：既有 CH01 詞條缺少 status 導致 CH01 測試 KeyError。前置備份確認為既有資料問題；尊重章節保護，本輪不改 CH01。外部連結掃描 0 failures、7 inconclusive，待來源審查時人工複查。
+- reports/CH07-FINAL-ACCEPTANCE.md 列出逐項狀態及待人工事項；判定本章完成可審查草稿與技術預檢，但未達正式出版標準。英文校譯、理論／案例核查、術語、圖權、作者核准依使用者安排待全書完成後集中處理。素材包只含草稿，不具發布核准；本機執行沒有發布、commit 或 push。
+- pipeline run 以 partial 結束，表示可自動執行的製作與章末稽核完成，而人工編審、rights 和作者核准閘門仍開啟。素材包與每檔雜湊另記於 tmp/CH07-draft-20261021-r5/PACKAGE-MANIFEST-r3.json。
+
+## 2026-10-21 — CH08《場景、節拍、對白與潛台詞》製作、驗收與全書進度表
+
+- 依使用者 `ch08` 指示，只製作 CH08，沿用 `.codex/skills/ai-video-bible-chapter-pipeline/SKILL.md` 與 V4 SOP。開始時原 Windows cwd 不在 repo，依使用者既定路徑定位既有專案；Git 有多項 CH04–CH07 未提交變更，全部保留。CH08 原 canonical 中英文稿是 scaffold，圖 manifest 為空。建立 run `production/runs/CH08/20261021T200413+0800-16f990d8/`，編輯前備份 17 個目標檔案並記錄 SHA-256；未改寫 CH01–CH07 正文。
+- 建立 CH08-S01–S12 繁中研究草稿與英文工作譯稿；登錄 8 個雙語 draft 術語、R058–R065 來源及 BibTeX、翻譯 alignment、電影案例限制、人類審查清單。英文仍需校譯；來源摘要／書目查證不等於全文頁碼查證。案例只按可追溯片目和二手評論陳述，不宣稱已親看特定版次、不虛構時間碼或複製對白。
+- 新增兩張可編輯、手繪的原創 SVG：CH08-FIG-001（圖 8-1，場景行動／反應與節拍狀態）及 CH08-FIG-002（圖 8-2，對白／潛台詞證據層次）。更新雙語圖說、alt、manifest、hash、alignment、全域 figure／asset registry 和圖號 Lua filter。兩圖皆未標核准；權利、署名、相似性、可及性及正式出版核准維持 pending。
+- 建立 `reports/CHAPTER-PROGRESS-TRACKER.md`，以 `metadata/chapters.yaml` 產生 CH01–CH60 一章一列的進度表，並新增可重跑的 `scripts/update_chapter_progress_tracker.py`。狀態字典明確區分草稿完成、部分完成、待完成、待人工審查；後續每章結束都應更新該表及該章報告。
+- 章節測試 `python -m unittest tests.test_ch08_content -v`：5/5 PASS。`python scripts/v2_validate.py` PASS；`python scripts/validate_project.py` PASS（12 parts、60 planned chapters、52 terms、60 references）；網站 sync check PASS。全套 unittest：66 tests、65 PASS、1 ERROR，唯一錯誤是既有 CH01 詞條缺 `status` 欄位所致 KeyError；本輪沒有修改 CH01。
+- 執行 `npm --prefix apps/web run check` 最終結果 0 errors／warnings／hints；Astro 本機 build 123 pages。同步後中英文 CH08 routes 均存在，各有 39 個唯一 HTML IDs、兩張本章圖與非空 alt。一次較早的同步前 check 曾出現短暫 duplicate loader ID 警告；重新同步後的最終 check/build 未重現。
+- Pandoc、MiKTeX XeLaTeX、Poppler pdffonts、Inkscape、Java 與 EPUBCheck 5.4.0 均以本機既有安裝建構，不安裝新工具、不付費。中英文 DOCX/PDF/EPUB 草稿產生於 `tmp/CH08-draft-20261021-r1/`。兩份 PDF strict 字型檢查均 pass，字型列 `emb/sub/uni=yes`；繁中 Microsoft JhengHei 可確認嵌入；抽取文字 U+FFFD 為 0；繁中 9 頁、英文 12 頁，圖 8-1/8-2 各一次。中英 EPUBCheck 各 0 fatal errors、0 errors、0 warnings、0 informational references。Astro 路由及 PDF 圖頁 proof 已實際檢查。
+- `image_policy.py --target zh-TW-book` 與 `--target en-book` 均正確以 exit 2 阻擋正式出版，回報至少 CH01 圖片尚欠 rights、作者歸屬及核准；CH08 兩張圖本身亦 pending。兩語草稿格式通過不等於出版授權。
+- 新增 `reports/CH08-FINAL-ACCEPTANCE.md`，判定 CH08 未達正式出版標準，列出 7 項集中人工審查工作及既有 CH01 測試錯誤。`reports/CHAPTER-PROGRESS-TRACKER.md` 作為後續每章完成後更新的總表。未發布網站、未 commit、未 push；本輪止於 CH08，不開始 CH09。
+- 依使用者補充指示，將 CH08 驗收報告的人工審查事項持續保留為開啟待辦；擴充 `assets/chapters/CH08/CH08-HUMAN-REVIEW-CHECKLIST.md`，逐列列出理論審稿、全文／頁碼定位、雙語校譯、術語核定、合法案例觀片紀錄、兩張 SVG 權利與出版審查、出版校樣及作者／專業簽核。更新全書進度表生成規則，CH08 列明來源定位、校譯、觀片、圖權與簽核皆待全書完成後審查；沒有把任何人工項目標為完成。
+
+
+## 2026-10-21｜CH09 類型劇作、系列敘事與非線性結構
+
+- 依 CH09 SOP 先建立 run checkpoint 與編輯前備份，保留工作區原有未提交變更；未重置、刪除、發布、commit 或 push。
+- 盤點章節 registry 為 planned，canonical 中英文檔為 scaffold，figure manifest 為空；依章名完成中英文 S01–S12 研究草稿。英文標題暫定 `Genre Writing, Serial Narrative, and Nonlinear Structure`。
+- 登錄 R066–R069、9 個雙語術語草案與 CH09 雙語對照資料。來源查核日期為 2026-10-21；書籍頁碼、全文解讀、電影版次／timecode 保留人工查證。
+- 新增 3 張原創可編輯 SVG、雙語圖說／alt、雜湊與待審權利紀錄；觀察校樣發現 SVG 路徑填色及 XML 重複屬性問題，已修正後重建 r7。沒有將圖稿標記為核准。
+- 發現 `scripts/publishing/sync_site_content.py` 在既有生成圖片雜湊不同時僅回報 stale 而未同步，修正非 `--check` 模式會更新派生圖片；網站同步檢查其後通過。
+- `scripts/publishing/build_books.py` 的 Inkscape 擷取輸出原依 Windows 系統 code page 解碼，非 ASCII 路徑曾造成讀取錯誤；改為 UTF-8／替代字元解碼，供可重現建置。
+- CH09 測試 4/4 通過；V2 validator、project validator、網站同步、Astro 123 頁建置、雙語 PDF 字型嵌入及雙語 EPUBCheck 通過。全套 70 測試有 69 通過，1 項既有 CH01 缺少術語 `status` 欄位而報錯，未在本章修改。
+- 驗收報告：`reports/CH09-FINAL-ACCEPTANCE.md`；全書進度列更新於 `reports/CHAPTER-PROGRESS-TRACKER.md`；章節矩陣已更新。人類審查／出版核准仍 pending。
+- 草稿輸出：`tmp/CH09-draft-20261021-r7/`。本次只完成 CH09，未開始 CH10。
+
+## 2026-10-22｜CH10 劇本格式、改編與版本管理
+
+- 依章節 SOP 建立 CH10 checkpoint `production/runs/CH10/20261022T062041+0800-d6ab6deb/`。盤點 registry 記錄的章名為「劇本格式、改編與版本管理」，英文名原先空白；canonical 中英文稿僅 scaffold，figure manifest 空白，未找到 CH10 staging 素材包。開始前 Git 工作區已有大量 CH04–CH09 及出版流程未提交變更，均保留。
+- 編輯前備份 13 個目標檔案與 SHA-256 manifest；結束前逐檔核對備份雜湊，13/13 通過。原有 CH01–CH09 原稿及素材未被刪除或覆寫。
+- 建立 CH10 S01–S12 繁中研究稿與英文工作譯稿，內容涵蓋劇本格式差異、改編與權利分流、修訂／鎖頁、Fountain 交換格式、AI 限制、流程、模型中立 prompt、《綠野仙蹤》（1939）研究案例、品質檢查與練習。暫定英文標題為 `Screenplay Format, Adaptation, and Revision Management`，待作者及雙語編輯核定。
+- 瀏覽並核對 R070–R076：Academy Nicholl、WGAW Registry、美國著作權法、Final Draft 修訂模式及鎖頁文件、Fountain 語法、AFI Catalog《The Wizard of Oz》。書目及來源使用範圍記於 `assets/chapters/CH10/CH10-SOURCE-AND-CASE-NOTES.md`；不宣稱觀看片源、時間碼或法律核准。新增 8 筆雙語 draft 詞條及翻譯 alignment。
+- 手工繪製 3 張可編輯雙語 SVG（版本生命週期、改編來源／權利分流、場景 ID 差異審查），新增雙語圖說／alt、figure manifest、figure registry、asset registry、製作紀錄及待審清單。PDF 圖頁校樣發現標題文字對比過低，已改為深色並同步 SHA-256；所有圖稿保持 pending，未使用第三方圖片或 AI 圖像服務。
+- 更新 `metadata/chapters.yaml`、`metadata/translation-status.yaml`、`metadata/terminology.yaml`、`metadata/translations/CH10-alignment.yaml`、`data/references.yaml`、`metadata/references.bib`、`data/assets.yaml`、`metadata/figure-registry.yaml`、`scripts/publishing/figure-captions.lua` 與 CH10 列於 `CHAPTER_INTEGRATION_MATRIX.md`。更新 `reports/CHAPTER-PROGRESS-TRACKER.md` 的 CH10 狀態，保留人工審核未完成。
+- 新增 `tests/test_ch10_content.py` 與本機草稿建置工具 `scripts/publishing/build_chapter_drafts.py`。CH10 測試 4/4 通過；`scripts/v2_validate.py` 通過；`scripts/validate_project.py` 通過（60 章登錄、52 術語、71 來源）；`scripts/check_links.py` 通過 73 個唯一 URL 的語法檢查。
+- 雙語網站內容同步及 `--check` 通過。最終 `npm --prefix apps/web run check` 為 0 errors／warnings／hints；網站 build 產生 123 頁。CH10 中英文頁各有 38 個唯一 HTML id、3 張本機圖及非空 alt；未部署。
+- 出版草稿 r1 使用 Noto Serif TC 時，MiKTeX/dvipdfmx 出現 `Invalid font: -1 (0)`，log 記為 `fwrite` invalid argument，並有字型缺字警告。改以 Microsoft JhengHei 執行 r3：中英文 DOCX、8／10 頁 PDF、EPUB 均生成；PDF pdffonts 各有 16 個嵌入字型項目。EPUBCheck 兩語各為 0 fatal errors、0 errors、0 warnings，ZIP CRC 通過。PDF 圖頁已抽查，Noto Serif TC 環境根因仍待另查；出版草稿的視覺校樣及字型選型仍待人工確認。
+- 全套測試 `python -m unittest discover -s tests -v` 為 74 項中 73 項通過、1 項既有 CH01 術語缺 `status` 欄位而出現 `KeyError`；本次未修改 CH01。最終 Astro check 未重現同步前的暫時重複 ID 警告。
+- 新增 `reports/CH10-FINAL-ACCEPTANCE.md`，判定未達正式出版標準；作者、雙語、電影專業、法律／權利及插圖審查均列待辦。未發布網站、未 commit、未 push；完成 CH10 後停止，未開始 CH11。
+- 下一步：待作者／全書階段審查時核定 CH10 英文標題和雙語文字、選定合法底本／觀看片源補充頁碼及時間碼、請適用法域法律專業人員審查改編權利、完成 SVG 署名與出版核准、抽查所有輸出；另行查明 MiKTeX 使用 Noto Serif TC 的根因及修復既有 CH01 測試錯誤。
+
+## 2026-10-22｜CH11 導演工作：意圖、溝通與決策
+
+- 依既有 `ai-video-bible-chapter-pipeline` SOP 啟動 CH11 run：`production/runs/CH11/20261022T181247+0800-46c00c02/`。開始前工作區已有 CH04–CH10 及出版流程的大量未提交變更；未清理或重置。先將 17 個 CH11 目標檔案及相關註冊表備份至 `backup/pre-edit/`，附 SHA-256 manifest，保留所有既有 V1 與已完成章節材料。
+- 依 registry 章名「導演工作：意圖、溝通與決策」撰寫繁中 S00–S12 研究草稿及英文工作譯稿。內容涵蓋導演意圖的可觀察化、跨部門溝通、傳統前期與現場流程、AI 作為研究／整理輔助的假設及限制、模型中立提示詞、《教父》（1972）來源型案例、品質檢核與練習；未將 AI 假設寫成已驗證產品功能。
+- 新增及核對 R077–R086 公開來源（AFI、DGA、ASC、AFI Catalog、Oxford Bibliographies、Rutgers/JSTOR 書目及 Library of Congress），同步進入 YAML 與 BibTeX；八個雙語術語以 draft 登錄。來源定位、適用範圍和證據限制詳列 `assets/chapters/CH11/CH11-SOURCE-AND-CASE-NOTES.md`，引用連結檢查有 27 項無法在本次確認，不能視為已失效或已通過。
+- 手工製作兩張可編輯雙語原創 SVG（導演意圖驗證循環、部門交接問題），加入 manifest、資產／圖稿註冊、圖說、alt text 與製作紀錄。初次 PDF 校樣發現回饋線貼近圖中文字、部門卡片文字緊湊；重排 SVG 並刷新三份註冊的 SHA-256、位元組數與尺寸。未使用第三方劇照或圖像生成工具；署名、權利與出版核准保持 pending。
+- 首輪校樣亦發現提示詞行太長；縮短中英文範本，並在本機單章 PDF staging 加入長縮排行折行，保留 canonical Markdown 的可讀格式。r3 PDF 圖頁校樣確認兩圖標籤和圖說可讀，提示詞不越出頁邊；完整版面仍待編輯校樣。
+- 更新章節／翻譯／術語／來源／圖稿 metadata、CH11 雙語站點投影、章節整合矩陣、CH11 的 60 章進度檢核列與 pipeline run。CH11 專屬測試 5/5 通過；V2 validator、project validator、網站 sync check 通過。Astro check 為 0 errors/warnings/hints，Astro 本機建置輸出 123 頁；建置時未部署。中英文 DOCX、PDF、EPUB 草稿均輸出；中文 PDF 9 頁、英文 11 頁，字型嵌入檢查通過；EPUBCheck 5.4.0 雙語均 0 fatal errors／0 errors／0 warnings／0 informational references。
+- 全套 79 個測試有 78 通過，唯一錯誤是原有 CH01 `test_chapter_terms_are_bilingual_and_registered` 缺 `status` 欄位產生 `KeyError`；未因 CH11 任務改動 CH01。外部連結檢查報告 0 failures、27 項未能確證。驗收報告為 `reports/CH11-FINAL-ACCEPTANCE.md`；人工審核表為 `assets/chapters/CH11/CH11-HUMAN-REVIEW-CHECKLIST.md`。
+- 結論：CH11 可供審閱的研究草稿與本機出版預覽已完成，但正式出版標準未達成。電影史／導演實務與來源定位、英文校譯、合法觀片版次及時間碼、DGA 用語範圍、圖稿署名與權利、作者核准仍待人工審查。未發布網站、未 commit、未 push；完成 CH11 後停止，未開始 CH12。
+
+
+## 2026-10-22｜CH12 演員調度、走位與表演連續性
+
+- 依 `ai-video-bible-chapter-pipeline` SOP 執行 CH12 單章工作。開始前工作區已有 CH04–CH11、網站投影、註冊表及出版工程的大量未提交變更；保留原狀，未 reset、clean、刪除或覆寫其他章節。Run 為 `production/runs/CH12/20261022T202702+0800-a0742107/`；預先備份 18 個相關目標檔於 `backup/pre-edit/`，附 `MANIFEST.json` 與開始前 `git-status-before.txt`。
+- CH12 初始狀態：章節登錄已有主題「演員調度、走位與表演連續性」，中英文 canonical 檔只有模板 scaffold，空 figure manifest，未找到章節來源包或既有插圖；CH13 內容未修改。
+- 建立繁中 S00–S13 研究草稿及對應英文工作譯稿；涵蓋目標與動作節拍、表演協作、場面設計、部門交接、連戲紀錄、非順拍、AI 假設／隱私限制、模型中立提示詞、原創練習及評量。狀態維持繁中 `source-draft`、英文 `review-needed`；英文章名仍是 working title。
+- 登錄九個雙語工作術語、章節翻譯對照及七筆 R087–R093 來源（YAML／BibTeX）。來源依可查範圍標示：Oxford UP 只查摘要；英國 ScreenSkills 職務及職業標準限定其法域；《畢業生》《發條橘子》使用已歸屬的製作回憶；《蘿拉・蒙特斯》使用 BFI 評論分析。沒有宣稱作者已觀片，也沒有杜撰片源版本或時間碼。完整 locator、法域和案例分析待專業審查。
+- 手繪兩張可編輯中英雙語 SVG：CH12-FIG-001 走位協作流程、CH12-FIG-002 連戲交接紀錄；加入雙語圖說、alt、source IDs、尺寸、byte、SHA-256、方法及權利欄。無第三方劇照、無付費生圖。作者署名、相似性、技術／可及性、權利及正式刊用全部維持 pending。
+- 更新 CH12 章節／翻譯 metadata、術語／引用／圖片 registry、`CHAPTER_INTEGRATION_MATRIX.md`、`CHAPTER-PROGRESS-TRACKER.md` 與 tracker updater。新增來源紀錄、人工審查表及 CH12 測試。初次全專案 validator 發現新 asset 少 schema 欄位 `media_kind`，補齊後 `validate_project.py` 通過。
+- 網站 canonical 投影同步成功；`npm --prefix apps/web run check` 重跑為 0 errors/warnings/hints；本機 Astro build 完成 120 routes。第一次 check 曾出現 CH12 duplicate-ID loader notice，重跑未再出現；兩個輸出頁各有 41 個唯一 ID、兩張圖及非空 alt。未發布網站。
+- 以 `scripts/publishing/build_chapter_drafts.py` 建置 zh-TW/en-US DOCX、PDF、EPUB 至 `tmp/CH12-draft-20261022-r1/`。PDF 共 8／12 頁，無 U+FFFD；兩份 PDF 的 `pdffonts` 12 個字型項目均嵌入，含 Microsoft JhengHei／Times New Roman；抽查繁中第 4–5 頁、英文第 6、8 頁，圖表與圖說可見。EPUBCheck 5.4.0 兩語皆為 0 fatal / 0 errors / 0 warnings / 0 info；ZIP CRC、圖號及替代字元檢查通過。以上是草稿證據，不是最終排版核准。
+- CH12 專項測試 5/5 通過；V2 validator、project schema validator、site sync check 通過。全套測試 83/84；唯一失敗為既有 `tests/test_ch01_content.py::test_chapter_terms_are_bilingual_and_registered` 的 `KeyError: 'status'`，未修改 CH01。連結掃描 0 failures、27 URLs 未能確證。圖片出版政策不授權刊用（符合待審狀態；且全站還有既有 CH01 pending 圖）。
+- 建立 `reports/CH12-FINAL-ACCEPTANCE.md` 並逐項列明 PASS／PARTIAL／FAIL／BLOCKED／NEEDS HUMAN REVIEW；建立 draft-only ZIP `tmp/CH12-draft-20261022-r1/CH12-Codex-Materials-DRAFT.zip`（20 members，CRC PASS；SHA-256 記於同目錄 `OUTPUT-MANIFEST.json`）。驗收報告保留在 ZIP 外以免循環雜湊。
+- 結論：CH12 研究草稿與本機出版預覽完成，但**未達正式出版標準**。英文校譯、來源定位、合法觀片版次／時間碼、表演／導演／安全專業審查、插圖署名與權利、作者核准仍待人工處理；全套測試既有 CH01 問題和 27 個未確證連結亦列入後續。此輪只處理 CH12，未開始 CH13、未發布、未 commit、未 push。
+
+- 素材 ZIP 首次封裝時，CRC 驗證程式誤在寫入模式尚未關閉的同一個 ZipFile 上呼叫 testzip，返回值被誤判為失敗；關閉後的唯讀重驗證確認 r1 CRC 完整。為避免 ZIP 內驗收報告快照與最終報告版本不同，保留 r1 不刪除，另製最終 r2（19 members，不含自我引用的驗收報告），閉檔後 CRC PASS；r2 SHA-256 及逐檔 hash 記於 `OUTPUT-MANIFEST-r2.json`。最終驗收報告在 ZIP 外維護。
+
+
+## 2026-10-22 — CH13 製作與檢核
+
+- 依使用者指示只處理 CH13「場面調度：空間、動線與視線」；工作區已有 CH04–CH12 等未提交變更，均予保留，未發布、未 commit、未 push。
+- 初始稿件是中英文 scaffold，圖稿 manifest 為空；建立 run `production/runs/CH13/20261022T205359+0800-185a8aa8/`，預先備份 18 個既有目標檔案，SHA-256 清單與 Git 起始狀態存於 `backup/pre-edit/`。
+- 新增 CH13 中英文研究稿（S00–S12）、七筆來源 R094–R100、六個雙語術語、逐節對照表及兩張手繪可編輯 SVG。所有來源限制、圖稿雜湊及權利待審狀態已記錄。
+- 網站：Astro check/build 通過；初次同步檢查曾報 CH13 重複 loader ID，後續建置未重現；雙語路由各 38 個唯一 ID，兩個 figure ID 均存在。
+- 出版草稿：中英文 DOCX/PDF/EPUB 產出；PDF 字型清單顯示嵌入 Microsoft JhengHei、Times New Roman 等字型；EPUBCheck 5.4.0 對兩檔均為 0 fatal/0 error/0 warning；EPUB ZIP CRC 正常。
+- 測試：CH13 專項 5/5 通過；全套 89 項中 88 項通過，唯一失敗為既有 `tests/test_ch01_content.py::test_chapter_terms_are_bilingual_and_registered` 的 `KeyError: status`，本輪未改 CH01。
+- 仍待作者、雙語編輯、電影理論／製作專業及權利審查；電影觀看片源、版本與時間碼未取得，未宣稱出版完成。
+- 將 CH13 人工審查清單改為中英文對照，逐項保留待審狀態與責任角色；同步更新 CH13 草稿素材 ZIP 內的清單及雜湊。
+
+
+## 2026-10-22 — CH14 研究草稿
+
+- 已備份 CH14 原稿、登錄和工作區狀態於 `backups/CH14-start-20261022-224652/`；保留既有未提交變更。
+- 新增雙語 S00–S12 草稿、R101–R106 來源、五個雙語術語、章節對照及兩張原創 SVG。
+- 翻譯、理論、觀片定位、圖稿權利及作者核准待人工審查；未發布、未 commit、未 push；未開始 CH15。
+
+## 2026-10-22 — CH14 技術驗收結果
+
+- 專案 schema 與 V2 registry 驗證、CH14 專項測試 4/4 通過；Astro check/build、同步檢查、兩語 DOCX/PDF/EPUB 草稿、PDF 嵌字型驗證及 EPUBCheck 5.4.0 通過。
+- 全套測試 92/93；唯一錯誤為既有 CH01 詞條 `status` 欄位 KeyError，未改動 CH01。外部連結仍有 27 項無法確認可達性。
+- CH14 run 狀態為 `partial`；作者、雙語、電影專業及插圖權利審查未完成。詳見 `reports/CH14-FINAL-ACCEPTANCE.md`。
+
+
+## 2026-10-23 — CH15 研究草稿與出版驗收
+
+- 先盤點並記錄專案既有大量未提交變更；CH15 原為中英文骨架、空圖稿 manifest。建立 `backups/CH15-start-20261023-060700/`，19 個檔案備份，run checkpoint 留存初始原稿與 manifest SHA-256。所有舊章、V1 原稿和未提交工作均保留。
+- 新增繁中與英文 S01–S12 研究草稿及 12 節翻譯對照；未核實的電影觀看片源／時間碼沒有假稱完成。R107–R111 收錄 ScreenSkills、American Cinematographer、DGA 資料並標示適用範圍與定位待辦；登錄 6 個雙語工作術語。
+- 手繪兩張可編輯雙語 SVG，加入 manifest、雙語圖說／alt、製作雜湊、來源與權利待審紀錄。同步更新 chapter/translation registry、figure/asset/term/source registries、BibTeX、矩陣及 60 章 tracker。
+- 修正新增 data asset 欄位以符合 image schema；網站圖稿轉換需在 Markdown 圖片與 caption 間保留空白行，Astro projection 才會產生語意化 figure 和穩定圖號。兩語輸出頁各含 43 個唯一 ID、2 張含 alt 圖及 CH15-FIG-001/002。
+- MiKTeX 使用 Noto Serif TC 建 PDF 曾報 `dvipdfmx:fatal: Invalid font: -1` 並有缺字；改用 Microsoft JhengHei 後 PDF 通過，英文 Times New Roman 亦通過。雙語 PDF 字型各 13 項均嵌入；EPUBCheck 5.4.0 雙語均 0 fatal／error／warning／info。這個失敗與替代字型證據保留在 run 建置資料及本章驗收報告。
+- Astro check 0 errors/warnings/hints，靜態網站 build 123 頁；前置 sync 出現 loader duplicate-id notices，但輸出 HTML 實測無重複 ID。CH15 專項測試 5/5，V2／schema／site sync validators 通過；全套測試 97/98，唯一既有 CH01 glossary `KeyError: status`，本輪未改 CH01。
+- 產出本機雙語 DOCX/PDF/EPUB 草稿及 `tmp/CH15-draft-20261023-r4/CH15-Codex-Materials-DRAFT.zip`，ZIP CRC PASS。更新 `reports/CH15-FINAL-ACCEPTANCE.md` 與 `reports/CHAPTER-PROGRESS-TRACKER.md`。英文校譯、來源精確定位、電影版本／時間碼、片場專業審查、插圖權利及作者簽核仍待人工；CH15 未達正式出版標準。未開始 CH16、未發布、未 commit、未 push。
+
+
+## 2026-10-23｜CH16 曝光、感光元件與影像形成｜研究草稿與出版預覽
+
+- 使用者要求依 V4 SOP 只處理 CH16；先盤點登錄、章稿、圖 manifest、Git 狀態及素材。工作樹已有 CH04–CH15 等大量未提交改動；全部保留，未清理、重設、覆蓋其他章節。
+- 備份：`backups/CH16-start-20261023-062121/`，含起始 CH16 中英文 scaffold、空 figure manifest、重要登錄／網站投影及 Git 狀態；SHA-256 清單：`SHA256SUMS.txt`。
+- 主要 pipeline run：`production/runs/CH16/20261023T061952+0800-95526c49/`。起始 registry 原為 planned／translation-needed，沒有可整合的完整章稿。
+- 建立中英文 S01–S12 實質研究草稿、12 節翻譯對照、12 個雙語術語、R112–R119 來源資料及兩張原創可編輯 SVG；圖稿均維持 draft／review pending，登錄製作方法、尺寸、SHA-256、雙語 captions／alt 及權利審查欄。
+- 查證內容：Kodak 電影底片感光測定與曝光指南、ARRI ALEXA／Log C 動態範圍白皮書及 ALEXA LF 手冊、Sony Semiconductor 感光元件讀出技術、Nobel Prize CCD 背景。更正英文稿 Log C 與底片負片掃描類比的來源，由 R113 改為 ARRI 官方 VFX FAQ R119；中英稿、來源註記與 registry 同步。
+- 修正 metadata 登錄腳本造成的 terms nesting 問題，並依專案 asset schema 補齊 SVG production log／rights risk review 欄位；`v2_validate.py`、`validate_project.py` 與 CH16 tests 通過。
+- 網站：只同步 CH16 兩語投影及原創 SVG；同步檢查 PASS。Astro check 顯示 0 errors／warnings／hints，但載入初期印出 CH16 duplicate-id notices；最後產生的兩頁各有 42 個唯一 HTML IDs、2 個具 alt 圖片。Astro build 本機成功，123 頁，未發布。
+- 出版預覽：新增 `tmp/CH16-draft-20261023-r3/`，含中英 DOCX／PDF／EPUB、全套測試 log 及繁中 PDF 第 1 頁與第 5 頁渲染抽查圖。PDF 為 10／14 頁；pdffonts 中英文所有 23／22 個字型皆 embedded。已視覺抽查中文標題／目錄頁及含 FIG-001 頁，圖文未截斷，圖上小字可讀性仍須人工設計審查。中英文 EPUBCheck 5.4.0 各 0 fatal／error／warning／info。
+- 測試：`python -m unittest tests.test_ch16_content -v` 5/5 PASS；`v2_validate.py`、`validate_project.py`、site sync check PASS；網站 build PASS。全套 103 tests 有 1 個既有 CH01 `KeyError: status` error（102 pass／1 error）；本次未改 CH01。
+- 文件更新：CH16 acceptance report、CHAPTER_INTEGRATION_MATRIX、CH01–CH60 tracker、CH16 human-review checklist、source/case notes 與本 history。所有作者、專業、英文、片例、來源 locator、插圖權利與可及性審查仍待辦；CH16 未達正式出版標準。
+- 本次沒有發布網站、commit 或 push；僅處理 CH16。

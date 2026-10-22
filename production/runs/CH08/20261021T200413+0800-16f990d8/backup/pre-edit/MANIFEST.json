@@ -1,0 +1,108 @@
+{
+  "chapter": "CH08",
+  "created_by_run": "20261021T200413+0800-16f990d8",
+  "files": [
+    {
+      "path": "content/zh-TW/chapters/CH08-chapter-08.md",
+      "backup_path": "backup/pre-edit/content/zh-TW/chapters/CH08-chapter-08.md",
+      "bytes": 1075,
+      "sha256": "e711362fea06bcff3b25caf6fbc8c5e81710f888262be099616f46878dd4fc3a"
+    },
+    {
+      "path": "content/en-US/chapters/CH08-chapter-08.md",
+      "backup_path": "backup/pre-edit/content/en-US/chapters/CH08-chapter-08.md",
+      "bytes": 1135,
+      "sha256": "64068608cc3300527112c8dcac0ca912cd02250a241135afc2e16826699dc5a6"
+    },
+    {
+      "path": "apps/web/src/content/docs/zh-tw/CH08-chapter-08.md",
+      "backup_path": "backup/pre-edit/apps/web/src/content/docs/zh-tw/CH08-chapter-08.md",
+      "bytes": 1156,
+      "sha256": "d6ffacd63bf271fc36625bd73adb684f30e1e0e279c4279fe47d7fb2f6acde7a"
+    },
+    {
+      "path": "apps/web/src/content/docs/en/CH08-chapter-08.md",
+      "backup_path": "backup/pre-edit/apps/web/src/content/docs/en/CH08-chapter-08.md",
+      "bytes": 1216,
+      "sha256": "f039ab3eef074925e730b761540a10040ce0223c79ba6e825bc81ded8d3ff74d"
+    },
+    {
+      "path": "assets/chapters/CH08/figure-manifest.yaml",
+      "backup_path": "backup/pre-edit/assets/chapters/CH08/figure-manifest.yaml",
+      "bytes": 31,
+      "sha256": "a2402a735e19b6280690d7700e8c6e948e4abb3b49d4b87bf31540e3ebe204bd"
+    },
+    {
+      "path": "metadata/chapters.yaml",
+      "backup_path": "backup/pre-edit/metadata/chapters.yaml",
+      "bytes": 13612,
+      "sha256": "5424d7bfd1ba5ac9a86b8205c20ff6c04b5049fbd6e17d28e277c40587e9ffe8"
+    },
+    {
+      "path": "metadata/translation-status.yaml",
+      "backup_path": "backup/pre-edit/metadata/translation-status.yaml",
+      "bytes": 5405,
+      "sha256": "93f2383597b209525e137ff5e38a7332009ebfb565792e4380d31fd9bc4fb4fb"
+    },
+    {
+      "path": "metadata/terminology.yaml",
+      "backup_path": "backup/pre-edit/metadata/terminology.yaml",
+      "bytes": 54830,
+      "sha256": "f1f3e14d6d92c0f1caa03712852676dbcb9da79d3ff26644848d467ca30d3ac1"
+    },
+    {
+      "path": "data/references.yaml",
+      "backup_path": "backup/pre-edit/data/references.yaml",
+      "bytes": 33978,
+      "sha256": "4bafa73f26de714a5bf64d4151caeab35d24dff1f75a965583d450bf02f3b095"
+    },
+    {
+      "path": "metadata/references.bib",
+      "backup_path": "backup/pre-edit/metadata/references.bib",
+      "bytes": 22090,
+      "sha256": "3889e7e5300627d3c06588296abb467eedf73737234a3998493ce483999ea711"
+    },
+    {
+      "path": "metadata/figure-registry.yaml",
+      "backup_path": "backup/pre-edit/metadata/figure-registry.yaml",
+      "bytes": 43544,
+      "sha256": "a7bf20054ab363c013df4b63a9fe92b7f6456be3b09591e7b60539e86cf08869"
+    },
+    {
+      "path": "data/assets.yaml",
+      "backup_path": "backup/pre-edit/data/assets.yaml",
+      "bytes": 26779,
+      "sha256": "ad7a01bd349ae501964d94a6593bfc9e7e8558eda715b262e01e818e10be4a4d"
+    },
+    {
+      "path": "CHAPTER_INTEGRATION_MATRIX.md",
+      "backup_path": "backup/pre-edit/CHAPTER_INTEGRATION_MATRIX.md",
+      "bytes": 36360,
+      "sha256": "795f9541bbe73a7f27e6c274fd432638f388817211dd8633a90f80d32de678d1"
+    },
+    {
+      "path": "history.md",
+      "backup_path": "backup/pre-edit/history.md",
+      "bytes": 121877,
+      "sha256": "1b1803db6f1aa1b8fa1b267925152bd3be7822632f9e7ac46830c2e4501f397b"
+    },
+    {
+      "path": "scripts/publishing/build_books.py",
+      "backup_path": "backup/pre-edit/scripts/publishing/build_books.py",
+      "bytes": 11287,
+      "sha256": "810a010b7bfb808f0e76c4170db275d900845619fc8ecbb225d3b4a71e6abc8d"
+    },
+    {
+      "path": "scripts/publishing/figure-captions.lua",
+      "backup_path": "backup/pre-edit/scripts/publishing/figure-captions.lua",
+      "bytes": 3834,
+      "sha256": "b2d1686ace25a439d9a2e044d50bf889b4fa3031551f3d392b7fafa44cff4c93"
+    },
+    {
+      "path": "tests/test_v2_architecture.py",
+      "backup_path": "backup/pre-edit/tests/test_v2_architecture.py",
+      "bytes": 3359,
+      "sha256": "72501e8d38b5f934508c068c32dc1703eb0a5af3c3ac1b0a939e9fadf4f718c0"
+    }
+  ]
+}

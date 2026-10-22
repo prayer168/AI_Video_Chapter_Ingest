@@ -1,7 +1,7 @@
 import csv, hashlib, subprocess, sys, unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-from scripts.publishing.build_books import pdf_font_args
+from scripts.publishing.build_books import pandoc_data_dir_args, pdf_font_args
 class ArchitectureTests(unittest.TestCase):
     def test_v2_validator(self):
         result=subprocess.run([sys.executable, str(ROOT/'scripts/v2_validate.py')], cwd=ROOT, capture_output=True, text=True)
@@ -40,4 +40,11 @@ class ArchitectureTests(unittest.TestCase):
         args=pdf_font_args('Times New Roman','Microsoft JhengHei')
         self.assertIn('mainfont=Times New Roman',args)
         self.assertIn('CJKmainfont=Microsoft JhengHei',args)
+    def test_pandoc_uses_project_local_traditional_chinese_labels(self):
+        args=pandoc_data_dir_args()
+        self.assertEqual(args[0],'--data-dir')
+        self.assertEqual(Path(args[1]),ROOT/'scripts/publishing/pandoc-data')
+        labels=(ROOT/'scripts/publishing/pandoc-data/translations/zh.yaml').read_text(encoding='utf-8')
+        for key in ('Abstract: 摘要','Figure: 圖','Table: 表'):
+            self.assertIn(key,labels)
 if __name__=='__main__': unittest.main()

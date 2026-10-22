@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "run_id": "20261022T205359+0800-185a8aa8",
+  "chapter_id": "CH13",
+  "created_at": "2026-10-22T20:53:59.615594+08:00",
+  "status": "partial",
+  "chapter": {
+    "chapter_id": "CH13",
+    "part_id": "P03",
+    "number": 13,
+    "slug": "chapter-13",
+    "title_zh": "場面調度：空間、動線與視線",
+    "title_en": "",
+    "legacy_status": "planned",
+    "zh_status": "planned",
+    "en_status": "translation-needed"
+  },
+  "translation_status": {
+    "zh-TW": "planned",
+    "en-US": "translation-needed",
+    "sync_revision": null
+  },
+  "existing_files": [
+    {
+      "path": "content/zh-TW/chapters/CH13-chapter-13.md",
+      "bytes": 1081,
+      "sha256": "64efb180e86e7d1c0e404452fc07e5bf98e4d10c8f0d1d14a2d9b66edfae7b0d"
+    },
+    {
+      "path": "content/en-US/chapters/CH13-chapter-13.md",
+      "bytes": 1135,
+      "sha256": "df2b4fbc918bdbda7ab6bfa1115b1071720347b5e8ecf78fa2d9674cdd6c20eb"
+    },
+    {
+      "path": "assets/chapters/CH13/figure-manifest.yaml",
+      "bytes": 31,
+      "sha256": "0e467fcfda4f9aae9b2afe4523027f19b953f9284cf5fc74f8fe331b445c3be4"
+    }
+  ],
+  "steps": {
+    "inventory": {
+      "status": "pass",
+      "note": "Initial scan and pre-edit backup of 18 files; existing V1 and dirty workspace preserved."
+    },
+    "research": {
+      "status": "pass",
+      "note": "R094-R100 recorded with evidence limits and access date."
+    },
+    "zh-draft": {
+      "status": "pass",
+      "note": "Substantive CH13-S00-S12 research draft written."
+    },
+    "en-translation": {
+      "status": "needs-human-review",
+      "note": "Aligned working translation drafted; bilingual editor approval pending."
+    },
+    "film-cases": {
+      "status": "needs-human-review",
+      "note": "Cases cited to critical sources; lawful viewing editions/timecodes not verified."
+    },
+    "figure-assets": {
+      "status": "needs-human-review",
+      "note": "Two original SVGs registered and hashed; rights/accessibility approval pending."
+    },
+    "svg-diagrams": {
+      "status": "pass",
+      "note": "Both editable SVGs parse and hashes match manifests."
+    },
+    "website": {
+      "status": "pass",
+      "note": "Content sync, Astro check/build, localized routes and unique IDs passed."
+    },
+    "books": {
+      "status": "pass",
+      "note": "DOCX/PDF/EPUB drafts generated; PDF embedding evidence and EPUBCheck passed."
+    },
+    "tests": {
+      "status": "fail",
+      "note": "CH13 unit tests 5/5; suite 88/89 due pre-existing CH01 KeyError status."
+    },
+    "editorial-review": {
+      "status": "needs-human-review",
+      "note": "Film theory, terminology, production and bilingual review remain."
+    },
+    "rights-review": {
+      "status": "needs-human-review",
+      "note": "SVG attribution, similarity, rights and approval remain."
+    },
+    "author-approval": {
+      "status": "needs-human-review",
+      "note": "Author/publisher proof and approval remain."
+    },
+    "chapter-audit": {
+      "status": "pass",
+      "note": "Audit report lists evidence and outstanding human gates."
+    }
+  },
+  "events": [
+    {
+      "time": "2026-10-22T20:53:59.615594+08:00",
+      "event": "Checkpoint created. No manuscripts, images, or publication outputs changed."
+    },
+    {
+      "time": "2026-10-22T21:05:45.055890+08:00",
+      "event": "Stage chapter-audit recorded as pass.",
+      "note": "Chapter checks complete with review blockers explicitly retained."
+    },
+    {
+      "time": "2026-10-22T21:05:45.055890+08:00",
+      "event": "Run finished as partial.",
+      "note": "Chapter checks complete with review blockers explicitly retained."
+    },
+    {
+      "time": "2026-10-22T21:10:18.301630+08:00",
+      "event": "Stage inventory recorded as pass.",
+      "note": "Initial scan and pre-edit backup of 18 files; existing V1 and dirty workspace preserved."
+    },
+    {
+      "time": "2026-10-22T21:10:18.311637+08:00",
+      "event": "Stage research recorded as pass.",
+      "note": "R094-R100 recorded with evidence limits and access date."
+    },
+    {
+      "time": "2026-10-22T21:10:18.325904+08:00",
+      "event": "Stage zh-draft recorded as pass.",
+      "note": "Substantive CH13-S00-S12 research draft written."
+    },
+    {
+      "time": "2026-10-22T21:10:18.338521+08:00",
+      "event": "Stage en-translation recorded as needs-human-review.",
+      "note": "Aligned working translation drafted; bilingual editor approval pending."
+    },
+    {
+      "time": "2026-10-22T21:10:18.350105+08:00",
+      "event": "Stage film-cases recorded as needs-human-review.",
+      "note": "Cases cited to critical sources; lawful viewing editions/timecodes not verified."
+    },
+    {
+      "time": "2026-10-22T21:10:18.364247+08:00",
+      "event": "Stage figure-assets recorded as needs-human-review.",
+      "note": "Two original SVGs registered and hashed; rights/accessibility approval pending."
+    },
+    {
+      "time": "2026-10-22T21:10:18.378877+08:00",
+      "event": "Stage svg-diagrams recorded as pass.",
+      "note": "Both editable SVGs parse and hashes match manifests."
+    },
+    {
+      "time": "2026-10-22T21:10:18.392390+08:00",
+      "event": "Stage website recorded as pass.",
+      "note": "Content sync, Astro check/build, localized routes and unique IDs passed."
+    },
+    {
+      "time": "2026-10-22T21:10:18.407738+08:00",
+      "event": "Stage books recorded as pass.",
+      "note": "DOCX/PDF/EPUB drafts generated; PDF embedding evidence and EPUBCheck passed."
+    },
+    {
+      "time": "2026-10-22T21:10:18.421423+08:00",
+      "event": "Stage tests recorded as fail.",
+      "note": "CH13 unit tests 5/5; suite 88/89 due pre-existing CH01 KeyError status."
+    },
+    {
+      "time": "2026-10-22T21:10:18.435976+08:00",
+      "event": "Stage editorial-review recorded as needs-human-review.",
+      "note": "Film theory, terminology, production and bilingual review remain."
+    },
+    {
+      "time": "2026-10-22T21:10:18.448506+08:00",
+      "event": "Stage rights-review recorded as needs-human-review.",
+      "note": "SVG attribution, similarity, rights and approval remain."
+    },
+    {
+      "time": "2026-10-22T21:10:18.461514+08:00",
+      "event": "Stage author-approval recorded as needs-human-review.",
+      "note": "Author/publisher proof and approval remain."
+    },
+    {
+      "time": "2026-10-22T21:10:18.474578+08:00",
+      "event": "Stage chapter-audit recorded as pass.",
+      "note": "Audit report lists evidence and outstanding human gates."
+    },
+    {
+      "time": "2026-10-22T21:10:18.490110+08:00",
+      "event": "Run finished as partial.",
+      "note": "Local research draft complete; human review remains; no publication-ready status."
+    }
+  ],
+  "finished_at": "2026-10-22T21:10:18.490110+08:00"
+}

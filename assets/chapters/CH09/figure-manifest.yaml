@@ -1,2 +1,153 @@
 chapter_id: CH09
-figures: []
+figures:
+- figure_id: CH09-FIG-001
+  chapter_id: CH09
+  section_id: CH09-S09
+  placement_after: after:CH09-S09
+  source_ids:
+  - R066
+  asset_original: assets/chapters/CH09/figures/originals/CH09-FIG-001-genre-layers.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 9-1
+  asset_status: draft-original-svg
+  rights_status: original-project-svg-pending-human-review
+  sha256: a9237182ded3aa4cb5769efc0b122561127cb9493ab33f2c6463a6aa137553a9
+  width: 1200
+  height: 600
+  bytes: 1754
+  method: Hand-authored editable bilingual SVG; no generative model, third-party image,
+    or external artwork used.
+  caption_zh: 圖 9-1｜語義／句法／語用是整理類型線索的分析視角，不是自動分類公式。本圖為本書原創可編輯 SVG 示意圖，非電影劇照或特定作品畫面；圖稿權利與出版核准待審。
+  caption_en: Figure 9-1. Semantic, syntactic, and pragmatic layers are analytical
+    views for organizing genre cues, not an automatic classification formula. This
+    is an original editable SVG illustration for this book, not a film still or a
+    depiction of a specific work; rights and publication approval pending.
+  alt_zh: 原創向量圖以三個相連分析層呈現可辨識元素、人物與事件關係、產業及觀眾語境，並連至作品的類型承諾與變奏。
+  alt_en: An original vector diagram uses three connected analytical layers—recognizable
+    elements, relations among people and events, and industrial/audience context—leading
+    to a work's genre promise and variation.
+  creator: AI Video Bible project; individual creator attribution pending confirmation
+  attribution: Individual creator and rights-holder attribution pending confirmation.
+  permission: Publication approval pending.
+  original_prompt_or_method: Hand-authored editable SVG labels, geometry, and connectors;
+    no image generation or third-party artwork.
+  production_log:
+  - date: '2026-10-21'
+    change: Created original editable bilingual SVG; recorded dimensions, byte size,
+      and SHA-256.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-US-site: pending
+- figure_id: CH09-FIG-002
+  chapter_id: CH09
+  section_id: CH09-S07
+  placement_after: after:CH09-S07
+  source_ids:
+  - R067
+  asset_original: assets/chapters/CH09/figures/originals/CH09-FIG-002-serial-scales.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 9-2
+  asset_status: draft-original-svg
+  rights_status: original-project-svg-pending-human-review
+  sha256: 9ad0bec7684946b842bfcfa58885adb1ec7c2188a041100e6846bda3818275d1
+  width: 1200
+  height: 600
+  bytes: 1609
+  method: Hand-authored editable bilingual SVG; no generative model, third-party image,
+    or external artwork used.
+  caption_zh: 圖 9-2｜單集、季與全系列可同時有不同尺度的回報與延續。本圖為本書原創可編輯 SVG 示意圖，非現有影視作品的版面或角色；權利與出版核准待審。
+  caption_en: Figure 9-2. Episodes, seasons, and whole series can provide payoffs
+    and continuations at different scales. This is an original editable SVG illustration
+    for this book, not the layout or characters of an existing screen work; rights
+    and publication approval pending.
+  alt_zh: 原創向量圖以單集、季、系列三層尺度呈現局部問題、持續故事線和長程變化；箭頭代表有紀錄的因果交接而不是固定集數公式。
+  alt_en: An original vector diagram presents episode, season, and series scales with
+    local questions, continuing plotlines, and long-term change; arrows indicate documented
+    causal handoffs, not a fixed episode formula.
+  creator: AI Video Bible project; individual creator attribution pending confirmation
+  attribution: Individual creator and rights-holder attribution pending confirmation.
+  permission: Publication approval pending.
+  original_prompt_or_method: Hand-authored editable SVG labels, geometry, and connectors;
+    no image generation or third-party artwork.
+  production_log:
+  - date: '2026-10-21'
+    change: Created original editable bilingual SVG; recorded dimensions, byte size,
+      and SHA-256.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-US-site: pending
+- figure_id: CH09-FIG-003
+  chapter_id: CH09
+  section_id: CH09-S10
+  placement_after: after:CH09-S10
+  source_ids:
+  - R068
+  - R069
+  asset_original: assets/chapters/CH09/figures/originals/CH09-FIG-003-reveal-matrix.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 9-3
+  asset_status: draft-original-svg
+  rights_status: original-project-svg-pending-human-review
+  sha256: 9ea662d9e5cde67ce18318c98f29f1bc47f07ca3bef84c60e52f54898be4b993
+  width: 1200
+  height: 600
+  bytes: 1707
+  method: Hand-authored editable bilingual SVG; no generative model, third-party image,
+    or external artwork used.
+  caption_zh: 圖 9-3｜事件時間線與揭露順序須分開記錄，才能查核非線性敘事的資訊依賴。本圖為本書原創可編輯 SVG 示意圖，非任何電影時間碼或劇照；權利與出版核准待審。
+  caption_en: Figure 9-3. Event chronology and reveal order should be recorded separately
+    to audit the information dependencies of nonlinear storytelling. This is an original
+    editable SVG illustration for this book, not a film timecode or still; rights
+    and publication approval pending.
+  alt_zh: 原創向量矩陣比較事件的故事時間順序與觀眾看到事件的順序，並記錄角色知情狀態和每次揭露的理解效果。
+  alt_en: An original vector matrix compares story-world chronology with the order
+    in which audiences see events, while recording character knowledge and the interpretive
+    effect of each reveal.
+  creator: AI Video Bible project; individual creator attribution pending confirmation
+  attribution: Individual creator and rights-holder attribution pending confirmation.
+  permission: Publication approval pending.
+  original_prompt_or_method: Hand-authored editable SVG labels, geometry, and connectors;
+    no image generation or third-party artwork.
+  production_log:
+  - date: '2026-10-21'
+    change: Created original editable bilingual SVG; recorded dimensions, byte size,
+      and SHA-256.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-US-site: pending

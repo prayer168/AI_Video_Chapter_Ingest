@@ -1,0 +1,29 @@
+chapter_id: CH07
+source_locale: zh-TW
+target_locale: en-US
+source_revision: 2.1.0-draft
+target_revision: 2.1.0-draft
+status: review-needed
+reviewed_by: null
+reviewed_on: null
+sections:
+  - {id: CH07-S00, zh: 人物、欲望、衝突與角色弧線, en: Character, Desire, Conflict, and Character Arcs}
+  - {id: CH07-S01, zh: 學習目標, en: Learning objectives}
+  - {id: CH07-S02, zh: 先備知識, en: Prerequisites}
+  - {id: CH07-S03, zh: 核心術語, en: Key terms}
+  - {id: CH07-S04, zh: 歷史與基本原理, en: History and principles}
+  - {id: CH07-S05, zh: 傳統電影製作方法, en: Traditional production practice}
+  - {id: CH07-S06, zh: AI 時代的技術轉換, en: AI-era workflow and limits}
+  - {id: CH07-S07, zh: 詳細工作流程, en: Step-by-step workflow}
+  - {id: CH07-S08, zh: 提示詞與技術參數, en: Prompt and technical parameters}
+  - {id: CH07-S09, zh: 電影案例分析, en: Film case studies}
+  - {id: CH07-S10, zh: 常見錯誤與品質檢查, en: Common errors and quality checks}
+  - {id: CH07-S11, zh: 練習、評量與延伸研究, en: Exercises, assessment, and further research}
+  - {id: CH07-S12, zh: 參考資料, en: References}
+  - {id: CH07-S13, zh: 結語, en: Conclusion}
+terms: [TERM-CH07-CHARACTER, TERM-CH07-CHARACTERIZATION, TERM-CH07-GOAL, TERM-CH07-DESIRE, TERM-CH07-OBSTACLE, TERM-CH07-CONFLICT, TERM-CH07-CHARACTER-ARC, TERM-CH07-CHARACTER-AGENCY]
+references: [R046, R052, R053, R054, R055, R056, R057]
+figures:
+  - {id: CH07-FIG-001, display_number: 7-1, section_id: CH07-S07, zh_title: 角色目標、阻力、選擇與後果, en_title: Character goal, opposition, choice, and consequence}
+  - {id: CH07-FIG-002, display_number: 7-2, section_id: CH07-S09, zh_title: 角色弧線的證據矩陣, en_title: Character arc evidence matrix}
+editorial_note: English is a working translation, not approved; bilingual terminology and theory locators require human review.

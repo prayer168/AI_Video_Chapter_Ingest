@@ -1,0 +1,42 @@
+[
+  {
+    "path": "CHAPTER_INTEGRATION_MATRIX.md",
+    "bytes": 35545,
+    "sha256": "6e93f4fa9cdb8f7ae1014b4733889376edab7ac56684dd637841166ab1ff4be5"
+  },
+  {
+    "path": "content/en-US/chapters/CH06-chapter-06.md",
+    "bytes": 1135,
+    "sha256": "3d03185316b97da38884d5839549ff44cfb95fba3dbb08faebfeca23cc42b569"
+  },
+  {
+    "path": "content/zh-TW/chapters/CH06-chapter-06.md",
+    "bytes": 1063,
+    "sha256": "fa5646e867a17702e188146f4660b737af70c2e71f4496dc4598e84dd5d699ab"
+  },
+  {
+    "path": "data/references.yaml",
+    "bytes": 26494,
+    "sha256": "4a79b121ee5aa73a412da09abf525f60b7317a9fcc5086ed598db7bfab23fa7e"
+  },
+  {
+    "path": "metadata/chapters.yaml",
+    "bytes": 13530,
+    "sha256": "7182a071775ac24adace3c6106c6b763ec2109e4edd5b72bdbb30e7857e89416"
+  },
+  {
+    "path": "metadata/references.bib",
+    "bytes": 18172,
+    "sha256": "027a76d769f7403d47707541c430dd10f71e9cab7cb8a75c3765c45ae2a43dbd"
+  },
+  {
+    "path": "metadata/terminology.yaml",
+    "bytes": 45068,
+    "sha256": "a3aa86033e6763fc1b47d8bbc57f425c83cadf5ab19204380335ce506f210ef6"
+  },
+  {
+    "path": "metadata/translation-status.yaml",
+    "bytes": 5389,
+    "sha256": "1374a9f0f9d186438391198734523a972020159064c3dcc6346481c70c27a779"
+  }
+]\n

@@ -1,0 +1,58 @@
+chapter_id: CH05
+figures:
+- figure_id: CH05-FIG-001
+  chapter_id: CH05
+  section_id: CH05-S04
+  placement_after: after:CH05-S04
+  display_number: 5-1
+  zh_title: "類型語義與敘事結構"
+  en_title: "Genre semantics and narrative syntax"
+  caption_zh: "類型系統：可辨識的語義線索，經由結構關係連結故事承諾與觀眾期待。 本圖為原創可編輯 SVG 示意圖。"
+  caption_en: "Genre system: recognizable semantic cues connect through syntactic relations to story promise and audience expectation. This is an original editable SVG diagram."
+  alt_zh: "類型分析流程圖，從語義元素連結到結構關係、故事承諾及觀眾期待。"
+  alt_en: "Flow diagram linking semantic elements to syntactic relations, story promise, and audience expectation."
+  asset_original: assets/chapters/CH05/figures/originals/CH05-FIG-001-genre-map.svg
+  asset_approved: null
+  asset_status: draft-original-svg
+  rights_status: original-project-generated-pending-editorial-review
+  sha256: 1b06e5ed601f3fe5d931446b5d0e80ba64bbedeb5856f0ecf2e78c998cc95cc5
+  width: 1200
+  height: 420
+  method: Hand-authored SVG; no third-party image or AI image generation used.
+  creator: AI Video Bible project; individual creator attribution not recorded
+  production_log:
+  - date: '2026-10-20'
+    change: Created editable schematic for CH05 research draft.
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  note: Draft only. Human accessibility, similarity, authorship, technical, and publication review pending.
+- figure_id: CH05-FIG-002
+  chapter_id: CH05
+  section_id: CH05-S10
+  placement_after: after:CH05-S09
+  display_number: 5-2
+  zh_title: "影視再現與倫理審查"
+  en_title: "Screen representation and ethical review"
+  caption_zh: "再現審查：檢視視點、能動性、因果、脈絡、同意與補救。 本圖為原創可編輯 SVG 示意圖。"
+  caption_en: "Representation audit: examine point of view, agency, causality, context, consent, and remedy. This is an original editable SVG diagram."
+  alt_zh: "六節點審查圖：視點、能動性、因果、脈絡、同意、補救。"
+  alt_en: "Six-node audit diagram: viewpoint, agency, causality, context, consent, and remedy."
+  asset_original: assets/chapters/CH05/figures/originals/CH05-FIG-002-representation-audit.svg
+  asset_approved: null
+  asset_status: draft-original-svg
+  rights_status: original-project-generated-pending-editorial-review
+  sha256: 45975736d298a57f6d0ee1af96c2e3c98d189bd1aba28cc05e881dd92ea6cab7
+  width: 1200
+  height: 420
+  method: Hand-authored SVG; no third-party image or AI image generation used.
+  creator: AI Video Bible project; individual creator attribution not recorded
+  production_log:
+  - date: '2026-10-20'
+    change: Created editable schematic for CH05 research draft.
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  note: Draft only. Human accessibility, similarity, authorship, technical, and publication review pending.

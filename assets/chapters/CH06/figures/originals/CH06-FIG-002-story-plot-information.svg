@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Story events and plot presentation / 故事事件與情節呈現</title>
+  <desc id="desc">The upper line represents inferred story chronology. The lower sequence represents presentation order, with a flashback and repeated account. / 上方為推論出的故事時間，下方為呈現順序，其中包含倒敘與重述。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#b78354"/></marker>
+    <style>
+      text{font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif;fill:#23313a}
+      .kicker{font-size:15px;letter-spacing:3px;fill:#87694f}.label{font-size:23px;font-weight:700}.en{font-size:16px;fill:#52616a}
+      .event{fill:#f5f1e9;stroke:#b78354;stroke-width:2}.present{fill:#e8eef0;stroke:#526b78;stroke-width:2}
+      .line{stroke:#b78354;stroke-width:3;fill:none;marker-end:url(#arrow)}.dash{stroke:#87959b;stroke-width:2;stroke-dasharray:7 7;fill:none}
+    </style>
+  </defs>
+  <rect width="1200" height="560" fill="none"/>
+  <text x="64" y="58" class="kicker">CH06 · STORY TIME / PRESENTATION ORDER</text>
+  <text x="64" y="120" class="label">推論的故事時間 <tspan class="en">/ Inferred story chronology</tspan></text>
+  <path class="line" d="M170 220H1035"/>
+  <g><circle class="event" cx="200" cy="220" r="45"/><text x="200" y="227" text-anchor="middle" class="label">A</text><text x="200" y="286" text-anchor="middle" class="en">event 1</text></g>
+  <g><circle class="event" cx="500" cy="220" r="45"/><text x="500" y="227" text-anchor="middle" class="label">B</text><text x="500" y="286" text-anchor="middle" class="en">event 2</text></g>
+  <g><circle class="event" cx="800" cy="220" r="45"/><text x="800" y="227" text-anchor="middle" class="label">C</text><text x="800" y="286" text-anchor="middle" class="en">event 3</text></g>
+  <text x="64" y="362" class="label">作品呈現順序 <tspan class="en">/ Order of presentation</tspan></text>
+  <path class="line" d="M170 452H1035"/>
+  <g><rect class="present" x="145" y="410" width="110" height="84" rx="18"/><text x="200" y="461" text-anchor="middle" class="label">B</text><text x="200" y="522" text-anchor="middle" class="en">later shown first</text></g>
+  <g><rect class="present" x="445" y="410" width="110" height="84" rx="18"/><text x="500" y="461" text-anchor="middle" class="label">A</text><text x="500" y="522" text-anchor="middle" class="en">flashback</text></g>
+  <g><rect class="present" x="745" y="410" width="110" height="84" rx="18"/><text x="800" y="461" text-anchor="middle" class="label">B′</text><text x="800" y="522" text-anchor="middle" class="en">retold; detail differs</text></g>
+  <g><rect class="present" x="995" y="410" width="110" height="84" rx="18"/><text x="1050" y="461" text-anchor="middle" class="label">C</text><text x="1050" y="522" text-anchor="middle" class="en">later event</text></g>
+  <path class="dash" d="M200 265C200 320 500 320 500 410M500 265C500 320 200 320 200 410M500 265C500 340 800 340 800 410M800 265C800 325 1050 325 1050 410"/>
+</svg>

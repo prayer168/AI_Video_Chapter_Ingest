@@ -1,0 +1,173 @@
+- term_id: TERM-CH12-BLOCKING
+  preferred:
+    zh-TW: 演員調度／走位設計
+    en-US: actor blocking
+  definitions:
+    zh-TW: 為表演與攝影安排人物、物件和鏡頭在場景空間中的行動關係，不只是地板標記。
+    en-US: Arranging performers, objects, and camera movement in scene space for dramatic and photographic
+      purposes; more than floor marks.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R088
+  - R089
+  domain: film production practice
+  context: CH12 working definition; bilingual and professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH12-MOVEMENT-BEAT
+  preferred:
+    zh-TW: 動作節拍
+    en-US: movement beat
+  definitions:
+    zh-TW: 具有戲劇功能、可觀察的行動變化，如接近、阻擋或退讓。
+    en-US: An observable action change with dramatic function, such as approaching, blocking, or yielding.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R087
+  domain: performance and directing
+  context: CH12 working definition; bilingual and professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH12-MARK
+  preferred:
+    zh-TW: 走位標記點
+    en-US: mark
+  definitions:
+    zh-TW: 供焦點、構圖、燈光或走位參照的位置，應服務表演任務。
+    en-US: A reference position for focus, framing, lighting, or movement, used in service of a performance
+      task.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R088
+  domain: film production practice
+  context: CH12 working definition; bilingual and professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH12-EYELINE
+  preferred:
+    zh-TW: 視線方向
+    en-US: eyeline
+  definitions:
+    zh-TW: 演員觀看對象及方向／高度，影響人際空間和鏡頭匹配。
+    en-US: The target and direction/height of a performer’s gaze, affecting interpersonal space and shot
+      matching.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R089
+  domain: cinematography
+  context: CH12 working definition; bilingual and professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH12-SCREEN-DIRECTION
+  preferred:
+    zh-TW: 畫面方向
+    en-US: screen direction
+  definitions:
+    zh-TW: 人物在畫面中的移動方向；維持或改變皆須考慮空間和剪輯意圖。
+    en-US: A character’s direction of movement in frame; continuity or change should account for space
+      and editorial intent.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R089
+  domain: editing
+  context: CH12 working definition; bilingual and professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH12-ACTION-MATCH
+  preferred:
+    zh-TW: 動作銜接
+    en-US: match on action
+  definitions:
+    zh-TW: 以相鄰鏡頭中同一動作的連續部分建立時間與空間連接。
+    en-US: Connecting adjacent shots through continuous portions of the same action to establish temporal
+      and spatial flow.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R089
+  domain: editing
+  context: CH12 working definition; bilingual and professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH12-PERFORMANCE-CONTINUITY
+  preferred:
+    zh-TW: 表演連續性
+    en-US: performance continuity
+  definitions:
+    zh-TW: 比對跨鏡頭、take 或非順拍場次的表演、動作、語速、視線和道具互動。
+    en-US: Comparing performance, movement, pace, eyelines, and prop interaction across shots, takes,
+      or scenes shot out of order.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R088
+  - R089
+  domain: editing and performance
+  context: CH12 working definition; bilingual and professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH12-SCRIPT-SUPERVISOR
+  preferred:
+    zh-TW: 劇本監督
+    en-US: script supervisor
+  definitions:
+    zh-TW: 追蹤劇本、動作、視線、道具與拍攝資料並與劇組溝通的職務，配置依製作而異。
+    en-US: A role tracking script, action, eyelines, props, and production details and communicating them
+      to the crew; staffing varies.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R088
+  - R089
+  domain: film production roles
+  context: CH12 working definition; bilingual and professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH12-CONSENT-BOUNDARY
+  preferred:
+    zh-TW: 同意界線
+    en-US: consent boundary
+  definitions:
+    zh-TW: 排演／拍攝中知情、可協商且可撤回或暫停的身體接觸與內容界線。
+    en-US: An informed, negotiable, and revocable boundary for physical contact or content during rehearsal
+      and filming.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R089
+  domain: performer safety
+  context: CH12 working definition; bilingual and professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []

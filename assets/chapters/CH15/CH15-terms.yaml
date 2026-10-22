@@ -1,0 +1,120 @@
+chapter_id: CH15
+terms:
+- term_id: TERM-CH15-REHEARSAL
+  preferred:
+    zh-TW: 排演
+    en-US: rehearsal
+  definitions:
+    zh-TW: 拍攝前或拍攝過程中，用來測試表演、節奏、走位或鏡頭假設的活動；形式依製作情境而異。
+    en-US: An activity before or during filming to test performance, rhythm, blocking, or camera assumptions; form
+      varies by production.
+  domain: on-set directing
+  context: CH15 working definition; bilingual and film-professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R107
+  - R108
+- term_id: TERM-CH15-BLOCKING
+  preferred:
+    zh-TW: 場面調度
+    en-US: blocking
+  definitions:
+    zh-TW: 演員與攝影機在場景空間中的位置、路徑、視線與時間安排。
+    en-US: The placement, paths, eyelines, and timing of performers and camera within a scene’s space.
+  domain: on-set directing
+  context: CH15 working definition; bilingual and film-professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R107
+  - R108
+- term_id: TERM-CH15-COVERAGE
+  preferred:
+    zh-TW: 覆蓋鏡頭
+    en-US: coverage
+  definitions:
+    zh-TW: 為敘事與剪輯取得足夠的不同鏡頭素材；充分程度依場景目的與剪輯策略判斷。
+    en-US: Different shot material obtained for narrative and editorial construction; sufficiency depends on scene
+      objectives and editing strategy.
+  domain: on-set directing
+  context: CH15 working definition; bilingual and film-professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R108
+  - R109
+- term_id: TERM-CH15-MASTER-SHOT
+  preferred:
+    zh-TW: 主鏡頭
+    en-US: master shot
+  definitions:
+    zh-TW: 涵蓋整場或主要動作關係的鏡頭，可作空間與表演參照；不保證一定採用。
+    en-US: A shot covering a scene or its principal action relationships, potentially serving as spatial and performance
+      reference; not always used.
+  domain: on-set directing
+  context: CH15 working definition; bilingual and film-professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R108
+- term_id: TERM-CH15-ON-SET-ADJUSTMENT
+  preferred:
+    zh-TW: 臨場修正
+    en-US: on-set adjustment
+  definitions:
+    zh-TW: 因現場條件變化而調整計畫，並檢查敘事、技術、安全與連戲後果。
+    en-US: A plan change in response to set conditions, followed by review of narrative, technical, safety, and
+      continuity consequences.
+  domain: on-set directing
+  context: CH15 working definition; bilingual and film-professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R107
+  - R108
+- term_id: TERM-CH15-COVERAGE-STRATEGY
+  preferred:
+    zh-TW: 覆蓋策略
+    en-US: coverage strategy
+  definitions:
+    zh-TW: 對必要鏡頭、表演完整性、剪輯選項與製作成本的有目的取捨。
+    en-US: A deliberate trade-off among required shots, performance integrity, editorial options, and production
+      cost.
+  domain: on-set directing
+  context: CH15 working definition; bilingual and film-professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R108
+  - R109

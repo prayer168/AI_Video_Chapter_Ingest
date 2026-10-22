@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Character arc evidence matrix</title>
+  <desc id="desc">An original editable three-column comparison of beginning, middle, and ending evidence across belief, strategy, relationship, and observable action. Change is one possible pattern, not a requirement.</desc>
+  <text x="55" y="58" fill="#263238" font-family="Noto Sans TC, sans-serif" font-size="27">ARC EVIDENCE / 弧線證據</text>
+  <g stroke="#9caaa4" stroke-width="1.5" fill="none">
+    <path d="M80 115 H1120 M80 205 H1120 M80 295 H1120 M80 385 H1120 M80 475 H1120"/>
+    <path d="M80 115 V475 M340 115 V475 M600 115 V475 M860 115 V475 M1120 115 V475"/>
+  </g>
+  <g fill="#263238" font-family="Noto Sans TC, sans-serif" font-size="21">
+    <text x="98" y="170">DIMENSION / 面向</text><text x="400" y="170">BEGIN / 開端</text><text x="660" y="170">MIDDLE / 中段</text><text x="920" y="170">END / 結尾</text>
+    <text x="100" y="260">Belief / 信念</text><text x="100" y="350">Strategy / 策略</text><text x="100" y="440">Action / 行動證據</text>
+    <text x="365" y="260" fill="#697b76">record evidence</text><text x="625" y="260" fill="#697b76">pressure / choice</text><text x="885" y="260" fill="#697b76">changed or stable?</text>
+    <text x="365" y="350" fill="#697b76">what they try</text><text x="625" y="350" fill="#697b76">what fails</text><text x="885" y="350" fill="#697b76">new / repeated move</text>
+    <text x="365" y="440" fill="#697b76">filmable cue</text><text x="625" y="440" fill="#697b76">decision + cost</text><text x="885" y="440" fill="#697b76">evidence, not label</text>
+  </g>
+  <text x="600" y="505" text-anchor="middle" fill="#bd714f" font-family="Noto Sans TC, sans-serif" font-size="18">A stable, tragic, cyclical, or unresolved pattern may also be intentional. / 穩定、悲劇、循環或未定型也可能是有意選擇。</text>
+</svg>

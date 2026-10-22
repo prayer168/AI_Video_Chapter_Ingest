@@ -1,2 +1,82 @@
 chapter_id: CH07
-figures: []
+figures:
+  - figure_id: CH07-FIG-001
+    chapter_id: CH07
+    zh_title: 角色目標、阻力、選擇與後果
+    en_title: Character goal, opposition, choice, and consequence
+    section_id: CH07-S07
+    teaching_goal: 以可觀察因果點檢視場景行動，作診斷工具而非固定劇作公式。
+    placement_after: after:CH07-S07
+    source_ids: [R052, R054]
+    asset_original: assets/chapters/CH07/figures/originals/CH07-FIG-001-goal-conflict-consequence.svg
+    asset_approved: null
+    rights_review: pending
+    technical_review: pending
+    editorial_review: pending
+    publication_status: pending-publication-approval
+    display_number: 7-1
+    asset_status: draft-original-svg
+    rights_status: original-project-svg-pending-human-review
+    sha256: 7b7f8b030a817bfdb88d31c1cd24897062530ebda731ae57a8dcd8ce6e22e1d8
+    width: 1200
+    height: 430
+    method: Hand-authored editable vector diagram with original labels and shapes; no image generation, third-party artwork, or film still.
+    caption_zh: "圖 7-1｜目標、阻力、選擇與後果可作為場景因果的檢查點；此為工作模型而非固定公式。本圖為本書原創可編輯 SVG 示意圖，非電影劇照；權利與出版核准待審。"
+    caption_en: "Figure 7-1. Goals, resistance, choices, and consequences can help inspect scene causality; this is a working model, not a fixed formula. This is an original editable SVG illustration for this book, not a film still; rights and publication approval are pending."
+    alt_zh: 原創流程圖以角色目標、阻力、策略與選擇、結果與代價四個節點呈現行動如何改變下一個情境；註明不是固定劇作公式。
+    alt_en: An original flow diagram connects a character goal, resistance, strategy and choice, and outcome and cost to show how action changes the next situation; labeled as a working model, not a fixed formula.
+    creator: AI Video Bible project; individual creator attribution pending confirmation
+    attribution: Individual contributor and rights-holder attribution pending confirmation.
+    original_prompt_or_method: Hand-authored SVG; original abstract labels and vector shapes; no generative model or external artwork.
+    production_log:
+      - date: '2026-10-21'
+        change: Created editable bilingual teaching diagram; source and hash recorded; reviews remain pending.
+    review_status: {technical: pending, quality: pending, rights: pending, final: pending}
+    approval_status: pending
+    publication_targets: {zh-TW-book: pending, en-book: pending, zh-TW-site: pending, en-site: pending}
+    rights_risk_review:
+      status: pending
+      checked_at: '2026-10-21'
+      reviewer: Codex preliminary provenance inspection
+      findings: No third-party visual assets identified; individual authorship, accessibility, similarity and editorial review remain open.
+    notes: Draft only; not publication-approved.
+  - figure_id: CH07-FIG-002
+    chapter_id: CH07
+    zh_title: 角色弧線的證據矩陣
+    en_title: Character arc evidence matrix
+    section_id: CH07-S09
+    teaching_goal: 比較故事不同時點的信念、策略與可觀察行動，不預設角色必須改變。
+    placement_after: after:CH07-S09
+    source_ids: [R052, R054]
+    asset_original: assets/chapters/CH07/figures/originals/CH07-FIG-002-arc-evidence-matrix.svg
+    asset_approved: null
+    rights_review: pending
+    technical_review: pending
+    editorial_review: pending
+    publication_status: pending-publication-approval
+    display_number: 7-2
+    asset_status: draft-original-svg
+    rights_status: original-project-svg-pending-human-review
+    sha256: 6acaf938ab8a861bec3ad5e10399430522124d67f6c91c2cdf9aaa6658fd8ebc
+    width: 1200
+    height: 520
+    method: Hand-authored editable vector matrix with original labels and grid; no image generation, third-party artwork, or film still.
+    caption_zh: "圖 7-2｜以不同時點的信念、策略、關係及可觀察行動檢視弧線；改變並非唯一有效模式。本圖為本書原創可編輯 SVG 示意圖，非電影劇照；權利與出版核准待審。"
+    caption_en: "Figure 7-2. Examine an arc through beliefs, strategies, relationships, and observable actions at different points; change is not the only valid pattern. This is an original editable SVG illustration for this book, not a film still; rights and publication approval are pending."
+    alt_zh: 原創三欄弧線證據矩陣，將開端、中段、結尾與信念、策略、行動證據交叉對照，提示角色可改變也可維持穩定。
+    alt_en: An original three-column arc-evidence matrix compares belief, strategy, and observable action at the beginning, middle, and end, noting that a character may change or remain stable.
+    creator: AI Video Bible project; individual creator attribution pending confirmation
+    attribution: Individual contributor and rights-holder attribution pending confirmation.
+    original_prompt_or_method: Hand-authored SVG; original abstract labels and vector grid; no generative model or external artwork.
+    production_log:
+      - date: '2026-10-21'
+        change: Created editable bilingual teaching diagram; source and hash recorded; reviews remain pending.
+    review_status: {technical: pending, quality: pending, rights: pending, final: pending}
+    approval_status: pending
+    publication_targets: {zh-TW-book: pending, en-book: pending, zh-TW-site: pending, en-site: pending}
+    rights_risk_review:
+      status: pending
+      checked_at: '2026-10-21'
+      reviewer: Codex preliminary provenance inspection
+      findings: No third-party visual assets identified; individual authorship, accessibility, similarity and editorial review remain open.
+    notes: Draft only; not publication-approved.

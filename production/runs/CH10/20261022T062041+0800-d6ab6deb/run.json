@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "run_id": "20261022T062041+0800-d6ab6deb",
+  "chapter_id": "CH10",
+  "created_at": "2026-10-22T06:20:41.291403+08:00",
+  "status": "in-progress",
+  "chapter": {
+    "chapter_id": "CH10",
+    "part_id": "P02",
+    "number": 10,
+    "slug": "chapter-10",
+    "title_zh": "劇本格式、改編與版本管理",
+    "title_en": "",
+    "legacy_status": "planned",
+    "zh_status": "planned",
+    "en_status": "translation-needed"
+  },
+  "translation_status": {
+    "zh-TW": "planned",
+    "en-US": "translation-needed",
+    "sync_revision": null
+  },
+  "existing_files": [
+    {
+      "path": "content/zh-TW/chapters/CH10-chapter-10.md",
+      "bytes": 1075,
+      "sha256": "8e633c0ea5bc49484062f197da1be43de03cd992e91d61137d278fa865ec92f4"
+    },
+    {
+      "path": "content/en-US/chapters/CH10-chapter-10.md",
+      "bytes": 1135,
+      "sha256": "40eeb74dc07980e4a9d8e8cbe46057814e2ae59e291d193a54a379ab828df7fd"
+    },
+    {
+      "path": "assets/chapters/CH10/figure-manifest.yaml",
+      "bytes": 31,
+      "sha256": "51ef7fbc33e5159782b12ccdf41e2777d8b2d12c8577cf9834bd783acc2b3f5f"
+    }
+  ],
+  "steps": {
+    "inventory": {
+      "status": "not-run",
+      "note": ""
+    },
+    "research": {
+      "status": "not-run",
+      "note": ""
+    },
+    "zh-draft": {
+      "status": "not-run",
+      "note": ""
+    },
+    "en-translation": {
+      "status": "not-run",
+      "note": ""
+    },
+    "film-cases": {
+      "status": "not-run",
+      "note": ""
+    },
+    "figure-assets": {
+      "status": "not-run",
+      "note": ""
+    },
+    "svg-diagrams": {
+      "status": "not-run",
+      "note": ""
+    },
+    "website": {
+      "status": "not-run",
+      "note": ""
+    },
+    "books": {
+      "status": "not-run",
+      "note": ""
+    },
+    "tests": {
+      "status": "not-run",
+      "note": ""
+    },
+    "editorial-review": {
+      "status": "not-run",
+      "note": ""
+    },
+    "rights-review": {
+      "status": "not-run",
+      "note": ""
+    },
+    "author-approval": {
+      "status": "not-run",
+      "note": ""
+    },
+    "chapter-audit": {
+      "status": "not-run",
+      "note": ""
+    }
+  },
+  "events": [
+    {
+      "time": "2026-10-22T06:20:41.291403+08:00",
+      "event": "Checkpoint created. No manuscripts, images, or publication outputs changed."
+    }
+  ]
+}

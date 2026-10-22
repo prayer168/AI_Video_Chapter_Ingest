@@ -1,0 +1,24 @@
+# Project-local Traditional Chinese labels used when Pandoc resolves zh-TW through zh.yaml.
+# Authored for this project; terminology follows the Pandoc 3.12 zh-Hant label set.
+Abstract: 摘要
+Appendix: 附錄
+Bibliography: 參考文獻
+Cc: 副本
+Chapter: 章
+Contents: 目錄
+Encl: 附件
+Figure: 圖
+Glossary: 術語表
+Index: 索引
+Listing: 清單
+ListOfFigures: 圖目錄
+ListOfTables: 表目錄
+Page: 頁
+Part: 篇
+Preface: 序言
+Proof: 校樣
+References: 參考資料
+See: 見
+SeeAlso: 另見
+Table: 表
+To: 至

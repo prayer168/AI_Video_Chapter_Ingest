@@ -1,0 +1,419 @@
+ M CHAPTER_INTEGRATION_MATRIX.md
+ M apps/web/src/content/docs/en/CH04-chapter-04.md
+ M apps/web/src/content/docs/en/CH05-chapter-05.md
+ M apps/web/src/content/docs/en/CH06-chapter-06.md
+ M apps/web/src/content/docs/en/CH07-chapter-07.md
+ M apps/web/src/content/docs/en/CH08-chapter-08.md
+ M apps/web/src/content/docs/en/CH09-chapter-09.md
+ M apps/web/src/content/docs/en/CH10-chapter-10.md
+ M apps/web/src/content/docs/en/CH11-chapter-11.md
+ M apps/web/src/content/docs/en/CH12-chapter-12.md
+ M apps/web/src/content/docs/zh-tw/CH04-chapter-04.md
+ M apps/web/src/content/docs/zh-tw/CH05-chapter-05.md
+ M apps/web/src/content/docs/zh-tw/CH06-chapter-06.md
+ M apps/web/src/content/docs/zh-tw/CH07-chapter-07.md
+ M apps/web/src/content/docs/zh-tw/CH08-chapter-08.md
+ M apps/web/src/content/docs/zh-tw/CH09-chapter-09.md
+ M apps/web/src/content/docs/zh-tw/CH10-chapter-10.md
+ M apps/web/src/content/docs/zh-tw/CH11-chapter-11.md
+ M apps/web/src/content/docs/zh-tw/CH12-chapter-12.md
+ M assets/chapters/CH04/figure-manifest.yaml
+ M assets/chapters/CH05/figure-manifest.yaml
+ M assets/chapters/CH06/figure-manifest.yaml
+ M assets/chapters/CH07/figure-manifest.yaml
+ M assets/chapters/CH08/figure-manifest.yaml
+ M assets/chapters/CH09/figure-manifest.yaml
+ M assets/chapters/CH10/figure-manifest.yaml
+ M assets/chapters/CH11/figure-manifest.yaml
+ M assets/chapters/CH12/figure-manifest.yaml
+ M content/en-US/chapters/CH04-chapter-04.md
+ M content/en-US/chapters/CH05-chapter-05.md
+ M content/en-US/chapters/CH06-chapter-06.md
+ M content/en-US/chapters/CH07-chapter-07.md
+ M content/en-US/chapters/CH08-chapter-08.md
+ M content/en-US/chapters/CH09-chapter-09.md
+ M content/en-US/chapters/CH10-chapter-10.md
+ M content/en-US/chapters/CH11-chapter-11.md
+ M content/en-US/chapters/CH12-chapter-12.md
+ M content/zh-TW/chapters/CH04-chapter-04.md
+ M content/zh-TW/chapters/CH05-chapter-05.md
+ M content/zh-TW/chapters/CH06-chapter-06.md
+ M content/zh-TW/chapters/CH07-chapter-07.md
+ M content/zh-TW/chapters/CH08-chapter-08.md
+ M content/zh-TW/chapters/CH09-chapter-09.md
+ M content/zh-TW/chapters/CH10-chapter-10.md
+ M content/zh-TW/chapters/CH11-chapter-11.md
+ M content/zh-TW/chapters/CH12-chapter-12.md
+ M data/assets.yaml
+ M data/references.yaml
+ M data/terms.yaml
+ M docs/PUBLISHING.md
+ M history.md
+ M metadata/chapters.yaml
+ M metadata/figure-registry.yaml
+ M metadata/references.bib
+ M metadata/terminology.yaml
+ M metadata/translation-status.yaml
+ M scripts/publishing/build_books.py
+ M scripts/publishing/figure-captions.lua
+ M scripts/publishing/smoke_test_formats.py
+ M scripts/publishing/sync_site_content.py
+ M tests/test_v2_architecture.py
+?? apps/web/public/images/chapters/CH04/CH04-FIG-001-authorship-evidence.svg
+?? apps/web/public/images/chapters/CH04/CH04-FIG-002-style-workflow.svg
+?? apps/web/public/images/chapters/CH05/CH05-FIG-001-genre-map.svg
+?? apps/web/public/images/chapters/CH05/CH05-FIG-002-representation-audit.svg
+?? apps/web/public/images/chapters/CH06/CH06-FIG-001-causal-chain.svg
+?? apps/web/public/images/chapters/CH06/CH06-FIG-002-story-plot-information.svg
+?? apps/web/public/images/chapters/CH07/CH07-FIG-001-goal-conflict-consequence.svg
+?? apps/web/public/images/chapters/CH07/CH07-FIG-002-arc-evidence-matrix.svg
+?? apps/web/public/images/chapters/CH08/CH08-FIG-001-beat-action-reaction.svg
+?? apps/web/public/images/chapters/CH08/CH08-FIG-002-dialogue-subtext-layers.svg
+?? apps/web/public/images/chapters/CH09/CH09-FIG-001-genre-layers.svg
+?? apps/web/public/images/chapters/CH09/CH09-FIG-002-serial-scales.svg
+?? apps/web/public/images/chapters/CH09/CH09-FIG-003-reveal-matrix.svg
+?? apps/web/public/images/chapters/CH10/CH10-FIG-001-revision-lifecycle.svg
+?? apps/web/public/images/chapters/CH10/CH10-FIG-002-adaptation-map.svg
+?? apps/web/public/images/chapters/CH10/CH10-FIG-003-change-review.svg
+?? apps/web/public/images/chapters/CH11/CH11-FIG-001-intention-loop.svg
+?? apps/web/public/images/chapters/CH11/CH11-FIG-002-department-handoff.svg
+?? apps/web/public/images/chapters/CH12/CH12-FIG-001-blocking-beats.svg
+?? apps/web/public/images/chapters/CH12/CH12-FIG-002-continuity-handoff.svg
+?? assets/chapters/CH04/figures/originals/CH04-FIG-001-authorship-evidence.svg
+?? assets/chapters/CH04/figures/originals/CH04-FIG-002-style-workflow.svg
+?? assets/chapters/CH05/CH05-GET-OUT-VIEWING-LOG.md
+?? assets/chapters/CH05/CH05-HUMAN-REVIEW-CHECKLIST.md
+?? assets/chapters/CH05/figure-captions.md
+?? assets/chapters/CH05/figures/originals/CH05-FIG-001-genre-map.svg
+?? assets/chapters/CH05/figures/originals/CH05-FIG-002-representation-audit.svg
+?? assets/chapters/CH06/CH06-FIGURE-RIGHTS-AND-SOURCES.md
+?? assets/chapters/CH06/CH06-HUMAN-REVIEW-CHECKLIST.md
+?? assets/chapters/CH06/CH06-RASHOMON-VIEWING-LOG.md
+?? assets/chapters/CH06/figure-captions.md
+?? assets/chapters/CH06/figures/originals/CH06-FIG-001-causal-chain.svg
+?? assets/chapters/CH06/figures/originals/CH06-FIG-002-story-plot-information.svg
+?? assets/chapters/CH07/CH07-HUMAN-REVIEW-CHECKLIST.md
+?? assets/chapters/CH07/CH07-SOURCE-AND-CASE-NOTES.md
+?? assets/chapters/CH07/figure-captions.md
+?? assets/chapters/CH07/figures/originals/CH07-FIG-001-goal-conflict-consequence.svg
+?? assets/chapters/CH07/figures/originals/CH07-FIG-002-arc-evidence-matrix.svg
+?? assets/chapters/CH08/CH08-FIGURE-RIGHTS-AND-SOURCES.md
+?? assets/chapters/CH08/CH08-HUMAN-REVIEW-CHECKLIST.md
+?? assets/chapters/CH08/CH08-SOURCE-AND-CASE-NOTES.md
+?? assets/chapters/CH08/figure-captions.md
+?? assets/chapters/CH08/figures/originals/CH08-FIG-001-beat-action-reaction.svg
+?? assets/chapters/CH08/figures/originals/CH08-FIG-002-dialogue-subtext-layers.svg
+?? assets/chapters/CH09/CH09-FIGURE-RIGHTS-AND-SOURCES.md
+?? assets/chapters/CH09/CH09-HUMAN-REVIEW-CHECKLIST.md
+?? assets/chapters/CH09/CH09-SOURCE-AND-CASE-NOTES.md
+?? assets/chapters/CH09/figure-captions.md
+?? assets/chapters/CH09/figures/originals/CH09-FIG-001-genre-layers.svg
+?? assets/chapters/CH09/figures/originals/CH09-FIG-002-serial-scales.svg
+?? assets/chapters/CH09/figures/originals/CH09-FIG-003-reveal-matrix.svg
+?? assets/chapters/CH10/CH10-FIGURE-RIGHTS-AND-SOURCES.md
+?? assets/chapters/CH10/CH10-HUMAN-REVIEW-CHECKLIST.md
+?? assets/chapters/CH10/CH10-SOURCE-AND-CASE-NOTES.md
+?? assets/chapters/CH10/figure-captions.md
+?? assets/chapters/CH10/figures/originals/CH10-FIG-001-revision-lifecycle.svg
+?? assets/chapters/CH10/figures/originals/CH10-FIG-002-adaptation-map.svg
+?? assets/chapters/CH10/figures/originals/CH10-FIG-003-change-review.svg
+?? assets/chapters/CH11/CH11-HUMAN-REVIEW-CHECKLIST.md
+?? assets/chapters/CH11/CH11-SOURCE-AND-CASE-NOTES.md
+?? assets/chapters/CH11/figure-captions.md
+?? assets/chapters/CH11/figures/originals/CH11-FIG-001-intention-loop.svg
+?? assets/chapters/CH11/figures/originals/CH11-FIG-002-department-handoff.svg
+?? assets/chapters/CH12/CH12-HUMAN-REVIEW-CHECKLIST.md
+?? assets/chapters/CH12/CH12-SOURCE-AND-CASE-NOTES.md
+?? assets/chapters/CH12/CH12-sources.yaml
+?? assets/chapters/CH12/CH12-terms.yaml
+?? assets/chapters/CH12/figure-captions.md
+?? assets/chapters/CH12/figures/originals/CH12-FIG-001-blocking-beats.svg
+?? assets/chapters/CH12/figures/originals/CH12-FIG-002-continuity-handoff.svg
+?? backups/CH05-start-20261020-225446/CHAPTER_INTEGRATION_MATRIX.md
+?? backups/CH05-start-20261020-225446/assets/chapters/CH05/figure-manifest.yaml
+?? backups/CH05-start-20261020-225446/content/en-US/chapters/CH05-chapter-05.md
+?? backups/CH05-start-20261020-225446/content/zh-TW/chapters/CH05-chapter-05.md
+?? backups/CH05-start-20261020-225446/data/assets.yaml
+?? backups/CH05-start-20261020-225446/data/references.yaml
+?? backups/CH05-start-20261020-225446/history.md
+?? backups/CH05-start-20261020-225446/metadata/chapters.yaml
+?? backups/CH05-start-20261020-225446/metadata/figure-registry.yaml
+?? backups/CH05-start-20261020-225446/metadata/references.bib
+?? backups/CH05-start-20261020-225446/metadata/terminology.yaml
+?? backups/CH05-start-20261020-225446/metadata/translation-status.yaml
+?? metadata/translations/CH04-alignment.yaml
+?? metadata/translations/CH05-alignment.yaml
+?? metadata/translations/CH06-alignment.yaml
+?? metadata/translations/CH07-alignment.yaml
+?? metadata/translations/CH08-alignment.yaml
+?? metadata/translations/CH09-alignment.yaml
+?? metadata/translations/CH10-alignment.yaml
+?? metadata/translations/CH11-alignment.yaml
+?? metadata/translations/CH12-alignment.yaml
+?? production/runs/CH04/20261020T203111+0800-3d34a58e/CHECKLIST.md
+?? production/runs/CH04/20261020T203111+0800-3d34a58e/backup/CHAPTER_INTEGRATION_MATRIX.md
+?? production/runs/CH04/20261020T203111+0800-3d34a58e/backup/MANIFEST.json
+?? production/runs/CH04/20261020T203111+0800-3d34a58e/backup/apps/web/src/content/docs/en/CH04-chapter-04.md
+?? production/runs/CH04/20261020T203111+0800-3d34a58e/backup/apps/web/src/content/docs/zh-tw/CH04-chapter-04.md
+?? production/runs/CH04/20261020T203111+0800-3d34a58e/backup/assets/chapters/CH04/figure-manifest.yaml
+?? production/runs/CH04/20261020T203111+0800-3d34a58e/backup/content/en-US/chapters/CH04-chapter-04.md
+?? production/runs/CH04/20261020T203111+0800-3d34a58e/backup/content/zh-TW/chapters/CH04-chapter-04.md
+?? production/runs/CH04/20261020T203111+0800-3d34a58e/backup/data/references.yaml
+?? production/runs/CH04/20261020T203111+0800-3d34a58e/backup/metadata/chapters.yaml
+?? production/runs/CH04/20261020T203111+0800-3d34a58e/backup/metadata/figure-registry.yaml
+?? production/runs/CH04/20261020T203111+0800-3d34a58e/backup/metadata/references.bib
+?? production/runs/CH04/20261020T203111+0800-3d34a58e/backup/metadata/terminology.yaml
+?? production/runs/CH04/20261020T203111+0800-3d34a58e/backup/metadata/translation-status.yaml
+?? production/runs/CH04/20261020T203111+0800-3d34a58e/backup/pre-edit/scripts/publishing/figure-captions.lua
+?? production/runs/CH04/20261020T203111+0800-3d34a58e/backup/scripts/publishing/figure-captions.lua
+?? production/runs/CH04/20261020T203111+0800-3d34a58e/run.json
+?? production/runs/CH05/20261020T225328+0800-59388910/CHECKLIST.md
+?? production/runs/CH05/20261020T225328+0800-59388910/backup-sha256.txt
+?? production/runs/CH05/20261020T225328+0800-59388910/backup/pre-edit/scripts/publishing/figure-captions.lua
+?? production/runs/CH05/20261020T225328+0800-59388910/run.json
+?? production/runs/CH05/20261020T225328+0800-59388910/verification.json
+?? production/runs/CH05/20261021T063754+0800-75e973e5/CHECKLIST.md
+?? production/runs/CH05/20261021T063754+0800-75e973e5/RESEARCH-SOURCE-CHECK.md
+?? production/runs/CH05/20261021T063754+0800-75e973e5/backup/pre-edit/MANIFEST.json
+?? production/runs/CH05/20261021T063754+0800-75e973e5/backup/pre-edit/assets/chapters/CH05/figure-manifest.yaml
+?? production/runs/CH05/20261021T063754+0800-75e973e5/backup/pre-edit/content/en-US/chapters/CH05-chapter-05.md
+?? production/runs/CH05/20261021T063754+0800-75e973e5/backup/pre-edit/content/zh-TW/chapters/CH05-chapter-05.md
+?? production/runs/CH05/20261021T063754+0800-75e973e5/backup/pre-edit/data/assets.yaml
+?? production/runs/CH05/20261021T063754+0800-75e973e5/backup/pre-edit/data/references.yaml
+?? production/runs/CH05/20261021T063754+0800-75e973e5/backup/pre-edit/docs/PUBLISHING.md
+?? production/runs/CH05/20261021T063754+0800-75e973e5/backup/pre-edit/history.md
+?? production/runs/CH05/20261021T063754+0800-75e973e5/backup/pre-edit/metadata/references.bib
+?? production/runs/CH05/20261021T063754+0800-75e973e5/backup/pre-edit/metadata/translations/CH05-alignment.yaml
+?? production/runs/CH05/20261021T063754+0800-75e973e5/backup/pre-edit/reports/CH05-FINAL-ACCEPTANCE.md
+?? production/runs/CH05/20261021T063754+0800-75e973e5/backup/pre-edit/scripts/publishing/build_books.py
+?? production/runs/CH05/20261021T063754+0800-75e973e5/backup/pre-edit/scripts/publishing/smoke_test_formats.py
+?? production/runs/CH05/20261021T063754+0800-75e973e5/backup/pre-edit/tests/test_v2_architecture.py
+?? production/runs/CH05/20261021T063754+0800-75e973e5/package_r4.py
+?? production/runs/CH05/20261021T063754+0800-75e973e5/run.json
+?? production/runs/CH05/20261021T063754+0800-75e973e5/verification-editorial.json
+?? production/runs/CH06/20261021T065143+0800-f153e02e/CHECKLIST.md
+?? production/runs/CH06/20261021T065143+0800-f153e02e/RESEARCH-SOURCE-CHECK.md
+?? production/runs/CH06/20261021T065143+0800-f153e02e/backup/MANIFEST.json
+?? production/runs/CH06/20261021T065143+0800-f153e02e/backup/pre-edit/CHAPTER_INTEGRATION_MATRIX.md
+?? production/runs/CH06/20261021T065143+0800-f153e02e/backup/pre-edit/content/en-US/chapters/CH06-chapter-06.md
+?? production/runs/CH06/20261021T065143+0800-f153e02e/backup/pre-edit/content/zh-TW/chapters/CH06-chapter-06.md
+?? production/runs/CH06/20261021T065143+0800-f153e02e/backup/pre-edit/data/references.yaml
+?? production/runs/CH06/20261021T065143+0800-f153e02e/backup/pre-edit/metadata/chapters.yaml
+?? production/runs/CH06/20261021T065143+0800-f153e02e/backup/pre-edit/metadata/references.bib
+?? production/runs/CH06/20261021T065143+0800-f153e02e/backup/pre-edit/metadata/terminology.yaml
+?? production/runs/CH06/20261021T065143+0800-f153e02e/backup/pre-edit/metadata/translation-status.yaml
+?? production/runs/CH06/20261021T065143+0800-f153e02e/build_drafts.py
+?? production/runs/CH06/20261021T065143+0800-f153e02e/package_ch06.py
+?? production/runs/CH06/20261021T065143+0800-f153e02e/repair_terms.py
+?? production/runs/CH06/20261021T065143+0800-f153e02e/run.json
+?? production/runs/CH06/20261021T065143+0800-f153e02e/verification.json
+?? production/runs/CH06/20261021T065143+0800-f153e02e/verify_outputs.py
+?? production/runs/CH06/20261021T164101+0800-10139b29/CHECKLIST.md
+?? production/runs/CH06/20261021T164101+0800-10139b29/backup/pre-edit/CHAPTER_INTEGRATION_MATRIX.md
+?? production/runs/CH06/20261021T164101+0800-10139b29/backup/pre-edit/MANIFEST.json
+?? production/runs/CH06/20261021T164101+0800-10139b29/backup/pre-edit/assets/chapters/CH06/figure-manifest.yaml
+?? production/runs/CH06/20261021T164101+0800-10139b29/backup/pre-edit/content/en-US/chapters/CH06-chapter-06.md
+?? production/runs/CH06/20261021T164101+0800-10139b29/backup/pre-edit/content/zh-TW/chapters/CH06-chapter-06.md
+?? production/runs/CH06/20261021T164101+0800-10139b29/backup/pre-edit/data/assets.yaml
+?? production/runs/CH06/20261021T164101+0800-10139b29/backup/pre-edit/history.md
+?? production/runs/CH06/20261021T164101+0800-10139b29/backup/pre-edit/metadata/figure-registry.yaml
+?? production/runs/CH06/20261021T164101+0800-10139b29/backup/pre-edit/metadata/references.bib
+?? production/runs/CH06/20261021T164101+0800-10139b29/backup/pre-edit/metadata/translations/CH06-alignment.yaml
+?? production/runs/CH06/20261021T164101+0800-10139b29/backup/pre-edit/reports/CH06-FINAL-ACCEPTANCE.md
+?? production/runs/CH06/20261021T164101+0800-10139b29/backup/pre-edit/scripts/publishing/build_books.py
+?? production/runs/CH06/20261021T164101+0800-10139b29/backup/pre-edit/scripts/publishing/figure-captions.lua
+?? production/runs/CH06/20261021T164101+0800-10139b29/backup/pre-edit/tests/test_ch06_content.py
+?? production/runs/CH06/20261021T164101+0800-10139b29/build_ch06_draft_outputs.py
+?? production/runs/CH06/20261021T164101+0800-10139b29/final-astro-build.log
+?? production/runs/CH06/20261021T164101+0800-10139b29/final-astro-check.log
+?? production/runs/CH06/20261021T164101+0800-10139b29/final-epubcheck-en.log
+?? production/runs/CH06/20261021T164101+0800-10139b29/final-epubcheck-zh.log
+?? production/runs/CH06/20261021T164101+0800-10139b29/final-font-en.log
+?? production/runs/CH06/20261021T164101+0800-10139b29/final-font-zh.log
+?? production/runs/CH06/20261021T164101+0800-10139b29/final-git-diff-check.log
+?? production/runs/CH06/20261021T164101+0800-10139b29/final-project-validator.log
+?? production/runs/CH06/20261021T164101+0800-10139b29/final-site-sync-check.log
+?? production/runs/CH06/20261021T164101+0800-10139b29/final-site-sync.log
+?? production/runs/CH06/20261021T164101+0800-10139b29/final-tests.log
+?? production/runs/CH06/20261021T164101+0800-10139b29/final-v2-validator.log
+?? production/runs/CH06/20261021T164101+0800-10139b29/image-policy-en-US-site.log
+?? production/runs/CH06/20261021T164101+0800-10139b29/image-policy-en-book.log
+?? production/runs/CH06/20261021T164101+0800-10139b29/image-policy-en-site.log
+?? production/runs/CH06/20261021T164101+0800-10139b29/image-policy-zh-TW-book.log
+?? production/runs/CH06/20261021T164101+0800-10139b29/image-policy-zh-TW-site.log
+?? production/runs/CH06/20261021T164101+0800-10139b29/run.json
+?? production/runs/CH06/20261021T164101+0800-10139b29/verification.json
+?? production/runs/CH07/20261021T185845+0800-c279f9b1/CHECKLIST.md
+?? production/runs/CH07/20261021T185845+0800-c279f9b1/backup/pre-edit/CHAPTER_INTEGRATION_MATRIX.md
+?? production/runs/CH07/20261021T185845+0800-c279f9b1/backup/pre-edit/MANIFEST.json
+?? production/runs/CH07/20261021T185845+0800-c279f9b1/backup/pre-edit/apps/web/src/content/docs/en/CH07-chapter-07.md
+?? production/runs/CH07/20261021T185845+0800-c279f9b1/backup/pre-edit/apps/web/src/content/docs/zh-tw/CH07-chapter-07.md
+?? production/runs/CH07/20261021T185845+0800-c279f9b1/backup/pre-edit/assets/chapters/CH07/figure-manifest.yaml
+?? production/runs/CH07/20261021T185845+0800-c279f9b1/backup/pre-edit/content/en-US/chapters/CH07-chapter-07.md
+?? production/runs/CH07/20261021T185845+0800-c279f9b1/backup/pre-edit/content/zh-TW/chapters/CH07-chapter-07.md
+?? production/runs/CH07/20261021T185845+0800-c279f9b1/backup/pre-edit/data/assets.yaml
+?? production/runs/CH07/20261021T185845+0800-c279f9b1/backup/pre-edit/data/references.yaml
+?? production/runs/CH07/20261021T185845+0800-c279f9b1/backup/pre-edit/history.md
+?? production/runs/CH07/20261021T185845+0800-c279f9b1/backup/pre-edit/metadata/chapters.yaml
+?? production/runs/CH07/20261021T185845+0800-c279f9b1/backup/pre-edit/metadata/references.bib
+?? production/runs/CH07/20261021T185845+0800-c279f9b1/backup/pre-edit/metadata/terminology.yaml
+?? production/runs/CH07/20261021T185845+0800-c279f9b1/backup/pre-edit/metadata/translation-status.yaml
+?? production/runs/CH07/20261021T185845+0800-c279f9b1/backup/pre-edit/scripts/publishing/build_books.py
+?? production/runs/CH07/20261021T185845+0800-c279f9b1/backup/pre-edit/scripts/publishing/figure-captions.lua
+?? production/runs/CH07/20261021T185845+0800-c279f9b1/backup/pre-edit/tests/test_ch07_content.py
+?? production/runs/CH07/20261021T185845+0800-c279f9b1/build_ch07_draft-r2.py
+?? production/runs/CH07/20261021T185845+0800-c279f9b1/build_ch07_draft-r4.py
+?? production/runs/CH07/20261021T185845+0800-c279f9b1/build_ch07_draft-r5.py
+?? production/runs/CH07/20261021T185845+0800-c279f9b1/build_ch07_draft.py
+?? production/runs/CH07/20261021T185845+0800-c279f9b1/run.json
+?? production/runs/CH08/20261021T200413+0800-16f990d8/CHECKLIST.md
+?? production/runs/CH08/20261021T200413+0800-16f990d8/backup/pre-edit/CHAPTER_INTEGRATION_MATRIX.md
+?? production/runs/CH08/20261021T200413+0800-16f990d8/backup/pre-edit/MANIFEST.json
+?? production/runs/CH08/20261021T200413+0800-16f990d8/backup/pre-edit/apps/web/src/content/docs/en/CH08-chapter-08.md
+?? production/runs/CH08/20261021T200413+0800-16f990d8/backup/pre-edit/apps/web/src/content/docs/zh-tw/CH08-chapter-08.md
+?? production/runs/CH08/20261021T200413+0800-16f990d8/backup/pre-edit/assets/chapters/CH08/figure-manifest.yaml
+?? production/runs/CH08/20261021T200413+0800-16f990d8/backup/pre-edit/content/en-US/chapters/CH08-chapter-08.md
+?? production/runs/CH08/20261021T200413+0800-16f990d8/backup/pre-edit/content/zh-TW/chapters/CH08-chapter-08.md
+?? production/runs/CH08/20261021T200413+0800-16f990d8/backup/pre-edit/data/assets.yaml
+?? production/runs/CH08/20261021T200413+0800-16f990d8/backup/pre-edit/data/references.yaml
+?? production/runs/CH08/20261021T200413+0800-16f990d8/backup/pre-edit/history.md
+?? production/runs/CH08/20261021T200413+0800-16f990d8/backup/pre-edit/metadata/chapters.yaml
+?? production/runs/CH08/20261021T200413+0800-16f990d8/backup/pre-edit/metadata/figure-registry.yaml
+?? production/runs/CH08/20261021T200413+0800-16f990d8/backup/pre-edit/metadata/references.bib
+?? production/runs/CH08/20261021T200413+0800-16f990d8/backup/pre-edit/metadata/terminology.yaml
+?? production/runs/CH08/20261021T200413+0800-16f990d8/backup/pre-edit/metadata/translation-status.yaml
+?? production/runs/CH08/20261021T200413+0800-16f990d8/backup/pre-edit/scripts/publishing/build_books.py
+?? production/runs/CH08/20261021T200413+0800-16f990d8/backup/pre-edit/scripts/publishing/figure-captions.lua
+?? production/runs/CH08/20261021T200413+0800-16f990d8/backup/pre-edit/tests/test_v2_architecture.py
+?? production/runs/CH08/20261021T200413+0800-16f990d8/build_ch08_draft-r1.py
+?? production/runs/CH08/20261021T200413+0800-16f990d8/inspect_ch08_outputs.py
+?? production/runs/CH08/20261021T200413+0800-16f990d8/package_ch08.py
+?? production/runs/CH08/20261021T200413+0800-16f990d8/run.json
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/CH09-global-asset-records.yaml
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/CH09-global-figure-records.yaml
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/CHECKLIST.md
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/backup/pre-edit/CHAPTER_INTEGRATION_MATRIX.md
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/backup/pre-edit/MANIFEST.json
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/backup/pre-edit/apps/web/src/content/docs/en/CH09-chapter-09.md
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/backup/pre-edit/apps/web/src/content/docs/zh-tw/CH09-chapter-09.md
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/backup/pre-edit/assets/chapters/CH09/figure-manifest.yaml
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/backup/pre-edit/content/en-US/chapters/CH09-chapter-09.md
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/backup/pre-edit/content/zh-TW/chapters/CH09-chapter-09.md
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/backup/pre-edit/data/assets.yaml
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/backup/pre-edit/data/references.yaml
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/backup/pre-edit/history.md
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/backup/pre-edit/metadata/chapters.yaml
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/backup/pre-edit/metadata/figure-registry.yaml
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/backup/pre-edit/metadata/references.bib
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/backup/pre-edit/metadata/terminology.yaml
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/backup/pre-edit/metadata/translation-status.yaml
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/backup/pre-edit/reports/CHAPTER-PROGRESS-TRACKER.md
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/backup/pre-edit/scripts/publishing/figure-captions.lua
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/backup/pre-edit/scripts/update_chapter_progress_tracker.py
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/backup_ch09.py
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/build_books_ch09-r2.py
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/build_books_ch09-r3.py
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/build_books_ch09-r4.py
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/build_books_ch09-r5.py
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/build_books_ch09-r6.py
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/build_books_ch09-r7.py
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/build_books_ch09.py
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/en-US-epubcheck-r7.log
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/en-US-pdffonts-r7.log
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/full-unittest.log
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/git-status-before.txt
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/run.json
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/site-build-final-r7.log
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/site-build-final.log
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/site-build.log
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/zh-TW-epubcheck-final.log
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/zh-TW-epubcheck-r7.log
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/zh-TW-pdffonts-final.log
+?? production/runs/CH09/20261021T204249+0800-1ab5afed/zh-TW-pdffonts-r7.log
+?? production/runs/CH10/20261022T062041+0800-d6ab6deb/CHECKLIST.md
+?? production/runs/CH10/20261022T062041+0800-d6ab6deb/astro-check-final.log
+?? production/runs/CH10/20261022T062041+0800-d6ab6deb/backup/pre-edit/CHAPTER_INTEGRATION_MATRIX.md
+?? production/runs/CH10/20261022T062041+0800-d6ab6deb/backup/pre-edit/MANIFEST.json
+?? production/runs/CH10/20261022T062041+0800-d6ab6deb/backup/pre-edit/assets/chapters/CH10/figure-manifest.yaml
+?? production/runs/CH10/20261022T062041+0800-d6ab6deb/backup/pre-edit/content/en-US/chapters/CH10-chapter-10.md
+?? production/runs/CH10/20261022T062041+0800-d6ab6deb/backup/pre-edit/content/zh-TW/chapters/CH10-chapter-10.md
+?? production/runs/CH10/20261022T062041+0800-d6ab6deb/backup/pre-edit/data/assets.yaml
+?? production/runs/CH10/20261022T062041+0800-d6ab6deb/backup/pre-edit/data/references.yaml
+?? production/runs/CH10/20261022T062041+0800-d6ab6deb/backup/pre-edit/history.md
+?? production/runs/CH10/20261022T062041+0800-d6ab6deb/backup/pre-edit/metadata/chapters.yaml
+?? production/runs/CH10/20261022T062041+0800-d6ab6deb/backup/pre-edit/metadata/figure-registry.yaml
+?? production/runs/CH10/20261022T062041+0800-d6ab6deb/backup/pre-edit/metadata/references.bib
+?? production/runs/CH10/20261022T062041+0800-d6ab6deb/backup/pre-edit/metadata/terminology.yaml
+?? production/runs/CH10/20261022T062041+0800-d6ab6deb/backup/pre-edit/metadata/translation-status.yaml
+?? production/runs/CH10/20261022T062041+0800-d6ab6deb/backup/pre-edit/reports/CHAPTER-PROGRESS-TRACKER.md
+?? production/runs/CH10/20261022T062041+0800-d6ab6deb/git-status-before.txt
+?? production/runs/CH10/20261022T062041+0800-d6ab6deb/run.json
+?? production/runs/CH11/20261022T181247+0800-46c00c02/CHECKLIST.md
+?? production/runs/CH11/20261022T181247+0800-46c00c02/backup/pre-edit/CHAPTER_INTEGRATION_MATRIX.md
+?? production/runs/CH11/20261022T181247+0800-46c00c02/backup/pre-edit/MANIFEST.json
+?? production/runs/CH11/20261022T181247+0800-46c00c02/backup/pre-edit/apps/web/src/content/docs/en/CH11-chapter-11.md
+?? production/runs/CH11/20261022T181247+0800-46c00c02/backup/pre-edit/apps/web/src/content/docs/zh-tw/CH11-chapter-11.md
+?? production/runs/CH11/20261022T181247+0800-46c00c02/backup/pre-edit/assets/chapters/CH11/figure-manifest.yaml
+?? production/runs/CH11/20261022T181247+0800-46c00c02/backup/pre-edit/content/en-US/chapters/CH11-chapter-11.md
+?? production/runs/CH11/20261022T181247+0800-46c00c02/backup/pre-edit/content/zh-TW/chapters/CH11-chapter-11.md
+?? production/runs/CH11/20261022T181247+0800-46c00c02/backup/pre-edit/data/assets.yaml
+?? production/runs/CH11/20261022T181247+0800-46c00c02/backup/pre-edit/data/references.yaml
+?? production/runs/CH11/20261022T181247+0800-46c00c02/backup/pre-edit/history.md
+?? production/runs/CH11/20261022T181247+0800-46c00c02/backup/pre-edit/metadata/chapters.yaml
+?? production/runs/CH11/20261022T181247+0800-46c00c02/backup/pre-edit/metadata/figure-registry.yaml
+?? production/runs/CH11/20261022T181247+0800-46c00c02/backup/pre-edit/metadata/references.bib
+?? production/runs/CH11/20261022T181247+0800-46c00c02/backup/pre-edit/metadata/terminology.yaml
+?? production/runs/CH11/20261022T181247+0800-46c00c02/backup/pre-edit/metadata/translation-status.yaml
+?? production/runs/CH11/20261022T181247+0800-46c00c02/backup/pre-edit/reports/CHAPTER-PROGRESS-TRACKER.md
+?? production/runs/CH11/20261022T181247+0800-46c00c02/backup/pre-edit/scripts/publishing/figure-captions.lua
+?? production/runs/CH11/20261022T181247+0800-46c00c02/backup/pre-edit/scripts/update_chapter_progress_tracker.py
+?? production/runs/CH11/20261022T181247+0800-46c00c02/run.json
+?? production/runs/CH12/20261022T202702+0800-a0742107/CHECKLIST.md
+?? production/runs/CH12/20261022T202702+0800-a0742107/backup/pre-edit/CHAPTER_INTEGRATION_MATRIX.md
+?? production/runs/CH12/20261022T202702+0800-a0742107/backup/pre-edit/MANIFEST.json
+?? production/runs/CH12/20261022T202702+0800-a0742107/backup/pre-edit/apps/web/src/content/docs/en/CH12-chapter-12.md
+?? production/runs/CH12/20261022T202702+0800-a0742107/backup/pre-edit/apps/web/src/content/docs/zh-tw/CH12-chapter-12.md
+?? production/runs/CH12/20261022T202702+0800-a0742107/backup/pre-edit/assets/chapters/CH12/figure-manifest.yaml
+?? production/runs/CH12/20261022T202702+0800-a0742107/backup/pre-edit/content/en-US/chapters/CH12-chapter-12.md
+?? production/runs/CH12/20261022T202702+0800-a0742107/backup/pre-edit/content/zh-TW/chapters/CH12-chapter-12.md
+?? production/runs/CH12/20261022T202702+0800-a0742107/backup/pre-edit/data/assets.yaml
+?? production/runs/CH12/20261022T202702+0800-a0742107/backup/pre-edit/data/references.yaml
+?? production/runs/CH12/20261022T202702+0800-a0742107/backup/pre-edit/history.md
+?? production/runs/CH12/20261022T202702+0800-a0742107/backup/pre-edit/metadata/chapters.yaml
+?? production/runs/CH12/20261022T202702+0800-a0742107/backup/pre-edit/metadata/figure-registry.yaml
+?? production/runs/CH12/20261022T202702+0800-a0742107/backup/pre-edit/metadata/references.bib
+?? production/runs/CH12/20261022T202702+0800-a0742107/backup/pre-edit/metadata/terminology.yaml
+?? production/runs/CH12/20261022T202702+0800-a0742107/backup/pre-edit/metadata/translation-status.yaml
+?? production/runs/CH12/20261022T202702+0800-a0742107/backup/pre-edit/reports/CHAPTER-PROGRESS-TRACKER.md
+?? production/runs/CH12/20261022T202702+0800-a0742107/backup/pre-edit/scripts/publishing/figure-captions.lua
+?? production/runs/CH12/20261022T202702+0800-a0742107/backup/pre-edit/scripts/update_chapter_progress_tracker.py
+?? production/runs/CH12/20261022T202702+0800-a0742107/git-status-before.txt
+?? production/runs/CH12/20261022T202702+0800-a0742107/run.json
+?? production/runs/CH13/20261022T205359+0800-185a8aa8/CHECKLIST.md
+?? production/runs/CH13/20261022T205359+0800-185a8aa8/run.json
+?? reports/CH04-FINAL-ACCEPTANCE.md
+?? reports/CH05-FINAL-ACCEPTANCE.md
+?? reports/CH06-FINAL-ACCEPTANCE.md
+?? reports/CH07-FINAL-ACCEPTANCE.md
+?? reports/CH08-FINAL-ACCEPTANCE.md
+?? reports/CH09-FINAL-ACCEPTANCE.md
+?? reports/CH10-FINAL-ACCEPTANCE.md
+?? reports/CH11-FINAL-ACCEPTANCE.md
+?? reports/CH12-FINAL-ACCEPTANCE.md
+?? reports/CHAPTER-PROGRESS-TRACKER.md
+?? scripts/append_ch10_registries.py
+?? scripts/author_ch10.py
+?? scripts/fix_ch10_structure.py
+?? scripts/publishing/build_chapter_drafts.py
+?? scripts/publishing/pandoc-data/translations/zh.yaml
+?? scripts/refine_ch10_svgs.py
+?? scripts/update_chapter_progress_tracker.py
+?? tests/test_ch04_content.py
+?? tests/test_ch05_content.py
+?? tests/test_ch06_content.py
+?? tests/test_ch07_content.py
+?? tests/test_ch08_content.py
+?? tests/test_ch09_content.py
+?? tests/test_ch10_content.py
+?? tests/test_ch11_content.py
+?? tests/test_ch12_content.py

@@ -1,0 +1,67 @@
+chapter_id: CH05
+source_locale: zh-TW
+target_locale: en-US
+source_revision: 2.1.1-draft
+target_revision: 2.1.1-draft
+status: review-needed
+reviewed_by: null
+reviewed_on: null
+sections:
+- id: CH05-S00
+  zh: 類型、再現與影視倫理
+  en: Genre, Representation, and Screen Ethics
+- id: CH05-S01
+  zh: 學習目標
+  en: Learning objectives
+- id: CH05-S02
+  zh: 先備知識
+  en: Prerequisites
+- id: CH05-S03
+  zh: 核心術語
+  en: Key terms
+- id: CH05-S04
+  zh: 歷史與基本原理
+  en: History and principles
+- id: CH05-S05
+  zh: 傳統製作方法
+  en: Traditional production practice
+- id: CH05-S06
+  zh: AI 時代的技術轉換與限制
+  en: AI-era workflow and limits
+- id: CH05-S07
+  zh: 逐步工作流程
+  en: Step-by-step workflow
+- id: CH05-S08
+  zh: 提示詞與技術參數
+  en: Prompt and technical parameters
+- id: CH05-S09
+  zh: 電影案例與觀察練習
+  en: Film cases and viewing exercises
+- id: CH05-S10
+  zh: 常見錯誤與品質檢查
+  en: Common errors and quality checks
+- id: CH05-S11
+  zh: 練習、評量與延伸研究
+  en: Exercises, assessment, and further research
+- id: CH05-S12
+  zh: 參考資料
+  en: References
+terms:
+- TERM-CH05-GENRE
+- TERM-CH05-SEMANTIC
+- TERM-CH05-SYNTACTIC
+- TERM-CH05-REPRESENTATION
+- TERM-CH05-STEREOTYPE
+- TERM-CH05-AGENCY
+- TERM-CH05-ETHICAL-REVIEW
+- TERM-CH05-CONTEXTUALIZATION
+references:
+- R039
+- R040
+- R041
+- R042
+- R043
+- R044
+- R045
+editorial_note: English is a draft translation. Updated 2026-10-21 against the revised Chinese source; verify nuance,
+  terminology, claims, and rights language with a human editor.

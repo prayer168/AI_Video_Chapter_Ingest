@@ -1,0 +1,82 @@
+[
+  {
+    "path": "content/zh-TW/chapters/CH07-chapter-07.md",
+    "sha256": "b876a44d236964b5e7c7dbe2b19790c01400342b7035ec9b6b0f576f44869afa",
+    "bytes": 1081
+  },
+  {
+    "path": "content/en-US/chapters/CH07-chapter-07.md",
+    "sha256": "1b661ec56959824806a137329cb4b1a98cb7595512a0244a0fe9b1596fc3ae30",
+    "bytes": 1135
+  },
+  {
+    "path": "apps/web/src/content/docs/zh-tw/CH07-chapter-07.md",
+    "sha256": "e18810abecb015d430abb17c41f95bb071c924f0d0a263e859d848214ef34fba",
+    "bytes": 1162
+  },
+  {
+    "path": "apps/web/src/content/docs/en/CH07-chapter-07.md",
+    "sha256": "ddde24b17846352516da72d01dea92d0a84c65d8cdf86ea0c28eddcb26768c78",
+    "bytes": 1216
+  },
+  {
+    "path": "assets/chapters/CH07/figure-manifest.yaml",
+    "sha256": "94bb8453ef95fd1fce3629d1c79ab8f82757c95889c3ac725647e8610eba64a5",
+    "bytes": 31
+  },
+  {
+    "path": "metadata/chapters.yaml",
+    "sha256": "7c5f3a5588d230c4e7133d6ddb20bd0170fc3e214d7ae8e098873e431d6fd120",
+    "bytes": 13564
+  },
+  {
+    "path": "metadata/translation-status.yaml",
+    "sha256": "517793f51389cf8770c12f106766f62e6ca58d58d4806a1e61a5421cc122be15",
+    "bytes": 5397
+  },
+  {
+    "path": "metadata/terminology.yaml",
+    "sha256": "04af0732b930f8022a61ca3d5f5e56d503398074c979df600ccfeb742ab261ac",
+    "bytes": 49733
+  },
+  {
+    "path": "metadata/references.bib",
+    "sha256": "22436f7e4cf37a1e8bc67388458e1025e5946b2848a96b54f39db9f6c9ca957d",
+    "bytes": 19944
+  },
+  {
+    "path": "data/references.yaml",
+    "sha256": "2d1f1312ff785eea1c88f9487f35762d9da1ea24625daee6fdbfe01626fe0767",
+    "bytes": 29936
+  },
+  {
+    "path": "data/assets.yaml",
+    "sha256": "a21cbbf2b3e3bde6d6b65e9f490bfa7c0f777406393c145fbe36cb259080c446",
+    "bytes": 21933
+  },
+  {
+    "path": "CHAPTER_INTEGRATION_MATRIX.md",
+    "sha256": "62b8999e131ba64ddd06734e558974d83a4f115e0bf1646436029795ddad1a41",
+    "bytes": 36088
+  },
+  {
+    "path": "history.md",
+    "sha256": "a059fcd5691f987677b8d7c3c3203a066189713c59b738e83fe9ce88e62f1788",
+    "bytes": 117910
+  },
+  {
+    "path": "scripts/publishing/build_books.py",
+    "sha256": "e7f99ea444500578f5b8c4b0154f2188fcd3c6f3f00c759e86c032a3b9e5ca45",
+    "bytes": 10922
+  },
+  {
+    "path": "tests/test_ch07_content.py",
+    "sha256": "b700c0301530ec5e72e76c66b4fe7d646c9b0de529e23fc8ddb1b7f7b40fc889",
+    "bytes": 3453
+  },
+  {
+    "path": "scripts/publishing/figure-captions.lua",
+    "sha256": "c60d96d8d318b206e6d28160691bdea30a37b7dae24fa843abc651e335aec17f",
+    "bytes": 3778
+  }
+]

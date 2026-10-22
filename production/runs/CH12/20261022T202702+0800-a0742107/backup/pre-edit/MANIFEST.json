@@ -1,0 +1,92 @@
+[
+  {
+    "path": "content/zh-TW/chapters/CH12-chapter-12.md",
+    "sha256": "7780b9d438db96b3ce29b4242f790489e2f655b738b39a937f1d20731c935c7a",
+    "bytes": 1081
+  },
+  {
+    "path": "content/en-US/chapters/CH12-chapter-12.md",
+    "sha256": "5085554aab33dca3f5d5aa5256cc3e4bca231eb77d0cbcc5797d9d2868facd64",
+    "bytes": 1135
+  },
+  {
+    "path": "apps/web/src/content/docs/zh-tw/CH12-chapter-12.md",
+    "sha256": "c506df8573e489d68e0a5e14b927be3410814f7fa72ca97d53d17e21263abb4e",
+    "bytes": 1162
+  },
+  {
+    "path": "apps/web/src/content/docs/en/CH12-chapter-12.md",
+    "sha256": "abe8662dc406d479c1735d4d44b2e9a59907eb9e5b58905fd458f1e0bb5b517a",
+    "bytes": 1216
+  },
+  {
+    "path": "assets/chapters/CH12/figure-manifest.yaml",
+    "sha256": "ee19b013fada5c9a08c47cdd8f4cee6f13bac32beca57928e16e6ec104fa3733",
+    "bytes": 31
+  },
+  {
+    "path": "metadata/chapters.yaml",
+    "sha256": "55a5049c968a8d9ddfcd2bb2e977e66cb1600c33ac888673d9e56391c5f0ae87",
+    "bytes": 13799
+  },
+  {
+    "path": "metadata/translation-status.yaml",
+    "sha256": "df8b390a27761718b04fe54190780a65b92c6550a4e9db85829bab4fb5d49d82",
+    "bytes": 5433
+  },
+  {
+    "path": "metadata/terminology.yaml",
+    "sha256": "7059b05003f841750ff46833d6150838684715fcac9e81e6e15b777961ee1d2c",
+    "bytes": 75118
+  },
+  {
+    "path": "data/references.yaml",
+    "sha256": "0b9c255e08885869d2cb618c76bdc4a0772ac0a43c2b37cd287638b1cc1da671",
+    "bytes": 53094
+  },
+  {
+    "path": "metadata/references.bib",
+    "sha256": "3714b5213ecc93d4d4982e222fc13eb2865dd868b8fc0eae6943c35c5c0974fa",
+    "bytes": 32130
+  },
+  {
+    "path": "data/assets.yaml",
+    "sha256": "586f4089d6187859d69af2708e93e5ea704a0a96830c1b24da85214122ea2ab2",
+    "bytes": 54454
+  },
+  {
+    "path": "metadata/figure-registry.yaml",
+    "sha256": "b3d065dd1a223202c16375829b2ed67c6405c1d22fb6becfef3dc268a5dd8f53",
+    "bytes": 66031
+  },
+  {
+    "path": "scripts/publishing/figure-captions.lua",
+    "sha256": "6b07555f6ac52b341bfda3fb7cef50abd429636dd01e46a7fcc35d328aecdfae",
+    "bytes": 4244
+  },
+  {
+    "path": "CHAPTER_INTEGRATION_MATRIX.md",
+    "sha256": "b9d48ad73343073b0aa583d67db6ba6e4568caa1a2acc80499cf3a9107e20839",
+    "bytes": 37337
+  },
+  {
+    "path": "history.md",
+    "sha256": "1bdc75c0d6cd29bfbbc3cc8386cefdae49a26e739db012542d18ef2106124999",
+    "bytes": 135134
+  },
+  {
+    "path": "reports/CHAPTER-PROGRESS-TRACKER.md",
+    "sha256": "8e4b67aff219d009193e736d3f6e1f3a5065ee1426b9034fee6e3a3f75b3bc02",
+    "bytes": 15380
+  },
+  {
+    "path": "scripts/update_chapter_progress_tracker.py",
+    "sha256": "38b8e4a6b04a34c70fa9e99312a03ca3c5a5e4c484c2c1e6ef1cefd16d8ee414",
+    "bytes": 6346
+  },
+  {
+    "path": "assets\\chapters\\CH12\\figure-manifest.yaml",
+    "sha256": "ee19b013fada5c9a08c47cdd8f4cee6f13bac32beca57928e16e6ec104fa3733",
+    "bytes": 31
+  }
+]

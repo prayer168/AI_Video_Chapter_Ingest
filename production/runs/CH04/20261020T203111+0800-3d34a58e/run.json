@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "run_id": "20261020T203111+0800-3d34a58e",
+  "chapter_id": "CH04",
+  "created_at": "2026-10-20T20:31:11.630693+08:00",
+  "status": "partial",
+  "chapter": {
+    "chapter_id": "CH04",
+    "part_id": "P01",
+    "number": 4,
+    "slug": "chapter-04",
+    "title_zh": "電影形式、風格與作者性",
+    "title_en": "",
+    "legacy_status": "planned",
+    "zh_status": "planned",
+    "en_status": "translation-needed"
+  },
+  "translation_status": {
+    "zh-TW": "planned",
+    "en-US": "translation-needed",
+    "sync_revision": null
+  },
+  "existing_files": [
+    {
+      "path": "content/zh-TW/chapters/CH04-chapter-04.md",
+      "bytes": 1069,
+      "sha256": "70c3f451bf6fac08beaf6aba373f9331ee86b8b8cc67cf07567b17b107f0fc3f"
+    },
+    {
+      "path": "content/en-US/chapters/CH04-chapter-04.md",
+      "bytes": 1135,
+      "sha256": "16455ddee4fb802765fab4bded30df2ad2154d2dced5a4e1a540d42f75f9b863"
+    },
+    {
+      "path": "assets/chapters/CH04/figure-manifest.yaml",
+      "bytes": 31,
+      "sha256": "28fb624839293eabccd4c60a2579fa00f86d11a49c2f6ce78aea91eb0e17e91b"
+    }
+  ],
+  "steps": {
+    "inventory": {
+      "status": "pass",
+      "note": "Initial CH04 was bilingual scaffold only; 12 original targets backed up with SHA-256."
+    },
+    "research": {
+      "status": "pass",
+      "note": "Added R031-R038 with source limits and locators; full-text/page and film-viewing review remains human."
+    },
+    "zh-draft": {
+      "status": "pass",
+      "note": "Substantive Traditional Chinese draft CH04-S00-S13 created."
+    },
+    "en-translation": {
+      "status": "pass",
+      "note": "English aligned draft created; review-needed, not approved."
+    },
+    "film-cases": {
+      "status": "pass",
+      "note": "BFI Vertigo educational case and lawful-viewing exercise; no invented edition/timecodes."
+    },
+    "figure-assets": {
+      "status": "pass",
+      "note": "Two SVGs with bilingual metadata and hashes; all rights/approval remain pending."
+    },
+    "svg-diagrams": {
+      "status": "pass",
+      "note": "Two editable original SVG diagrams; exported only to local draft PNG derivatives."
+    },
+    "website": {
+      "status": "pass",
+      "note": "Sync check, Astro check 0/0/0, 123-page build, CH04 route/figure/alt checks pass."
+    },
+    "books": {
+      "status": "pass",
+      "note": "Bilingual DOCX/PDF/EPUB draft builds; fonts embedded; EPUBCheck zero findings."
+    },
+    "tests": {
+      "status": "pass",
+      "note": "44/44 unit/integration tests; project validators pass."
+    },
+    "editorial-review": {
+      "status": "needs-human-review",
+      "note": "English edit, academic source locators and film case viewing deferred to whole-book review."
+    },
+    "rights-review": {
+      "status": "needs-human-review",
+      "note": "Figure creator attribution, rights, similarity, accessibility and publication approval pending."
+    },
+    "author-approval": {
+      "status": "needs-human-review",
+      "note": "User decided to defer sign-off until all chapters are complete."
+    },
+    "chapter-audit": {
+      "status": "pass",
+      "note": "CH04-FINAL-ACCEPTANCE.md contains 32 itemized checks and evidence."
+    }
+  },
+  "events": [
+    {
+      "time": "2026-10-20T20:31:11.630693+08:00",
+      "event": "Checkpoint created. No manuscripts, images, or publication outputs changed."
+    },
+    {
+      "time": "2026-10-20T20:52:19.216644+08:00",
+      "event": "Stage inventory recorded as pass.",
+      "note": "Initial CH04 was bilingual scaffold only; 12 original targets backed up with SHA-256."
+    },
+    {
+      "time": "2026-10-20T20:52:19.403625+08:00",
+      "event": "Stage research recorded as pass.",
+      "note": "Added R031-R038 with source limits and locators; full-text/page and film-viewing review remains human."
+    },
+    {
+      "time": "2026-10-20T20:52:19.615443+08:00",
+      "event": "Stage zh-draft recorded as pass.",
+      "note": "Substantive Traditional Chinese draft CH04-S00-S13 created."
+    },
+    {
+      "time": "2026-10-20T20:52:19.878607+08:00",
+      "event": "Stage en-translation recorded as pass.",
+      "note": "English aligned draft created; review-needed, not approved."
+    },
+    {
+      "time": "2026-10-20T20:52:20.110404+08:00",
+      "event": "Stage film-cases recorded as pass.",
+      "note": "BFI Vertigo educational case and lawful-viewing exercise; no invented edition/timecodes."
+    },
+    {
+      "time": "2026-10-20T20:52:20.310800+08:00",
+      "event": "Stage figure-assets recorded as pass.",
+      "note": "Two SVGs with bilingual metadata and hashes; all rights/approval remain pending."
+    },
+    {
+      "time": "2026-10-20T20:52:20.560113+08:00",
+      "event": "Stage svg-diagrams recorded as pass.",
+      "note": "Two editable original SVG diagrams; exported only to local draft PNG derivatives."
+    },
+    {
+      "time": "2026-10-20T20:52:20.903716+08:00",
+      "event": "Stage website recorded as pass.",
+      "note": "Sync check, Astro check 0/0/0, 123-page build, CH04 route/figure/alt checks pass."
+    },
+    {
+      "time": "2026-10-20T20:52:21.164279+08:00",
+      "event": "Stage books recorded as pass.",
+      "note": "Bilingual DOCX/PDF/EPUB draft builds; fonts embedded; EPUBCheck zero findings."
+    },
+    {
+      "time": "2026-10-20T20:52:21.393210+08:00",
+      "event": "Stage tests recorded as pass.",
+      "note": "44/44 unit/integration tests; project validators pass."
+    },
+    {
+      "time": "2026-10-20T20:52:21.626128+08:00",
+      "event": "Stage editorial-review recorded as needs-human-review.",
+      "note": "English edit, academic source locators and film case viewing deferred to whole-book review."
+    },
+    {
+      "time": "2026-10-20T20:52:21.907336+08:00",
+      "event": "Stage rights-review recorded as needs-human-review.",
+      "note": "Figure creator attribution, rights, similarity, accessibility and publication approval pending."
+    },
+    {
+      "time": "2026-10-20T20:52:22.181776+08:00",
+      "event": "Stage author-approval recorded as needs-human-review.",
+      "note": "User decided to defer sign-off until all chapters are complete."
+    },
+    {
+      "time": "2026-10-20T20:52:22.421786+08:00",
+      "event": "Stage chapter-audit recorded as pass.",
+      "note": "CH04-FINAL-ACCEPTANCE.md contains 32 itemized checks and evidence."
+    },
+    {
+      "time": "2026-10-20T20:52:22.669221+08:00",
+      "event": "Run finished as partial.",
+      "note": ""
+    }
+  ],
+  "finished_at": "2026-10-20T20:52:22.669221+08:00"
+}

@@ -1,0 +1,28 @@
+chapter_id: CH11
+source_locale: zh-TW
+target_locale: en-US
+source_revision: 2.1.0-draft
+target_revision: 2.1.0-draft
+status: review-needed
+reviewed_by: null
+reviewed_on: null
+sections:
+- {id: CH11-S00, zh: 本章範圍與證據標記, en: Scope and Evidence Labels}
+- {id: CH11-S01, zh: 學習目標與適用對象, en: Learning Objectives and Audience}
+- {id: CH11-S02, zh: 先備知識, en: Prerequisites}
+- {id: CH11-S03, zh: 核心概念與專業術語, en: Core Concepts and Professional Terms}
+- {id: CH11-S04, zh: 歷史與基本原理, en: History and Principles}
+- {id: CH11-S05, zh: 傳統電影製作方法, en: Traditional Production Practice}
+- {id: CH11-S06, zh: AI 時代的技術轉換與限制, en: Technical Change and Limits in the AI Era}
+- {id: CH11-S07, zh: 詳細工作流程, en: Step-by-Step Workflow}
+- {id: CH11-S08, zh: 提示詞與技術參數, en: Prompt and Technical Parameters}
+- {id: CH11-S09, zh: 電影案例分析, en: Film Case Study}
+- {id: CH11-S10, zh: 常見錯誤與品質驗證, en: Common Errors and Quality Checks}
+- {id: CH11-S11, zh: 練習、評量與延伸研究, en: Exercises, Assessment, and Further Research}
+- {id: CH11-S12, zh: 參考資料, en: References}
+terms: [TERM-CH11-DIRECTOR, TERM-CH11-DIRECTORIAL-INTENTION, TERM-CH11-DIRECTING-BRIEF, TERM-CH11-BLOCKING, TERM-CH11-SHOT-LIST, TERM-CH11-DEPARTMENT-HANDOFF, TERM-CH11-DECISION-LOG, TERM-CH11-DIRECTORS-CUT]
+references: [R077, R078, R079, R080, R081, R082, R083, R084, R085, R086]
+figures:
+- {id: CH11-FIG-001, display_number: 11-1, section_id: CH11-S05, caption_id: CH11-CAP-001}
+- {id: CH11-FIG-002, display_number: 11-2, section_id: CH11-S07, caption_id: CH11-CAP-002}
+editorial_note: English is a working translation; bilingual, film-history, rights, and figure reviews remain pending.

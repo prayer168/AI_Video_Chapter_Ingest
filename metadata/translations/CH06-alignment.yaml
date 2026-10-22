@@ -1,0 +1,70 @@
+chapter_id: CH06
+source_locale: zh-TW
+target_locale: en-US
+source_revision: 2.1.0-draft
+target_revision: 2.1.0-draft
+status: review-needed
+reviewed_by: null
+reviewed_on: null
+sections:
+- id: CH06-S00
+  zh: 故事、情節與因果結構
+  en: Story, Plot, and Causal Structure
+- id: CH06-S01
+  zh: 學習目標
+  en: Learning objectives
+- id: CH06-S02
+  zh: 先備知識
+  en: Prerequisites
+- id: CH06-S03
+  zh: 核心術語
+  en: Key terms
+- id: CH06-S04
+  zh: 歷史與基本原理
+  en: History and principles
+- id: CH06-S05
+  zh: 傳統製作方法
+  en: Traditional production practice
+- id: CH06-S06
+  zh: AI 時代的技術轉換
+  en: AI-era workflow and limits
+- id: CH06-S07
+  zh: 詳細工作流程
+  en: Step-by-step workflow
+- id: CH06-S08
+  zh: 提示詞與技術參數
+  en: Prompt and technical parameters
+- id: CH06-S09
+  zh: 電影案例與觀察練習
+  en: Film case and viewing exercise
+- id: CH06-S10
+  zh: 常見錯誤與品質驗證
+  en: Common errors and quality checks
+- id: CH06-S11
+  zh: 練習、評量與延伸研究
+  en: Exercises, assessment, and further research
+- id: CH06-S12
+  zh: 參考資料
+  en: References
+terms:
+- TERM-CH06-STORY
+- TERM-CH06-PLOT
+- TERM-CH06-CAUSALITY
+- TERM-CH06-MOTIVATION
+- TERM-CH06-INCITING-INCIDENT
+- TERM-CH06-REVERSAL
+- TERM-CH06-RECOGNITION
+- TERM-CH06-FORESHADOWING
+references: [R046, R047, R048, R049, R050, R051]
+figures:
+- id: CH06-FIG-001
+  display_number: 6-1
+  section_id: CH06-S07
+  zh_title: 因果鏈：目標、選擇、阻力、結果與新問題
+  en_title: A causal chain: goal, choice, obstacle, outcome, and a new question
+- id: CH06-FIG-002
+  display_number: 6-2
+  section_id: CH06-S09
+  zh_title: 故事時間與作品呈現順序
+  en_title: Story chronology and order of presentation
+editorial_note: English is a working translation. Bilingual terminology, nuance, theory locators, and film case analysis require human review.

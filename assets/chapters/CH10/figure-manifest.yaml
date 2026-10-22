@@ -1,2 +1,143 @@
 chapter_id: CH10
-figures: []
+figures:
+- figure_id: CH10-FIG-001
+  chapter_id: CH10
+  section_id: CH10-S07
+  placement_after: after:CH10-S07
+  source_ids:
+  - R073
+  asset_original: assets/chapters/CH10/figures/originals/CH10-FIG-001-revision-lifecycle.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 10-1
+  asset_status: draft-original-svg
+  rights_status: original-project-svg-pending-human-review
+  sha256: a94e480148e3f0319bd0b886cb3ba61b668f927e9bd90d0f246101865cc98d34
+  width: 1200
+  height: 500
+  bytes: 2110
+  method: Hand-authored editable bilingual SVG; no image model or third-party image.
+  caption_zh: 圖 10-1｜版本需追溯來源、作者、變更和交付狀態；流程是本書工作模型。原創可編輯 SVG 示意圖，非電影劇照；署名、權利及出版核准待審。
+  caption_en: Figure 10-1. Versions should trace source, author, changes, and delivery
+    status; this is a working model. This is an original editable SVG illustration
+    for this book, not a film still. Attribution, rights, and publication approval
+    are pending.
+  alt_zh: 四個稿件版本節點以箭頭連接，呈現創作稿、修訂稿、製作稿和交付封存。
+  alt_en: Four version nodes connect a writing draft, revision drafts, production
+    draft, and archived delivery.
+  creator: AI Video Bible project; individual attribution pending confirmation
+  attribution: Creator and rights-holder attribution pending confirmation.
+  permission: Publication approval pending.
+  original_prompt_or_method: Hand-authored SVG geometry and bilingual labels; no generated
+    or third-party artwork.
+  production_log:
+  - date: '2026-10-22'
+    change: Created as an original editable diagram; SHA-256 recorded.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-US-site: pending
+- figure_id: CH10-FIG-002
+  chapter_id: CH10
+  section_id: CH10-S09
+  placement_after: after:CH10-S09
+  source_ids:
+  - R072
+  asset_original: assets/chapters/CH10/figures/originals/CH10-FIG-002-adaptation-map.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 10-2
+  asset_status: draft-original-svg
+  rights_status: original-project-svg-pending-human-review
+  sha256: 471cbfbc9a040bf9ad3f67c279e26081c28c7aed3878b42565c43c32d853486f
+  width: 1200
+  height: 500
+  bytes: 2131
+  method: Hand-authored editable bilingual SVG; no image model or third-party image.
+  caption_zh: 圖 10-2｜創作轉化紀錄與權利審查分開留存；圖示不構成法律意見。原創可編輯 SVG，未描繪特定作品；權利與出版核准待審。
+  caption_en: Figure 10-2. Creative transformation and rights review need separate
+    records; this diagram is not legal advice. This is an original editable SVG illustration
+    for this book and depicts no specific work. Rights and publication approval are
+    pending.
+  alt_zh: 流程圖分列底本材料、權利審查、創作選擇及新劇本，並標示法律審查閘門。
+  alt_en: A diagram separates source material, rights review, creative choices, and
+    a new screenplay, with a legal-review gate.
+  creator: AI Video Bible project; individual attribution pending confirmation
+  attribution: Creator and rights-holder attribution pending confirmation.
+  permission: Publication approval pending.
+  original_prompt_or_method: Hand-authored SVG geometry and bilingual labels; no generated
+    or third-party artwork.
+  production_log:
+  - date: '2026-10-22'
+    change: Created as an original editable diagram; SHA-256 recorded.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-US-site: pending
+- figure_id: CH10-FIG-003
+  chapter_id: CH10
+  section_id: CH10-S10
+  placement_after: after:CH10-S10
+  source_ids:
+  - R073
+  asset_original: assets/chapters/CH10/figures/originals/CH10-FIG-003-change-review.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 10-3
+  asset_status: draft-original-svg
+  rights_status: original-project-svg-pending-human-review
+  sha256: 6f714ea2442aad3e635c58b64c09215a261489515c0423b6c4eba1207b647574
+  width: 1200
+  height: 500
+  bytes: 2097
+  method: Hand-authored editable bilingual SVG; no image model or third-party image.
+  caption_zh: 圖 10-3｜差異工具提供核對線索，作者判斷是否採納及影響部門。原創可編輯 SVG，非正式劇本頁面；權利及出版核准待審。
+  caption_en: Figure 10-3. Diff tools provide review cues; authors decide whether
+    to accept changes and which departments they affect. This is an original editable
+    SVG illustration for this book, not a production screenplay page. Rights and publication
+    approval are pending.
+  alt_zh: 流程圖比較同一場景 ID 的前稿和改稿，產生差異摘要後交由人員判讀。
+  alt_en: A diagram compares earlier and revised drafts for one scene ID, summarizes
+    differences, and routes them to human review.
+  creator: AI Video Bible project; individual attribution pending confirmation
+  attribution: Creator and rights-holder attribution pending confirmation.
+  permission: Publication approval pending.
+  original_prompt_or_method: Hand-authored SVG geometry and bilingual labels; no generated
+    or third-party artwork.
+  production_log:
+  - date: '2026-10-22'
+    change: Created as an original editable diagram; SHA-256 recorded.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-US-site: pending

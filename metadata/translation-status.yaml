@@ -23,57 +23,57 @@ chapters:
     en-US: review-needed
     sync_revision: null
   CH04:
-    zh-TW: planned
-    en-US: translation-needed
+    zh-TW: review-needed
+    en-US: review-needed
     sync_revision: null
   CH05:
-    zh-TW: planned
-    en-US: translation-needed
-    sync_revision: null
+    zh-TW: review-needed
+    en-US: review-needed
+    sync_revision: 2.1.1-draft
   CH06:
-    zh-TW: planned
-    en-US: translation-needed
-    sync_revision: null
+    zh-TW: review-needed
+    en-US: review-needed
+    sync_revision: 2.1.0-draft
   CH07:
-    zh-TW: planned
-    en-US: translation-needed
-    sync_revision: null
+    zh-TW: review-needed
+    en-US: review-needed
+    sync_revision: 2.1.0-draft
   CH08:
-    zh-TW: planned
-    en-US: translation-needed
-    sync_revision: null
+    zh-TW: source-draft
+    en-US: review-needed
+    sync_revision: 2.1.0-draft
   CH09:
-    zh-TW: planned
-    en-US: translation-needed
-    sync_revision: null
+    zh-TW: source-draft
+    en-US: review-needed
+    sync_revision: 2.1.0-draft
   CH10:
-    zh-TW: planned
-    en-US: translation-needed
-    sync_revision: null
+    zh-TW: source-draft
+    en-US: review-needed
+    sync_revision: 2.1.0-draft
   CH11:
-    zh-TW: planned
-    en-US: translation-needed
-    sync_revision: null
+    zh-TW: source-draft
+    en-US: review-needed
+    sync_revision: 2.1.0-draft
   CH12:
-    zh-TW: planned
-    en-US: translation-needed
-    sync_revision: null
+    zh-TW: source-draft
+    en-US: review-needed
+    sync_revision: 2.1.0-draft
   CH13:
-    zh-TW: planned
-    en-US: translation-needed
-    sync_revision: null
+    zh-TW: review-needed
+    en-US: review-needed
+    sync_revision: 2.1.0-draft
   CH14:
-    zh-TW: planned
-    en-US: translation-needed
-    sync_revision: null
+    zh-TW: review-needed
+    en-US: review-needed
+    sync_revision: 2.1.0-draft
   CH15:
-    zh-TW: planned
-    en-US: translation-needed
-    sync_revision: null
+    zh-TW: review-needed
+    en-US: review-needed
+    sync_revision: 2.1.0-draft
   CH16:
-    zh-TW: planned
-    en-US: translation-needed
-    sync_revision: null
+    zh-TW: review-needed
+    en-US: review-needed
+    sync_revision: 2.1.0-draft
   CH17:
     zh-TW: planned
     en-US: translation-needed
@@ -250,3 +250,7 @@ chapters:
     zh-TW: planned
     en-US: translation-needed
     sync_revision: null
+CH14:
+  zh-TW: review-needed
+  en-US: review-needed
+  sync_revision: 2.1.0-draft

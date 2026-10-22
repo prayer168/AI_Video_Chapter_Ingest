@@ -1,2 +1,68 @@
 chapter_id: CH14
-figures: []
+figures:
+- figure_id: CH14-FIG-001
+  chapter_id: CH14
+  section_id: CH14-S07
+  placement_after: after:CH14-S07
+  source_ids:
+  - R102
+  asset_original: assets/chapters/CH14/figures/originals/CH14-FIG-001-planning-handoff.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 14-1
+  asset_status: draft-original-svg
+  rights_status: original-project-svg-pending-human-review
+  sha256: 0c5515355edd65a47c05361aa5169afaa0e868778f5a53d7fd5812d347287a65
+  width: 1200
+  height: 600
+  bytes: 1308
+  method: Hand-authored editable SVG; no third-party image or image-generation model.
+  caption_zh: 圖 14-1｜分鏡與預視覺化交接流程原創示意圖。 本圖為專案手繪原創示意圖，並非任何電影原劇照或特定電影畫面重製；權利與出版核准待審。
+  caption_en: 14-1 | Original schematic of storyboard/previs handoff. This is an original hand-authored schematic. It is not
+    an official film still or a recreation of a specific work. Rights and publication approval are pending.
+  alt_zh: 分鏡與預視覺化交接流程原創示意圖。
+  alt_en: Original schematic of storyboard/previs handoff.
+  creator: AI Video Bible project; individual attribution pending confirmation
+  attribution: Creator and rights-holder attribution pending confirmation.
+  permission: Publication approval pending.
+  original_prompt_or_method: Hand-authored vector diagram.
+  production_log:
+  - date: '2026-10-22'
+    change: Created; dimensions and SHA-256 recorded.
+  note: Human editorial, technical, accessibility, rights, and author review pending.
+- figure_id: CH14-FIG-002
+  chapter_id: CH14
+  section_id: CH14-S09
+  placement_after: after:CH14-S09
+  source_ids:
+  - R104
+  asset_original: assets/chapters/CH14/figures/originals/CH14-FIG-002-beats-to-shotlist.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 14-2
+  asset_status: draft-original-svg
+  rights_status: original-project-svg-pending-human-review
+  sha256: 468326b83ac2d1b24d0f5049a070946d538d059cfa7647b8ed9e8aad3aef5c0a
+  width: 1200
+  height: 620
+  bytes: 1537
+  method: Hand-authored editable SVG; no third-party image or image-generation model.
+  caption_zh: 圖 14-2｜三個虛構節拍及鏡號對照原創示意圖。 本圖為專案手繪原創示意圖，並非任何電影原劇照或特定電影畫面重製；權利與出版核准待審。
+  caption_en: 14-2 | Original schematic mapping three fictional beats to shot IDs. This is an original hand-authored schematic.
+    It is not an official film still or a recreation of a specific work. Rights and publication approval are pending.
+  alt_zh: 三個虛構節拍及鏡號對照原創示意圖。
+  alt_en: Original schematic mapping three fictional beats to shot IDs.
+  creator: AI Video Bible project; individual attribution pending confirmation
+  attribution: Creator and rights-holder attribution pending confirmation.
+  permission: Publication approval pending.
+  original_prompt_or_method: Hand-authored vector diagram.
+  production_log:
+  - date: '2026-10-22'
+    change: Created; dimensions and SHA-256 recorded.
+  note: Human editorial, technical, accessibility, rights, and author review pending.

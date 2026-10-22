@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="450" viewBox="0 0 1200 450" role="img" aria-labelledby="title desc">
+<title id="title">導演意圖循環 / Directing intention loop</title><desc id="desc">Intent becomes evidence, collaboration, and verification before revision.</desc>
+<style>text{font-family:Arial,"Noto Sans CJK TC","Microsoft JhengHei",sans-serif;fill:#17212b}.head{font-size:23px;font-weight:700}.sub{font-size:17px}.small{font-size:15px}.box{fill:#f5f1e9;stroke:#364b5c;stroke-width:2}.arrow{stroke:#8a4f32;stroke-width:3;fill:none;marker-end:url(#a)}</style>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#8a4f32"/></marker></defs>
+<text x="60" y="48" class="head">從意圖到可驗證的聲畫選擇 / From intention to testable audiovisual choices</text>
+<rect class="box" x="55" y="105" width="225" height="160" rx="18"/><text x="167" y="153" text-anchor="middle" class="head">意圖 / Intention</text><text x="167" y="193" text-anchor="middle" class="sub">觀眾應理解什麼？</text><text x="167" y="221" text-anchor="middle" class="small">What should the audience learn?</text>
+<rect class="box" x="350" y="105" width="225" height="160" rx="18"/><text x="462" y="153" text-anchor="middle" class="head">證據 / Evidence</text><text x="462" y="193" text-anchor="middle" class="sub">畫面、表演、聲音</text><text x="462" y="221" text-anchor="middle" class="small">Image, performance, sound</text>
+<rect class="box" x="645" y="105" width="225" height="160" rx="18"/><text x="757" y="153" text-anchor="middle" class="head">協作 / Collaboration</text><text x="757" y="193" text-anchor="middle" class="sub">部門提出方法與風險</text><text x="757" y="221" text-anchor="middle" class="small">Departments propose and test</text>
+<rect class="box" x="940" y="105" width="225" height="160" rx="18"/><text x="1052" y="153" text-anchor="middle" class="head">驗證 / Verification</text><text x="1052" y="193" text-anchor="middle" class="sub">排演、拍攝、剪輯回看</text><text x="1052" y="221" text-anchor="middle" class="small">Rehearse, shoot, review</text>
+<path class="arrow" d="M282 185 H338"/><path class="arrow" d="M577 185 H633"/><path class="arrow" d="M872 185 H928"/>
+<path class="arrow" d="M1050 278 C1050 330 170 330 170 278"/><text x="610" y="390" text-anchor="middle" class="sub">回饋修訂意圖或方法 / Feedback revises intention or method</text>
+</svg>

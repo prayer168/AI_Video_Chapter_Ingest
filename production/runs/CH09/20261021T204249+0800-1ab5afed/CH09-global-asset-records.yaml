@@ -1,0 +1,166 @@
+- id: ASSET-CH09-FIG-001
+  path: assets/chapters/CH09/figures/originals/CH09-FIG-001-genre-layers.svg
+  type: original-svg-diagram
+  description: 類型分析可從可辨識材料、材料之間的敘事關係，以及產業與觀眾脈絡交叉觀察；三者是可修正的工作透鏡，不是固定分類法。本圖為本書原創可編輯
+    SVG 示意圖，未使用電影劇照或第三方圖像。
+  creator: Individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-21'
+  license: Unconfirmed
+  permission: Publication approval pending
+  attribution: Individual creator attribution pending
+  chapter_ids:
+  - CH09
+  notes: Original vector diagram, not a film still; human review required.
+  media_kind: image
+  figure_id: CH09-FIG-001
+  paragraph_reference: CH09-S09
+  teaching_purpose: 類型分析可從可辨識材料、材料之間的敘事關係，以及產業與觀眾脈絡交叉觀察；三者是可修正的工作透鏡，不是固定分類法。本圖為本書原創可編輯
+    SVG 示意圖，未使用電影劇照或第三方圖像。
+  research_sources:
+  - source_id: R066
+    accessed: '2026-10-21'
+    purpose: Conceptual context; not a copied visual source.
+  original_prompt_or_method: Hand-authored editable SVG. No AI image generation or
+    third-party artwork.
+  tool_name: Text editor / XML SVG
+  tool_version: Not captured
+  production_log:
+  - date: '2026-10-21'
+    change: Created editable original SVG; SHA-256 20f5ca7b82bae790f69fc2b0ad2cc94125408a196c9332e316ed3c255b5c1e9d.
+  caption_zh_tw: 圖 9-1｜類型分析可從可辨識材料、材料之間的敘事關係，以及產業與觀眾脈絡交叉觀察；三者是可修正的工作透鏡，不是固定分類法。本圖為本書原創可編輯
+    SVG 示意圖，未使用電影劇照或第三方圖像。
+  caption_en: Figure 9-1 | Genre can be examined through recognisable materials, their
+    narrative relations, and industrial and audience contexts. These are revisable
+    lenses, not a fixed taxonomy. This is an original editable SVG illustration for
+    this book; it uses no film still or third-party image.
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-21'
+    reviewer: Codex preliminary review
+    findings: No third-party image identified; individual attribution, accessibility,
+      technical quality, and publication approval remain pending.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  sha256: a9237182ded3aa4cb5769efc0b122561127cb9493ab33f2c6463a6aa137553a9
+  bytes: 1754
+- id: ASSET-CH09-FIG-002
+  path: assets/chapters/CH09/figures/originals/CH09-FIG-002-serial-scales.svg
+  type: original-svg-diagram
+  description: 單集、季與系列可承載不同問題與變化尺度；交叉線表示資訊與角色變化可跨層級回響，不是每部作品都必須採用的公式。本圖為本書原創可編輯 SVG
+    示意圖，未使用第三方圖像。
+  creator: Individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-21'
+  license: Unconfirmed
+  permission: Publication approval pending
+  attribution: Individual creator attribution pending
+  chapter_ids:
+  - CH09
+  notes: Original vector diagram, not a film still; human review required.
+  media_kind: image
+  figure_id: CH09-FIG-002
+  paragraph_reference: CH09-S07
+  teaching_purpose: 單集、季與系列可承載不同問題與變化尺度；交叉線表示資訊與角色變化可跨層級回響，不是每部作品都必須採用的公式。本圖為本書原創可編輯
+    SVG 示意圖，未使用第三方圖像。
+  research_sources:
+  - source_id: R067
+    accessed: '2026-10-21'
+    purpose: Conceptual context; not a copied visual source.
+  original_prompt_or_method: Hand-authored editable SVG. No AI image generation or
+    third-party artwork.
+  tool_name: Text editor / XML SVG
+  tool_version: Not captured
+  production_log:
+  - date: '2026-10-21'
+    change: Created editable original SVG; SHA-256 16356f24ea47c76ef19f2d0815cd879abb9be849f0f35ac7b1729fb008f4038f.
+  caption_zh_tw: 圖 9-2｜單集、季與系列可承載不同問題與變化尺度；交叉線表示資訊與角色變化可跨層級回響，不是每部作品都必須採用的公式。本圖為本書原創可編輯
+    SVG 示意圖，未使用第三方圖像。
+  caption_en: Figure 9-2 | Episode, season, and series can carry questions and changes
+    at different scales. The crossing lines show how information and character change
+    may resonate across levels; they are not a formula every work must follow. This
+    is an original editable SVG illustration for this book and uses no third-party
+    image.
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-21'
+    reviewer: Codex preliminary review
+    findings: No third-party image identified; individual attribution, accessibility,
+      technical quality, and publication approval remain pending.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  sha256: 9ad0bec7684946b842bfcfa58885adb1ec7c2188a041100e6846bda3818275d1
+  bytes: 1609
+- id: ASSET-CH09-FIG-003
+  path: assets/chapters/CH09/figures/originals/CH09-FIG-003-reveal-matrix.svg
+  type: original-svg-diagram
+  description: 事件發生順序與觀眾得知順序可以不同；揭露重排會改變觀眾的假設，但不自動保證懸念或理解。本圖為本書原創可編輯 SVG 示意圖，未使用第三方圖像。
+  creator: Individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-21'
+  license: Unconfirmed
+  permission: Publication approval pending
+  attribution: Individual creator attribution pending
+  chapter_ids:
+  - CH09
+  notes: Original vector diagram, not a film still; human review required.
+  media_kind: image
+  figure_id: CH09-FIG-003
+  paragraph_reference: CH09-S10
+  teaching_purpose: 事件發生順序與觀眾得知順序可以不同；揭露重排會改變觀眾的假設，但不自動保證懸念或理解。本圖為本書原創可編輯 SVG 示意圖，未使用第三方圖像。
+  research_sources:
+  - source_id: R068
+    accessed: '2026-10-21'
+    purpose: Conceptual context; not a copied visual source.
+  - source_id: R069
+    accessed: '2026-10-21'
+    purpose: Conceptual context; not a copied visual source.
+  original_prompt_or_method: Hand-authored editable SVG. No AI image generation or
+    third-party artwork.
+  tool_name: Text editor / XML SVG
+  tool_version: Not captured
+  production_log:
+  - date: '2026-10-21'
+    change: Created editable original SVG; SHA-256 754f0c39bd10d489c21edbe60c1ae0317a39984b84d2a55b50f8ed7a01e967ed.
+  caption_zh_tw: 圖 9-3｜事件發生順序與觀眾得知順序可以不同；揭露重排會改變觀眾的假設，但不自動保證懸念或理解。本圖為本書原創可編輯 SVG 示意圖，未使用第三方圖像。
+  caption_en: Figure 9-3 | The order in which events occur can differ from the order
+    in which audiences learn about them. Reordering reveals changes audience hypotheses
+    but does not automatically create suspense or clarity. This is an original editable
+    SVG illustration for this book and uses no third-party image.
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-21'
+    reviewer: Codex preliminary review
+    findings: No third-party image identified; individual attribution, accessibility,
+      technical quality, and publication approval remain pending.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  sha256: 9ea662d9e5cde67ce18318c98f29f1bc47f07ca3bef84c60e52f54898be4b993
+  bytes: 1707

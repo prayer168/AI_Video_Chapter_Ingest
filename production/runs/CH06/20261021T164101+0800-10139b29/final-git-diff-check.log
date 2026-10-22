@@ -1,0 +1,12 @@
+warning: in the working copy of 'assets/chapters/CH06/figure-manifest.yaml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'content/en-US/chapters/CH04-chapter-04.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'content/en-US/chapters/CH06-chapter-06.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'content/zh-TW/chapters/CH04-chapter-04.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'content/zh-TW/chapters/CH06-chapter-06.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/assets.yaml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/references.yaml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/PUBLISHING.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'history.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'metadata/figure-registry.yaml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'metadata/references.bib', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'scripts/publishing/figure-captions.lua', LF will be replaced by CRLF the next time Git touches it

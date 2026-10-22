@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "run_id": "20261022T224558+0800-f4a29f11",
+  "chapter_id": "CH14",
+  "created_at": "2026-10-22T22:45:58.756148+08:00",
+  "status": "partial",
+  "chapter": {
+    "chapter_id": "CH14",
+    "part_id": "P03",
+    "number": 14,
+    "slug": "chapter-14",
+    "title_zh": "分鏡、預視覺化與鏡頭清單",
+    "title_en": "",
+    "legacy_status": "planned",
+    "zh_status": "planned",
+    "en_status": "translation-needed"
+  },
+  "translation_status": {
+    "zh-TW": "planned",
+    "en-US": "translation-needed",
+    "sync_revision": null
+  },
+  "existing_files": [
+    {
+      "path": "content/zh-TW/chapters/CH14-chapter-14.md",
+      "bytes": 1075,
+      "sha256": "f6335833c92a06274251befa1106a708729406dc56b07fdf941e487b7c1f3128"
+    },
+    {
+      "path": "content/en-US/chapters/CH14-chapter-14.md",
+      "bytes": 1135,
+      "sha256": "3c6ffc816a1eaef85a105d24090c49028ae3533413f1c6528c38782199febd94"
+    },
+    {
+      "path": "assets/chapters/CH14/figure-manifest.yaml",
+      "bytes": 31,
+      "sha256": "996d8584701b3e162e006713a4a3f8cdb455f20ca1396b86d5e8c17bf0fda461"
+    }
+  ],
+  "steps": {
+    "inventory": {
+      "status": "pass",
+      "note": "Initial scaffold and figure inventory recorded; pre-edit backup created."
+    },
+    "research": {
+      "status": "pass",
+      "note": "R101-R106 pages checked with scope limits recorded."
+    },
+    "zh-draft": {
+      "status": "pass",
+      "note": "Substantive S00-S12 Traditional Chinese research draft."
+    },
+    "en-translation": {
+      "status": "needs-human-review",
+      "note": "Aligned S00-S12 working translation; copyedit pending."
+    },
+    "film-cases": {
+      "status": "needs-human-review",
+      "note": "ASC interview evidence registered; lawful viewing edition and timecodes pending."
+    },
+    "figure-assets": {
+      "status": "pass",
+      "note": "Two original SVG files hashed and registered; approval remains pending."
+    },
+    "svg-diagrams": {
+      "status": "pass",
+      "note": "XML parsing and dimension/hash checks passed."
+    },
+    "website": {
+      "status": "pass",
+      "note": "Astro checks/build and sync check passed locally; not deployed."
+    },
+    "books": {
+      "status": "pass",
+      "note": "DOCX/EPUB/PDF drafts generated; embedded font checks and EPUBCheck passed."
+    },
+    "tests": {
+      "status": "fail",
+      "note": "CH14 4/4; full project tests 92/93 with unrelated CH01 KeyError status."
+    },
+    "editorial-review": {
+      "status": "needs-human-review",
+      "note": "Bilingual and film specialist reviews pending."
+    },
+    "rights-review": {
+      "status": "needs-human-review",
+      "note": "Attribution, rights, accessibility, and publication review pending."
+    },
+    "author-approval": {
+      "status": "needs-human-review",
+      "note": "Author proof approval pending."
+    },
+    "chapter-audit": {
+      "status": "pass",
+      "note": "Acceptance report and bilingual review checklist completed."
+    }
+  },
+  "events": [
+    {
+      "time": "2026-10-22T22:45:58.756148+08:00",
+      "event": "Checkpoint created. No manuscripts, images, or publication outputs changed."
+    },
+    {
+      "time": "2026-10-22T23:01:11.978441+08:00",
+      "event": "Stage inventory recorded as pass.",
+      "note": "Initial scaffold and figure inventory recorded; pre-edit backup created."
+    },
+    {
+      "time": "2026-10-22T23:01:11.990965+08:00",
+      "event": "Stage research recorded as pass.",
+      "note": "R101-R106 pages checked with scope limits recorded."
+    },
+    {
+      "time": "2026-10-22T23:01:12.003704+08:00",
+      "event": "Stage zh-draft recorded as pass.",
+      "note": "Substantive S00-S12 Traditional Chinese research draft."
+    },
+    {
+      "time": "2026-10-22T23:01:12.019176+08:00",
+      "event": "Stage en-translation recorded as needs-human-review.",
+      "note": "Aligned S00-S12 working translation; copyedit pending."
+    },
+    {
+      "time": "2026-10-22T23:01:12.028002+08:00",
+      "event": "Stage film-cases recorded as needs-human-review.",
+      "note": "ASC interview evidence registered; lawful viewing edition and timecodes pending."
+    },
+    {
+      "time": "2026-10-22T23:01:12.036907+08:00",
+      "event": "Stage figure-assets recorded as pass.",
+      "note": "Two original SVG files hashed and registered; approval remains pending."
+    },
+    {
+      "time": "2026-10-22T23:01:12.047549+08:00",
+      "event": "Stage svg-diagrams recorded as pass.",
+      "note": "XML parsing and dimension/hash checks passed."
+    },
+    {
+      "time": "2026-10-22T23:01:12.059251+08:00",
+      "event": "Stage website recorded as pass.",
+      "note": "Astro checks/build and sync check passed locally; not deployed."
+    },
+    {
+      "time": "2026-10-22T23:01:12.070731+08:00",
+      "event": "Stage books recorded as pass.",
+      "note": "DOCX/EPUB/PDF drafts generated; embedded font checks and EPUBCheck passed."
+    },
+    {
+      "time": "2026-10-22T23:01:12.082458+08:00",
+      "event": "Stage tests recorded as fail.",
+      "note": "CH14 4/4; full project tests 92/93 with unrelated CH01 KeyError status."
+    },
+    {
+      "time": "2026-10-22T23:01:12.095067+08:00",
+      "event": "Stage editorial-review recorded as needs-human-review.",
+      "note": "Bilingual and film specialist reviews pending."
+    },
+    {
+      "time": "2026-10-22T23:01:12.105210+08:00",
+      "event": "Stage rights-review recorded as needs-human-review.",
+      "note": "Attribution, rights, accessibility, and publication review pending."
+    },
+    {
+      "time": "2026-10-22T23:01:12.117030+08:00",
+      "event": "Stage author-approval recorded as needs-human-review.",
+      "note": "Author proof approval pending."
+    },
+    {
+      "time": "2026-10-22T23:01:12.127446+08:00",
+      "event": "Stage chapter-audit recorded as pass.",
+      "note": "Acceptance report and bilingual review checklist completed."
+    },
+    {
+      "time": "2026-10-22T23:01:12.138402+08:00",
+      "event": "Run finished as partial.",
+      "note": "Technical draft complete; editorial, rights, author, and full-suite gates remain open."
+    }
+  ],
+  "finished_at": "2026-10-22T23:01:12.138402+08:00"
+}

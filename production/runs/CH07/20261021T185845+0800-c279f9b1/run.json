@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "run_id": "20261021T185845+0800-c279f9b1",
+  "chapter_id": "CH07",
+  "created_at": "2026-10-21T18:58:45.993889+08:00",
+  "status": "partial",
+  "chapter": {
+    "chapter_id": "CH07",
+    "part_id": "P02",
+    "number": 7,
+    "slug": "chapter-07",
+    "title_zh": "人物、欲望、衝突與角色弧線",
+    "title_en": "",
+    "legacy_status": "planned",
+    "zh_status": "planned",
+    "en_status": "translation-needed"
+  },
+  "translation_status": {
+    "zh-TW": "planned",
+    "en-US": "translation-needed",
+    "sync_revision": null
+  },
+  "existing_files": [
+    {
+      "path": "content/zh-TW/chapters/CH07-chapter-07.md",
+      "bytes": 1081,
+      "sha256": "b876a44d236964b5e7c7dbe2b19790c01400342b7035ec9b6b0f576f44869afa"
+    },
+    {
+      "path": "content/en-US/chapters/CH07-chapter-07.md",
+      "bytes": 1135,
+      "sha256": "1b661ec56959824806a137329cb4b1a98cb7595512a0244a0fe9b1596fc3ae30"
+    },
+    {
+      "path": "assets/chapters/CH07/figure-manifest.yaml",
+      "bytes": 31,
+      "sha256": "94bb8453ef95fd1fce3629d1c79ab8f82757c95889c3ac725647e8610eba64a5"
+    }
+  ],
+  "steps": {
+    "inventory": {
+      "status": "pass",
+      "note": "Canonical CH07 was a scaffold; pre-edit copies and SHA-256 manifest retained."
+    },
+    "research": {
+      "status": "needs-human-review",
+      "note": "Draft sources registered; edition/page locator review remains."
+    },
+    "zh-draft": {
+      "status": "pass",
+      "note": "Traditional Chinese research draft CH07-S00–S13 produced."
+    },
+    "en-translation": {
+      "status": "needs-human-review",
+      "note": "Aligned English working translation produced; bilingual copyedit pending."
+    },
+    "film-cases": {
+      "status": "needs-human-review",
+      "note": "Cases attributed to cited secondary criticism; viewing edition/timecode review pending."
+    },
+    "figure-assets": {
+      "status": "needs-human-review",
+      "note": "Two original SVG files, bilingual captions/alt, SHA-256 and pending rights metadata registered."
+    },
+    "svg-diagrams": {
+      "status": "pass",
+      "note": "SVGs render in local HTML/PDF proofs and remain editable."
+    },
+    "website": {
+      "status": "pass",
+      "note": "Astro check clean; local build generated 123 pages. No deployment."
+    },
+    "books": {
+      "status": "pass",
+      "note": "Bilingual DOCX/PDF/EPUB drafts built and checked; not formal releases."
+    },
+    "tests": {
+      "status": "needs-human-review",
+      "note": "CH07 tests 6/6 and project validators pass; full suite 60/61 due pre-existing CH01 missing status."
+    },
+    "editorial-review": {
+      "status": "needs-human-review",
+      "note": "Professional and bilingual review deferred until all chapters per author direction."
+    },
+    "rights-review": {
+      "status": "needs-human-review",
+      "note": "Original SVG authorship/accessibility/publication rights review pending."
+    },
+    "author-approval": {
+      "status": "needs-human-review",
+      "note": "Author approval deferred; chapter is not publication-ready."
+    },
+    "chapter-audit": {
+      "status": "pass",
+      "note": "Acceptance checklist completed; open items and evidence recorded in reports/CH07-FINAL-ACCEPTANCE.md."
+    }
+  },
+  "events": [
+    {
+      "time": "2026-10-21T18:58:45.993889+08:00",
+      "event": "Checkpoint created. No manuscripts, images, or publication outputs changed."
+    },
+    {
+      "time": "2026-10-21T19:20:19.906165+08:00",
+      "event": "CH07 draft and audit completed; local bilingual book/site checks run. Run closed as partial because editorial, rights, and author gates remain open."
+    }
+  ]
+}

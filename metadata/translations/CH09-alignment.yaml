@@ -1,0 +1,83 @@
+chapter_id: CH09
+source_locale: zh-TW
+target_locale: en-US
+source_revision: 2.1.0-draft
+target_revision: 2.1.0-draft
+status: review-needed
+reviewed_by: null
+reviewed_on: null
+sections:
+- id: CH09-S01
+  zh: 學習目標
+  en: Learning Objectives
+- id: CH09-S02
+  zh: 先備知識
+  en: Prerequisites
+- id: CH09-S03
+  zh: 核心術語
+  en: Key Terms
+- id: CH09-S04
+  zh: 歷史與基本原理
+  en: History and Principles
+- id: CH09-S05
+  zh: 傳統製作方法
+  en: Traditional Production Practice
+- id: CH09-S06
+  zh: AI 時代的技術轉換與限制
+  en: AI-Era Workflow and Limits
+- id: CH09-S07
+  zh: 詳細工作流程
+  en: Step-by-Step Workflow
+- id: CH09-S08
+  zh: 提示詞與技術參數
+  en: Prompt and Technical Parameters
+- id: CH09-S09
+  zh: 電影案例分析
+  en: Film Case Studies
+- id: CH09-S10
+  zh: 常見錯誤與品質檢查
+  en: Common Errors and Quality Checks
+- id: CH09-S11
+  zh: 練習、評量與延伸研究
+  en: Exercises, Assessment, and Further Research
+- id: CH09-S12
+  zh: 參考資料
+  en: References
+terms:
+- TERM-CH09-GENRE
+- TERM-CH09-GENRE-CONVENTION
+- TERM-CH09-GENRE-MIX
+- TERM-CH09-EPISODIC
+- TERM-CH09-SERIAL
+- TERM-CH09-HYBRID-SERIALITY
+- TERM-CH09-PLOTLINE
+- TERM-CH09-NONLINEAR
+- TERM-CH09-REVEAL-MAP
+references:
+- R066
+- R067
+- R068
+- R069
+- R051
+- R062
+figures:
+- id: CH09-FIG-001
+  display_number: 9-1
+  section_id: CH09-S09
+  zh_title: 類型期待的三個分析層次
+  en_title: Three analytical layers of genre expectation
+  caption_id: CH09-CAP-001
+- id: CH09-FIG-002
+  display_number: 9-2
+  section_id: CH09-S07
+  zh_title: 單集、季與系列的敘事尺度
+  en_title: Narrative scales of episode, season, and series
+  caption_id: CH09-CAP-002
+- id: CH09-FIG-003
+  display_number: 9-3
+  section_id: CH09-S10
+  zh_title: 事件時間與觀眾揭露順序並不相同
+  en_title: Event chronology and audience reveal order are not the same
+  caption_id: CH09-CAP-003
+editorial_note: English working translation; professional film-studies and bilingual
+  review pending.

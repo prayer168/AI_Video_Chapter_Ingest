@@ -16,6 +16,8 @@ winget install --source winget --exact --id JohnMacFarlane.Pandoc
 
 PDF 另需 XeLaTeX 和 Inkscape（章節插圖含 SVG 時）。Windows 可由 [MiKTeX 官方下載頁](https://miktex.org/download) 安裝 XeLaTeX，並從 [Inkscape 官方網站](https://inkscape.org/) 安裝圖形轉換器；重開終端後確認 `pandoc --version`、`xelatex --version` 和 `inkscape --version` 可執行。
 
+本專案的 V2 Pandoc 建置器會使用 `scripts/publishing/pandoc-data/translations/zh.yaml`，為 `zh-TW` 補上繁中標題、表格與圖說標籤；自訂資料目錄只影響本專案命令，不更動使用者全域 Pandoc 設定。修改標籤時保留 Pandoc translation key，並重跑出版 smoke test。
+
 ## 3. 建置
 
 ```powershell

@@ -1,0 +1,62 @@
+{
+  "packages": {
+    "CH06-zh-TW.docx": {
+      "crc": "PASS",
+      "members": 16
+    },
+    "CH06-zh-TW.epub": {
+      "crc": "PASS",
+      "members": 9
+    },
+    "CH06-en-US.docx": {
+      "crc": "PASS",
+      "members": 16
+    },
+    "CH06-en-US.epub": {
+      "crc": "PASS",
+      "members": 9
+    }
+  },
+  "pdf": {
+    "CH06-zh-TW.pdf": {
+      "pages": 6,
+      "replacement_chars": 0,
+      "text_chars": 6694
+    },
+    "CH06-en-US.pdf": {
+      "pages": 8,
+      "replacement_chars": 0,
+      "text_chars": 16960
+    }
+  },
+  "website": {
+    "zh-TW": {
+      "path": "apps/web/dist/zh-tw/ch06-chapter-06/index.html",
+      "unique_ids": 32,
+      "images": 0,
+      "alt": "PASS"
+    },
+    "en-US": {
+      "path": "apps/web/dist/en/ch06-chapter-06/index.html",
+      "unique_ids": 32,
+      "images": 0,
+      "alt": "PASS"
+    }
+  },
+  "citation_parity": {
+    "zh-TW": [
+      "R046",
+      "R047",
+      "R048",
+      "R049",
+      "R050"
+    ],
+    "en-US": [
+      "R046",
+      "R047",
+      "R048",
+      "R049",
+      "R050"
+    ]
+  }
+}

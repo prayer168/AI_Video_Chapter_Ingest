@@ -1,0 +1,101 @@
+test_all_chapter_citations_exist_in_bibliography (test_ch01_content.Chapter01ContentTests.test_all_chapter_citations_exist_in_bibliography) ... ok
+test_all_required_sections_have_substantive_bilingual_text (test_ch01_content.Chapter01ContentTests.test_all_required_sections_have_substantive_bilingual_text) ... ok
+test_bilingual_figure_manifest_and_caption_register_are_synchronized (test_ch01_content.Chapter01ContentTests.test_bilingual_figure_manifest_and_caption_register_are_synchronized) ... ok
+test_chapter_terms_are_bilingual_and_registered (test_ch01_content.Chapter01ContentTests.test_chapter_terms_are_bilingual_and_registered) ... ERROR
+test_imported_figures_exist_and_remain_pending_review (test_ch01_content.Chapter01ContentTests.test_imported_figures_exist_and_remain_pending_review) ... ok
+test_translation_map_matches_stable_anchors_and_cases (test_ch01_content.Chapter01ContentTests.test_translation_map_matches_stable_anchors_and_cases) ... ok
+test_website_projection_renders_figure_ids_and_alt_text (test_ch01_content.Chapter01ContentTests.test_website_projection_renders_figure_ids_and_alt_text) ... ok
+test_all_26_bilingual_terms_have_same_stable_ids (test_ch02_staging.CH02StagingTests.test_all_26_bilingual_terms_have_same_stable_ids) ... ok
+test_demo_shot_list_is_contiguous_and_totals_60_seconds (test_ch02_staging.CH02StagingTests.test_demo_shot_list_is_contiguous_and_totals_60_seconds) ... ok
+test_original_svg_files_are_well_formed_hashed_and_referenced (test_ch02_staging.CH02StagingTests.test_original_svg_files_are_well_formed_hashed_and_referenced) ... ok
+test_required_bilingual_section_ids_are_complete_and_aligned (test_ch02_staging.CH02StagingTests.test_required_bilingual_section_ids_are_complete_and_aligned) ... ok
+test_source_archive_and_v1_are_unchanged_after_canonical_migration (test_ch02_staging.CH02StagingTests.test_source_archive_and_v1_are_unchanged_after_canonical_migration) ... ok
+test_bilingual_section_ids_match_and_are_substantive (test_ch04_content.Chapter04ContentTests.test_bilingual_section_ids_match_and_are_substantive) ... ok
+test_chapter_remains_review_needed (test_ch04_content.Chapter04ContentTests.test_chapter_remains_review_needed) ... ok
+test_figures_have_bilingual_captions_alt_hash_and_pending_rights (test_ch04_content.Chapter04ContentTests.test_figures_have_bilingual_captions_alt_hash_and_pending_rights) ... ok
+test_glossary_entries_and_reference_ids_exist (test_ch04_content.Chapter04ContentTests.test_glossary_entries_and_reference_ids_exist) ... ok
+test_bilingual_chapter_sections_and_terms_align (test_ch05_content.Chapter05Tests.test_bilingual_chapter_sections_and_terms_align) ... ok
+test_figures_exist_hash_match_and_remain_pending (test_ch05_content.Chapter05Tests.test_figures_exist_hash_match_and_remain_pending) ... ok
+test_translation_map_and_reference_ids_exist (test_ch05_content.Chapter05Tests.test_translation_map_and_reference_ids_exist) ... ok
+test_figures_registered_and_pending_review (test_ch06_content.Chapter06ContentTests.test_figures_registered_and_pending_review) ... ok
+test_no_scaffold_and_ai_demo_labeled (test_ch06_content.Chapter06ContentTests.test_no_scaffold_and_ai_demo_labeled) ... ok
+test_pandoc_svg_staging_keeps_sources_and_uses_vector_pdf_for_print (test_ch06_content.Chapter06ContentTests.test_pandoc_svg_staging_keeps_sources_and_uses_vector_pdf_for_print) ... ok
+test_publication_gate_accepts_reviewed_svg_provenance_without_ai_model_fields (test_ch06_content.Chapter06ContentTests.test_publication_gate_accepts_reviewed_svg_provenance_without_ai_model_fields) ... ok
+test_publication_gate_keeps_raster_generation_provenance_required (test_ch06_content.Chapter06ContentTests.test_publication_gate_keeps_raster_generation_provenance_required) ... ok
+test_stable_sections_align (test_ch06_content.Chapter06ContentTests.test_stable_sections_align) ... ok
+test_terms_and_references_registered (test_ch06_content.Chapter06ContentTests.test_terms_and_references_registered) ... ok
+test_docx_staging_rasterizes_svg_without_changing_originals (test_ch07_content.Chapter07ContentTests.test_docx_staging_rasterizes_svg_without_changing_originals) ... ok
+test_figures_exist_hash_match_and_are_not_approved (test_ch07_content.Chapter07ContentTests.test_figures_exist_hash_match_and_are_not_approved) ... ok
+test_references_exist_and_cases_are_attributed_as_secondary_analysis (test_ch07_content.Chapter07ContentTests.test_references_exist_and_cases_are_attributed_as_secondary_analysis) ... ok
+test_stable_bilingual_section_ids_align (test_ch07_content.Chapter07ContentTests.test_stable_bilingual_section_ids_align) ... ok
+test_svg_is_well_formed_and_captions_preserve_original_not_film_still_notice (test_ch07_content.Chapter07ContentTests.test_svg_is_well_formed_and_captions_preserve_original_not_film_still_notice) ... ok
+test_terms_are_registered_bilingual_and_used (test_ch07_content.Chapter07ContentTests.test_terms_are_registered_bilingual_and_used) ... ok
+test_bilingual_stable_sections_align (test_ch08_content.Chapter08ContentTests.test_bilingual_stable_sections_align) ... ok
+test_chapter_has_no_placeholder_sections (test_ch08_content.Chapter08ContentTests.test_chapter_has_no_placeholder_sections) ... ok
+test_eight_bilingual_terms_are_draft_and_aligned (test_ch08_content.Chapter08ContentTests.test_eight_bilingual_terms_are_draft_and_aligned) ... ok
+test_figures_hash_xml_captions_alt_and_approval_state (test_ch08_content.Chapter08ContentTests.test_figures_hash_xml_captions_alt_and_approval_state) ... ok
+test_sources_are_registered_and_caveats_present (test_ch08_content.Chapter08ContentTests.test_sources_are_registered_and_caveats_present) ... ok
+test_draft_not_placeholder (test_ch09_content.CH09Tests.test_draft_not_placeholder) ... ok
+test_figures_are_present_hashes_and_pending (test_ch09_content.CH09Tests.test_figures_are_present_hashes_and_pending) ... ok
+test_sections_align (test_ch09_content.CH09Tests.test_sections_align) ... ok
+test_terms_sources_registered (test_ch09_content.CH09Tests.test_terms_sources_registered) ... ok
+test_start_records_registry_and_creates_unique_checkpoints (test_chapter_pipeline.ChapterPipelineTests.test_start_records_registry_and_creates_unique_checkpoints) ... ok
+test_step_and_finish_are_logged_without_touching_manuscripts (test_chapter_pipeline.ChapterPipelineTests.test_step_and_finish_are_logged_without_touching_manuscripts) ... ok
+test_unknown_chapter_and_unsafe_run_path_are_rejected (test_chapter_pipeline.ChapterPipelineTests.test_unknown_chapter_and_unsafe_run_path_are_rejected) ... ok
+test_cli_strict_gate_fails_when_pdffonts_missing (test_font_validation.PdfFontValidationTests.test_cli_strict_gate_fails_when_pdffonts_missing) ... ERROR: pdffonts is required to verify embedded PDF fonts, but was not found.
+ok
+test_strict_gate_accepts_requested_embedded_font (test_font_validation.PdfFontValidationTests.test_strict_gate_accepts_requested_embedded_font) ... ok
+test_strict_gate_rejects_unembedded_font (test_font_validation.PdfFontValidationTests.test_strict_gate_rejects_unembedded_font) ... ERROR: fonts are not embedded: ABCDEF+NotoSerifCJKtc-Regular
+ok
+test_strict_gate_rejects_wrong_embedded_family (test_font_validation.PdfFontValidationTests.test_strict_gate_rejects_wrong_embedded_family) ... ERROR: requested font family not found among embedded PDF fonts: Noto Serif TC
+ok
+test_default_adapter_blocks_and_writes_nothing (test_image_generation_adapter.ImageGenerationAdapterTests.test_default_adapter_blocks_and_writes_nothing) ... ok
+test_paid_generation_requires_explicit_enablement_budget_and_cap (test_image_generation_adapter.ImageGenerationAdapterTests.test_paid_generation_requires_explicit_enablement_budget_and_cap) ... ok
+test_test_double_returns_simulation_without_fake_asset (test_image_generation_adapter.ImageGenerationAdapterTests.test_test_double_returns_simulation_without_fake_asset) ... ok
+test_approval_is_specific_to_publication_target (test_image_policy.ImagePublicationPolicyTests.test_approval_is_specific_to_publication_target) ... ok
+test_approved_image_passes_target_gate (test_image_policy.ImagePublicationPolicyTests.test_approved_image_passes_target_gate) ... ok
+test_external_image_is_blocked (test_image_policy.ImagePublicationPolicyTests.test_external_image_is_blocked) ... ok
+test_pending_image_blocks_publication (test_image_policy.ImagePublicationPolicyTests.test_pending_image_blocks_publication) ... ok
+test_preview_replaces_pending_image (test_image_policy.ImagePublicationPolicyTests.test_preview_replaces_pending_image) ... ok
+test_unregistered_local_image_is_blocked (test_image_policy.ImagePublicationPolicyTests.test_unregistered_local_image_is_blocked) ... ok
+test_bilingual_pdf_command_includes_cjk_font_for_english_glossary (test_v2_architecture.ArchitectureTests.test_bilingual_pdf_command_includes_cjk_font_for_english_glossary) ... ok
+test_formal_book_build_rejects_unapproved_content_before_tool_check (test_v2_architecture.ArchitectureTests.test_formal_book_build_rejects_unapproved_content_before_tool_check) ... ok
+test_language_pairs_have_stable_ids (test_v2_architecture.ArchitectureTests.test_language_pairs_have_stable_ids) ... ok
+test_legacy_manifest_hashes (test_v2_architecture.ArchitectureTests.test_legacy_manifest_hashes) ... ok
+test_no_auto_deploy_workflow (test_v2_architecture.ArchitectureTests.test_no_auto_deploy_workflow) ... ok
+test_pandoc_uses_project_local_traditional_chinese_labels (test_v2_architecture.ArchitectureTests.test_pandoc_uses_project_local_traditional_chinese_labels) ... ok
+test_registry_has_60_ids (test_v2_architecture.ArchitectureTests.test_registry_has_60_ids) ... ok
+test_site_projection_is_current (test_v2_architecture.ArchitectureTests.test_site_projection_is_current) ... ok
+test_v2_validator (test_v2_architecture.ArchitectureTests.test_v2_validator) ... ok
+test_ch01_homage_namespace (test_v2_figure_ids.FigureIdNamespaceTests.test_ch01_homage_namespace) ... ok
+test_homage_namespace_is_ch01_only (test_v2_figure_ids.FigureIdNamespaceTests.test_homage_namespace_is_ch01_only) ... ok
+test_malformed_ids_are_rejected (test_v2_figure_ids.FigureIdNamespaceTests.test_malformed_ids_are_rejected) ... ok
+test_standard_namespace (test_v2_figure_ids.FigureIdNamespaceTests.test_standard_namespace) ... ok
+
+======================================================================
+ERROR: test_chapter_terms_are_bilingual_and_registered (test_ch01_content.Chapter01ContentTests.test_chapter_terms_are_bilingual_and_registered)
+----------------------------------------------------------------------
+Font family appears installed: Noto Serif TC
+name type encoding emb sub uni object ID
+---
+ABCDEF+NotoSerifCJKtc-Regular CID TrueType Identity-H yes yes yes 4 0
+
+PDF font embedding confirmed for 1 font entries.
+name type encoding emb sub uni object ID
+---
+ABCDEF+NotoSerifCJKtc-Regular CID TrueType Identity-H no yes yes 4 0
+
+name type encoding emb sub uni object ID
+---
+ABCDEF+Arial CID TrueType Identity-H yes yes yes 4 0
+
+Traceback (most recent call last):
+  File "D:\�ڪ����ݵw��\google drive\000000000backup\00000�º����v\00000�ۧ@\AI_Video_Bible\tests\test_ch01_content.py", line 60, in test_chapter_terms_are_bilingual_and_registered
+    self.assertEqual(row["status"], "draft")
+                     ~~~^^^^^^^^^^
+KeyError: 'status'
+
+----------------------------------------------------------------------
+Ran 70 tests in 2.778s
+
+FAILED (errors=1)

@@ -1,0 +1,109 @@
+{
+  "epubcheck": "PASS",
+  "zip_integrity": {
+    "CH05-en-US.docx": {
+      "crc": "PASS",
+      "members": 18
+    },
+    "CH05-zh-TW.docx": {
+      "crc": "PASS",
+      "members": 18
+    },
+    "CH05-en-US.epub": {
+      "crc": "PASS",
+      "members": 11
+    },
+    "CH05-zh-TW.epub": {
+      "crc": "PASS",
+      "members": 11
+    }
+  },
+  "web_routes": {
+    "zh-TW": {
+      "path": "apps/web/dist/zh-tw/ch05-chapter-05/index.html",
+      "unique_ids": 40,
+      "images": 2,
+      "alt": "PASS",
+      "R045": "PASS"
+    },
+    "en-US": {
+      "path": "apps/web/dist/en/ch05-chapter-05/index.html",
+      "unique_ids": 40,
+      "images": 2,
+      "alt": "PASS",
+      "R045": "PASS"
+    }
+  },
+  "pdf": {
+    "CH05-zh-TW.pdf": {
+      "pages": 6,
+      "font_objects": 7,
+      "font_streams": "nonempty",
+      "replacement_chars": 0,
+      "marker_pages": {
+        "CH05-FIG-001": [],
+        "CH05-FIG-002": [],
+        "5-1": [
+          3
+        ],
+        "5-2": [
+          5
+        ],
+        "R045": [
+          4
+        ]
+      },
+      "rendered_pages": [
+        1,
+        3,
+        4,
+        5
+      ]
+    },
+    "CH05-en-US.pdf": {
+      "pages": 8,
+      "font_objects": 7,
+      "font_streams": "nonempty",
+      "replacement_chars": 0,
+      "marker_pages": {
+        "CH05-FIG-001": [],
+        "CH05-FIG-002": [],
+        "5-1": [
+          5
+        ],
+        "5-2": [
+          7
+        ],
+        "R045": [
+          6
+        ]
+      },
+      "rendered_pages": [
+        1,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  "citation_parity": {
+    "zh-TW": [
+      "R039",
+      "R040",
+      "R041",
+      "R042",
+      "R043",
+      "R044",
+      "R045"
+    ],
+    "en-US": [
+      "R039",
+      "R040",
+      "R041",
+      "R042",
+      "R043",
+      "R044",
+      "R045"
+    ]
+  }
+}

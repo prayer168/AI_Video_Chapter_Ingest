@@ -1,2 +1,72 @@
 chapter_id: CH13
-figures: []
+figures:
+- figure_id: CH13-FIG-001
+  chapter_id: CH13
+  section_id: CH13-S05
+  placement_after: after:CH13-S05
+  source_ids:
+  - R094
+  asset_original: assets/chapters/CH13/figures/originals/CH13-FIG-001-blocking-map.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 13-1
+  asset_status: draft-original-svg
+  rights_status: original-project-svg-pending-human-review
+  sha256: b0dc7fa72aa421dde538a8fd98d9c71dfd9b91292c607e2a126c0b6f6df1d027
+  width: 1000
+  height: 620
+  bytes: 2514
+  method: Hand-authored editable SVG; no image-generation model or third-party image used.
+  caption_zh: 圖 13-1｜走位圖的最小資訊。本圖為原創示意圖，參考場面調度與走位分析方法，並非任何電影原劇照或場景重製。製作紀錄與權利核查尚待完成。
+  caption_en: Figure 13-1 | Minimum information in a blocking map. This is an original illustrative image informed
+    by mise-en-scène and blocking analysis. It is not an official film still or a recreation of a film set. Production
+    provenance and rights review remain pending.
+  alt_zh: 平面示意：角色甲由門口移至桌邊；角色乙保持在窗旁；虛線箭頭表示視線，攝影機位於軸線同側。
+  alt_en: 'Original plan: performer A moves from the doorway to the table; performer B stays by the window; dashed
+    arrows show eyelines, and the camera remains on one side of the axis.'
+  creator: AI Video Bible project; individual creator attribution pending confirmation
+  attribution: Creator and rights-holder attribution pending confirmation.
+  permission: Publication approval pending.
+  original_prompt_or_method: Hand-authored editable SVG vector diagram; no image model or external artwork.
+  production_log:
+  - date: '2026-10-22'
+    change: Original editable SVG created; SHA-256 and dimensions recorded.
+  note: Human rights, accessibility, technical, and editorial reviews pending.
+- figure_id: CH13-FIG-002
+  chapter_id: CH13
+  section_id: CH13-S07
+  placement_after: after:CH13-S07
+  source_ids:
+  - R095
+  asset_original: assets/chapters/CH13/figures/originals/CH13-FIG-002-spatial-information.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 13-2
+  asset_status: draft-original-svg
+  rights_status: original-project-svg-pending-human-review
+  sha256: 8f0e6bf58cc13f4b8d9fbb9a822b21b8d4a0436eaf81a7144f33bef23da37d6a
+  width: 1200
+  height: 660
+  bytes: 3064
+  method: Hand-authored editable SVG; no image-generation model or third-party image used.
+  caption_zh: 圖 13-2｜空間選擇如何改變觀眾可見資訊。本圖為原創示意圖，參考場面調度的空間分析方法，並非任何電影原劇照或場景重製。製作紀錄與權利核查尚待完成。
+  caption_en: Figure 13-2 | How spatial choices change the information visible to viewers. This is an original illustrative
+    image informed by spatial analysis of mise-en-scène. It is not an official film still or a recreation of a film
+    composition. Production provenance and rights review remain pending.
+  alt_zh: 比較方案甲的門框遮擋與方案乙的開放視線；圖中以角色位置、觀眾可見範圍和攝影機方向示意資訊差異。
+  alt_en: Comparison of doorway occlusion in option A and an open sightline in option B; performer positions, visible
+    area, and camera direction indicate different information.
+  creator: AI Video Bible project; individual creator attribution pending confirmation
+  attribution: Creator and rights-holder attribution pending confirmation.
+  permission: Publication approval pending.
+  original_prompt_or_method: Hand-authored editable SVG vector diagram; no image model or external artwork.
+  production_log:
+  - date: '2026-10-22'
+    change: Original editable SVG created; SHA-256 and dimensions recorded.
+  note: Human rights, accessibility, technical, and editorial reviews pending.

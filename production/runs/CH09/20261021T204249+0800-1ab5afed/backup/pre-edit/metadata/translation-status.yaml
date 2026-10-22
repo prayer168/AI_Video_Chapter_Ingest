@@ -1,0 +1,252 @@
+schema_version: 1
+policy: Human-reviewed translation; machine translation may assist but cannot be approved automatically.
+statuses:
+- planned
+- draft
+- draft-migration-pending
+- source-draft
+- review-needed
+- approved
+- out-of-sync
+- translation-needed
+chapters:
+  CH01:
+    zh-TW: review-needed
+    en-US: review-needed
+    sync_revision: 2.1.0
+  CH02:
+    zh-TW: review-needed
+    en-US: review-needed
+    sync_revision: null
+  CH03:
+    zh-TW: review-needed
+    en-US: review-needed
+    sync_revision: null
+  CH04:
+    zh-TW: review-needed
+    en-US: review-needed
+    sync_revision: null
+  CH05:
+    zh-TW: review-needed
+    en-US: review-needed
+    sync_revision: 2.1.1-draft
+  CH06:
+    zh-TW: review-needed
+    en-US: review-needed
+    sync_revision: 2.1.0-draft
+  CH07:
+    zh-TW: review-needed
+    en-US: review-needed
+    sync_revision: 2.1.0-draft
+  CH08:
+    zh-TW: source-draft
+    en-US: review-needed
+    sync_revision: 2.1.0-draft
+  CH09:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH10:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH11:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH12:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH13:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH14:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH15:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH16:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH17:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH18:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH19:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH20:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH21:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH22:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH23:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH24:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH25:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH26:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH27:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH28:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH29:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH30:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH31:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH32:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH33:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH34:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH35:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH36:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH37:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH38:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH39:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH40:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH41:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH42:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH43:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH44:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH45:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH46:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH47:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH48:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH49:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH50:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH51:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH52:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH53:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH54:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH55:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH56:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH57:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH58:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH59:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null
+  CH60:
+    zh-TW: planned
+    en-US: translation-needed
+    sync_revision: null

@@ -1,2 +1,70 @@
 chapter_id: CH15
-figures: []
+figures:
+- figure_id: CH15-FIG-001
+  chapter_id: CH15
+  section_id: CH15-S07
+  placement_after: after:CH15-S07
+  source_ids:
+  - R107
+  - R108
+  asset_original: assets/chapters/CH15/figures/originals/CH15-FIG-001-rehearsal-coverage-handoff.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 15-1
+  asset_status: draft-original-svg
+  rights_status: original-project-svg-pending-human-review
+  caption_zh: 圖 15-1｜排演至鏡頭覆蓋交接流程原創示意圖。本圖為原創示意圖，綜合本章描述的導演工作流程；並非電影原劇照或特定電影畫面。
+  caption_en: 15-1 | Original schematic of the rehearsal-to-coverage handoff. This is an original illustrative image
+    based on the workflow discussed in this chapter. It is not an official film still.
+  alt_zh: 流程圖依序呈現場景目標、排演探索、走位與部門校準、有目的的鏡頭覆蓋，以及變更回饋。
+  alt_en: A flow diagram moves from scene objective to rehearsal, blocking and department alignment, purposeful
+    coverage, and change feedback.
+  creator: AI Video Bible project; individual attribution pending confirmation
+  attribution: Creator and rights-holder attribution pending confirmation.
+  permission: Publication approval pending.
+  original_prompt_or_method: Hand-authored editable SVG; no third-party imagery or generative image model.
+  note: Human editorial, technical, accessibility, rights, and author review pending.
+  sha256: 99bd3153960e3b81c58813971fcda529382f070dfb03f9c8260f2719e980ced6
+  bytes: 2527
+  width: 1200
+  height: 620
+  production_log:
+  - date: '2026-10-23'
+    change: Hand-authored editable SVG; dimensions, byte count and SHA-256 recorded.
+- figure_id: CH15-FIG-002
+  chapter_id: CH15
+  section_id: CH15-S10
+  placement_after: after:CH15-S10
+  source_ids:
+  - R107
+  - R108
+  asset_original: assets/chapters/CH15/figures/originals/CH15-FIG-002-on-set-adjustment-loop.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 15-2
+  asset_status: draft-original-svg
+  rights_status: original-project-svg-pending-human-review
+  caption_zh: 圖 15-2｜現場修正決策循環原創示意圖。本圖為原創示意圖，呈現一般工作思路；非任何特定電影畫面或片場文件。
+  caption_en: 15-2 | Original schematic of an on-set adjustment loop. This is an original illustrative image showing
+    a general workflow; it is not an official film still.
+  alt_zh: 循環流程圖呈現辨識變動、確認故事與安全優先事項、比較方案、同步部門、記錄新版本並回看素材。
+  alt_en: A loop shows detecting a change, confirming story and safety priorities, comparing options, aligning departments,
+    logging a new version, and reviewing footage.
+  creator: AI Video Bible project; individual attribution pending confirmation
+  attribution: Creator and rights-holder attribution pending confirmation.
+  permission: Publication approval pending.
+  original_prompt_or_method: Hand-authored editable SVG; no third-party imagery or generative image model.
+  note: Human editorial, technical, accessibility, rights, and author review pending.
+  sha256: 29a8c77f843d6e4bd20ab62cf3ec27e088b5eebf44826ed1ae88c2ba1e1f9876
+  bytes: 2895
+  width: 1200
+  height: 620
+  production_log:
+  - date: '2026-10-23'
+    change: Hand-authored editable SVG; dimensions, byte count and SHA-256 recorded.

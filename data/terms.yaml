@@ -678,3 +678,509 @@
   related_terms: []
   notes: CH01 V2 homage integration; bilingual definition and source locator need editorial review.
   updated: '2026-10-18'
+- id: TERM-CH12-BLOCKING
+  zh_TW: 演員調度／走位設計
+  en: actor blocking
+  variants: []
+  definition: 為表演與攝影安排人物、物件和鏡頭在場景空間中的行動關係，不只是地板標記。
+  domain: film production practice
+  status: draft
+  source_ids:
+  - R088
+  - R089
+  related_terms: []
+  notes: CH12 working definition; bilingual and professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH12-MOVEMENT-BEAT
+  zh_TW: 動作節拍
+  en: movement beat
+  variants: []
+  definition: 具有戲劇功能、可觀察的行動變化，如接近、阻擋或退讓。
+  domain: performance and directing
+  status: draft
+  source_ids:
+  - R087
+  related_terms: []
+  notes: CH12 working definition; bilingual and professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH12-MARK
+  zh_TW: 走位標記點
+  en: mark
+  variants: []
+  definition: 供焦點、構圖、燈光或走位參照的位置，應服務表演任務。
+  domain: film production practice
+  status: draft
+  source_ids:
+  - R088
+  related_terms: []
+  notes: CH12 working definition; bilingual and professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH12-EYELINE
+  zh_TW: 視線方向
+  en: eyeline
+  variants: []
+  definition: 演員觀看對象及方向／高度，影響人際空間和鏡頭匹配。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R089
+  related_terms: []
+  notes: CH12 working definition; bilingual and professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH12-SCREEN-DIRECTION
+  zh_TW: 畫面方向
+  en: screen direction
+  variants: []
+  definition: 人物在畫面中的移動方向；維持或改變皆須考慮空間和剪輯意圖。
+  domain: editing
+  status: draft
+  source_ids:
+  - R089
+  related_terms: []
+  notes: CH12 working definition; bilingual and professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH12-ACTION-MATCH
+  zh_TW: 動作銜接
+  en: match on action
+  variants: []
+  definition: 以相鄰鏡頭中同一動作的連續部分建立時間與空間連接。
+  domain: editing
+  status: draft
+  source_ids:
+  - R089
+  related_terms: []
+  notes: CH12 working definition; bilingual and professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH12-PERFORMANCE-CONTINUITY
+  zh_TW: 表演連續性
+  en: performance continuity
+  variants: []
+  definition: 比對跨鏡頭、take 或非順拍場次的表演、動作、語速、視線和道具互動。
+  domain: editing and performance
+  status: draft
+  source_ids:
+  - R088
+  - R089
+  related_terms: []
+  notes: CH12 working definition; bilingual and professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH12-SCRIPT-SUPERVISOR
+  zh_TW: 劇本監督
+  en: script supervisor
+  variants: []
+  definition: 追蹤劇本、動作、視線、道具與拍攝資料並與劇組溝通的職務，配置依製作而異。
+  domain: film production roles
+  status: draft
+  source_ids:
+  - R088
+  - R089
+  related_terms: []
+  notes: CH12 working definition; bilingual and professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH12-CONSENT-BOUNDARY
+  zh_TW: 同意界線
+  en: consent boundary
+  variants: []
+  definition: 排演／拍攝中知情、可協商且可撤回或暫停的身體接觸與內容界線。
+  domain: performer safety
+  status: draft
+  source_ids:
+  - R089
+  related_terms: []
+  notes: CH12 working definition; bilingual and professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH13-MISE-EN-SCENE
+  zh_TW: 場面調度
+  en: mise-en-scène
+  variants: []
+  definition: 鏡頭中可見元素及其安排；不同理論傳統對範圍界定不盡相同。
+  domain: film form
+  status: draft
+  source_ids:
+  - R094
+  - R095
+  related_terms: []
+  notes: CH13 working definition; bilingual and film-professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH13-BLOCKING
+  zh_TW: 走位／調度
+  en: blocking
+  variants: []
+  definition: 表演者在空間中的位置、移動路徑與彼此關係。
+  domain: directing
+  status: draft
+  source_ids:
+  - R095
+  - R097
+  related_terms: []
+  notes: CH13 working definition; bilingual and film-professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH13-EYELINE
+  zh_TW: 視線軸
+  en: eyeline
+  variants: []
+  definition: 角色注視方向形成的畫面關係，須配合鏡頭位置建立可讀性。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R095
+  related_terms: []
+  notes: CH13 working definition; bilingual and film-professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH13-OFFSCREEN-SPACE
+  zh_TW: 畫面外空間
+  en: off-screen space
+  variants: []
+  definition: 畫框外由聲音、視線、出入口或剪接暗示的區域。
+  domain: film form
+  status: draft
+  source_ids:
+  - R099
+  related_terms: []
+  notes: CH13 working definition; bilingual and film-professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH13-OCCLUSION
+  zh_TW: 遮擋
+  en: occlusion
+  variants: []
+  definition: 前景或物件部分遮住人物或空間，使資訊受限或分層。
+  domain: mise-en-scène
+  status: draft
+  source_ids:
+  - R098
+  - R099
+  related_terms: []
+  notes: CH13 working definition; bilingual and film-professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH13-SPATIAL-CONTINUITY
+  zh_TW: 空間連戲
+  en: spatial continuity
+  variants: []
+  definition: 相鄰鏡頭在方向、移動、道具與視線等方面維持可理解關係。
+  domain: continuity
+  status: draft
+  source_ids:
+  - R097
+  related_terms: []
+  notes: CH13 working definition; bilingual and film-professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH14-STORYBOARD
+  zh_TW: 分鏡
+  en: storyboard
+  variants: []
+  definition: 連續圖格表達構圖、動作或資訊變化的製作溝通文件。 / Sequential panels communicating framing, action, or information changes.
+  domain: preproduction visualization
+  status: draft
+  source_ids:
+  - R101
+  - R104
+  - R105
+  related_terms: []
+  notes: CH14 working term; human review pending.
+  updated: '2026-10-22'
+- id: TERM-CH14-PREVIS
+  zh_TW: 預視覺化
+  en: previsualization (previs)
+  variants: []
+  definition: 拍攝前以草圖、動態分鏡、3D 或即時引擎測試影像與動作。 / Pre-shoot visualization using sketches, animatics, 3D, or real-time
+    engines.
+  domain: preproduction visualization
+  status: draft
+  source_ids:
+  - R102
+  - R106
+  related_terms: []
+  notes: CH14 working term; human review pending.
+  updated: '2026-10-22'
+- id: TERM-CH14-TECHVIS
+  zh_TW: 技術預視覺化
+  en: technical visualization (techvis)
+  variants: []
+  definition: 以攝影機、場地、器材、動線和技術可行性為焦點的視覺規劃。 / Visualization focused on camera, location, equipment, movement, and
+    feasibility.
+  domain: preproduction visualization
+  status: draft
+  source_ids:
+  - R102
+  related_terms: []
+  notes: CH14 working term; human review pending.
+  updated: '2026-10-22'
+- id: TERM-CH14-SHOT-LIST
+  zh_TW: 鏡頭清單
+  en: shot list
+  variants: []
+  definition: 可更新的鏡號、內容、技術需求及狀態紀錄。 / An updateable record of shot IDs, content, technical needs, and status.
+  domain: preproduction visualization
+  status: draft
+  source_ids:
+  - R101
+  related_terms: []
+  notes: CH14 working term; human review pending.
+  updated: '2026-10-22'
+- id: TERM-CH14-ANIMATIC
+  zh_TW: 動態分鏡
+  en: animatic
+  variants: []
+  definition: 分鏡圖配暫定時長和剪接形成的粗剪，用來檢查節奏。 / A rough timed edit of storyboard panels used to check rhythm.
+  domain: preproduction visualization
+  status: draft
+  source_ids:
+  - R103
+  - R106
+  related_terms: []
+  notes: CH14 working term; human review pending.
+  updated: '2026-10-22'
+- id: TERM-CH15-REHEARSAL
+  zh_TW: 排演
+  en: rehearsal
+  variants: []
+  definition: 拍攝前或拍攝過程中，用來測試表演、節奏、走位或鏡頭假設的活動；形式依製作情境而異。 / An activity before or during filming to test performance,
+    rhythm, blocking, or camera assumptions; form varies by production.
+  domain: on-set directing
+  status: draft
+  source_ids:
+  - R107
+  - R108
+  related_terms: []
+  notes: CH15 working term; human review pending.
+  updated: '2026-10-23'
+- id: TERM-CH15-BLOCKING
+  zh_TW: 場面調度
+  en: blocking
+  variants: []
+  definition: 演員與攝影機在場景空間中的位置、路徑、視線與時間安排。 / The placement, paths, eyelines, and timing of performers and camera
+    within a scene’s space.
+  domain: on-set directing
+  status: draft
+  source_ids:
+  - R107
+  - R108
+  related_terms: []
+  notes: CH15 working term; human review pending.
+  updated: '2026-10-23'
+- id: TERM-CH15-COVERAGE
+  zh_TW: 覆蓋鏡頭
+  en: coverage
+  variants: []
+  definition: 為敘事與剪輯取得足夠的不同鏡頭素材；充分程度依場景目的與剪輯策略判斷。 / Different shot material obtained for narrative and editorial
+    construction; sufficiency depends on scene objectives and editing strategy.
+  domain: on-set directing
+  status: draft
+  source_ids:
+  - R108
+  - R109
+  related_terms: []
+  notes: CH15 working term; human review pending.
+  updated: '2026-10-23'
+- id: TERM-CH15-MASTER-SHOT
+  zh_TW: 主鏡頭
+  en: master shot
+  variants: []
+  definition: 涵蓋整場或主要動作關係的鏡頭，可作空間與表演參照；不保證一定採用。 / A shot covering a scene or its principal action relationships,
+    potentially serving as spatial and performance reference; not always used.
+  domain: on-set directing
+  status: draft
+  source_ids:
+  - R108
+  related_terms: []
+  notes: CH15 working term; human review pending.
+  updated: '2026-10-23'
+- id: TERM-CH15-ON-SET-ADJUSTMENT
+  zh_TW: 臨場修正
+  en: on-set adjustment
+  variants: []
+  definition: 因現場條件變化而調整計畫，並檢查敘事、技術、安全與連戲後果。 / A plan change in response to set conditions, followed by review of
+    narrative, technical, safety, and continuity consequences.
+  domain: on-set directing
+  status: draft
+  source_ids:
+  - R107
+  - R108
+  related_terms: []
+  notes: CH15 working term; human review pending.
+  updated: '2026-10-23'
+- id: TERM-CH15-COVERAGE-STRATEGY
+  zh_TW: 覆蓋策略
+  en: coverage strategy
+  variants: []
+  definition: 對必要鏡頭、表演完整性、剪輯選項與製作成本的有目的取捨。 / A deliberate trade-off among required shots, performance integrity,
+    editorial options, and production cost.
+  domain: on-set directing
+  status: draft
+  source_ids:
+  - R108
+  - R109
+  related_terms: []
+  notes: CH15 working term; human review pending.
+  updated: '2026-10-23'
+
+- id: TERM-CH16-EXPOSURE
+  zh_TW: 曝光
+  en: exposure
+  variants: []
+  definition: 光在一定時間內作用於感光材料或感光元件所形成的記錄條件；在電影攝影中須同時說明場景照度、曝光時間及影像系統的測光／感光設定。 / The recording condition produced
+    when light acts on a photosensitive material or sensor for a period of time; specify illumination, exposure
+    time, and system settings.
+  domain: cinematography and image science
+  status: draft
+  source_ids:
+  - R112
+  - R115
+  related_terms: []
+  notes: CH16 working definition; bilingual and cinematography review pending.
+  updated: '2026-10-23'
+- id: TERM-CH16-EXPOSURE-INDEX
+  zh_TW: 曝光指數
+  en: exposure index (EI)
+  variants: []
+  definition: 用以表示曝光／感光度參照的設定或標示；底片 EI 與數位攝影機 EI 的實作與意義不可逕行等同。 / A setting or rating used as an exposure/sensitivity
+    reference; film and digital-camera EI are not automatically equivalent.
+  domain: cinematography and image science
+  status: draft
+  source_ids:
+  - R113
+  - R115
+  - R116
+  related_terms: []
+  notes: CH16 working definition; bilingual and cinematography review pending.
+  updated: '2026-10-23'
+- id: TERM-CH16-SPEED-RATING
+  zh_TW: 感光度標示
+  en: speed rating / ISO rating
+  variants: []
+  definition: 按指定標準或廠商方法描述感光材料／系統響應的標示；提高數值本身不會增加到達感光面的光子。 / A rating of response under a stated standard or method;
+    changing the number does not itself deliver more photons to the sensor.
+  domain: cinematography and image science
+  status: draft
+  source_ids:
+  - R115
+  - R116
+  related_terms: []
+  notes: CH16 working definition; bilingual and cinematography review pending.
+  updated: '2026-10-23'
+- id: TERM-CH16-IMAGE-SENSOR
+  zh_TW: 感光元件
+  en: image sensor
+  variants: []
+  definition: 將入射光轉成電荷或電子訊號，再由讀出與影像處理鏈轉為影像資料的器件。 / A device that converts incident light into charge or an electronic
+    signal, then into image data through readout and processing.
+  domain: cinematography and image science
+  status: draft
+  source_ids:
+  - R114
+  - R117
+  - R118
+  related_terms: []
+  notes: CH16 working definition; bilingual and cinematography review pending.
+  updated: '2026-10-23'
+- id: TERM-CH16-PHOTODIODE
+  zh_TW: 光電二極體
+  en: photodiode
+  variants: []
+  definition: 感光元件中吸收光並產生電荷的光敏結構；實際像素電路會因架構而不同。 / A photosensitive sensor structure that absorbs light and produces
+    charge; pixel circuits vary by architecture.
+  domain: cinematography and image science
+  status: draft
+  source_ids:
+  - R117
+  - R118
+  related_terms: []
+  notes: CH16 working definition; bilingual and cinematography review pending.
+  updated: '2026-10-23'
+- id: TERM-CH16-DYNAMIC-RANGE
+  zh_TW: 動態範圍
+  en: dynamic range
+  variants: []
+  definition: 成像系統在可接受品質下同時記錄暗部至亮部的範圍；數值依定義、噪訊門檻、格式與測試方法而異。 / The dark-to-bright range an imaging system can record
+    at acceptable quality; values depend on definition, noise threshold, format, and test method.
+  domain: cinematography and image science
+  status: draft
+  source_ids:
+  - R113
+  related_terms: []
+  notes: CH16 working definition; bilingual and cinematography review pending.
+  updated: '2026-10-23'
+- id: TERM-CH16-SATURATION-CLIPPING
+  zh_TW: 飽和／剪裁
+  en: saturation / clipping
+  variants: []
+  definition: 訊號到達系統可表示或可區分的上限後，更多入射光不再帶來可分辨的亮部資訊；顯示端剪裁可能不同於感光元件飽和。 / A signal reaches its representable or distinguishable
+    upper limit; display clipping may differ from sensor saturation.
+  domain: cinematography and image science
+  status: draft
+  source_ids:
+  - R113
+  - R116
+  related_terms: []
+  notes: CH16 working definition; bilingual and cinematography review pending.
+  updated: '2026-10-23'
+- id: TERM-CH16-SNR
+  zh_TW: 訊噪比
+  en: signal-to-noise ratio (SNR)
+  variants: []
+  definition: 有用影像訊號相對於噪訊的比值；須標明量測條件。 / The ratio of useful image signal to noise; measurement conditions should
+    be stated.
+  domain: cinematography and image science
+  status: draft
+  source_ids:
+  - R113
+  - R114
+  related_terms: []
+  notes: CH16 working definition; bilingual and cinematography review pending.
+  updated: '2026-10-23'
+- id: TERM-CH16-SENSITOMETRY
+  zh_TW: 感光測定
+  en: sensitometry
+  variants: []
+  definition: 研究感光乳劑或材料對受控曝光的反應；底片特性曲線呈現曝光與處理後密度的關係。 / The study of photosensitive materials under controlled exposure;
+    a film characteristic curve relates exposure to processed density.
+  domain: cinematography and image science
+  status: draft
+  source_ids:
+  - R112
+  - R115
+  related_terms: []
+  notes: CH16 working definition; bilingual and cinematography review pending.
+  updated: '2026-10-23'
+- id: TERM-CH16-CHARACTERISTIC-CURVE
+  zh_TW: 特性曲線
+  en: characteristic curve
+  variants: []
+  definition: 顯示感光材料曝光量與處理後影像密度關係的曲線；數位 Log 編碼與底片密度曲線不是同一物理量。 / A curve relating material exposure to processed
+    density; digital Log encoding and film density are different physical quantities.
+  domain: cinematography and image science
+  status: draft
+  source_ids:
+  - R112
+  - R115
+  related_terms: []
+  notes: CH16 working definition; bilingual and cinematography review pending.
+  updated: '2026-10-23'
+- id: TERM-CH16-SHUTTER-ANGLE
+  zh_TW: 快門角度
+  en: shutter angle
+  variants: []
+  definition: 以角度表示每一影格的曝光時間；ARRI ALEXA LF 手冊所列關係為曝光時間＝角度÷（360×感光影格率）。 / An angle expressing exposure time per frame;
+    the ARRI ALEXA LF manual gives exposure time = angle ÷ (360 × sensor frame rate).
+  domain: cinematography and image science
+  status: draft
+  source_ids:
+  - R116
+  related_terms: []
+  notes: CH16 working definition; bilingual and cinematography review pending.
+  updated: '2026-10-23'
+- id: TERM-CH16-EXPOSURE-LATITUDE
+  zh_TW: 曝光寬容度
+  en: exposure latitude
+  variants: []
+  definition: 曝光偏離參考值後仍可接受地重現影像的範圍；須指明媒介、觀看條件及接受標準。 / The range over which an image remains acceptable after exposure
+    departs from a reference; specify medium, viewing conditions, and criteria.
+  domain: cinematography and image science
+  status: draft
+  source_ids:
+  - R112
+  - R113
+  - R115
+  related_terms: []
+  notes: CH16 working definition; bilingual and cinematography review pending.
+  updated: '2026-10-23'

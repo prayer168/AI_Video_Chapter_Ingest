@@ -1,0 +1,84 @@
+{
+  "archive": {
+    "path": "tmp/CH05-draft-20261020-r1/CH05-Codex-Materials-DRAFT-r2.zip",
+    "bytes": 1128079,
+    "sha256": "5779da3446aa9aeacff7707b0994e01923aa076eb1347d45354d287df3de73f3",
+    "members": 18,
+    "crc": "PASS"
+  },
+  "previous_archive": {
+    "path": "tmp/CH05-draft-20261020-r1/CH05-Codex-Materials-DRAFT.zip",
+    "bytes": 1127856,
+    "sha256": "bdc4c2ddd1c69831ad7ff88ee1303fba9476f9c0786b78e5f20342fa222cd282",
+    "members": 18,
+    "crc": "PASS"
+  },
+  "checks": {
+    "artifact_validation": "PASS",
+    "archive": {
+      "path": "tmp/CH05-draft-20261020-r1/CH05-Codex-Materials-DRAFT.zip",
+      "bytes": 1127856,
+      "sha256": "bdc4c2ddd1c69831ad7ff88ee1303fba9476f9c0786b78e5f20342fa222cd282",
+      "members": 18,
+      "crc": "PASS"
+    },
+    "checks": {
+      "CH05-en-US.docx": {
+        "zip_crc": "PASS",
+        "media_count": 2
+      },
+      "CH05-zh-TW.docx": {
+        "zip_crc": "PASS",
+        "media_count": 2
+      },
+      "CH05-en-US.epub": {
+        "zip_crc": "PASS",
+        "image_members": 2
+      },
+      "CH05-zh-TW.epub": {
+        "zip_crc": "PASS",
+        "image_members": 2
+      },
+      "web-zh-TW": {
+        "route": "apps\\web\\dist\\zh-tw\\ch05-chapter-05\\index.html",
+        "unique_ids": 40,
+        "chapter_images": 2,
+        "nonempty_alt": true
+      },
+      "web-en-US": {
+        "route": "apps\\web\\dist\\en\\ch05-chapter-05\\index.html",
+        "unique_ids": 40,
+        "chapter_images": 2,
+        "nonempty_alt": true
+      },
+      "CH05-en-US.pdf": {
+        "pages": 8,
+        "font_objects": 7,
+        "font_stream_bytes": [
+          131044,
+          69107,
+          46800,
+          122930,
+          4589,
+          23106,
+          33875
+        ],
+        "replacement_chars": 0
+      },
+      "CH05-zh-TW.pdf": {
+        "pages": 6,
+        "font_objects": 7,
+        "font_stream_bytes": [
+          526952,
+          201758,
+          27660,
+          754,
+          66379,
+          23106,
+          33819
+        ],
+        "replacement_chars": 0
+      }
+    }
+  }
+}

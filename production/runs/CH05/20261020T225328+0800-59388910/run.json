@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "run_id": "20261020T225328+0800-59388910",
+  "chapter_id": "CH05",
+  "created_at": "2026-10-20T22:53:28.793051+08:00",
+  "status": "partial",
+  "chapter": {
+    "chapter_id": "CH05",
+    "part_id": "P01",
+    "number": 5,
+    "slug": "chapter-05",
+    "title_zh": "類型、再現與影視倫理",
+    "title_en": "",
+    "legacy_status": "planned",
+    "zh_status": "planned",
+    "en_status": "translation-needed"
+  },
+  "translation_status": {
+    "zh-TW": "planned",
+    "en-US": "translation-needed",
+    "sync_revision": null
+  },
+  "existing_files": [
+    {
+      "path": "content/zh-TW/chapters/CH05-chapter-05.md",
+      "bytes": 1063,
+      "sha256": "1981dfda263f637716b15534844271c8ac68ac2bb8965aa86a582b41600064e5"
+    },
+    {
+      "path": "content/en-US/chapters/CH05-chapter-05.md",
+      "bytes": 1135,
+      "sha256": "9ba39b212d7e665214a67a38384c470245dcebdabb7242ad97e0179bb4a260ac"
+    },
+    {
+      "path": "assets/chapters/CH05/figure-manifest.yaml",
+      "bytes": 31,
+      "sha256": "711fe3d3d6a5972fdea9d493697f01254df870231305179781d1f2e6e87be329"
+    }
+  ],
+  "steps": {
+    "inventory": {
+      "status": "pass",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    "research": {
+      "status": "needs-human-review",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    "zh-draft": {
+      "status": "pass",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    "en-translation": {
+      "status": "needs-human-review",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    "film-cases": {
+      "status": "needs-human-review",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    "figure-assets": {
+      "status": "needs-human-review",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    "svg-diagrams": {
+      "status": "pass",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    "website": {
+      "status": "pass",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    "books": {
+      "status": "pass",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    "tests": {
+      "status": "pass",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    "editorial-review": {
+      "status": "needs-human-review",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    "rights-review": {
+      "status": "needs-human-review",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    "author-approval": {
+      "status": "needs-human-review",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    "chapter-audit": {
+      "status": "pass",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    }
+  },
+  "events": [
+    {
+      "time": "2026-10-20T22:53:28.793051+08:00",
+      "event": "Checkpoint created. No manuscripts, images, or publication outputs changed."
+    },
+    {
+      "time": "2026-10-20T23:09:51.001276+08:00",
+      "event": "Stage inventory recorded as pass.",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    {
+      "time": "2026-10-20T23:09:51.308271+08:00",
+      "event": "Stage research recorded as needs-human-review.",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    {
+      "time": "2026-10-20T23:09:51.633888+08:00",
+      "event": "Stage zh-draft recorded as pass.",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    {
+      "time": "2026-10-20T23:09:51.933156+08:00",
+      "event": "Stage en-translation recorded as needs-human-review.",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    {
+      "time": "2026-10-20T23:09:52.242329+08:00",
+      "event": "Stage film-cases recorded as needs-human-review.",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    {
+      "time": "2026-10-20T23:09:52.564017+08:00",
+      "event": "Stage figure-assets recorded as needs-human-review.",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    {
+      "time": "2026-10-20T23:09:52.841615+08:00",
+      "event": "Stage svg-diagrams recorded as pass.",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    {
+      "time": "2026-10-20T23:09:53.142381+08:00",
+      "event": "Stage website recorded as pass.",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    {
+      "time": "2026-10-20T23:09:53.445097+08:00",
+      "event": "Stage books recorded as pass.",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    {
+      "time": "2026-10-20T23:09:53.699054+08:00",
+      "event": "Stage tests recorded as pass.",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    {
+      "time": "2026-10-20T23:09:53.974484+08:00",
+      "event": "Stage editorial-review recorded as needs-human-review.",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    {
+      "time": "2026-10-20T23:09:54.255499+08:00",
+      "event": "Stage rights-review recorded as needs-human-review.",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    {
+      "time": "2026-10-20T23:09:54.556161+08:00",
+      "event": "Stage author-approval recorded as needs-human-review.",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    {
+      "time": "2026-10-20T23:09:54.824283+08:00",
+      "event": "Stage chapter-audit recorded as pass.",
+      "note": "Evidence recorded in reports/CH05-FINAL-ACCEPTANCE.md and production run verification."
+    },
+    {
+      "time": "2026-10-20T23:09:55.120342+08:00",
+      "event": "Run finished as partial.",
+      "note": ""
+    }
+  ],
+  "finished_at": "2026-10-20T23:09:55.120342+08:00"
+}

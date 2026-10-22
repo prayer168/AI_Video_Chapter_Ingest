@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "run_id": "20261022T181247+0800-46c00c02",
+  "chapter_id": "CH11",
+  "created_at": "2026-10-22T18:12:47.693581+08:00",
+  "status": "partial",
+  "chapter": {
+    "chapter_id": "CH11",
+    "part_id": "P03",
+    "number": 11,
+    "slug": "chapter-11",
+    "title_zh": "導演工作：意圖、溝通與決策",
+    "title_en": "",
+    "legacy_status": "planned",
+    "zh_status": "planned",
+    "en_status": "translation-needed"
+  },
+  "translation_status": {
+    "zh-TW": "planned",
+    "en-US": "translation-needed",
+    "sync_revision": null
+  },
+  "existing_files": [
+    {
+      "path": "content/zh-TW/chapters/CH11-chapter-11.md",
+      "bytes": 1081,
+      "sha256": "300e9b588299a28021963abd07ba6c6d860b69831e848d6e05306205e33597f5"
+    },
+    {
+      "path": "content/en-US/chapters/CH11-chapter-11.md",
+      "bytes": 1135,
+      "sha256": "60dc4097bb0b974b676b3629005c78ade99c385e2c6726cd42f457480769a52e"
+    },
+    {
+      "path": "assets/chapters/CH11/figure-manifest.yaml",
+      "bytes": 31,
+      "sha256": "236a20cd0ea04ea198707b687366429635e9af655d31633433e245a97006d2a3"
+    }
+  ],
+  "steps": {
+    "inventory": {
+      "status": "pass",
+      "note": "CH11 scaffold checkpoint, existing dirty worktree preserved, 17 target files backed up; backup manifest at backup/pre-edit/MANIFEST.json."
+    },
+    "research": {
+      "status": "pass",
+      "note": "R077-R086 registered; sources and limits in assets/chapters/CH11/CH11-SOURCE-AND-CASE-NOTES.md; 27 external links elsewhere remain inconclusive."
+    },
+    "zh-draft": {
+      "status": "pass",
+      "note": "Substantive S00-S12 Traditional Chinese research draft; not author-approved."
+    },
+    "en-translation": {
+      "status": "needs-human-review",
+      "note": "S00-S12 working English translation complete; bilingual line edit pending."
+    },
+    "film-cases": {
+      "status": "needs-human-review",
+      "note": "The Godfather case based on AFI/ASC; lawful edition, first-hand viewing and timecodes pending."
+    },
+    "figure-assets": {
+      "status": "needs-human-review",
+      "note": "Two editable original SVGs; hashes/dimensions recorded in three registries; rights/creator/publication approvals pending."
+    },
+    "svg-diagrams": {
+      "status": "pass",
+      "note": "Two SVGs parse and render in PDF proof; visual proof reviewed; pending rights/editorial approval."
+    },
+    "website": {
+      "status": "pass",
+      "note": "Astro check clean; static build generated 123 pages locally; no deploy; transient duplicate-id warnings at pre-build sync cleared by rebuild."
+    },
+    "books": {
+      "status": "pass",
+      "note": "Bilingual DOCX/PDF/EPUB drafts generated; fonts embedded in PDFs; EPUBCheck 0 errors/warnings; visual PDF proof reviewed; publication gate remains pending."
+    },
+    "tests": {
+      "status": "fail",
+      "note": "CH11 tests 5/5 pass; v2 and project validators pass; full suite 78/79 due existing unrelated CH01 KeyError status; external link checker 27 unchecked."
+    },
+    "editorial-review": {
+      "status": "needs-human-review",
+      "note": "Film theory, history, directing practice, source locators, and English translation need human review."
+    },
+    "rights-review": {
+      "status": "needs-human-review",
+      "note": "SVG attribution and publication rights pending; no third-party images used."
+    },
+    "author-approval": {
+      "status": "needs-human-review",
+      "note": "Author approval not recorded."
+    },
+    "chapter-audit": {
+      "status": "pass",
+      "note": "Checklist/report will enumerate all technical results and human-gated items; not publication-ready."
+    }
+  },
+  "events": [
+    {
+      "time": "2026-10-22T18:12:47.693581+08:00",
+      "event": "Checkpoint created. No manuscripts, images, or publication outputs changed."
+    },
+    {
+      "time": "2026-10-22T18:30:47.267178+08:00",
+      "event": "Stage inventory recorded as pass.",
+      "note": "CH11 scaffold checkpoint, existing dirty worktree preserved, 17 target files backed up; backup manifest at backup/pre-edit/MANIFEST.json."
+    },
+    {
+      "time": "2026-10-22T18:30:47.504963+08:00",
+      "event": "Stage research recorded as pass.",
+      "note": "R077-R086 registered; sources and limits in assets/chapters/CH11/CH11-SOURCE-AND-CASE-NOTES.md; 27 external links elsewhere remain inconclusive."
+    },
+    {
+      "time": "2026-10-22T18:30:47.744385+08:00",
+      "event": "Stage zh-draft recorded as pass.",
+      "note": "Substantive S00-S12 Traditional Chinese research draft; not author-approved."
+    },
+    {
+      "time": "2026-10-22T18:30:47.975471+08:00",
+      "event": "Stage en-translation recorded as needs-human-review.",
+      "note": "S00-S12 working English translation complete; bilingual line edit pending."
+    },
+    {
+      "time": "2026-10-22T18:30:48.213659+08:00",
+      "event": "Stage film-cases recorded as needs-human-review.",
+      "note": "The Godfather case based on AFI/ASC; lawful edition, first-hand viewing and timecodes pending."
+    },
+    {
+      "time": "2026-10-22T18:30:48.464129+08:00",
+      "event": "Stage figure-assets recorded as needs-human-review.",
+      "note": "Two editable original SVGs; hashes/dimensions recorded in three registries; rights/creator/publication approvals pending."
+    },
+    {
+      "time": "2026-10-22T18:30:48.709205+08:00",
+      "event": "Stage svg-diagrams recorded as pass.",
+      "note": "Two SVGs parse and render in PDF proof; visual proof reviewed; pending rights/editorial approval."
+    },
+    {
+      "time": "2026-10-22T18:30:48.943667+08:00",
+      "event": "Stage website recorded as pass.",
+      "note": "Astro check clean; static build generated 123 pages locally; no deploy; transient duplicate-id warnings at pre-build sync cleared by rebuild."
+    },
+    {
+      "time": "2026-10-22T18:30:49.189233+08:00",
+      "event": "Stage books recorded as pass.",
+      "note": "Bilingual DOCX/PDF/EPUB drafts generated; fonts embedded in PDFs; EPUBCheck 0 errors/warnings; visual PDF proof reviewed; publication gate remains pending."
+    },
+    {
+      "time": "2026-10-22T18:30:49.419638+08:00",
+      "event": "Stage tests recorded as fail.",
+      "note": "CH11 tests 5/5 pass; v2 and project validators pass; full suite 78/79 due existing unrelated CH01 KeyError status; external link checker 27 unchecked."
+    },
+    {
+      "time": "2026-10-22T18:30:49.660225+08:00",
+      "event": "Stage editorial-review recorded as needs-human-review.",
+      "note": "Film theory, history, directing practice, source locators, and English translation need human review."
+    },
+    {
+      "time": "2026-10-22T18:30:49.909399+08:00",
+      "event": "Stage rights-review recorded as needs-human-review.",
+      "note": "SVG attribution and publication rights pending; no third-party images used."
+    },
+    {
+      "time": "2026-10-22T18:30:50.156901+08:00",
+      "event": "Stage author-approval recorded as needs-human-review.",
+      "note": "Author approval not recorded."
+    },
+    {
+      "time": "2026-10-22T18:30:50.385786+08:00",
+      "event": "Stage chapter-audit recorded as pass.",
+      "note": "Checklist/report will enumerate all technical results and human-gated items; not publication-ready."
+    },
+    {
+      "time": "2026-10-22T18:30:50.646992+08:00",
+      "event": "Run finished as partial.",
+      "note": "Reviewable research draft completed; human approval gates remain open. No publication, commit, push, or next chapter."
+    }
+  ],
+  "finished_at": "2026-10-22T18:30:50.646992+08:00"
+}

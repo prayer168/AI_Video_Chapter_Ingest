@@ -1,0 +1,82 @@
+chapter_id: CH10
+source_locale: zh-TW
+target_locale: en-US
+source_revision: 2.1.0-draft
+target_revision: 2.1.0-draft
+status: review-needed
+reviewed_by: null
+reviewed_on: null
+sections:
+- id: CH10-S01
+  zh: 學習目標與適用對象
+  en: Learning Objectives and Audience
+- id: CH10-S02
+  zh: 先備知識
+  en: Prerequisites
+- id: CH10-S03
+  zh: 核心概念與專業術語
+  en: Core Concepts and Professional Terms
+- id: CH10-S04
+  zh: 歷史與基本原理
+  en: History and Principles
+- id: CH10-S05
+  zh: 傳統製作方法
+  en: Traditional Production Practice
+- id: CH10-S06
+  zh: AI 時代的技術轉換與限制
+  en: AI-Era Technical Changes and Limits
+- id: CH10-S07
+  zh: 詳細工作流程
+  en: Step-by-Step Workflow
+- id: CH10-S08
+  zh: 提示詞與技術參數
+  en: Prompt and Technical Parameters
+- id: CH10-S09
+  zh: 電影案例分析
+  en: Film Case Study
+- id: CH10-S10
+  zh: 常見錯誤與品質驗證
+  en: Common Errors and Quality Checks
+- id: CH10-S11
+  zh: 練習、評量與延伸研究
+  en: Exercises, Assessment, and Further Research
+- id: CH10-S12
+  zh: 參考資料
+  en: References
+terms:
+- TERM-CH10-SCREENPLAY
+- TERM-CH10-SCENE-HEADING
+- TERM-CH10-SLUGLINE
+- TERM-CH10-ADAPTATION
+- TERM-CH10-DERIVATIVE-WORK
+- TERM-CH10-REVISION-SET
+- TERM-CH10-LOCKED-PAGES
+- TERM-CH10-SCREENPLAY-INTERCHANGE
+references:
+- R070
+- R071
+- R072
+- R073
+- R074
+- R075
+- R076
+figures:
+- id: CH10-FIG-001
+  display_number: 10-1
+  section_id: CH10-S08
+  zh_title: 稿件版本生命週期
+  en_title: SCREENPLAY REVISION LIFECYCLE
+  caption_id: CH10-CAP-001
+- id: CH10-FIG-002
+  display_number: 10-2
+  section_id: CH10-S08
+  zh_title: 改編來源與審查分流
+  en_title: 'ADAPTATION: CREATIVE WORK + RIGHTS REVIEW'
+  caption_id: CH10-CAP-002
+- id: CH10-FIG-003
+  display_number: 10-3
+  section_id: CH10-S08
+  zh_title: 以場景 ID 核對改稿
+  en_title: REVIEW CHANGES BY STABLE SCENE ID
+  caption_id: CH10-CAP-003
+editorial_note: English working translation; bilingual and professional review pending.

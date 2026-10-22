@@ -27,8 +27,8 @@
   - date: null
     change: 原始檔為可編輯 SVG；來源包未提供作者、日期及歷次修改紀錄。2026-10-18 登錄本政策所需欄位並將出版狀態設為待審。
   caption_zh_tw: 圖 1-1｜電影單位的教學層級示意圖。此圖呈現本章採用的分析路徑，不宣稱為普遍且嚴格的層級。
-  caption_en: Figure 1-1 | Instructional hierarchy of film units. This diagram presents the analytical
-    model used in this chapter, not a universal or strictly nested ontology.
+  caption_en: Figure 1-1 | Instructional hierarchy of film units. This diagram presents the analytical model used
+    in this chapter, not a universal or strictly nested ontology.
   rights_risk_review:
     status: pending
     checked_at: '2026-10-18'
@@ -58,6 +58,109 @@
   chapter_ids:
   - 01-01
   notes: JSON example is data, not a claim of a completed generation.
+- id: ASSET-CH07-FIG-001
+  path: assets/chapters/CH07/figures/originals/CH07-FIG-001-goal-conflict-consequence.svg
+  type: original-svg-diagram
+  description: Original editable bilingual teaching diagram connecting character goal, opposition, choice, and consequence.
+  creator: AI Video Bible project; individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-21'
+  license: Unconfirmed
+  permission: Publication approval pending
+  attribution: Individual creator attribution pending confirmation
+  chapter_ids:
+  - CH07
+  notes: Original editable vector; no external imagery or generated raster. Human rights and editorial review pending.
+  media_kind: image
+  figure_id: CH07-FIG-001
+  paragraph_reference: CH07-S07
+  teaching_purpose: Inspect how goals, opposition, choice, and consequences form a scene-level causal pattern.
+  research_sources:
+  - source_id: R052
+    accessed: '2026-10-21'
+    purpose: Character representation and action as narrative cues.
+  - source_id: R054
+    accessed: '2026-10-21'
+    purpose: Bibliographic scope of character and conflict in dramatic writing.
+  original_prompt_or_method: Hand-authored original vector diagram; no AI image generation or external artwork.
+  tool_name: Codex-assisted SVG authoring
+  tool_version: Not captured in the editing session
+  production_log:
+  - date: '2026-10-21'
+    change: Created editable SVG and recorded SHA-256 in the figure manifest.
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-21'
+    reviewer: Codex preliminary inspection
+    findings: Individual attribution
+    rights: null
+    accessibility and editorial review remain pending.: null
+  caption_zh_tw: 圖 7-1｜目標、阻力、選擇與後果是場景因果檢查點。本圖為本書原創示意圖，非電影劇照；出版核准待審。
+  caption_en: Figure 7-1. Goals, opposition, choices, and consequences are scene-causality checkpoints. This is
+    an original illustration for this book, not a film still; publication approval pending.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+- id: ASSET-CH07-FIG-002
+  path: assets/chapters/CH07/figures/originals/CH07-FIG-002-arc-evidence-matrix.svg
+  type: original-svg-diagram
+  description: Original editable bilingual matrix for comparing character arc evidence across story points.
+  creator: AI Video Bible project; individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-21'
+  license: Unconfirmed
+  permission: Publication approval pending
+  attribution: Individual creator attribution pending confirmation
+  chapter_ids:
+  - CH07
+  notes: Original editable vector; no external imagery or generated raster. Human rights and editorial review pending.
+  media_kind: image
+  figure_id: CH07-FIG-002
+  paragraph_reference: CH07-S09
+  teaching_purpose: Compare character belief, strategy, relationship, and observable evidence across story points
+    without requiring change.
+  research_sources:
+  - source_id: R052
+    accessed: '2026-10-21'
+    purpose: Analytical dimensions for represented characters.
+  - source_id: R054
+    accessed: '2026-10-21'
+    purpose: Bibliographic scope includes character growth.
+  original_prompt_or_method: Hand-authored original vector matrix; no AI image generation or external artwork.
+  tool_name: Codex-assisted SVG authoring
+  tool_version: Not captured in the editing session
+  production_log:
+  - date: '2026-10-21'
+    change: Created editable SVG and recorded SHA-256 in the figure manifest.
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-21'
+    reviewer: Codex preliminary inspection
+    findings: Individual attribution
+    rights: null
+    accessibility and editorial review remain pending.: null
+  caption_zh_tw: 圖 7-2｜比較不同時點的人物證據；改變並非唯一模式。本圖為本書原創示意圖，非電影劇照；出版核准待審。
+  caption_en: Figure 7-2. Compare character evidence at different points; change is not the only pattern. This is
+    an original illustration for this book, not a film still; publication approval pending.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
 - id: ASSET-CH02-SHOTLIST
   path: chapters/01-02-camera-language-assets/shot-lists/CH02-science-shortfilm.json
   type: illustrative-shot-list
@@ -70,8 +173,8 @@
   attribution: Attribution pending confirmation
   chapter_ids:
   - 01-02
-  notes: Preserved as an editable derivative of the original CH02 ZIP; do not treat as independently created
-    or licensed material.
+  notes: Preserved as an editable derivative of the original CH02 ZIP; do not treat as independently created or
+    licensed material.
 - id: ASSET-CH02-GLOSSARY
   path: chapters/01-02-camera-language-assets/glossary/CH02-glossary.json
   type: source-glossary-json
@@ -84,8 +187,8 @@
   attribution: Attribution pending confirmation
   chapter_ids:
   - 01-02
-  notes: Preserved as an editable derivative of the original CH02 ZIP; do not treat as independently created
-    or licensed material.
+  notes: Preserved as an editable derivative of the original CH02 ZIP; do not treat as independently created or
+    licensed material.
 - id: ASSET-CH02-ASSESSMENT
   path: chapters/01-02-camera-language-assets/exercises/CH02-assessment.md
   type: assessment-source
@@ -98,8 +201,8 @@
   attribution: Attribution pending confirmation
   chapter_ids:
   - 01-02
-  notes: Preserved as an editable derivative of the original CH02 ZIP; do not treat as independently created
-    or licensed material.
+  notes: Preserved as an editable derivative of the original CH02 ZIP; do not treat as independently created or
+    licensed material.
 - id: ASSET-CH02-ILLUSTRATION-README
   path: chapters/01-02-camera-language-assets/assets/README.md
   type: illustration-provenance-note
@@ -112,5 +215,1477 @@
   attribution: Attribution pending confirmation
   chapter_ids:
   - 01-02
-  notes: Preserved as an editable derivative of the original CH02 ZIP; do not treat as independently created
-    or licensed material.
+  notes: Preserved as an editable derivative of the original CH02 ZIP; do not treat as independently created or
+    licensed material.
+- id: ASSET-CH04-FIG-001
+  path: assets/chapters/CH04/figures/originals/CH04-FIG-001-authorship-evidence.svg
+  type: original-svg-diagram
+  media_kind: image
+  figure_id: CH04-FIG-001
+  description: 三條證據線說明作者性分析可同時檢查形式模式、製作脈絡及合作紀錄。
+  creator: AI Video Bible project; individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-20'
+  license: Unconfirmed
+  permission: Publication approval pending
+  attribution: Original project SVG; creator attribution review pending
+  sha256: 44e64c3d18a3aae36983d1facd3a18defb32166178642d517dce50fbe3156c72
+  chapter_ids:
+  - CH04
+  paragraph_reference: CH04-S10
+  teaching_purpose: Distinguish formal interpretation from production evidence and legal authorship claims.
+  research_sources:
+  - source_id: R035
+    accessed: '2026-10-20'
+    locator: Publisher abstract and chapter metadata
+    purpose: Supports the discussion of authorship criteria and collaborative authorship.
+  - source_id: R036
+    accessed: '2026-10-20'
+    locator: Publisher abstract
+    purpose: Supports the discussion of collective authorship in film.
+  caption_zh_tw: 作者性分析的三條證據線：形式模式、製作脈絡與合作紀錄。原創 SVG 示意圖；出版核准待審。
+  caption_en: 'Three evidence streams for authorship analysis: formal patterns, production context, and collaboration
+    records. Original SVG diagram; publication approval pending.'
+  original_prompt_or_method: Hand-authored editable SVG; no third-party images or AI image service.
+  tool_name: text editor / SVG source
+  tool_version: not recorded
+  production_log:
+  - date: '2026-10-20'
+    change: Created an editable authorship-evidence diagram for the CH04 draft; source and rights remain pending
+      human confirmation.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-20'
+    reviewer: Codex preliminary review
+    findings: Original labels and schematic; human creator attribution and publication rights remain to be confirmed.
+  notes: Draft only; no film still or third-party image used.
+- id: ASSET-CH04-FIG-002
+  path: assets/chapters/CH04/figures/originals/CH04-FIG-002-style-workflow.svg
+  type: original-svg-diagram
+  media_kind: image
+  figure_id: CH04-FIG-002
+  description: 從創作意圖到可觀察規則、製作變體、人工審看片段及版本修訂的循環。
+  creator: AI Video Bible project; individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-20'
+  license: Unconfirmed
+  permission: Publication approval pending
+  attribution: Original project SVG; creator attribution review pending
+  sha256: c645c4e784d23b27e9c0810ce46b0a9c400a09a5d84a14295b8c5b4b0bf5db1d
+  chapter_ids:
+  - CH04
+  paragraph_reference: CH04-S10
+  teaching_purpose: Show a versioned human-reviewed workflow for making and evaluating a style specification.
+  research_sources:
+  - source_id: R038
+    accessed: '2026-10-20'
+    locator: Official Gen-4 prompting guide
+    purpose: Supports the practical example of expressing observable visual rules in a prompt workflow.
+  caption_zh_tw: 風格規格的製作循環：意圖、可觀察規則、製作變體、人工審看與版本修訂。原創 SVG 示意圖；出版核准待審。
+  caption_en: 'A style-specification workflow: intent, observable rules, production variants, human review, and
+    revision. Original SVG diagram; publication approval pending.'
+  original_prompt_or_method: Hand-authored editable SVG; no third-party images or AI image service.
+  tool_name: text editor / SVG source
+  tool_version: not recorded
+  production_log:
+  - date: '2026-10-20'
+    change: Created an editable style-workflow diagram for the CH04 draft; source and rights remain pending human
+      confirmation.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-20'
+    reviewer: Codex preliminary review
+    findings: Original workflow schematic; human creator attribution and publication rights remain to be confirmed.
+  notes: Draft only; no film still or third-party image used.
+- id: ASSET-CH05-FIG-001
+  path: assets/chapters/CH05/figures/originals/CH05-FIG-001-genre-map.svg
+  type: original-svg-diagram
+  media_kind: image
+  figure_id: CH05-FIG-001
+  description: 類型語義與敘事結構
+  creator: AI Video Bible project; SVG source drafted with Codex assistance on 2026-10-20; individual contributor/rights
+    holder confirmation pending.
+  source_url: null
+  created_at: '2026-10-20'
+  license: Unconfirmed
+  permission: Publication approval pending; do not publish.
+  attribution: Codex-assisted project SVG; individual author/rights holder confirmation pending.
+  sha256: 1b06e5ed601f3fe5d931446b5d0e80ba64bbedeb5856f0ecf2e78c998cc95cc5
+  chapter_ids:
+  - CH05
+  paragraph_reference: CH05-S04
+  teaching_purpose: Original explanatory schematic; no film still or third-party artwork.
+  source_ids:
+  - R039
+  - R040
+  research_sources:
+  - source_id: R039
+    accessed: '2026-10-20'
+    purpose: Provides the theoretical distinction informing this original schematic.
+  caption_zh_tw: 類型系統：可辨識的語義線索，經由結構關係連結故事承諾與觀眾期待。 本圖為原創示意圖，非電影劇照；出版核准待審。
+  caption_en: 'Genre system: recognizable semantic cues connect through syntactic relations to story promise and
+    audience expectation. This original illustration is not a film still; publication approval pending.'
+  alt_zh: 原創類型圖示，呈現慣例元素與敘事關係如何形成故事承諾與觀眾期待。
+  alt_en: A genre map linking visible conventions through narrative relations to promise and expectation.
+  original_prompt_or_method: Codex-assisted authoring of original editable SVG source; no raster AI image service
+    or third-party image embedded. Original session model/build and individual contribution attribution were not
+    captured.
+  tool_name: Codex text/code authoring for SVG source
+  tool_version: Not captured in the original creation run
+  production_log:
+  - date: '2026-10-20'
+    change: Created diagram for CH05 research draft.
+  - date: '2026-10-21'
+    change: Clarified provenance from project history without changing original SVG bytes; individual contributor/rights
+      holder still needs owner confirmation.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-21'
+    reviewer: Codex provenance audit
+    findings: Editable original schematic; no third-party raster assets identified. Original SVG bytes and hash
+      preserved. Exact human contribution/rights holder, accessibility, similarity, print and publication approval
+      remain pending.
+  notes: Draft only; not publication-approved.
+- id: ASSET-CH05-FIG-002
+  path: assets/chapters/CH05/figures/originals/CH05-FIG-002-representation-audit.svg
+  type: original-svg-diagram
+  media_kind: image
+  figure_id: CH05-FIG-002
+  description: 影視再現與倫理審查
+  creator: AI Video Bible project; SVG source drafted with Codex assistance on 2026-10-20; individual contributor/rights
+    holder confirmation pending.
+  source_url: null
+  created_at: '2026-10-20'
+  license: Unconfirmed
+  permission: Publication approval pending; do not publish.
+  attribution: Codex-assisted project SVG; individual author/rights holder confirmation pending.
+  sha256: 45975736d298a57f6d0ee1af96c2e3c98d189bd1aba28cc05e881dd92ea6cab7
+  chapter_ids:
+  - CH05
+  paragraph_reference: CH05-S10
+  teaching_purpose: Original explanatory schematic; no film still or third-party artwork.
+  source_ids:
+  - R039
+  - R040
+  research_sources:
+  - source_id: R039
+    accessed: '2026-10-20'
+    purpose: Provides the theoretical distinction informing this original schematic.
+  caption_zh_tw: 六項審查面向：視點、能動性、因果、脈絡、同意與補救。 本圖為原創示意圖，非電影劇照；出版核准待審。
+  caption_en: 'Six review dimensions: viewpoint, agency, causality, context, consent, and remedy. This original
+    illustration is not a film still; publication approval pending.'
+  alt_zh: 再現倫理審查示意，包含視點、能動性、因果、脈絡、同意及補救。
+  alt_en: A six-part audit schematic for representation and ethical review.
+  original_prompt_or_method: Codex-assisted authoring of original editable SVG source; no raster AI image service
+    or third-party image embedded. Original session model/build and individual contribution attribution were not
+    captured.
+  tool_name: Codex text/code authoring for SVG source
+  tool_version: Not captured in the original creation run
+  production_log:
+  - date: '2026-10-20'
+    change: Created diagram for CH05 research draft.
+  - date: '2026-10-21'
+    change: Clarified provenance from project history without changing original SVG bytes; individual contributor/rights
+      holder still needs owner confirmation.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-21'
+    reviewer: Codex provenance audit
+    findings: Editable original schematic; no third-party raster assets identified. Original SVG bytes and hash
+      preserved. Exact human contribution/rights holder, accessibility, similarity, print and publication approval
+      remain pending.
+  notes: Draft only; not publication-approved.
+- id: ASSET-CH06-FIG-001
+  path: assets/chapters/CH06/figures/originals/CH06-FIG-001-causal-chain.svg
+  type: original-svg-diagram
+  media_kind: image
+  figure_id: CH06-FIG-001
+  description: 因果鏈：目標、選擇、阻力、結果與新問題
+  creator: AI Video Bible project; SVG authored with Codex assistance on 2026-10-21; individual contributor and
+    rights holder confirmation pending.
+  source_url: null
+  created_at: '2026-10-21'
+  license: Unconfirmed
+  permission: Publication approval pending; do not publish.
+  attribution: Original project SVG; individual creator/rights-holder attribution pending.
+  sha256: 3c7c6ee10623e98ad498f33c5e099b0f0a79f9632b3b537651dc722345c98337
+  chapter_ids:
+  - CH06
+  paragraph_reference: CH06-S07
+  teaching_purpose: 因果鏈：目標、選擇、阻力、結果與新問題
+  source_ids:
+  - R046
+  - R051
+  research_sources:
+  - source_id: R046
+    accessed: '2026-10-21'
+    purpose: MIT-hosted source text informs the historical distinction; diagram does not quote it.
+  - source_id: R051
+    accessed: '2026-10-21'
+    purpose: Bordwell chapter supports the story/plot analytical vocabulary represented in the chapter.
+  caption_zh_tw: 圖 6-1｜因果鏈的工作檢查點：目標、選擇、阻力、結果、代價與新問題。本圖為本書原創可編輯 SVG 教學示意圖，不是電影劇照，也不代表每部作品必須採用此公式；出版核准待審。
+  caption_en: 'Figure 6-1. Working checkpoints in a causal chain: goal, choice, obstacle, outcome, cost, and a new
+    question. This is an original editable SVG teaching diagram, not a film still or a formula required of every
+    work; publication approval pending.'
+  alt_zh: 原創流程圖以六個連接節點呈現人物目標如何經選擇、阻力、結果與代價，推進至新問題；圖註明這是診斷模型而非固定公式。
+  alt_en: An original six-step diagram shows a character goal moving through choice, obstacle, outcome, and cost
+    to a new question; it is labeled as a diagnostic model, not a fixed formula.
+  original_prompt_or_method: Hand-authored editable SVG with original labels and shapes; no raster image, third-party
+    artwork, film still, or image-generation service used.
+  tool_name: Codex-assisted hand-authored SVG
+  tool_version: Not captured in source creation session
+  production_log:
+  - date: '2026-10-21'
+    change: Created bilingual editable SVG; no image generation or third-party asset used.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-21'
+    reviewer: Codex provenance and file inspection
+    findings: Original editable vector art with no embedded third-party imagery; creator/rights-holder confirmation,
+      similarity, accessibility, editorial and publication review pending.
+  notes: Draft only; not publication-approved.
+- id: ASSET-CH06-FIG-002
+  path: assets/chapters/CH06/figures/originals/CH06-FIG-002-story-plot-information.svg
+  type: original-svg-diagram
+  media_kind: image
+  figure_id: CH06-FIG-002
+  description: 故事時間與作品呈現順序
+  creator: AI Video Bible project; SVG authored with Codex assistance on 2026-10-21; individual contributor and
+    rights holder confirmation pending.
+  source_url: null
+  created_at: '2026-10-21'
+  license: Unconfirmed
+  permission: Publication approval pending; do not publish.
+  attribution: Original project SVG; individual creator/rights-holder attribution pending.
+  sha256: 0d8a07350d64a004b32c6344cbba0e81c3eda102d95a048042838ccbe1e54e4c
+  chapter_ids:
+  - CH06
+  paragraph_reference: CH06-S09
+  teaching_purpose: 故事時間與作品呈現順序
+  source_ids:
+  - R051
+  - R048
+  - R049
+  research_sources:
+  - source_id: R051
+    accessed: '2026-10-21'
+    purpose: Bordwell chapter supports separating inferred story chronology from presentation order.
+  - source_id: R048
+    accessed: '2026-10-21'
+    purpose: Film catalogue is cited in the chapter example only; diagram does not depict the film.
+  - source_id: R049
+    accessed: '2026-10-21'
+    purpose: Named critical interpretation cited in the chapter example only; diagram does not depict the film.
+  caption_zh_tw: 圖 6-2｜推論出的故事時間與作品呈現順序可以不同；重述可改變資訊而不等同客觀真相。本圖為本書原創可編輯 SVG 教學示意圖，不是電影劇照或任何特定電影鏡頭；出版核准待審。
+  caption_en: Figure 6-2. Inferred story chronology can differ from presentation order; a retelling can change available
+    information without becoming objective truth. This is an original editable SVG teaching diagram, not a film
+    still or a depiction of a specific film shot; publication approval pending.
+  alt_zh: 原創雙軌示意圖：上軌以 A、B、C 表示推論的故事時間；下軌以 B、A、B′、C 表示作品先呈現後倒敘再重述的順序。
+  alt_en: 'An original two-track diagram: A, B, C mark inferred story chronology above; B, A, B-prime, C show presentation
+    order with an opening later event, a flashback, and a retelling.'
+  original_prompt_or_method: Hand-authored editable SVG with original abstract event labels; no film-specific characters,
+    plot imagery, raster image, third-party artwork, or image-generation service used.
+  tool_name: Codex-assisted hand-authored SVG
+  tool_version: Not captured in source creation session
+  production_log:
+  - date: '2026-10-21'
+    change: Created bilingual editable SVG; no image generation or third-party asset used.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-21'
+    reviewer: Codex provenance and file inspection
+    findings: Original editable vector art with no embedded third-party imagery; creator/rights-holder confirmation,
+      similarity, accessibility, editorial and publication review pending.
+  notes: Draft only; not publication-approved.
+- id: ASSET-CH08-FIG-001
+  path: assets/chapters/CH08/figures/originals/CH08-FIG-001-beat-action-reaction.svg
+  type: original-svg-diagram
+  description: An original vector flow diagram connects scene state to action and response; mark a beat only when
+    objective, tactic, information, or relationship changes observably, then return to a new scene state.
+  creator: Individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-21'
+  license: Unconfirmed
+  permission: Publication approval pending
+  attribution: Individual creator/rights-holder confirmation pending
+  chapter_ids:
+  - CH08
+  notes: Original editable vector, not film still. Rights and approval pending.
+  media_kind: image
+  figure_id: CH08-FIG-001
+  paragraph_reference: CH08-S07
+  teaching_purpose: An original vector flow diagram connects scene state to action and response; mark a beat only
+    when objective, tactic, information, or relationship changes observably, then return to a new scene state.
+  research_sources:
+  - source_id: R051
+    accessed: '2026-10-21'
+    purpose: Analytical context only; diagram is original.
+  - source_id: R061
+    accessed: '2026-10-21'
+    purpose: Analytical context only; diagram is original.
+  original_prompt_or_method: Hand-authored editable SVG labels, shapes, and connectors; no image generation or third-party
+    artwork.
+  tool_name: Codex-assisted hand-authored SVG
+  tool_version: Not captured in editing session
+  production_log:
+  - date: '2026-10-21'
+    change: Created original editable bilingual SVG; recorded dimensions, size, and SHA-256.
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-21'
+    reviewer: Codex preliminary file inspection
+    findings: No third-party imagery; creator, rights, similarity, accessibility, and publication review pending.
+  caption_zh_tw: 圖 8-1｜場景節拍可作為行動／反應與狀態改變的分析註記，不能當固定公式。本圖為本書原創可編輯 SVG 示意圖，非電影劇照或特定電影鏡頭；權利與出版核准待審。
+  caption_en: Figure 8-1. Scene beats can annotate action/reaction and state changes; they are not a fixed formula.
+    This is an original editable SVG illustration for this book, not a film still or a depiction of a specific film
+    shot; rights and publication approval pending.
+  alt_zh: 原創向量流程圖把場景狀態連到行動與反應；只有目標、策略、資訊或關係出現可辨認變化時才標記節拍，並回到新的場景狀態。
+  alt_en: An original vector flow diagram connects scene state to action and response; mark a beat only when objective,
+    tactic, information, or relationship changes observably, then return to a new scene state.
+  sha256: 6a612141d5953f0a81e5ed866a0bfd07b4231c020d5f7a85531c1cadb6a8cc97
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+- id: ASSET-CH08-FIG-002
+  path: assets/chapters/CH08/figures/originals/CH08-FIG-002-dialogue-subtext-layers.svg
+  type: original-svg-diagram
+  description: An original nested-arc diagram presents four layers—literal speech, observable behavior and sound,
+    scene context, and audience inference. Subtext hypotheses point back to cues and allow multiple readings.
+  creator: Individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-21'
+  license: Unconfirmed
+  permission: Publication approval pending
+  attribution: Individual creator/rights-holder confirmation pending
+  chapter_ids:
+  - CH08
+  notes: Original editable vector, not film still. Rights and approval pending.
+  media_kind: image
+  figure_id: CH08-FIG-002
+  paragraph_reference: CH08-S09
+  teaching_purpose: An original nested-arc diagram presents four layers—literal speech, observable behavior and
+    sound, scene context, and audience inference. Subtext hypotheses point back to cues and allow multiple readings.
+  research_sources:
+  - source_id: R058
+    accessed: '2026-10-21'
+    purpose: Analytical context only; diagram is original.
+  - source_id: R059
+    accessed: '2026-10-21'
+    purpose: Analytical context only; diagram is original.
+  original_prompt_or_method: Hand-authored editable SVG labels, shapes, and connectors; no image generation or third-party
+    artwork.
+  tool_name: Codex-assisted hand-authored SVG
+  tool_version: Not captured in editing session
+  production_log:
+  - date: '2026-10-21'
+    change: Created original editable bilingual SVG; recorded dimensions, size, and SHA-256.
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-21'
+    reviewer: Codex preliminary file inspection
+    findings: No third-party imagery; creator, rights, similarity, accessibility, and publication review pending.
+  caption_zh_tw: 圖 8-2｜潛台詞分析要從字面台詞回到行為和語境證據，也要保留不同觀眾的合理讀法。本圖為本書原創可編輯 SVG 示意圖，非電影劇照或特定電影鏡頭；權利與出版核准待審。
+  caption_en: Figure 8-2. Subtext analysis should return from literal speech to behavioral and contextual evidence
+    while preserving reasonable differences in audience interpretation. This is an original editable SVG illustration
+    for this book, not a film still or a depiction of a specific film shot; rights and publication approval pending.
+  alt_zh: 原創同心弧線圖呈現字面發話、可觀察行動與聲音、場景脈絡及觀眾推論四層；潛台詞假設需回指線索，並容許多種讀法。
+  alt_en: An original nested-arc diagram presents four layers—literal speech, observable behavior and sound, scene
+    context, and audience inference. Subtext hypotheses point back to cues and allow multiple readings.
+  sha256: f58d6911f093bf41624c1df52a6cf164b3e81d31d78d9ae7024f442d0d42e226
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+- id: ASSET-CH09-FIG-001
+  path: assets/chapters/CH09/figures/originals/CH09-FIG-001-genre-layers.svg
+  type: original-svg-diagram
+  description: 類型分析可從可辨識材料、材料之間的敘事關係，以及產業與觀眾脈絡交叉觀察；三者是可修正的工作透鏡，不是固定分類法。本圖為本書原創可編輯 SVG 示意圖，未使用電影劇照或第三方圖像。
+  creator: Individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-21'
+  license: Unconfirmed
+  permission: Publication approval pending
+  attribution: Individual creator attribution pending
+  chapter_ids:
+  - CH09
+  notes: Original vector diagram, not a film still; human review required.
+  media_kind: image
+  figure_id: CH09-FIG-001
+  paragraph_reference: CH09-S09
+  teaching_purpose: 類型分析可從可辨識材料、材料之間的敘事關係，以及產業與觀眾脈絡交叉觀察；三者是可修正的工作透鏡，不是固定分類法。本圖為本書原創可編輯 SVG 示意圖，未使用電影劇照或第三方圖像。
+  research_sources:
+  - source_id: R066
+    accessed: '2026-10-21'
+    purpose: Conceptual context; not a copied visual source.
+  original_prompt_or_method: Hand-authored editable SVG. No AI image generation or third-party artwork.
+  tool_name: Text editor / XML SVG
+  tool_version: Not captured
+  production_log:
+  - date: '2026-10-21'
+    change: Created editable original SVG; SHA-256 20f5ca7b82bae790f69fc2b0ad2cc94125408a196c9332e316ed3c255b5c1e9d.
+  caption_zh_tw: 圖 9-1｜類型分析可從可辨識材料、材料之間的敘事關係，以及產業與觀眾脈絡交叉觀察；三者是可修正的工作透鏡，不是固定分類法。本圖為本書原創可編輯 SVG 示意圖，未使用電影劇照或第三方圖像。
+  caption_en: Figure 9-1 | Genre can be examined through recognisable materials, their narrative relations, and
+    industrial and audience contexts. These are revisable lenses, not a fixed taxonomy. This is an original editable
+    SVG illustration for this book; it uses no film still or third-party image.
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-21'
+    reviewer: Codex preliminary review
+    findings: No third-party image identified; individual attribution, accessibility, technical quality, and publication
+      approval remain pending.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  sha256: a9237182ded3aa4cb5769efc0b122561127cb9493ab33f2c6463a6aa137553a9
+  bytes: 1754
+- id: ASSET-CH09-FIG-002
+  path: assets/chapters/CH09/figures/originals/CH09-FIG-002-serial-scales.svg
+  type: original-svg-diagram
+  description: 單集、季與系列可承載不同問題與變化尺度；交叉線表示資訊與角色變化可跨層級回響，不是每部作品都必須採用的公式。本圖為本書原創可編輯 SVG 示意圖，未使用第三方圖像。
+  creator: Individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-21'
+  license: Unconfirmed
+  permission: Publication approval pending
+  attribution: Individual creator attribution pending
+  chapter_ids:
+  - CH09
+  notes: Original vector diagram, not a film still; human review required.
+  media_kind: image
+  figure_id: CH09-FIG-002
+  paragraph_reference: CH09-S07
+  teaching_purpose: 單集、季與系列可承載不同問題與變化尺度；交叉線表示資訊與角色變化可跨層級回響，不是每部作品都必須採用的公式。本圖為本書原創可編輯 SVG 示意圖，未使用第三方圖像。
+  research_sources:
+  - source_id: R067
+    accessed: '2026-10-21'
+    purpose: Conceptual context; not a copied visual source.
+  original_prompt_or_method: Hand-authored editable SVG. No AI image generation or third-party artwork.
+  tool_name: Text editor / XML SVG
+  tool_version: Not captured
+  production_log:
+  - date: '2026-10-21'
+    change: Created editable original SVG; SHA-256 16356f24ea47c76ef19f2d0815cd879abb9be849f0f35ac7b1729fb008f4038f.
+  caption_zh_tw: 圖 9-2｜單集、季與系列可承載不同問題與變化尺度；交叉線表示資訊與角色變化可跨層級回響，不是每部作品都必須採用的公式。本圖為本書原創可編輯 SVG 示意圖，未使用第三方圖像。
+  caption_en: Figure 9-2 | Episode, season, and series can carry questions and changes at different scales. The
+    crossing lines show how information and character change may resonate across levels; they are not a formula
+    every work must follow. This is an original editable SVG illustration for this book and uses no third-party
+    image.
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-21'
+    reviewer: Codex preliminary review
+    findings: No third-party image identified; individual attribution, accessibility, technical quality, and publication
+      approval remain pending.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  sha256: 9ad0bec7684946b842bfcfa58885adb1ec7c2188a041100e6846bda3818275d1
+  bytes: 1609
+- id: ASSET-CH09-FIG-003
+  path: assets/chapters/CH09/figures/originals/CH09-FIG-003-reveal-matrix.svg
+  type: original-svg-diagram
+  description: 事件發生順序與觀眾得知順序可以不同；揭露重排會改變觀眾的假設，但不自動保證懸念或理解。本圖為本書原創可編輯 SVG 示意圖，未使用第三方圖像。
+  creator: Individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-21'
+  license: Unconfirmed
+  permission: Publication approval pending
+  attribution: Individual creator attribution pending
+  chapter_ids:
+  - CH09
+  notes: Original vector diagram, not a film still; human review required.
+  media_kind: image
+  figure_id: CH09-FIG-003
+  paragraph_reference: CH09-S10
+  teaching_purpose: 事件發生順序與觀眾得知順序可以不同；揭露重排會改變觀眾的假設，但不自動保證懸念或理解。本圖為本書原創可編輯 SVG 示意圖，未使用第三方圖像。
+  research_sources:
+  - source_id: R068
+    accessed: '2026-10-21'
+    purpose: Conceptual context; not a copied visual source.
+  - source_id: R069
+    accessed: '2026-10-21'
+    purpose: Conceptual context; not a copied visual source.
+  original_prompt_or_method: Hand-authored editable SVG. No AI image generation or third-party artwork.
+  tool_name: Text editor / XML SVG
+  tool_version: Not captured
+  production_log:
+  - date: '2026-10-21'
+    change: Created editable original SVG; SHA-256 754f0c39bd10d489c21edbe60c1ae0317a39984b84d2a55b50f8ed7a01e967ed.
+  caption_zh_tw: 圖 9-3｜事件發生順序與觀眾得知順序可以不同；揭露重排會改變觀眾的假設，但不自動保證懸念或理解。本圖為本書原創可編輯 SVG 示意圖，未使用第三方圖像。
+  caption_en: Figure 9-3 | The order in which events occur can differ from the order in which audiences learn about
+    them. Reordering reveals changes audience hypotheses but does not automatically create suspense or clarity.
+    This is an original editable SVG illustration for this book and uses no third-party image.
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-21'
+    reviewer: Codex preliminary review
+    findings: No third-party image identified; individual attribution, accessibility, technical quality, and publication
+      approval remain pending.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  sha256: 9ea662d9e5cde67ce18318c98f29f1bc47f07ca3bef84c60e52f54898be4b993
+  bytes: 1707
+- id: ASSET-CH10-FIG-001
+  path: assets/chapters/CH10/figures/originals/CH10-FIG-001-revision-lifecycle.svg
+  type: original-svg-diagram
+  description: 圖 10-1｜版本需追溯來源、作者、變更和交付狀態；流程是本書工作模型。原創可編輯 SVG 示意圖，非電影劇照；署名、權利及出版核准待審。
+  creator: AI Video Bible project; individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-22'
+  license: Unconfirmed pending author review
+  permission: Not approved for publication
+  attribution: Creator and rights-holder attribution pending confirmation.
+  chapter_ids:
+  - CH10
+  media_kind: image
+  figure_id: CH10-FIG-001
+  paragraph_reference: CH10 CH10-S07
+  teaching_purpose: 四個稿件版本節點以箭頭連接，呈現創作稿、修訂稿、製作稿和交付封存。
+  research_sources:
+  - source_id: R073
+    accessed: '2026-10-22'
+    locator: null
+    purpose: Conceptual context only; the illustration itself is original.
+  original_prompt_or_method: Hand-authored SVG geometry and bilingual labels; no generated or third-party artwork.
+  tool_name: null
+  tool_version: null
+  production_log:
+  - date: '2026-10-22'
+    change: Created as an original editable diagram; SHA-256 recorded.
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-22'
+    reviewer: Codex preliminary review
+    findings: Original SVG; attribution, accessibility, technical quality, similarity, and publication approval
+      require human review.
+  caption_zh_tw: 圖 10-1｜版本需追溯來源、作者、變更和交付狀態；流程是本書工作模型。原創可編輯 SVG 示意圖，非電影劇照；署名、權利及出版核准待審。
+  caption_en: Figure 10-1. Versions should trace source, author, changes, and delivery status; this is a working
+    model. This is an original editable SVG illustration for this book, not a film still. Attribution, rights, and
+    publication approval are pending.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  sha256: a94e480148e3f0319bd0b886cb3ba61b668f927e9bd90d0f246101865cc98d34
+  notes: Original editable SVG; not approved for publication.
+- id: ASSET-CH10-FIG-002
+  path: assets/chapters/CH10/figures/originals/CH10-FIG-002-adaptation-map.svg
+  type: original-svg-diagram
+  description: 圖 10-2｜創作轉化紀錄與權利審查分開留存；圖示不構成法律意見。原創可編輯 SVG，未描繪特定作品；權利與出版核准待審。
+  creator: AI Video Bible project; individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-22'
+  license: Unconfirmed pending author review
+  permission: Not approved for publication
+  attribution: Creator and rights-holder attribution pending confirmation.
+  chapter_ids:
+  - CH10
+  media_kind: image
+  figure_id: CH10-FIG-002
+  paragraph_reference: CH10 CH10-S09
+  teaching_purpose: 流程圖分列底本材料、權利審查、創作選擇及新劇本，並標示法律審查閘門。
+  research_sources:
+  - source_id: R072
+    accessed: '2026-10-22'
+    locator: null
+    purpose: Conceptual context only; the illustration itself is original.
+  original_prompt_or_method: Hand-authored SVG geometry and bilingual labels; no generated or third-party artwork.
+  tool_name: null
+  tool_version: null
+  production_log:
+  - date: '2026-10-22'
+    change: Created as an original editable diagram; SHA-256 recorded.
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-22'
+    reviewer: Codex preliminary review
+    findings: Original SVG; attribution, accessibility, technical quality, similarity, and publication approval
+      require human review.
+  caption_zh_tw: 圖 10-2｜創作轉化紀錄與權利審查分開留存；圖示不構成法律意見。原創可編輯 SVG，未描繪特定作品；權利與出版核准待審。
+  caption_en: Figure 10-2. Creative transformation and rights review need separate records; this diagram is not
+    legal advice. This is an original editable SVG illustration for this book and depicts no specific work. Rights
+    and publication approval are pending.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  sha256: 471cbfbc9a040bf9ad3f67c279e26081c28c7aed3878b42565c43c32d853486f
+  notes: Original editable SVG; not approved for publication.
+- id: ASSET-CH10-FIG-003
+  path: assets/chapters/CH10/figures/originals/CH10-FIG-003-change-review.svg
+  type: original-svg-diagram
+  description: 圖 10-3｜差異工具提供核對線索，作者判斷是否採納及影響部門。原創可編輯 SVG，非正式劇本頁面；權利及出版核准待審。
+  creator: AI Video Bible project; individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-22'
+  license: Unconfirmed pending author review
+  permission: Not approved for publication
+  attribution: Creator and rights-holder attribution pending confirmation.
+  chapter_ids:
+  - CH10
+  media_kind: image
+  figure_id: CH10-FIG-003
+  paragraph_reference: CH10 CH10-S10
+  teaching_purpose: 流程圖比較同一場景 ID 的前稿和改稿，產生差異摘要後交由人員判讀。
+  research_sources:
+  - source_id: R073
+    accessed: '2026-10-22'
+    locator: null
+    purpose: Conceptual context only; the illustration itself is original.
+  original_prompt_or_method: Hand-authored SVG geometry and bilingual labels; no generated or third-party artwork.
+  tool_name: null
+  tool_version: null
+  production_log:
+  - date: '2026-10-22'
+    change: Created as an original editable diagram; SHA-256 recorded.
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-22'
+    reviewer: Codex preliminary review
+    findings: Original SVG; attribution, accessibility, technical quality, similarity, and publication approval
+      require human review.
+  caption_zh_tw: 圖 10-3｜差異工具提供核對線索，作者判斷是否採納及影響部門。原創可編輯 SVG，非正式劇本頁面；權利及出版核准待審。
+  caption_en: Figure 10-3. Diff tools provide review cues; authors decide whether to accept changes and which departments
+    they affect. This is an original editable SVG illustration for this book, not a production screenplay page.
+    Rights and publication approval are pending.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  sha256: 6f714ea2442aad3e635c58b64c09215a261489515c0423b6c4eba1207b647574
+  notes: Original editable SVG; not approved for publication.
+- id: ASSET-CH11-FIG-001
+  path: assets/chapters/CH11/figures/originals/CH11-FIG-001-intention-loop.svg
+  type: original-svg-diagram
+  description: 導演意圖—觀眾證據—部門協作—排演／拍攝驗證的循環。
+  creator: AI Video Bible project; individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-22'
+  license: Unconfirmed pending human review
+  permission: Publication approval pending
+  attribution: Creator attribution pending confirmation
+  chapter_ids:
+  - CH11
+  media_kind: image
+  figure_id: CH11-FIG-001
+  paragraph_reference: CH11 CH11-S05
+  teaching_purpose: Show how a directing intention becomes evidence, collaboration, and revision.
+  research_sources:
+  - source_id: R077
+    accessed: '2026-10-22'
+    purpose: Context for directing as creative vision and collaboration.
+  - source_id: R081
+    accessed: '2026-10-22'
+    purpose: Case context for a formal choice serving story.
+  original_prompt_or_method: Hand-authored bilingual SVG geometry; no generated or third-party artwork.
+  tool_name: Codex-assisted SVG authoring
+  tool_version: Not captured
+  production_log:
+  - date: '2026-10-22'
+    change: Created editable vector diagram and recorded SHA-256.
+  - date: '2026-10-22'
+    change: Revised after PDF visual proof; refreshed SHA-256 and dimensions.
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-22'
+    reviewer: Codex preliminary review
+    findings: Original generic diagram; attribution, accessibility, technical quality, rights, and publication approval
+      require human review.
+  caption_zh_tw: 圖 11-1｜導演意圖—證據—協作—驗證的工作循環。本圖為本書原創可編輯 SVG 示意圖，非電影劇照；製作者署名、權利及出版核准待審。
+  caption_en: Figure 11-1. The intention–evidence–collaboration–verification loop. This is an original editable
+    SVG illustration for this book, not a film still. Creator attribution, rights, and publication approval are
+    pending.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  sha256: 9ef0ed556991809997a7f21e9256652aa1f1f995c6ecfaf83da84bd3642a01dc
+  notes: Draft original SVG; not approved for publication.
+  bytes: 2506
+  height: 450
+- id: ASSET-CH11-FIG-002
+  path: assets/chapters/CH11/figures/originals/CH11-FIG-002-department-handoff.svg
+  type: original-svg-diagram
+  description: 單一故事目標轉為表演、攝影、美術、聲音、剪輯及製片部門可回應的問題。
+  creator: AI Video Bible project; individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-22'
+  license: Unconfirmed pending human review
+  permission: Publication approval pending
+  attribution: Creator attribution pending confirmation
+  chapter_ids:
+  - CH11
+  media_kind: image
+  figure_id: CH11-FIG-002
+  paragraph_reference: CH11 CH11-S07
+  teaching_purpose: Explain how one story objective is translated into different specialist questions and a shared
+    test.
+  research_sources:
+  - source_id: R077
+    accessed: '2026-10-22'
+    purpose: Context for collaboration across departments.
+  - source_id: R080
+    accessed: '2026-10-22'
+    purpose: Professional interview on director-cinematographer collaboration.
+  - source_id: R083
+    accessed: '2026-10-22'
+    purpose: Archival case context for collaborative visual approach.
+  original_prompt_or_method: Hand-authored bilingual SVG geometry; no generated or third-party artwork.
+  tool_name: Codex-assisted SVG authoring
+  tool_version: Not captured
+  production_log:
+  - date: '2026-10-22'
+    change: Created editable vector diagram and recorded SHA-256.
+  - date: '2026-10-22'
+    change: Revised after PDF visual proof; refreshed SHA-256 and dimensions.
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-22'
+    reviewer: Codex preliminary review
+    findings: Original generic diagram; attribution, accessibility, technical quality, rights, and publication approval
+      require human review.
+  caption_zh_tw: 圖 11-2｜同一故事目標轉成不同部門能處理的問題，而非一份通用器材清單。本圖為本書原創可編輯 SVG 示意圖，非電影劇照；署名、權利及出版核准待審。
+  caption_en: Figure 11-2. One story objective becomes different department questions, not a universal equipment
+    list. This is an original editable SVG illustration for this book, not a film still. Attribution, rights, and
+    publication approval are pending.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  sha256: 6e17cb9bf8ab88ed75e893b9a20e9870aead9c80aaeb366dc03d182b5c7674b9
+  notes: Draft original SVG; not approved for publication.
+  bytes: 4016
+  height: 600
+- id: CH12-FIG-001
+  path: assets/chapters/CH12/figures/originals/CH12-FIG-001-blocking-beats.svg
+  type: original-svg-diagram
+  description: 圖 12-1｜走位的協作式設計：從戲劇目標探索動作節拍、標記和視線，再以攝影、安全及剪輯條件驗證。 本圖為本書原創可編輯 SVG 示意圖，非電影劇照；署名、權利及出版核准待審。
+  creator: AI Video Bible project; individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-22'
+  license: Unconfirmed
+  permission: Publication approval pending.
+  attribution: Creator and rights-holder attribution pending confirmation.
+  source_ids:
+  - R087
+  - R088
+  - R089
+  chapter_id: CH12
+  section_id: CH12-S05
+  sha256: 0efb7b5d5c0bf41e9c300f6410db354c41f33bd13b15615d69e6d0889ac6613d
+  caption_zh_tw: 圖 12-1｜走位的協作式設計：從戲劇目標探索動作節拍、標記和視線，再以攝影、安全及剪輯條件驗證。 本圖為本書原創可編輯 SVG 示意圖，非電影劇照；署名、權利及出版核准待審。
+  caption_en: 'Figure 12-1. Collaborative blocking: explore movement beats, marks, and eyelines from a dramatic
+    objective, then test camera, safety, and editorial constraints. This is an original editable SVG illustration
+    for this book, not a film still. Attribution, rights, and publication approval are pending.'
+  alt_zh_tw: 由左至右依序呈現戲劇目標、動作節拍、標記與視線、攝影和安全測試；虛線表示排演回饋可修訂選擇。
+  alt_en: Four stages run from dramatic objective through movement beats and marks/eyelines to camera and safety
+    tests; the dashed return path indicates rehearsal feedback can revise choices.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  notes: Draft original SVG; not approved for publication.
+  bytes: 1916
+  width: 1200
+  height: 520
+  media_kind: image
+  figure_id: CH12-FIG-001
+  paragraph_reference: CH12 CH12-S05
+  teaching_purpose: 由左至右依序呈現戲劇目標、動作節拍、標記與視線、攝影和安全測試；虛線表示排演回饋可修訂選擇。
+  research_sources:
+  - source_id: R087
+    accessed: '2026-10-22'
+    locator: null
+    purpose: Conceptual context only; the diagram itself is original.
+  original_prompt_or_method: Hand-authored editable SVG vector geometry and bilingual labels; no image model or
+    third-party image.
+  tool_name: null
+  tool_version: null
+  production_log:
+  - date: '2026-10-22'
+    change: Original editable SVG created; SHA-256 recorded.
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-22'
+    reviewer: Codex preliminary review
+    findings: Attribution, accessibility, technical quality, similarity, rights, and publication approval require
+      human review.
+  chapter_ids:
+  - CH12
+- id: CH12-FIG-002
+  path: assets/chapters/CH12/figures/originals/CH12-FIG-002-continuity-handoff.svg
+  type: original-svg-diagram
+  description: 圖 12-2｜連續性交接表：將劇本版本、動作與視線、道具狀態、攝影場記及有意變化，整理成可供剪輯核對的紀錄。 本圖為本書原創可編輯 SVG 示意圖，非電影劇照；署名、權利及出版核准待審。
+  creator: AI Video Bible project; individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-22'
+  license: Unconfirmed
+  permission: Publication approval pending.
+  attribution: Creator and rights-holder attribution pending confirmation.
+  source_ids:
+  - R088
+  - R089
+  chapter_id: CH12
+  section_id: CH12-S07
+  sha256: 294cf81c1b93d31c1b1b014cf5734963b590b25030feb6462031be3849a1e8a1
+  caption_zh_tw: 圖 12-2｜連續性交接表：將劇本版本、動作與視線、道具狀態、攝影場記及有意變化，整理成可供剪輯核對的紀錄。 本圖為本書原創可編輯 SVG 示意圖，非電影劇照；署名、權利及出版核准待審。
+  caption_en: 'Figure 12-2. Continuity handoff: record script version, movement and eyelines, prop state, camera/slate
+    data, and intentional variations for editorial review. This is an original editable SVG illustration for this
+    book, not a film still. Attribution, rights, and publication approval are pending.'
+  alt_zh_tw: 表格依序列出劇本／場景版本、動作／視線、道具狀態、攝影／場記和變化決策，並配有剪輯檢核問題。
+  alt_en: The table lists script/scene version, action/eyelines, prop state, camera/slate, and variation decisions
+    with an editorial check for each.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  notes: Draft original SVG; not approved for publication.
+  bytes: 1983
+  width: 1200
+  height: 600
+  media_kind: image
+  figure_id: CH12-FIG-002
+  paragraph_reference: CH12 CH12-S07
+  teaching_purpose: 表格依序列出劇本／場景版本、動作／視線、道具狀態、攝影／場記和變化決策，並配有剪輯檢核問題。
+  research_sources:
+  - source_id: R088
+    accessed: '2026-10-22'
+    locator: null
+    purpose: Conceptual context only; the diagram itself is original.
+  original_prompt_or_method: Hand-authored editable SVG vector geometry and bilingual labels; no image model or
+    third-party image.
+  tool_name: null
+  tool_version: null
+  production_log:
+  - date: '2026-10-22'
+    change: Original editable SVG created; SHA-256 recorded.
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-22'
+    reviewer: Codex preliminary review
+    findings: Attribution, accessibility, technical quality, similarity, rights, and publication approval require
+      human review.
+  chapter_ids:
+  - CH12
+- id: CH13-FIG-001
+  path: assets/chapters/CH13/figures/originals/CH13-FIG-001-blocking-map.svg
+  type: original-svg-diagram
+  description: 由門、窗、桌子、人物、移動路徑、視線與攝影機構成的原創走位平面示意圖。 圖 13-1｜走位圖的最小資訊。本圖為原創示意圖，參考場面調度與走位分析方法，並非任何電影原劇照或場景重製。製作紀錄與權利核查尚待完成。
+  creator: AI Video Bible project; individual creator attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-22'
+  license: Unconfirmed
+  permission: Publication approval pending.
+  attribution: Creator and rights-holder attribution pending confirmation.
+  source_ids:
+  - R094
+  chapter_id: CH13
+  section_id: CH13-S05
+  sha256: b0dc7fa72aa421dde538a8fd98d9c71dfd9b91292c607e2a126c0b6f6df1d027
+  caption_zh_tw: 圖 13-1｜走位圖的最小資訊。本圖為原創示意圖，參考場面調度與走位分析方法，並非任何電影原劇照或場景重製。製作紀錄與權利核查尚待完成。
+  caption_en: Figure 13-1 | Minimum information in a blocking map. This is an original illustrative image informed
+    by mise-en-scène and blocking analysis. It is not an official film still or a recreation of a film set. Production
+    provenance and rights review remain pending.
+  alt_zh_tw: 平面示意：角色甲由門口移至桌邊；角色乙保持在窗旁；虛線箭頭表示視線，攝影機位於軸線同側。
+  alt_en: 'Original plan: performer A moves from the doorway to the table; performer B stays by the window; dashed
+    arrows show eyelines, and the camera remains on one side of the axis.'
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  notes: Draft original SVG; not approved for publication.
+  bytes: 2514
+  width: 1000
+  height: 620
+  media_kind: image
+  figure_id: CH13-FIG-001
+  paragraph_reference: CH13 CH13-S05
+  teaching_purpose: 由門、窗、桌子、人物、移動路徑、視線與攝影機構成的原創走位平面示意圖。
+  research_sources:
+  - source_id: R094
+    accessed: '2026-10-22'
+    locator: null
+    purpose: Conceptual context only; diagram is an original schematic.
+  original_prompt_or_method: Hand-authored editable SVG vector diagram; no image model or external artwork.
+  tool_name: null
+  tool_version: null
+  production_log:
+  - date: '2026-10-22'
+    change: Original editable SVG created; SHA-256 and dimensions recorded.
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-22'
+    reviewer: Codex preliminary review
+    findings: Attribution, accessibility, technical quality, similarity, rights, and publication approval require
+      human review.
+  chapter_ids:
+  - CH13
+- id: CH13-FIG-002
+  path: assets/chapters/CH13/figures/originals/CH13-FIG-002-spatial-information.svg
+  type: original-svg-diagram
+  description: 兩幅原創房間平面圖比較門框遮擋與開放視線下的人物可見性。 圖 13-2｜空間選擇如何改變觀眾可見資訊。本圖為原創示意圖，參考場面調度的空間分析方法，並非任何電影原劇照或場景重製。製作紀錄與權利核查尚待完成。
+  creator: AI Video Bible project; individual creator attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-22'
+  license: Unconfirmed
+  permission: Publication approval pending.
+  attribution: Creator and rights-holder attribution pending confirmation.
+  source_ids:
+  - R095
+  chapter_id: CH13
+  section_id: CH13-S07
+  sha256: 8f0e6bf58cc13f4b8d9fbb9a822b21b8d4a0436eaf81a7144f33bef23da37d6a
+  caption_zh_tw: 圖 13-2｜空間選擇如何改變觀眾可見資訊。本圖為原創示意圖，參考場面調度的空間分析方法，並非任何電影原劇照或場景重製。製作紀錄與權利核查尚待完成。
+  caption_en: Figure 13-2 | How spatial choices change the information visible to viewers. This is an original illustrative
+    image informed by spatial analysis of mise-en-scène. It is not an official film still or a recreation of a film
+    composition. Production provenance and rights review remain pending.
+  alt_zh_tw: 比較方案甲的門框遮擋與方案乙的開放視線；圖中以角色位置、觀眾可見範圍和攝影機方向示意資訊差異。
+  alt_en: Comparison of doorway occlusion in option A and an open sightline in option B; performer positions, visible
+    area, and camera direction indicate different information.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  notes: Draft original SVG; not approved for publication.
+  bytes: 3064
+  width: 1200
+  height: 660
+  media_kind: image
+  figure_id: CH13-FIG-002
+  paragraph_reference: CH13 CH13-S07
+  teaching_purpose: 兩幅原創房間平面圖比較門框遮擋與開放視線下的人物可見性。
+  research_sources:
+  - source_id: R095
+    accessed: '2026-10-22'
+    locator: null
+    purpose: Conceptual context only; diagram is an original schematic.
+  original_prompt_or_method: Hand-authored editable SVG vector diagram; no image model or external artwork.
+  tool_name: null
+  tool_version: null
+  production_log:
+  - date: '2026-10-22'
+    change: Original editable SVG created; SHA-256 and dimensions recorded.
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-22'
+    reviewer: Codex preliminary review
+    findings: Attribution, accessibility, technical quality, similarity, rights, and publication approval require
+      human review.
+  chapter_ids:
+  - CH13
+- id: ASSET-CH14-FIG-001
+  path: assets/chapters/CH14/figures/originals/CH14-FIG-001-planning-handoff.svg
+  type: original-svg-diagram
+  description: 圖 14-1｜分鏡與預視覺化交接流程原創示意圖。 本圖為專案手繪原創示意圖，並非任何電影原劇照或特定電影畫面重製；權利與出版核准待審。
+  creator: AI Video Bible project; individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-22'
+  license: Unconfirmed
+  permission: Publication approval pending.
+  attribution: Creator and rights-holder attribution pending confirmation.
+  chapter_ids:
+  - CH14
+  media_kind: image
+  figure_id: CH14-FIG-001
+  teaching_purpose: 分鏡與預視覺化交接流程原創示意圖。
+  research_sources:
+  - source_id: R102
+    accessed: '2026-10-22'
+    locator: Conceptual context only; original schematic.
+    purpose: Conceptual context only; the SVG is an original schematic, not copied artwork.
+  original_prompt_or_method: Hand-authored editable SVG; no third-party image or image-generation model.
+  tool_name: null
+  tool_version: null
+  sha256: 0c5515355edd65a47c05361aa5169afaa0e868778f5a53d7fd5812d347287a65
+  bytes: 1308
+  width: 1200
+  height: 600
+  rights_risk_review:
+    status: pending
+    reviewer: Codex preliminary check
+    findings: Attribution, accessibility, similarity, rights, and publication approval need human review.
+    checked_at: '2026-10-22'
+  paragraph_reference: CH14 CH14-FIG-001
+  production_log:
+  - date: '2026-10-22'
+    change: Authored editable SVG; dimensions and SHA-256 recorded.
+  caption_zh_tw: 圖 14-1｜分鏡與預視覺化交接流程原創示意圖。 本圖為專案手繪原創示意圖，並非任何電影原劇照或特定電影畫面重製；權利與出版核准待審。
+  caption_en: 圖 14-1｜分鏡與預視覺化交接流程原創示意圖。 本圖為專案手繪原創示意圖，並非任何電影原劇照或特定電影畫面重製；權利與出版核准待審。
+  alt_zh_tw: 分鏡與預視覺化交接流程原創示意圖。
+  alt_en: 分鏡與預視覺化交接流程原創示意圖。
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+- id: ASSET-CH14-FIG-002
+  path: assets/chapters/CH14/figures/originals/CH14-FIG-002-beats-to-shotlist.svg
+  type: original-svg-diagram
+  description: 圖 14-2｜三個虛構節拍及鏡號對照原創示意圖。 本圖為專案手繪原創示意圖，並非任何電影原劇照或特定電影畫面重製；權利與出版核准待審。
+  creator: AI Video Bible project; individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-22'
+  license: Unconfirmed
+  permission: Publication approval pending.
+  attribution: Creator and rights-holder attribution pending confirmation.
+  chapter_ids:
+  - CH14
+  media_kind: image
+  figure_id: CH14-FIG-002
+  teaching_purpose: 三個虛構節拍及鏡號對照原創示意圖。
+  research_sources:
+  - source_id: R104
+    accessed: '2026-10-22'
+    locator: Conceptual context only; original schematic.
+    purpose: Conceptual context only; the SVG is an original schematic, not copied artwork.
+  original_prompt_or_method: Hand-authored editable SVG; no third-party image or image-generation model.
+  tool_name: null
+  tool_version: null
+  sha256: 468326b83ac2d1b24d0f5049a070946d538d059cfa7647b8ed9e8aad3aef5c0a
+  bytes: 1537
+  width: 1200
+  height: 620
+  rights_risk_review:
+    status: pending
+    reviewer: Codex preliminary check
+    findings: Attribution, accessibility, similarity, rights, and publication approval need human review.
+    checked_at: '2026-10-22'
+  paragraph_reference: CH14 CH14-FIG-002
+  production_log:
+  - date: '2026-10-22'
+    change: Authored editable SVG; dimensions and SHA-256 recorded.
+  caption_zh_tw: 圖 14-2｜三個虛構節拍及鏡號對照原創示意圖。 本圖為專案手繪原創示意圖，並非任何電影原劇照或特定電影畫面重製；權利與出版核准待審。
+  caption_en: 圖 14-2｜三個虛構節拍及鏡號對照原創示意圖。 本圖為專案手繪原創示意圖，並非任何電影原劇照或特定電影畫面重製；權利與出版核准待審。
+  alt_zh_tw: 三個虛構節拍及鏡號對照原創示意圖。
+  alt_en: 三個虛構節拍及鏡號對照原創示意圖。
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+- id: ASSET-CH15-FIG-001
+  path: assets/chapters/CH15/figures/originals/CH15-FIG-001-rehearsal-coverage-handoff.svg
+  type: original-svg-diagram
+  description: 圖 15-1｜排演至鏡頭覆蓋交接流程原創示意圖。本圖為原創示意圖，綜合本章描述的導演工作流程；並非電影原劇照或特定電影畫面。
+  creator: AI Video Bible project; individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-23'
+  license: Unconfirmed
+  permission: Publication approval pending.
+  attribution: Creator and rights-holder attribution pending confirmation.
+  chapter_ids:
+  - CH15
+  notes: Human editorial, technical, accessibility, rights, and author review pending.
+  media_kind: image
+  figure_id: CH15-FIG-001
+  paragraph_reference: CH15 CH15-FIG-001
+  teaching_purpose: 流程圖依序呈現場景目標、排演探索、走位與部門校準、有目的的鏡頭覆蓋，以及變更回饋。
+  research_sources:
+  - source_id: R107
+    accessed: '2026-10-23'
+    locator: General workflow concepts; not source image material.
+    purpose: Context only; original schematic, not copied artwork.
+  - source_id: R108
+    accessed: '2026-10-23'
+    locator: General workflow concepts; not source image material.
+    purpose: Context only; original schematic, not copied artwork.
+  production_method: Hand-authored editable SVG; no third-party imagery or generative image model.
+  sha256: 99bd3153960e3b81c58813971fcda529382f070dfb03f9c8260f2719e980ced6
+  bytes: 2527
+  width: 1200
+  height: 620
+  caption_zh_tw: 圖 15-1｜排演至鏡頭覆蓋交接流程原創示意圖。本圖為原創示意圖，綜合本章描述的導演工作流程；並非電影原劇照或特定電影畫面。
+  caption_en: 15-1 | Original schematic of the rehearsal-to-coverage handoff. This is an original illustrative image
+    based on the workflow discussed in this chapter. It is not an official film still.
+  alt_zh_tw: 流程圖依序呈現場景目標、排演探索、走位與部門校準、有目的的鏡頭覆蓋，以及變更回饋。
+  alt_en: A flow diagram moves from scene objective to rehearsal, blocking and department alignment, purposeful
+    coverage, and change feedback.
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  original_prompt_or_method: Hand-authored editable SVG; no third-party imagery or generative image model.
+  tool_name: null
+  tool_version: null
+  rights_risk_review:
+    status: pending
+    reviewer: Codex preliminary check
+    findings: Creator attribution, accessibility, similarity, rights, and publication approval require human review.
+    checked_at: '2026-10-23'
+  production_log:
+  - date: '2026-10-23'
+    change: Hand-authored editable SVG; dimensions, byte count, and SHA-256 recorded.
+- id: ASSET-CH15-FIG-002
+  path: assets/chapters/CH15/figures/originals/CH15-FIG-002-on-set-adjustment-loop.svg
+  type: original-svg-diagram
+  description: 圖 15-2｜現場修正決策循環原創示意圖。本圖為原創示意圖，呈現一般工作思路；非任何特定電影畫面或片場文件。
+  creator: AI Video Bible project; individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-23'
+  license: Unconfirmed
+  permission: Publication approval pending.
+  attribution: Creator and rights-holder attribution pending confirmation.
+  chapter_ids:
+  - CH15
+  notes: Human editorial, technical, accessibility, rights, and author review pending.
+  media_kind: image
+  figure_id: CH15-FIG-002
+  paragraph_reference: CH15 CH15-FIG-002
+  teaching_purpose: 循環流程圖呈現辨識變動、確認故事與安全優先事項、比較方案、同步部門、記錄新版本並回看素材。
+  research_sources:
+  - source_id: R107
+    accessed: '2026-10-23'
+    locator: General workflow concepts; not source image material.
+    purpose: Context only; original schematic, not copied artwork.
+  - source_id: R108
+    accessed: '2026-10-23'
+    locator: General workflow concepts; not source image material.
+    purpose: Context only; original schematic, not copied artwork.
+  production_method: Hand-authored editable SVG; no third-party imagery or generative image model.
+  sha256: 29a8c77f843d6e4bd20ab62cf3ec27e088b5eebf44826ed1ae88c2ba1e1f9876
+  bytes: 2895
+  width: 1200
+  height: 620
+  caption_zh_tw: 圖 15-2｜現場修正決策循環原創示意圖。本圖為原創示意圖，呈現一般工作思路；非任何特定電影畫面或片場文件。
+  caption_en: 15-2 | Original schematic of an on-set adjustment loop. This is an original illustrative image showing
+    a general workflow; it is not an official film still.
+  alt_zh_tw: 循環流程圖呈現辨識變動、確認故事與安全優先事項、比較方案、同步部門、記錄新版本並回看素材。
+  alt_en: A loop shows detecting a change, confirming story and safety priorities, comparing options, aligning departments,
+    logging a new version, and reviewing footage.
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  original_prompt_or_method: Hand-authored editable SVG; no third-party imagery or generative image model.
+  tool_name: null
+  tool_version: null
+  rights_risk_review:
+    status: pending
+    reviewer: Codex preliminary check
+    findings: Creator attribution, accessibility, similarity, rights, and publication approval require human review.
+    checked_at: '2026-10-23'
+  production_log:
+  - date: '2026-10-23'
+    change: Hand-authored editable SVG; dimensions, byte count, and SHA-256 recorded.
+
+- id: ASSET-CH16-FIG-001
+  path: assets/chapters/CH16/figures/originals/CH16-FIG-001-image-formation-pipeline.svg
+  type: original-svg-diagram
+  description: 圖 16-1｜底片與數位影像形成路徑。原創手繪技術示意圖，依 R112、R114、R117–R118 文字資料自行繪製，非電影劇照。
+  creator: AI Video Bible project; individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-23'
+  license: Unconfirmed
+  permission: Publication approval pending.
+  attribution: Creator and rights-holder attribution pending confirmation.
+  chapter_ids:
+  - CH16
+  notes: Technical, editorial, accessibility, similarity, rights, and author review pending.
+  media_kind: image
+  figure_id: CH16-FIG-001
+  paragraph_reference: CH16 CH16-FIG-001
+  teaching_purpose: 對照底片化學成像與數位感光元件訊號鏈，避免把特性曲線與數位 Log 視為相同物理量。
+  research_sources:
+  - source_id: R112
+    accessed: '2026-10-23'
+    locator: Textual context only; no source image used.
+    purpose: Background for original schematic; not copied artwork.
+  - source_id: R114
+    accessed: '2026-10-23'
+    locator: Textual context only; no source image used.
+    purpose: Background for original schematic; not copied artwork.
+  - source_id: R117
+    accessed: '2026-10-23'
+    locator: Textual context only; no source image used.
+    purpose: Background for original schematic; not copied artwork.
+  - source_id: R118
+    accessed: '2026-10-23'
+    locator: Textual context only; no source image used.
+    purpose: Background for original schematic; not copied artwork.
+  production_method: Hand-authored editable bilingual SVG; no third-party imagery or generative image model.
+  sha256: dfe888848e3c4179a704ac32538462fd6e7d854534e87fd2cc252926b844923b
+  bytes: 3911
+  width: 1400
+  height: 760
+  caption_zh_tw: 圖 16-1｜底片與數位影像形成路徑。原創手繪技術示意圖，依 R112、R114、R117–R118 文字資料自行繪製，非電影劇照。
+  caption_en: Figure 16-1 | Film and digital image-formation paths. Original hand-authored technical schematic based
+    on R112, R114, R117, and R118; not a film still.
+  alt_zh_tw: 雙欄流程圖比較電影底片與數位感光元件的受光、訊號形成、處理及交付路徑，並標示兩者不可直接等同。
+  alt_en: A two-column flow diagram compares light capture, signal formation, processing, and delivery for film
+    and digital sensors, noting that the processes are not equivalent.
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  original_prompt_or_method: Hand-authored editable bilingual SVG; no third-party imagery or generative image model.
+  tool_name: null
+  tool_version: null
+  production_log:
+  - date: '2026-10-23'
+    change: Hand-authored editable SVG; recorded dimensions, byte count, and SHA-256.
+  rights_risk_review:
+    status: pending
+    checked_at: null
+    reviewer: pending
+    findings: Similarity, authorship, accessibility, and publication rights need human review.
+- id: ASSET-CH16-FIG-002
+  path: assets/chapters/CH16/figures/originals/CH16-FIG-002-exposure-decision-workflow.svg
+  type: original-svg-diagram
+  description: 圖 16-2｜曝光決策與驗證工作流。原創手繪流程示意，非電影畫面或特定器材操作順序。
+  creator: AI Video Bible project; individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-23'
+  license: Unconfirmed
+  permission: Publication approval pending.
+  attribution: Creator and rights-holder attribution pending confirmation.
+  chapter_ids:
+  - CH16
+  notes: Technical, editorial, accessibility, similarity, rights, and author review pending.
+  media_kind: image
+  figure_id: CH16-FIG-002
+  paragraph_reference: CH16 CH16-FIG-002
+  teaching_purpose: 把敘事資訊保留、測光測試、訊號確認及交接紀錄整理為可檢查流程。
+  research_sources:
+  - source_id: R113
+    accessed: '2026-10-23'
+    locator: Textual context only; no source image used.
+    purpose: Background for original schematic; not copied artwork.
+  - source_id: R116
+    accessed: '2026-10-23'
+    locator: Textual context only; no source image used.
+    purpose: Background for original schematic; not copied artwork.
+  production_method: Hand-authored editable bilingual SVG; no third-party imagery or generative image model.
+  sha256: ff1e72790298093314c494d7b53c775b71c95f1de5dbef28116fee44b477f171
+  bytes: 2670
+  width: 1400
+  height: 820
+  caption_zh_tw: 圖 16-2｜曝光決策與驗證工作流。原創手繪流程示意，非電影畫面或特定器材操作順序。
+  caption_en: Figure 16-2 | Exposure decision and verification workflow. Original hand-authored workflow schematic,
+    not a film image or a device-specific control sequence.
+  alt_zh_tw: 流程圖從敘事優先事項開始，經場景反差與拍攝條件，進入測量、測試、訊號驗證與拍攝紀錄。
+  alt_en: A workflow begins with narrative priorities, moves through scene contrast and capture conditions, then
+    metering, testing, signal verification, and camera-report documentation.
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  original_prompt_or_method: Hand-authored editable bilingual SVG; no third-party imagery or generative image model.
+  tool_name: null
+  tool_version: null
+  production_log:
+  - date: '2026-10-23'
+    change: Hand-authored editable SVG; recorded dimensions, byte count, and SHA-256.
+  rights_risk_review:
+    status: pending
+    checked_at: null
+    reviewer: pending
+    findings: Similarity, authorship, accessibility, and publication rights need human review.

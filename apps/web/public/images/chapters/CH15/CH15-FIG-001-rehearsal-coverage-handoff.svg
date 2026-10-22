@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<title id="title">Rehearsal to coverage handoff / 排演至鏡頭覆蓋交接</title>
+<desc id="desc">An original schematic showing scene objective, rehearsal, blocking, coverage choices, and change log. 原創示意圖：場景目標、排演、走位、覆蓋選擇與變更紀錄。</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#b58b55"/></marker></defs>
+<rect width="1200" height="620" fill="#f4f0e8"/><text x="60" y="60" font-family="sans-serif" font-size="28" fill="#202a33">從戲劇問題到可剪接素材｜From dramatic problem to editable coverage</text>
+<g font-family="sans-serif" text-anchor="middle" fill="#202a33" stroke="#b58b55" stroke-width="3">
+<rect x="55" y="150" width="200" height="130" rx="24" fill="#fffaf0"/><text x="155" y="200" stroke="none" font-size="22">場景目標</text><text x="155" y="235" stroke="none" font-size="18">Scene objective</text>
+<rect x="325" y="150" width="200" height="130" rx="24" fill="#fffaf0"/><text x="425" y="200" stroke="none" font-size="22">排演探索</text><text x="425" y="235" stroke="none" font-size="18">Rehearsal</text>
+<rect x="595" y="150" width="200" height="130" rx="24" fill="#fffaf0"/><text x="695" y="200" stroke="none" font-size="22">走位與部門校準</text><text x="695" y="235" stroke="none" font-size="17">Blocking + departments</text>
+<rect x="865" y="150" width="270" height="130" rx="24" fill="#fffaf0"/><text x="1000" y="200" stroke="none" font-size="22">有目的的鏡頭覆蓋</text><text x="1000" y="235" stroke="none" font-size="18">Purposeful coverage</text>
+<path d="M255 215 H315 M525 215 H585 M795 215 H855" fill="none" marker-end="url(#arrow)"/>
+<rect x="325" y="390" width="470" height="125" rx="24" fill="#e7e0d4"/><text x="560" y="438" stroke="none" font-size="22">臨場變更：原因、版本、影響、通知</text><text x="560" y="476" stroke="none" font-size="18">On-set change: reason, version, impact, recipients</text>
+<path d="M1000 280 V340 H800 V385" fill="none" marker-end="url(#arrow)"/><path d="M325 450 H180 V310 H420 V290" fill="none" stroke-dasharray="9 8" marker-end="url(#arrow)"/>
+</g><text x="60" y="575" font-family="sans-serif" font-size="17" fill="#505b64">原創工作流程示意；非特定劇組標準。 Original workflow schematic; not a universal set standard.</text>
+</svg>

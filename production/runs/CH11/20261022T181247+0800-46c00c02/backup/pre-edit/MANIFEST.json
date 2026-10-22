@@ -1,0 +1,87 @@
+[
+  {
+    "path": "content/zh-TW/chapters/CH11-chapter-11.md",
+    "sha256": "300e9b588299a28021963abd07ba6c6d860b69831e848d6e05306205e33597f5",
+    "bytes": 1081
+  },
+  {
+    "path": "content/en-US/chapters/CH11-chapter-11.md",
+    "sha256": "60dc4097bb0b974b676b3629005c78ade99c385e2c6726cd42f457480769a52e",
+    "bytes": 1135
+  },
+  {
+    "path": "apps/web/src/content/docs/zh-tw/CH11-chapter-11.md",
+    "sha256": "894d50505efe7358eacb20b189c5e0f0f49c17ac2fbc1458df35bb8a2ced3c5b",
+    "bytes": 1162
+  },
+  {
+    "path": "apps/web/src/content/docs/en/CH11-chapter-11.md",
+    "sha256": "bbdb6e0c7d0185f19ce0460fb5b37e1fd44105f44d3ed456955e07fe0c73eb26",
+    "bytes": 1216
+  },
+  {
+    "path": "assets/chapters/CH11/figure-manifest.yaml",
+    "sha256": "236a20cd0ea04ea198707b687366429635e9af655d31633433e245a97006d2a3",
+    "bytes": 31
+  },
+  {
+    "path": "metadata/chapters.yaml",
+    "sha256": "c500ff7fd3564d265f68aba142a67435ceec4dc6db067ff46e164393caf974ff",
+    "bytes": 13743
+  },
+  {
+    "path": "metadata/translation-status.yaml",
+    "sha256": "dd2b3e4232c3850a688e261e94b81ae5abda4e488fc3c8c9a513f7003b1ec598",
+    "bytes": 5426
+  },
+  {
+    "path": "metadata/terminology.yaml",
+    "sha256": "fc851bdee020c0dafe62716435fedeb8764a8d7c85be976e136ee696e2524e37",
+    "bytes": 69655
+  },
+  {
+    "path": "metadata/figure-registry.yaml",
+    "sha256": "6f8ff60674d3299b3adb20731b50ad1e1d71e8067f98cd628bddecf1c0d1dad3",
+    "bytes": 61851
+  },
+  {
+    "path": "metadata/references.bib",
+    "sha256": "dd18a08f6564bb66e6856d38ce93726b74dbbc08209eba05f27a7d75a1b6b3b5",
+    "bytes": 29060
+  },
+  {
+    "path": "data/references.yaml",
+    "sha256": "c29eb4bb333ca6e4b6c0ccd55682e225b4a6aa408e58e680de06ff7fd9060cca",
+    "bytes": 46816
+  },
+  {
+    "path": "data/assets.yaml",
+    "sha256": "bddf29745182697d8c5d1772e70607712295423b6cd909cad4db562e1f9ae207",
+    "bytes": 48907
+  },
+  {
+    "path": "scripts/publishing/figure-captions.lua",
+    "sha256": "9a1b1257a3ec26a116f5e87b54f289db6c750f19c508026d366da79d76908c31",
+    "bytes": 4184
+  },
+  {
+    "path": "scripts/update_chapter_progress_tracker.py",
+    "sha256": "b442717a3535b83ad14acc456a2d26ebd163d60d52e892023bbd121ef5eab767",
+    "bytes": 5725
+  },
+  {
+    "path": "CHAPTER_INTEGRATION_MATRIX.md",
+    "sha256": "5744188ec50e8e1ade6ff4a7fef8bb1ab4e16f231effa1881a03a78b7d90e0b4",
+    "bytes": 37200
+  },
+  {
+    "path": "history.md",
+    "sha256": "e17e4a953f7528b15ae972bf9faa7c8939fc727568c5b24b87fd27732fe97ca8",
+    "bytes": 131886
+  },
+  {
+    "path": "reports/CHAPTER-PROGRESS-TRACKER.md",
+    "sha256": "6520ff855e9bcb50dbca4ab90234df19665cb902e5415692f79fb3e8b5946782",
+    "bytes": 14923
+  }
+]

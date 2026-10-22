@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Creative intention to a revisable style specification</title>
+  <desc id="desc">A five-step cycle links intention, observable rules, production variations, human review, and revision.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#526777"/></marker>
+    <style>
+      .ink{fill:#183247;font-family:Arial,'Microsoft JhengHei',sans-serif}.muted{fill:#526777;font-family:Arial,'Microsoft JhengHei',sans-serif}
+      .title{font-size:30px;font-weight:700}.label{font-size:21px;font-weight:700}.sub{font-size:16px}
+      .node{fill:#f2f5f7;stroke:#9eb2bf;stroke-width:2}.accent{fill:#dcecf0;stroke:#176b87;stroke-width:3}
+      .line{stroke:#526777;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="650" fill="#fbfaf7"/>
+  <text x="65" y="70" class="ink title">創作意圖到風格規格｜Intention to style specification</text>
+  <text x="65" y="108" class="muted sub">每輪只改可說明的變因；結果由人審看片段。</text>
+  <text x="65" y="133" class="muted sub">Change one explainable variable per iteration; a person reviews the result.</text>
+  <g>
+    <rect class="accent" x="65" y="210" width="190" height="125" rx="22"/>
+    <text x="160" y="252" text-anchor="middle" class="ink label">創作意圖</text>
+    <text x="160" y="282" text-anchor="middle" class="ink label">Intention</text>
+    <text x="160" y="312" text-anchor="middle" class="muted sub">故事任務</text>
+  </g>
+  <g>
+    <rect class="node" x="290" y="210" width="190" height="125" rx="22"/>
+    <text x="385" y="252" text-anchor="middle" class="ink label">視聽規則</text>
+    <text x="385" y="282" text-anchor="middle" class="ink label">AV rules</text>
+    <text x="385" y="312" text-anchor="middle" class="muted sub">可觀察、可變</text>
+  </g>
+  <g>
+    <rect class="node" x="515" y="210" width="190" height="125" rx="22"/>
+    <text x="610" y="252" text-anchor="middle" class="ink label">拍攝／生成</text>
+    <text x="610" y="282" text-anchor="middle" class="ink label">Make variants</text>
+    <text x="610" y="312" text-anchor="middle" class="muted sub">記錄版本與條件</text>
+  </g>
+  <g>
+    <rect class="node" x="740" y="210" width="190" height="125" rx="22"/>
+    <text x="835" y="252" text-anchor="middle" class="ink label">人工審片</text>
+    <text x="835" y="282" text-anchor="middle" class="ink label">Human review</text>
+    <text x="835" y="312" text-anchor="middle" class="muted sub">意圖、連續、權利</text>
+  </g>
+  <g>
+    <rect class="accent" x="965" y="210" width="190" height="125" rx="22"/>
+    <text x="1060" y="252" text-anchor="middle" class="ink label">修訂與記錄</text>
+    <text x="1060" y="282" text-anchor="middle" class="ink label">Revise & log</text>
+    <text x="1060" y="312" text-anchor="middle" class="muted sub">版本化規格</text>
+  </g>
+  <path class="line" d="M258 272 L282 272"/><path class="line" d="M483 272 L507 272"/>
+  <path class="line" d="M708 272 L732 272"/><path class="line" d="M933 272 L957 272"/>
+  <path class="line" d="M1060 342 C1060 475 160 475 160 342"/>
+  <text x="610" y="444" text-anchor="middle" class="muted sub">回饋不是自動核准：保存異議、選擇理由與未解決風險。</text>
+  <text x="610" y="470" text-anchor="middle" class="muted sub">Feedback does not equal approval: record disagreement, selection rationale, and open risks.</text>
+</svg>

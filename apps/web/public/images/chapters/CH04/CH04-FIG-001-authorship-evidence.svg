@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Authorship analysis: three evidence streams</title>
+  <desc id="desc">Formal patterns, production context, and collaborator records inform a revisable authorship claim.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#526777"/></marker>
+    <style>
+      .ink{fill:#183247;font-family:Arial,'Microsoft JhengHei',sans-serif}.muted{fill:#526777;font-family:Arial,'Microsoft JhengHei',sans-serif}
+      .label{font-size:24px;font-weight:700}.sub{font-size:17px}.line{stroke:#526777;stroke-width:3;fill:none;marker-end:url(#arrow)}
+      .node{fill:#f2f5f7;stroke:#9eb2bf;stroke-width:2}.focus{fill:#dcecf0;stroke:#176b87;stroke-width:3}
+    </style>
+  </defs>
+  <rect width="1200" height="650" fill="#fbfaf7"/>
+  <text x="70" y="68" class="ink" font-size="32" font-weight="700">作者性分析｜Authorship analysis</text>
+  <text x="70" y="103" class="muted" font-size="18">主張要能回到可檢查的證據，也要保留修正空間。</text>
+  <text x="70" y="128" class="muted" font-size="16">Claims should remain traceable to evidence and open to revision.</text>
+  <g>
+    <rect class="node" x="72" y="180" width="470" height="100" rx="20"/>
+    <text x="102" y="220" class="ink label">形式模式｜Formal patterns</text>
+    <text x="102" y="252" class="muted sub">跨作品觀察、反例、場景與技法</text>
+  </g>
+  <g>
+    <rect class="node" x="72" y="320" width="470" height="100" rx="20"/>
+    <text x="102" y="360" class="ink label">製作脈絡｜Production context</text>
+    <text x="102" y="392" class="muted sub">片廠制度、預算、委託、版本與決策</text>
+  </g>
+  <g>
+    <rect class="node" x="72" y="460" width="470" height="100" rx="20"/>
+    <text x="102" y="500" class="ink label">合作紀錄｜Collaboration records</text>
+    <text x="102" y="532" class="muted sub">編劇、攝影、美術、剪輯、表演、製片</text>
+  </g>
+  <path class="line" d="M550 230 C670 230 670 300 770 330"/>
+  <path class="line" d="M550 370 L770 370"/>
+  <path class="line" d="M550 510 C670 510 670 440 770 410"/>
+  <rect class="focus" x="790" y="285" width="330" height="150" rx="28"/>
+  <text x="955" y="340" text-anchor="middle" class="ink label">可修正的主張</text>
+  <text x="955" y="374" text-anchor="middle" class="ink label">Revisable claim</text>
+  <text x="955" y="407" text-anchor="middle" class="muted sub">誰、何種作者性、依據何在？</text>
+  <text x="955" y="550" text-anchor="middle" class="muted sub">解讀 ≠ 製作事實 ≠ 法律判定</text>
+  <text x="955" y="578" text-anchor="middle" class="muted sub">Interpretation ≠ production fact ≠ legal ruling</text>
+</svg>

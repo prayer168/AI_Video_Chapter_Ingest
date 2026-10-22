@@ -1,2 +1,106 @@
 chapter_id: CH08
-figures: []
+figures:
+- figure_id: CH08-FIG-001
+  chapter_id: CH08
+  section_id: CH08-S07
+  placement_after: after:CH08-S07
+  source_ids:
+  - R051
+  - R061
+  asset_original: assets/chapters/CH08/figures/originals/CH08-FIG-001-beat-action-reaction.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 8-1
+  asset_status: draft-original-svg
+  rights_status: original-project-svg-pending-human-review
+  sha256: 6a612141d5953f0a81e5ed866a0bfd07b4231c020d5f7a85531c1cadb6a8cc97
+  width: 1200
+  height: 560
+  bytes: 1918
+  method: Hand-authored editable SVG; no generative model or external imagery used.
+  caption_zh: 圖 8-1｜場景節拍可作為行動／反應與狀態改變的分析註記，不能當固定公式。本圖為本書原創可編輯 SVG 示意圖，非電影劇照或特定電影鏡頭；權利與出版核准待審。
+  caption_en: Figure 8-1. Scene beats can annotate action/reaction and state changes;
+    they are not a fixed formula. This is an original editable SVG illustration for
+    this book, not a film still or a depiction of a specific film shot; rights and
+    publication approval pending.
+  alt_zh: 原創向量流程圖把場景狀態連到行動與反應；只有目標、策略、資訊或關係出現可辨認變化時才標記節拍，並回到新的場景狀態。
+  alt_en: An original vector flow diagram connects scene state to action and response;
+    mark a beat only when objective, tactic, information, or relationship changes
+    observably, then return to a new scene state.
+  creator: AI Video Bible project; individual attribution pending confirmation
+  attribution: Individual creator and rights-holder attribution pending confirmation.
+  permission: Publication approval pending.
+  original_prompt_or_method: Hand-authored editable SVG labels, shapes, and connectors;
+    no image generation or third-party artwork.
+  production_log:
+  - date: '2026-10-21'
+    change: Created original editable bilingual SVG; recorded dimensions, size, and
+      SHA-256.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  note: Draft only; accessibility, attribution, rights, similarity, and publication
+    review pending.
+- figure_id: CH08-FIG-002
+  chapter_id: CH08
+  section_id: CH08-S09
+  placement_after: after:CH08-S09
+  source_ids:
+  - R058
+  - R059
+  asset_original: assets/chapters/CH08/figures/originals/CH08-FIG-002-dialogue-subtext-layers.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 8-2
+  asset_status: draft-original-svg
+  rights_status: original-project-svg-pending-human-review
+  sha256: f58d6911f093bf41624c1df52a6cf164b3e81d31d78d9ae7024f442d0d42e226
+  width: 1200
+  height: 620
+  bytes: 1415
+  method: Hand-authored editable SVG; no generative model or external imagery used.
+  caption_zh: 圖 8-2｜潛台詞分析要從字面台詞回到行為和語境證據，也要保留不同觀眾的合理讀法。本圖為本書原創可編輯 SVG 示意圖，非電影劇照或特定電影鏡頭；權利與出版核准待審。
+  caption_en: Figure 8-2. Subtext analysis should return from literal speech to behavioral
+    and contextual evidence while preserving reasonable differences in audience interpretation.
+    This is an original editable SVG illustration for this book, not a film still
+    or a depiction of a specific film shot; rights and publication approval pending.
+  alt_zh: 原創同心弧線圖呈現字面發話、可觀察行動與聲音、場景脈絡及觀眾推論四層；潛台詞假設需回指線索，並容許多種讀法。
+  alt_en: An original nested-arc diagram presents four layers—literal speech, observable
+    behavior and sound, scene context, and audience inference. Subtext hypotheses
+    point back to cues and allow multiple readings.
+  creator: AI Video Bible project; individual attribution pending confirmation
+  attribution: Individual creator and rights-holder attribution pending confirmation.
+  permission: Publication approval pending.
+  original_prompt_or_method: Hand-authored editable SVG labels, shapes, and connectors;
+    no image generation or third-party artwork.
+  production_log:
+  - date: '2026-10-21'
+    change: Created original editable bilingual SVG; recorded dimensions, size, and
+      SHA-256.
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+  note: Draft only; accessibility, attribution, rights, similarity, and publication
+    review pending.

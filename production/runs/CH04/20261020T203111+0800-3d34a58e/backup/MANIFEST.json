@@ -1,0 +1,68 @@
+[
+  {
+    "path": "content/zh-TW/chapters/CH04-chapter-04.md",
+    "sha256": "70c3f451bf6fac08beaf6aba373f9331ee86b8b8cc67cf07567b17b107f0fc3f",
+    "backup": "production\\runs\\CH04\\20261020T203111+0800-3d34a58e\\backup\\content\\zh-TW\\chapters\\CH04-chapter-04.md"
+  },
+  {
+    "path": "content/en-US/chapters/CH04-chapter-04.md",
+    "sha256": "16455ddee4fb802765fab4bded30df2ad2154d2dced5a4e1a540d42f75f9b863",
+    "backup": "production\\runs\\CH04\\20261020T203111+0800-3d34a58e\\backup\\content\\en-US\\chapters\\CH04-chapter-04.md"
+  },
+  {
+    "path": "assets/chapters/CH04/figure-manifest.yaml",
+    "sha256": "28fb624839293eabccd4c60a2579fa00f86d11a49c2f6ce78aea91eb0e17e91b",
+    "backup": "production\\runs\\CH04\\20261020T203111+0800-3d34a58e\\backup\\assets\\chapters\\CH04\\figure-manifest.yaml"
+  },
+  {
+    "path": "metadata/references.bib",
+    "sha256": "7d3a8cdaad7debfe773634df84fd35462af7de80f72e04b18284bce1f425ff2c",
+    "backup": "production\\runs\\CH04\\20261020T203111+0800-3d34a58e\\backup\\metadata\\references.bib"
+  },
+  {
+    "path": "data/references.yaml",
+    "sha256": "18703c179d642178a8a1c630a0f9bb36cc4ac8a1964e6f73d505f027a0a57f05",
+    "backup": "production\\runs\\CH04\\20261020T203111+0800-3d34a58e\\backup\\data\\references.yaml"
+  },
+  {
+    "path": "metadata/terminology.yaml",
+    "sha256": "d67a3f7732036c009773c5442ae97a89952de93b1901c91740e0c258b7fb1879",
+    "backup": "production\\runs\\CH04\\20261020T203111+0800-3d34a58e\\backup\\metadata\\terminology.yaml"
+  },
+  {
+    "path": "metadata/chapters.yaml",
+    "sha256": "c389d5297464ba0cb32fddaacb9cb1a95433596b4be5959f272c5d76d436298c",
+    "backup": "production\\runs\\CH04\\20261020T203111+0800-3d34a58e\\backup\\metadata\\chapters.yaml"
+  },
+  {
+    "path": "metadata/translation-status.yaml",
+    "sha256": "1fbf47476434f0f98d188cdb9b6523b12da2145fdfd94b6958f022f1b194dc88",
+    "backup": "production\\runs\\CH04\\20261020T203111+0800-3d34a58e\\backup\\metadata\\translation-status.yaml"
+  },
+  {
+    "path": "CHAPTER_INTEGRATION_MATRIX.md",
+    "sha256": "eb94248c3afc838d5d609e80ba09c90c7de21595466c925765a37baae72e0e24",
+    "backup": "production\\runs\\CH04\\20261020T203111+0800-3d34a58e\\backup\\CHAPTER_INTEGRATION_MATRIX.md"
+  },
+  {
+    "path": "metadata/figure-registry.yaml",
+    "sha256": "3c2ef43bf6af266ef3169d3e498001a566f117407cc8aae0379f491782a443d3",
+    "backup": "production\\runs\\CH04\\20261020T203111+0800-3d34a58e\\backup\\metadata\\figure-registry.yaml"
+  },
+  {
+    "path": "apps/web/src/content/docs/zh-tw/CH04-chapter-04.md",
+    "sha256": "7e0de6f2e2b59de7b39fc38e023e16df4e3e4d6c70008fdff49d04766309c2e9",
+    "backup": "production\\runs\\CH04\\20261020T203111+0800-3d34a58e\\backup\\apps\\web\\src\\content\\docs\\zh-tw\\CH04-chapter-04.md"
+  },
+  {
+    "path": "apps/web/src/content/docs/en/CH04-chapter-04.md",
+    "sha256": "f09a5d053c67bde8050ad5af6da8147cc077c13c71d07afb6f538b9956723125",
+    "backup": "production\\runs\\CH04\\20261020T203111+0800-3d34a58e\\backup\\apps\\web\\src\\content\\docs\\en\\CH04-chapter-04.md"
+  },
+  {
+    "path": "scripts/publishing/figure-captions.lua",
+    "sha256": "cf55a73b45d72ed4a61f70ef9435f7ae7ceb36a329f20faef7c384b192f505ff",
+    "backup": "production/runs/CH04/20261020T203111+0800-3d34a58e/backup/pre-edit/scripts/publishing/figure-captions.lua",
+    "backup_method": "git show HEAD; LF/CRLF-normalized diff confirms current file differs only by the two CH04 display-number additions"
+  }
+]

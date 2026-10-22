@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+  <title id="title">Causal chain / 因果鏈</title>
+  <desc id="desc">A character's goal leads through a choice and obstacle to an outcome, which creates a new question. / 人物目標經選擇與阻力導向結果，再形成新問題。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#b78354"/></marker>
+    <style>
+      text{font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif;fill:#23313a}
+      .kicker{font-size:15px;letter-spacing:3px;fill:#87694f}
+      .zh{font-size:24px;font-weight:700}.en{font-size:17px;fill:#52616a}
+      .node{fill:#f5f1e9;stroke:#b78354;stroke-width:2}.line{stroke:#b78354;stroke-width:3;fill:none;marker-end:url(#arrow)}
+      .number{font-size:13px;letter-spacing:2px;fill:#a16f49}
+    </style>
+  </defs>
+  <rect width="1200" height="480" fill="none"/>
+  <text x="64" y="62" class="kicker">CH06 · CAUSALITY / 因果關係</text>
+  <path class="line" d="M244 241H283M424 241H463M604 241H643M784 241H823M964 241H1003"/>
+  <g transform="translate(64 150)"><rect class="node" width="180" height="180" rx="90"/><text x="24" y="58" class="number">01</text><text x="90" y="91" text-anchor="middle" class="zh">目標</text><text x="90" y="121" text-anchor="middle" class="en">Goal</text><text x="90" y="151" text-anchor="middle" class="en">What is pursued?</text></g>
+  <g transform="translate(284 150)"><rect class="node" width="140" height="180" rx="70"/><text x="20" y="58" class="number">02</text><text x="70" y="91" text-anchor="middle" class="zh">選擇</text><text x="70" y="121" text-anchor="middle" class="en">Choice</text><text x="70" y="151" text-anchor="middle" class="en">An action</text></g>
+  <g transform="translate(464 150)"><rect class="node" width="140" height="180" rx="70"/><text x="20" y="58" class="number">03</text><text x="70" y="91" text-anchor="middle" class="zh">阻力</text><text x="70" y="121" text-anchor="middle" class="en">Obstacle</text><text x="70" y="151" text-anchor="middle" class="en">A changed condition</text></g>
+  <g transform="translate(644 150)"><rect class="node" width="140" height="180" rx="70"/><text x="20" y="58" class="number">04</text><text x="70" y="91" text-anchor="middle" class="zh">結果</text><text x="70" y="121" text-anchor="middle" class="en">Outcome</text><text x="70" y="151" text-anchor="middle" class="en">A new state</text></g>
+  <g transform="translate(824 150)"><rect class="node" width="140" height="180" rx="70"/><text x="20" y="58" class="number">05</text><text x="70" y="91" text-anchor="middle" class="zh">代價</text><text x="70" y="121" text-anchor="middle" class="en">Cost</text><text x="70" y="151" text-anchor="middle" class="en">What is lost?</text></g>
+  <g transform="translate(1004 150)"><rect class="node" width="140" height="180" rx="70"/><text x="20" y="58" class="number">06</text><text x="70" y="91" text-anchor="middle" class="zh">新問題</text><text x="70" y="121" text-anchor="middle" class="en">New question</text><text x="70" y="151" text-anchor="middle" class="en">What follows?</text></g>
+  <text x="64" y="405" class="en">A diagnostic model, not a mandatory formula. / 診斷模型，不是必須套用的公式。</text>
+</svg>

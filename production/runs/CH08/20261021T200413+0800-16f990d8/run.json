@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "run_id": "20261021T200413+0800-16f990d8",
+  "chapter_id": "CH08",
+  "created_at": "2026-10-21T20:04:13.267106+08:00",
+  "status": "partial",
+  "chapter": {
+    "chapter_id": "CH08",
+    "part_id": "P02",
+    "number": 8,
+    "slug": "chapter-08",
+    "title_zh": "場景、節拍、對白與潛台詞",
+    "title_en": "",
+    "legacy_status": "planned",
+    "zh_status": "planned",
+    "en_status": "translation-needed"
+  },
+  "translation_status": {
+    "zh-TW": "planned",
+    "en-US": "translation-needed",
+    "sync_revision": null
+  },
+  "existing_files": [
+    {
+      "path": "content/zh-TW/chapters/CH08-chapter-08.md",
+      "bytes": 1075,
+      "sha256": "e711362fea06bcff3b25caf6fbc8c5e81710f888262be099616f46878dd4fc3a"
+    },
+    {
+      "path": "content/en-US/chapters/CH08-chapter-08.md",
+      "bytes": 1135,
+      "sha256": "64068608cc3300527112c8dcac0ca912cd02250a241135afc2e16826699dc5a6"
+    },
+    {
+      "path": "assets/chapters/CH08/figure-manifest.yaml",
+      "bytes": 31,
+      "sha256": "a2402a735e19b6280690d7700e8c6e948e4abb3b49d4b87bf31540e3ebe204bd"
+    }
+  ],
+  "steps": {
+    "inventory": {
+      "status": "pass",
+      "note": "CH08 scaffold audited; 17 prior files backed up with SHA-256."
+    },
+    "research": {
+      "status": "pass",
+      "note": "Sources R058-R065 recorded with date and locator limits; full-text review remains human."
+    },
+    "zh-draft": {
+      "status": "pass",
+      "note": "CH08-S01-S12 substantive Traditional Chinese research draft created."
+    },
+    "en-translation": {
+      "status": "pass",
+      "note": "English working translation and 12-section alignment created; copyedit pending."
+    },
+    "film-cases": {
+      "status": "needs-human-review",
+      "note": "Cases attributed to catalog/secondary sources; no unverified viewing edition or timecodes claimed."
+    },
+    "figure-assets": {
+      "status": "pass",
+      "note": "Two original SVG figures recorded with hashes, bilingual caption/alt, pending rights."
+    },
+    "svg-diagrams": {
+      "status": "pass",
+      "note": "SVG XML validated and PDF proofs inspected."
+    },
+    "website": {
+      "status": "pass",
+      "note": "Astro check clean; local build 123 pages; both routes and unique IDs inspected."
+    },
+    "books": {
+      "status": "pass",
+      "note": "Bilingual DOCX/PDF/EPUB drafts built; strict PDF fonts and EPUBCheck pass."
+    },
+    "tests": {
+      "status": "fail",
+      "note": "CH08 5/5 pass; full suite 65/66 with pre-existing CH01 missing status KeyError."
+    },
+    "editorial-review": {
+      "status": "needs-human-review",
+      "note": "Bilingual editor and film/screenwriting specialist review pending per whole-book review plan."
+    },
+    "rights-review": {
+      "status": "needs-human-review",
+      "note": "Attribution, similarity, accessibility, rights and publication approval pending."
+    },
+    "author-approval": {
+      "status": "needs-human-review",
+      "note": "Author approval is deferred until all chapters are drafted."
+    },
+    "chapter-audit": {
+      "status": "pass",
+      "note": "Acceptance report and 60-chapter tracker completed; chapter remains draft, not publication-ready."
+    }
+  },
+  "events": [
+    {
+      "time": "2026-10-21T20:04:13.267106+08:00",
+      "event": "Checkpoint created. No manuscripts, images, or publication outputs changed."
+    },
+    {
+      "time": "2026-10-21T20:18:25.926430+08:00",
+      "event": "Stage inventory recorded as pass.",
+      "note": "CH08 scaffold audited; 17 prior files backed up with SHA-256."
+    },
+    {
+      "time": "2026-10-21T20:18:26.635186+08:00",
+      "event": "Stage research recorded as pass.",
+      "note": "Sources R058-R065 recorded with date and locator limits; full-text review remains human."
+    },
+    {
+      "time": "2026-10-21T20:18:27.353588+08:00",
+      "event": "Stage zh-draft recorded as pass.",
+      "note": "CH08-S01-S12 substantive Traditional Chinese research draft created."
+    },
+    {
+      "time": "2026-10-21T20:18:28.056213+08:00",
+      "event": "Stage en-translation recorded as pass.",
+      "note": "English working translation and 12-section alignment created; copyedit pending."
+    },
+    {
+      "time": "2026-10-21T20:18:28.787022+08:00",
+      "event": "Stage film-cases recorded as needs-human-review.",
+      "note": "Cases attributed to catalog/secondary sources; no unverified viewing edition or timecodes claimed."
+    },
+    {
+      "time": "2026-10-21T20:18:29.457454+08:00",
+      "event": "Stage figure-assets recorded as pass.",
+      "note": "Two original SVG figures recorded with hashes, bilingual caption/alt, pending rights."
+    },
+    {
+      "time": "2026-10-21T20:18:30.184179+08:00",
+      "event": "Stage svg-diagrams recorded as pass.",
+      "note": "SVG XML validated and PDF proofs inspected."
+    },
+    {
+      "time": "2026-10-21T20:18:30.871778+08:00",
+      "event": "Stage website recorded as pass.",
+      "note": "Astro check clean; local build 123 pages; both routes and unique IDs inspected."
+    },
+    {
+      "time": "2026-10-21T20:18:31.613403+08:00",
+      "event": "Stage books recorded as pass.",
+      "note": "Bilingual DOCX/PDF/EPUB drafts built; strict PDF fonts and EPUBCheck pass."
+    },
+    {
+      "time": "2026-10-21T20:18:32.322803+08:00",
+      "event": "Stage tests recorded as fail.",
+      "note": "CH08 5/5 pass; full suite 65/66 with pre-existing CH01 missing status KeyError."
+    },
+    {
+      "time": "2026-10-21T20:18:33.074308+08:00",
+      "event": "Stage editorial-review recorded as needs-human-review.",
+      "note": "Bilingual editor and film/screenwriting specialist review pending per whole-book review plan."
+    },
+    {
+      "time": "2026-10-21T20:18:33.856027+08:00",
+      "event": "Stage rights-review recorded as needs-human-review.",
+      "note": "Attribution, similarity, accessibility, rights and publication approval pending."
+    },
+    {
+      "time": "2026-10-21T20:18:34.607553+08:00",
+      "event": "Stage author-approval recorded as needs-human-review.",
+      "note": "Author approval is deferred until all chapters are drafted."
+    },
+    {
+      "time": "2026-10-21T20:18:35.427003+08:00",
+      "event": "Stage chapter-audit recorded as pass.",
+      "note": "Acceptance report and 60-chapter tracker completed; chapter remains draft, not publication-ready."
+    },
+    {
+      "time": "2026-10-21T20:18:36.198882+08:00",
+      "event": "Run finished as partial.",
+      "note": ""
+    }
+  ],
+  "finished_at": "2026-10-21T20:18:36.198882+08:00"
+}

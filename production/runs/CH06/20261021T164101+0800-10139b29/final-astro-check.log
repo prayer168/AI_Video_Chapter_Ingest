@@ -1,0 +1,15 @@
+
+> check
+> astro check
+
+16:59:37 [content] Syncing content
+16:59:37 [WARN] [starlight-docs-loader] Duplicate id "en/ch06-chapter-06" found in D:\我的雲端硬碟\google drive\000000000backup\00000黑熊講師\00000著作\AI_Video_Bible\apps\web\src\content\docs\en\CH06-chapter-06.md. Later items with the same id will overwrite earlier ones.
+16:59:37 [WARN] [starlight-docs-loader] Duplicate id "zh-tw/ch06-chapter-06" found in D:\我的雲端硬碟\google drive\000000000backup\00000黑熊講師\00000著作\AI_Video_Bible\apps\web\src\content\docs\zh-tw\CH06-chapter-06.md. Later items with the same id will overwrite earlier ones.
+16:59:38 [content] Synced content
+16:59:38 [types] Generated 883ms
+16:59:38 [check] Getting diagnostics for Astro files in D:\我的雲端硬碟\google drive\000000000backup\00000黑熊講師\00000著作\AI_Video_Bible\apps\web...
+Result (0 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+

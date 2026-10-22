@@ -12,7 +12,7 @@
   number: 2
   slug: camera-language
   title_zh: 鏡頭、場面與剪接：電影語言的基本單位
-  title_en: "Shot Scale, Point of View, and the Spectator’s Position"
+  title_en: Shot Scale, Point of View, and the Spectator’s Position
   legacy_status: planned
   zh_status: review-needed
   en_status: review-needed
@@ -21,7 +21,7 @@
   number: 3
   slug: chapter-03
   title_zh: 景別、視點與觀看位置
-  title_en: "Shot Scale, Point of View, and the Spectator’s Position"
+  title_en: Shot Scale, Point of View, and the Spectator’s Position
   legacy_status: planned
   zh_status: review-needed
   en_status: review-needed
@@ -30,118 +30,118 @@
   number: 4
   slug: chapter-04
   title_zh: 電影形式、風格與作者性
-  title_en: ''
+  title_en: Film Form, Style, and Authorship
   legacy_status: planned
-  zh_status: planned
-  en_status: translation-needed
+  zh_status: review-needed
+  en_status: review-needed
 - chapter_id: CH05
   part_id: P01
   number: 5
   slug: chapter-05
   title_zh: 類型、再現與影視倫理
-  title_en: ''
+  title_en: Genre, Representation, and Screen Ethics
   legacy_status: planned
-  zh_status: planned
-  en_status: translation-needed
+  zh_status: review-needed
+  en_status: review-needed
 - chapter_id: CH06
   part_id: P02
   number: 6
   slug: chapter-06
   title_zh: 故事、情節與因果結構
-  title_en: ''
+  title_en: Story, Plot, and Causal Structure
   legacy_status: planned
-  zh_status: planned
-  en_status: translation-needed
+  zh_status: review-needed
+  en_status: review-needed
 - chapter_id: CH07
   part_id: P02
   number: 7
   slug: chapter-07
   title_zh: 人物、欲望、衝突與角色弧線
-  title_en: ''
+  title_en: Character, Desire, Conflict, and Character Arcs
   legacy_status: planned
-  zh_status: planned
-  en_status: translation-needed
+  zh_status: review-needed
+  en_status: review-needed
 - chapter_id: CH08
   part_id: P02
   number: 8
   slug: chapter-08
   title_zh: 場景、節拍、對白與潛台詞
-  title_en: ''
+  title_en: Scenes, Beats, Dialogue, and Subtext
   legacy_status: planned
-  zh_status: planned
-  en_status: translation-needed
+  zh_status: review-needed
+  en_status: review-needed
 - chapter_id: CH09
   part_id: P02
   number: 9
   slug: chapter-09
   title_zh: 類型劇作、系列敘事與非線性結構
-  title_en: ''
-  legacy_status: planned
-  zh_status: planned
-  en_status: translation-needed
+  title_en: Genre Writing, Serial Narrative, and Nonlinear Structure
+  legacy_status: draft
+  zh_status: draft
+  en_status: review-needed
 - chapter_id: CH10
   part_id: P02
   number: 10
   slug: chapter-10
   title_zh: 劇本格式、改編與版本管理
-  title_en: ''
+  title_en: Screenplay Format, Adaptation, and Revision Management
   legacy_status: planned
-  zh_status: planned
-  en_status: translation-needed
+  zh_status: draft
+  en_status: review-needed
 - chapter_id: CH11
   part_id: P03
   number: 11
   slug: chapter-11
   title_zh: 導演工作：意圖、溝通與決策
-  title_en: ''
+  title_en: 'Directing: Intention, Communication, and Decision-Making'
   legacy_status: planned
-  zh_status: planned
-  en_status: translation-needed
+  zh_status: source-draft
+  en_status: review-needed
 - chapter_id: CH12
   part_id: P03
   number: 12
   slug: chapter-12
   title_zh: 演員調度、走位與表演連續性
-  title_en: ''
+  title_en: Actor Blocking, Movement, and Performance Continuity
   legacy_status: planned
-  zh_status: planned
-  en_status: translation-needed
+  zh_status: source-draft
+  en_status: review-needed
 - chapter_id: CH13
   part_id: P03
   number: 13
   slug: chapter-13
   title_zh: 場面調度：空間、動線與視線
-  title_en: ''
+  title_en: 'Mise-en-scène: Space, Blocking, and Eyelines (working title)'
   legacy_status: planned
-  zh_status: planned
-  en_status: translation-needed
+  zh_status: review-needed
+  en_status: review-needed
 - chapter_id: CH14
   part_id: P03
   number: 14
   slug: chapter-14
   title_zh: 分鏡、預視覺化與鏡頭清單
-  title_en: ''
+  title_en: Storyboards, Previsualization, and Shot Lists
   legacy_status: planned
-  zh_status: planned
-  en_status: translation-needed
+  zh_status: review-needed
+  en_status: review-needed
 - chapter_id: CH15
   part_id: P03
   number: 15
   slug: chapter-15
   title_zh: 現場導演：排演、覆蓋與臨場修正
-  title_en: ''
+  title_en: 'On-Set Directing: Rehearsal, Coverage, and Real-Time Adjustment'
   legacy_status: planned
-  zh_status: planned
-  en_status: translation-needed
+  zh_status: review-needed
+  en_status: review-needed
 - chapter_id: CH16
   part_id: P04
   number: 16
   slug: chapter-16
   title_zh: 曝光、感光元件與影像形成
-  title_en: ''
-  legacy_status: planned
-  zh_status: planned
-  en_status: translation-needed
+  title_en: 'Exposure, Image Sensors, and Image Formation'
+  legacy_status: review-needed
+  zh_status: review-needed
+  en_status: review-needed
 - chapter_id: CH17
   part_id: P04
   number: 17

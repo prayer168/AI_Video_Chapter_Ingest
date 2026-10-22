@@ -1,0 +1,2666 @@
+schema_version: 1
+terms:
+- term_id: TERM-CH01-DEEP-FOCUS
+  preferred:
+    zh-TW: 深焦攝影
+    en-US: Deep focus
+  definitions:
+    zh-TW: 同一鏡頭中，前景與背景等不同距離的元素可同時保持可辨識的清晰度；效果受光學、光圈、照明、感光材料及觀看條件影響。
+    en-US: A shot in which elements at different distances, including foreground and background, remain legibly
+      sharp; results depend on optics, aperture, lighting, capture medium, and viewing conditions.
+  domain: film-form analysis
+  context: CH01 film-homage case studies; draft definition, not approved.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH07-CHARACTER
+  preferred:
+    zh-TW: 角色
+    en-US: character
+  definitions:
+    zh-TW: 敘事中可由身體、社會位置、行動、情緒、特質或思想等線索辨認與建構的人物；使用面向依作品而定。
+    en-US: A figure in a narrative constructed through cues such as body, social position, action, emotion, traits,
+      or thought; relevant dimensions vary by work.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R052
+  domain: film narrative
+  context: CH07 working definition; pending terminology review.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also:
+  - TERM-CH07-CHARACTERIZATION
+- term_id: TERM-CH07-CHARACTERIZATION
+  preferred:
+    zh-TW: 人物塑造
+    en-US: characterization
+  definitions:
+    zh-TW: 作品透過行動、反應、外貌、聲音、關係與資訊安排，使觀眾推論人物的過程。
+    en-US: The process by which a work invites viewers to infer a person through action, reaction, appearance, voice,
+      relationships, and information.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R052
+  domain: film narrative
+  context: CH07 working definition; pending terminology review.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also:
+  - TERM-CH07-CHARACTER
+- term_id: TERM-CH07-GOAL
+  preferred:
+    zh-TW: 角色目標
+    en-US: character goal
+  definitions:
+    zh-TW: 角色在特定情境中想取得、避免或完成的可表述結果，應能由行動與結果觀察。
+    en-US: A describable outcome a character seeks, avoids, or completes in a particular situation, observable through
+      action and result.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R053
+  domain: screenwriting
+  context: CH07 working definition; pending terminology review.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also:
+  - TERM-CH07-DESIRE
+- term_id: TERM-CH07-DESIRE
+  preferred:
+    zh-TW: 欲望／戲劇需求
+    en-US: desire / dramatic need
+  definitions:
+    zh-TW: 本章以欲望指推動角色行動的追求；dramatic need 依 Syd Field 的特定用法，不等同所有流派的內在需要。
+    en-US: This chapter uses desire for a pursuit driving action; “dramatic need” follows Syd Field's specific usage
+      and is not equivalent to every school's inner need.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R053
+  domain: screenwriting
+  context: Distinction is provisional; terminology editor review required.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also:
+  - TERM-CH07-GOAL
+- term_id: TERM-CH07-OBSTACLE
+  preferred:
+    zh-TW: 阻力
+    en-US: obstacle
+  definitions:
+    zh-TW: 妨礙角色直接達成目標的條件、他人意圖、制度限制或角色策略。
+    en-US: A condition, another person's intention, institutional limit, or character strategy that prevents direct
+      achievement of a goal.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R054
+  domain: screenwriting
+  context: CH07 working definition; pending terminology review.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also:
+  - TERM-CH07-CONFLICT
+- term_id: TERM-CH07-CONFLICT
+  preferred:
+    zh-TW: 衝突
+    en-US: conflict
+  definitions:
+    zh-TW: 不相容的目標、價值或行動在具體情境中相遇，迫使選擇並造成可觀察後果。
+    en-US: Incompatible goals, values, or actions meet in a concrete situation, forcing a choice and producing observable
+      consequences.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R054
+  domain: screenwriting
+  context: CH07 operational working definition; pending review.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also:
+  - TERM-CH07-OBSTACLE
+- term_id: TERM-CH07-CHARACTER-ARC
+  preferred:
+    zh-TW: 角色弧線
+    en-US: character arc
+  definitions:
+    zh-TW: 角色在故事中的信念、策略、關係或行動模式所呈現的變化；亦可呈現退化、循環、拒變或穩定。
+    en-US: Change in a character's beliefs, strategies, relationships, or patterns of action; may also involve deterioration,
+      recurrence, refusal, or stability.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R052
+  - R055
+  domain: film narrative
+  context: CH07 working definition; not a requirement that every protagonist change.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also:
+  - TERM-CH07-CHARACTER-AGENCY
+- term_id: TERM-CH07-CHARACTER-AGENCY
+  preferred:
+    zh-TW: 角色能動性
+    en-US: character agency
+  definitions:
+    zh-TW: 角色在限制下作出選擇並影響後續事件的程度；應同時辨識結構限制與選擇代價。
+    en-US: The degree to which a character makes choices under constraint and affects later events; identify structural
+      limits and the costs of available choices.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R013
+  - R020
+  domain: film narrative
+  context: CH07 working definition; not equivalent to unrestricted freedom.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also:
+  - TERM-CH07-CHARACTER-ARC
+- term_id: TERM-CH01-MULTIPLE-PERSPECTIVE
+  preferred:
+    zh-TW: 多重觀點敘事
+    en-US: Multiple perspectives
+  definitions:
+    zh-TW: 透過不同人物或資訊範圍呈現同一事件的不同觀點；觀點不同本身不能證明敘述者說謊。
+    en-US: Different characters or information ranges present an event from distinct viewpoints; difference alone
+      does not prove that a narrator is lying.
+  domain: narrative analysis
+  context: CH01 film-homage case studies; draft definition, not approved.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R014
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-OFFSCREEN-SPACE
+  preferred:
+    zh-TW: 畫外空間
+    en-US: Offscreen space
+  definitions:
+    zh-TW: 畫框之外但可由聲音、視線、動作或剪輯關係被觀眾推知的空間。
+    en-US: Space beyond the frame that viewers may infer through sound, eyelines, movement, or editing relations.
+  domain: film space
+  context: CH01 film-homage case studies; draft definition, not approved.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R016
+  - R017
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-LONG-TAKE
+  preferred:
+    zh-TW: 長鏡頭
+    en-US: Long take
+  definitions:
+    zh-TW: 持續時間較長且內部未剪接的單一鏡頭；本詞沒有跨作品通用的秒數門檻。
+    en-US: A single uncut shot of comparatively extended duration; there is no universal duration threshold across
+      films.
+  domain: editing and cinematography
+  context: CH01 film-homage case studies; draft definition, not approved.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R017
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-FRAME-WITHIN-FRAME
+  preferred:
+    zh-TW: 框中框構圖
+    en-US: Frame within a frame
+  definitions:
+    zh-TW: 利用門、窗或其他畫面內邊界形成次級框景，改變可見範圍、遮擋或空間層次。
+    en-US: A doorway, window, or other in-frame boundary creates a secondary frame that changes visibility, occlusion,
+      or spatial layering.
+  domain: composition
+  context: CH01 film-homage case studies; draft definition, not approved.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R017
+  - R019
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-LAYERED-COMPOSITION
+  preferred:
+    zh-TW: 層次構圖
+    en-US: Layered composition
+  definitions:
+    zh-TW: 透過景深、前後景、反射或遮擋同時安排多組可見資訊；不等同固定鏡頭類型或必然心理效果。
+    en-US: Depth, foreground/background, reflections, or occlusion arrange multiple visible information layers;
+      this is neither a fixed shot type nor a guaranteed psychological effect.
+  domain: composition
+  context: CH01 film-homage case studies; draft definition, not approved.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R013
+  - R019
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-FRAME
+  preferred:
+    zh-TW: 影格
+    en-US: Frame
+  definitions:
+    zh-TW: 時間序列中的單幅影像。
+    en-US: A single image in a temporal sequence.
+  domain: cinematic language
+  context: CH01 working definition; selected textbook page/section locator pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R001
+  - R022
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-SHOT
+  preferred:
+    zh-TW: 鏡頭
+    en-US: Shot
+  definitions:
+    zh-TW: 成片中兩個剪接點之間的連續影像；片場亦可能指攝影機設置。
+    en-US: A continuous image between edits; on set, it may also refer to a camera setup.
+  domain: cinematic language
+  context: CH01 working definition; selected textbook page/section locator pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R001
+  - R022
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-TAKE
+  preferred:
+    zh-TW: 拍攝次數
+    en-US: Take
+  definitions:
+    zh-TW: 對同一拍攝設計進行的一次錄製。
+    en-US: One recording attempt for a given setup.
+  domain: cinematic language
+  context: CH01 working definition; selected textbook page/section locator pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R001
+  - R022
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-SCENE
+  preferred:
+    zh-TW: 場景／一場戲
+    en-US: Scene
+  definitions:
+    zh-TW: 以相對一致戲劇時空組織的行動單元；用法依傳統而異。
+    en-US: An action unit organized around relatively coherent dramatic time and place; usage varies.
+  domain: cinematic language
+  context: CH01 working definition; selected textbook page/section locator pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R001
+  - R022
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-SEQUENCE
+  preferred:
+    zh-TW: 敘事段落
+    en-US: Sequence
+  definitions:
+    zh-TW: 由場景或鏡頭組成並完成相對完整敘事工作的段落。
+    en-US: A passage of scenes or shots that performs a relatively complete narrative task.
+  domain: cinematic language
+  context: CH01 working definition; selected textbook page/section locator pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R001
+  - R022
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-MISE-EN-SCENE
+  preferred:
+    zh-TW: 場面調度
+    en-US: Mise-en-scène
+  definitions:
+    zh-TW: 畫面中人物、表演、場景、服裝、道具、光線及其安排。
+    en-US: The arrangement of performers, performance, setting, costume, props, and lighting within the image.
+  domain: cinematic language
+  context: CH01 working definition; selected textbook page/section locator pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R001
+  - R022
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-BLOCKING
+  preferred:
+    zh-TW: 演員走位／調度
+    en-US: Blocking
+  definitions:
+    zh-TW: 演員的位置、移動路徑與動作安排。
+    en-US: Planned positions, movement paths, and actions of performers.
+  domain: cinematic language
+  context: CH01 working definition; selected textbook page/section locator pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R001
+  - R022
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-FRAMING
+  preferred:
+    zh-TW: 取景／框取
+    en-US: Framing
+  definitions:
+    zh-TW: 決定畫框納入或排除哪些資訊並安排其位置。
+    en-US: The choice of what enters or remains outside the frame and how included elements are placed.
+  domain: cinematic language
+  context: CH01 working definition; selected textbook page/section locator pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R001
+  - R022
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-SHOT-SIZE
+  preferred:
+    zh-TW: 景別
+    en-US: Shot size
+  definitions:
+    zh-TW: 依主體在畫面中的相對尺度描述取景範圍。
+    en-US: A description of framing range based on the subject’s relative scale in the image.
+  domain: cinematic language
+  context: CH01 working definition; selected textbook page/section locator pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R001
+  - R022
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-CAMERA-ANGLE
+  preferred:
+    zh-TW: 攝影角度
+    en-US: Camera angle
+  definitions:
+    zh-TW: 攝影機相對主體的觀察方向與高度關係。
+    en-US: The camera’s viewing direction and height in relation to its subject.
+  domain: cinematic language
+  context: CH01 working definition; selected textbook page/section locator pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R001
+  - R022
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-CAMERA-MOVEMENT
+  preferred:
+    zh-TW: 攝影機運動／運鏡
+    en-US: Camera movement
+  definitions:
+    zh-TW: 攝影機位置或朝向隨時間改變的方式。
+    en-US: A change over time in camera position or orientation.
+  domain: cinematic language
+  context: CH01 working definition; selected textbook page/section locator pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R001
+  - R022
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-COVERAGE
+  preferred:
+    zh-TW: 拍攝涵蓋素材
+    en-US: Coverage
+  definitions:
+    zh-TW: 為場景拍攝或生成多種供剪輯選擇的景別、角度及補充素材。
+    en-US: A set of shot sizes, angles, and supplementary material made to give editors options.
+  domain: cinematic language
+  context: CH01 working definition; selected textbook page/section locator pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R001
+  - R022
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-MASTER-SHOT
+  preferred:
+    zh-TW: 主鏡頭
+    en-US: Master shot
+  definitions:
+    zh-TW: 涵蓋場景主要行動或空間關係的鏡頭；用法依製作習慣而異。
+    en-US: A shot covering a scene’s principal action or spatial relations; usage varies.
+  domain: cinematic language
+  context: CH01 working definition; selected textbook page/section locator pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R001
+  - R022
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-REACTION-SHOT
+  preferred:
+    zh-TW: 反應鏡頭
+    en-US: Reaction shot
+  definitions:
+    zh-TW: 呈現人物對事件、話語或畫外資訊反應的鏡頭。
+    en-US: A shot showing a character’s response to an event, line, or offscreen information.
+  domain: cinematic language
+  context: CH01 working definition; selected textbook page/section locator pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R001
+  - R022
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-INSERT-SHOT
+  preferred:
+    zh-TW: 插入鏡頭
+    en-US: Insert shot
+  definitions:
+    zh-TW: 突出物件或局部動作細節的鏡頭。
+    en-US: A shot emphasizing an object or detail of an action.
+  domain: cinematic language
+  context: CH01 working definition; selected textbook page/section locator pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R001
+  - R022
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-CUTAWAY
+  preferred:
+    zh-TW: 切出鏡頭
+    en-US: Cutaway
+  definitions:
+    zh-TW: 暫時切離主要行動，呈現相關人物、物件或環境資訊的鏡頭。
+    en-US: A temporary cut away from the principal action to related people, objects, or environment.
+  domain: cinematic language
+  context: CH01 working definition; selected textbook page/section locator pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R001
+  - R022
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-CONTINUITY
+  preferred:
+    zh-TW: 連續性
+    en-US: Continuity
+  definitions:
+    zh-TW: 鏡頭間人物、物件、動作、方向、聲音與時空關係的可理解銜接。
+    en-US: Intelligible relations across shots in character, object, action, direction, sound, and time-space.
+  domain: cinematic language
+  context: CH01 working definition; selected textbook page/section locator pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R001
+  - R022
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-MATCH-ON-ACTION
+  preferred:
+    zh-TW: 動作接剪
+    en-US: Match on action
+  definitions:
+    zh-TW: 在動作進行中剪接，利用動作延續銜接鏡頭。
+    en-US: An edit during an action that uses its continuation to connect shots.
+  domain: cinematic language
+  context: CH01 working definition; selected textbook page/section locator pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R001
+  - R022
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-MONTAGE
+  preferred:
+    zh-TW: 蒙太奇
+    en-US: Montage
+  definitions:
+    zh-TW: 以鏡頭選擇、順序、時長或對比組織時間與意義；用法依理論傳統而異。
+    en-US: The organization of time and meaning through shot selection, order, duration, or contrast; usage varies.
+  domain: cinematic language
+  context: CH01 working definition; selected textbook page/section locator pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R001
+  - R022
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH01-DIEGETIC-SOUND
+  preferred:
+    zh-TW: 故事世界內聲音
+    en-US: Diegetic sound
+  definitions:
+    zh-TW: 被設定為來自故事世界內的聲音來源；角色能否聽見依情境判斷。
+    en-US: Sound assigned a source within the story world; whether characters hear it depends on context.
+  domain: cinematic language
+  context: CH01 working definition; selected textbook page/section locator pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+  references:
+  - R001
+  - R022
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+- term_id: TERM-CH02-EWS
+  preferred:
+    zh-TW: 極遠景
+    en-US: Extreme Wide Shot (EWS)
+  definitions:
+    zh-TW: 人物相對於環境極小、環境資訊主導的取景尺度。
+    en-US: A framing scale in which the subject is very small relative to the environment.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-WS
+  preferred:
+    zh-TW: 遠景
+    en-US: Wide Shot (WS)
+  definitions:
+    zh-TW: 呈現人物全身或大部分身體及周遭空間的取景。
+    en-US: A framing that shows a person’s full or most of their body with surrounding space.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-FS
+  preferred:
+    zh-TW: 全身景
+    en-US: Full Shot (FS)
+  definitions:
+    zh-TW: 通常讓人物頭至腳完整入畫；實際邊界依場景與慣例而異。
+    en-US: A framing that generally includes the full body, with conventions varying by context.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-MLS
+  preferred:
+    zh-TW: 中遠景
+    en-US: Medium Long Shot (MLS)
+  definitions:
+    zh-TW: 人物約膝上或相近範圍的取景；非跨製作通用的硬邊界。
+    en-US: A framing often around the knees upward; boundaries are not universal.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-MS
+  preferred:
+    zh-TW: 中景
+    en-US: Medium Shot (MS)
+  definitions:
+    zh-TW: 通常約腰部以上，兼顧表情、手勢與部分環境。
+    en-US: Often frames roughly from the waist up, balancing expression, gesture and context.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-MCU
+  preferred:
+    zh-TW: 中近景
+    en-US: Medium Close-Up (MCU)
+  definitions:
+    zh-TW: 多以胸部以上呈現人物表情與有限環境。
+    en-US: Often frames a person from the chest up with limited context.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-CU
+  preferred:
+    zh-TW: 特寫
+    en-US: Close-Up (CU)
+  definitions:
+    zh-TW: 使臉部或重要物件成為畫面主要資訊。
+    en-US: A framing that makes a face or important object the primary visual information.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-ECU
+  preferred:
+    zh-TW: 大特寫
+    en-US: Extreme Close-Up (ECU)
+  definitions:
+    zh-TW: 只呈現臉或物件很小的局部細節。
+    en-US: Shows only a very small detail of a face or object.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-OTS
+  preferred:
+    zh-TW: 越肩鏡頭
+    en-US: Over-the-Shoulder (OTS)
+  definitions:
+    zh-TW: 以前景人物肩部或頭部作框景，觀看另一人物或空間。
+    en-US: Frames another person or space past a foreground shoulder or head.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-POV
+  preferred:
+    zh-TW: 主觀視角
+    en-US: Point of View (POV)
+  definitions:
+    zh-TW: 將畫面組織為角色所見或感知的視點；需由上下文建立。
+    en-US: Organizes the image as a character’s view or perception, established by context.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-DOLLY
+  preferred:
+    zh-TW: 攝影機前後移動
+    en-US: Dolly Movement
+  definitions:
+    zh-TW: 攝影機機位在空間中前進或後退。
+    en-US: Physical camera translation forward or backward through space.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-ZOOM
+  preferred:
+    zh-TW: 變焦
+    en-US: Zoom
+  definitions:
+    zh-TW: 透過改變焦距改變視角與畫面尺度；攝影機機位可維持不動。
+    en-US: Changes focal length and angle of view, potentially from a fixed camera position.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-PAN
+  preferred:
+    zh-TW: 水平搖攝
+    en-US: Pan
+  definitions:
+    zh-TW: 攝影機繞固定或近似固定支點水平轉動。
+    en-US: Horizontal rotation of the camera around a fixed or near-fixed position.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-TILT
+  preferred:
+    zh-TW: 垂直搖攝
+    en-US: Tilt
+  definitions:
+    zh-TW: 攝影機繞固定或近似固定支點垂直轉動。
+    en-US: Vertical rotation of the camera around a fixed or near-fixed position.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-TRUCK
+  preferred:
+    zh-TW: 橫向平移
+    en-US: Truck Movement
+  definitions:
+    zh-TW: 攝影機機位向側方平移，與原地 Pan 不同。
+    en-US: Camera translation sideways, distinct from a pan in place.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-PEDESTAL
+  preferred:
+    zh-TW: 上下平移
+    en-US: Pedestal
+  definitions:
+    zh-TW: 攝影機整體垂直升降，不等同 Tilt。
+    en-US: Vertical translation of the whole camera, distinct from a tilt.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-ORBIT
+  preferred:
+    zh-TW: 環繞運鏡
+    en-US: Orbit
+  definitions:
+    zh-TW: 攝影機沿主體周圍弧線改變機位。
+    en-US: Camera position moves along an arc around a subject.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-RACK-FOCUS
+  preferred:
+    zh-TW: 轉焦
+    en-US: Rack Focus
+  definitions:
+    zh-TW: 在同一鏡頭中把清晰焦點由一距離平面移向另一平面。
+    en-US: Shifts the plane of sharp focus from one distance to another within a shot.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-DEPTH-OF-FIELD
+  preferred:
+    zh-TW: 景深
+    en-US: Depth of Field (DoF)
+  definitions:
+    zh-TW: 在指定觀看條件下看似可接受清晰的物距範圍。
+    en-US: The range of object distances that appear acceptably sharp under specified viewing conditions.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-CONTINUITY
+  preferred:
+    zh-TW: 連續性
+    en-US: Continuity
+  definitions:
+    zh-TW: 維持跨鏡頭時間、空間、動作、視線與道具關係可理解的剪輯一致性。
+    en-US: Editorial consistency that keeps temporal, spatial, action, eyeline and prop relations understandable.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-180-DEGREE-RULE
+  preferred:
+    zh-TW: 180 度軸線規則
+    en-US: 180-Degree Rule
+  definitions:
+    zh-TW: 常見連戲慣例：攝影機保持在動作軸線同側以維持螢幕方向；可有意跨越但須重新定位觀眾。
+    en-US: A continuity convention that keeps cameras on one side of an action axis to preserve screen direction;
+      intentional crossings require reorientation.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-LEAD-ROOM
+  preferred:
+    zh-TW: 前方留白／視線留白
+    en-US: Lead Room
+  definitions:
+    zh-TW: 人物注視或移動方向前方保留的畫面空間。
+    en-US: Space left in front of a person in the direction of gaze or movement.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-HEADROOM
+  preferred:
+    zh-TW: 頭頂留白
+    en-US: Headroom
+  definitions:
+    zh-TW: 人物頭頂與畫框上緣之間的空間。
+    en-US: Space between the top of a person’s head and the upper frame edge.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-NEGATIVE-SPACE
+  preferred:
+    zh-TW: 負空間
+    en-US: Negative Space
+  definitions:
+    zh-TW: 主體周圍未被主要物件佔據、但具構圖功能的區域。
+    en-US: Areas around the subject not occupied by primary objects but functioning compositionally.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-FOCAL-LENGTH
+  preferred:
+    zh-TW: 焦距
+    en-US: Focal Length
+  definitions:
+    zh-TW: 鏡頭光學系統的焦距，與感光面尺寸共同關聯視角。
+    en-US: A lens-system parameter that, together with sensor size, relates to angle of view.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH02-PERSPECTIVE
+  preferred:
+    zh-TW: 透視
+    en-US: Perspective
+  definitions:
+    zh-TW: 畫面中空間深度和物體相對大小／位置的投影關係，受攝影機位置影響。
+    en-US: Projected spatial depth and relative size/position relations, affected by camera position.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R001
+  - R009
+  - R010
+  - R011
+  domain: cinematography and camera language
+  context: CH02 V4 staging migration; human terminology review and source locator check pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH03-SHOT-SCALE
+  preferred:
+    zh-TW: 景別
+    en-US: Shot scale
+  definitions:
+    zh-TW: 以主體相對畫框的呈現大小描述鏡頭。中間級距名稱與邊界依製作慣例而異。
+    en-US: Describes a shot by the subject’s apparent size within the frame. Intermediate labels and boundaries
+      vary by production convention.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R022
+  - R030
+  domain: cinematography and film narration
+  context: CH03 draft term; bilingual editorial review and adopted-source locator verification pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH04-FILM-FORM
+  preferred:
+    zh-TW: 電影形式
+    en-US: Film form
+  definitions:
+    zh-TW: 作品安排視聽元素、敘事資訊及其相互關係的整體組織。
+    en-US: The overall organization of audiovisual elements, narrative information, and their relations within a
+      work.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R031
+  domain: film form and style
+  context: CH04 working definition; editorial review and adopted textbook locator verification pending.
+  synonyms: []
+  see_also:
+  - TERM-CH04-FILM-STYLE
+- term_id: TERM-CH04-FILM-STYLE
+  preferred:
+    zh-TW: 電影風格
+    en-US: Film style
+  definitions:
+    zh-TW: 作品如何運用媒介技術及形式手段，包括構圖、攝影、場面調度、剪接和聲音。
+    en-US: How a work uses medium-specific techniques and formal means, including composition, cinematography, staging,
+      editing, and sound.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R031
+  domain: film form and style
+  context: CH04 working definition; editorial review and adopted textbook locator verification pending.
+  synonyms: []
+  see_also:
+  - TERM-CH04-FILM-FORM
+  - TERM-CH04-STYLE-MOTIF
+- term_id: TERM-CH04-AUTEURISM
+  preferred:
+    zh-TW: 作者論／作者政策
+    en-US: Auteur theory / politique des auteurs
+  definitions:
+    zh-TW: 一種批評方法，考察導演或其他創作者的個人表達是否能在作品中被辨識及比較。
+    en-US: A critical approach that asks whether a director’s or another creator’s personal expression can be identified
+      and compared across works.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R032
+  - R033
+  - R034
+  - R035
+  domain: film criticism and authorship
+  context: CH04 historical term; distinguish the French policy, Sarris’s US formulation, and later criticism.
+  synonyms: []
+  see_also:
+  - TERM-CH04-FILM-AUTHORSHIP
+  - TERM-CH04-COLLECTIVE-AUTHORSHIP
+- term_id: TERM-CH04-FILM-AUTHORSHIP
+  preferred:
+    zh-TW: 作者性
+    en-US: Film authorship
+  definitions:
+    zh-TW: 對誰創作、組織或應被視為作品作者的不同主張。
+    en-US: Claims about who created, organized, or should be regarded as the author of a film.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R035
+  - R036
+  domain: film criticism and authorship
+  context: CH04 working definition; critical, production, interpretive, and legal claims must not be conflated.
+  synonyms: []
+  see_also:
+  - TERM-CH04-COLLECTIVE-AUTHORSHIP
+  - TERM-CH04-AUTEURISM
+- term_id: TERM-CH04-COLLECTIVE-AUTHORSHIP
+  preferred:
+    zh-TW: 集體作者性
+    en-US: Collective authorship
+  definitions:
+    zh-TW: 把電影創作貢獻分析為多位工作者在製作流程中的共同作用。
+    en-US: An account of creative contribution as the combined work of multiple people across a film’s production.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R035
+  - R036
+  domain: film criticism and authorship
+  context: CH04 working definition; does not assume equal influence among collaborators.
+  synonyms: []
+  see_also:
+  - TERM-CH04-FILM-AUTHORSHIP
+- term_id: TERM-CH04-STYLE-MOTIF
+  preferred:
+    zh-TW: 風格母題
+    en-US: Recurring stylistic motif
+  definitions:
+    zh-TW: 在作品或創作生涯中重複出現、且可具體描述的視聽選擇或組合。
+    en-US: A repeated, concretely describable audiovisual choice or combination across works or a career.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R031
+  - R035
+  domain: film form and style
+  context: CH04 analytical term; recurrence alone does not prove intention or a guaranteed audience response.
+  synonyms: []
+  see_also:
+  - TERM-CH04-FILM-STYLE
+- term_id: TERM-CH04-STYLE-SPECIFICATION
+  preferred:
+    zh-TW: 風格規格表
+    en-US: Style specification
+  definitions:
+    zh-TW: 將創作意圖轉為供劇組或生成工具使用的視覺、聲音、節奏及限制條件。
+    en-US: A translation of creative intention into visual, sonic, rhythmic, and constraint-based directions for
+      a crew or generative tool.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R038
+  domain: film production workflow
+  context: CH04 practical term; project-defined handoff aid, not a vendor schema.
+  synonyms:
+  - style sheet
+  see_also:
+  - TERM-CH04-STYLE-DRIFT
+- term_id: TERM-CH04-STYLE-DRIFT
+  preferred:
+    zh-TW: 風格漂移
+    en-US: Style drift
+  definitions:
+    zh-TW: 同一專案鏡頭或片段在視覺／聲音規則上出現未預期的不一致。
+    en-US: Unexpected inconsistency in visual or sonic rules among shots or clips in the same project.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R038
+  domain: film production workflow
+  context: CH04 practical term; requires a defined baseline and human review, not prompt text alone.
+  synonyms: []
+  see_also:
+  - TERM-CH04-STYLE-SPECIFICATION
+- term_id: TERM-CH03-CAMERA-DISTANCE
+  preferred:
+    zh-TW: 攝影機距離
+    en-US: Camera distance
+  definitions:
+    zh-TW: 攝影機與主要被攝對象的空間距離。
+    en-US: The spatial distance between the camera and principal subject.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R022
+  - R030
+  domain: cinematography and film narration
+  context: CH03 draft term; bilingual editorial review and adopted-source locator verification pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH03-CAMERA-ANGLE
+  preferred:
+    zh-TW: 攝影角度
+    en-US: Camera angle
+  definitions:
+    zh-TW: 攝影機朝向被攝動作的方向關係。
+    en-US: The direction from which the camera faces the depicted action.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R022
+  - R030
+  domain: cinematography and film narration
+  context: CH03 draft term; bilingual editorial review and adopted-source locator verification pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH03-CAMERA-HEIGHT
+  preferred:
+    zh-TW: 攝影機高度
+    en-US: Camera height
+  definitions:
+    zh-TW: 攝影機相對地面或被攝對象的垂直位置。
+    en-US: The vertical position of the camera relative to the ground or subject.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R022
+  - R030
+  domain: cinematography and film narration
+  context: CH03 draft term; bilingual editorial review and adopted-source locator verification pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH03-POV-SHOT
+  preferred:
+    zh-TW: 主觀視點鏡頭
+    en-US: Point-of-view (POV) shot
+  definitions:
+    zh-TW: 由視線、聲音或剪接上下文建立為角色當下所見的鏡頭。
+    en-US: A shot established through eyeline, sound, or editing context as what a character sees at that moment.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R022
+  - R030
+  domain: cinematography and film narration
+  context: CH03 draft term; bilingual editorial review and adopted-source locator verification pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH03-EYELINE-MATCH
+  preferred:
+    zh-TW: 視線匹配
+    en-US: Eyeline match
+  definitions:
+    zh-TW: 由人物看向畫外，接至與該方向關聯的對象或空間。
+    en-US: A cut from a character looking offscreen to an object or space associated with that direction.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R022
+  - R030
+  domain: cinematography and film narration
+  context: CH03 draft term; bilingual editorial review and adopted-source locator verification pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH03-REACTION-SHOT
+  preferred:
+    zh-TW: 反應鏡頭
+    en-US: Reaction shot
+  definitions:
+    zh-TW: 呈現人物對所見或所聞事件的反應，以引導觀眾注意其反應。
+    en-US: Shows a character responding to something seen or heard, guiding attention to that response.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R022
+  - R030
+  domain: cinematography and film narration
+  context: CH03 draft term; bilingual editorial review and adopted-source locator verification pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH03-SPECTATOR-POSITION
+  preferred:
+    zh-TW: 觀看位置
+    en-US: Spectator position
+  definitions:
+    zh-TW: 作品安排觀眾看見、知道或暫時不知道的敘事位置。
+    en-US: The narrative position from which a work arranges what the audience sees, knows, or temporarily does
+      not know.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R022
+  - R030
+  domain: cinematography and film narration
+  context: CH03 draft term; bilingual editorial review and adopted-source locator verification pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH05-GENRE
+  preferred:
+    zh-TW: 類型
+    en-US: genre
+  definitions:
+    zh-TW: 由文本特徵、產業分類及觀眾期待共同形成、會隨歷史變動的分類方式。
+    en-US: A classification jointly formed by textual features, industry categories, and audience expectations,
+      subject to historical change.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R039
+  - R040
+  - R041
+  - R042
+  domain: film genre, representation, and screen ethics
+  context: CH05 working definition; bilingual and theoretical review pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH05-SEMANTIC
+  preferred:
+    zh-TW: 語義元素
+    en-US: semantic elements
+  definitions:
+    zh-TW: 可辨識的題材、角色、道具、場景、聲音或視覺母題。
+    en-US: Recognizable subjects, characters, props, settings, sounds, or visual motifs.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R039
+  - R040
+  - R041
+  - R042
+  domain: film genre, representation, and screen ethics
+  context: CH05 working definition; bilingual and theoretical review pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH05-SYNTACTIC
+  preferred:
+    zh-TW: 結構關係
+    en-US: syntactic relations
+  definitions:
+    zh-TW: 類型元素彼此形成的衝突、因果、價值或敘事關係。
+    en-US: 'Narrative relations among genre elements: conflict, causality, values, or plot structure.'
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R039
+  - R040
+  - R041
+  - R042
+  domain: film genre, representation, and screen ethics
+  context: CH05 working definition; bilingual and theoretical review pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH05-REPRESENTATION
+  preferred:
+    zh-TW: 再現
+    en-US: representation
+  definitions:
+    zh-TW: 影像與聲音透過選擇、編碼和脈絡，使人物、群體或事件獲得可解讀意義。
+    en-US: The production of interpretable meanings about people, groups, or events through image and sound, selection,
+      encoding, and context.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R039
+  - R040
+  - R041
+  - R042
+  domain: film genre, representation, and screen ethics
+  context: CH05 working definition; bilingual and theoretical review pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH05-STEREOTYPE
+  preferred:
+    zh-TW: 刻板印象
+    en-US: stereotype
+  definitions:
+    zh-TW: 將群體差異簡化為固定且重複特徵組合的表述；需結合形式與脈絡分析。
+    en-US: A fixed, repeated simplification of group difference; analyze it through form and context.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R039
+  - R040
+  - R041
+  - R042
+  domain: film genre, representation, and screen ethics
+  context: CH05 working definition; bilingual and theoretical review pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH05-AGENCY
+  preferred:
+    zh-TW: 行動能動性
+    en-US: agency
+  definitions:
+    zh-TW: 角色設定目標、採取行動、造成後果或改變局勢的空間。
+    en-US: A character’s room to set goals, act, cause consequences, or change a situation.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R039
+  - R040
+  - R041
+  - R042
+  domain: film genre, representation, and screen ethics
+  context: CH05 working definition; bilingual and theoretical review pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH05-ETHICAL-REVIEW
+  preferred:
+    zh-TW: 倫理審查
+    en-US: ethical review
+  definitions:
+    zh-TW: 製作各階段辨識受影響者、權力差異、同意、傷害及補救方式的持續流程。
+    en-US: An ongoing process to identify affected people, power differences, consent, harm, and remedies across
+      production.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R039
+  - R040
+  - R041
+  - R042
+  domain: film genre, representation, and screen ethics
+  context: CH05 working definition; bilingual and theoretical review pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH05-CONTEXTUALIZATION
+  preferred:
+    zh-TW: 脈絡化
+    en-US: contextualization
+  definitions:
+    zh-TW: 提供理解作品來源、創作條件、觀點與限制所需資訊。
+    en-US: Providing information needed to understand a work’s sources, production conditions, viewpoint, and limits.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R039
+  - R040
+  - R041
+  - R042
+  domain: film genre, representation, and screen ethics
+  context: CH05 working definition; bilingual and theoretical review pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH06-STORY
+  preferred:
+    zh-TW: 故事
+    en-US: story
+  definitions:
+    zh-TW: 觀眾依作品線索推論出的事件、人物與世界之整體時間關係；本章採用的操作性工作定義。
+    en-US: The overall temporal relations among events, characters, and world conditions that viewers infer from
+      a work's cues; an operational working definition in this chapter.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R047
+  domain: film narrative
+  context: CH06 working definition; distinctions and translation require terminology review.
+  synonyms: []
+  see_also:
+  - TERM-CH06-PLOT
+- term_id: TERM-CH06-PLOT
+  preferred:
+    zh-TW: 情節
+    en-US: plot
+  definitions:
+    zh-TW: 作品實際選擇、排序、延遲或重複呈現的事件。
+    en-US: Events a work selects, orders, delays, or presents more than once.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R046
+  - R047
+  domain: film narrative
+  context: CH06 operational definition; not a complete account of narratological usage.
+  synonyms: []
+  see_also:
+  - TERM-CH06-STORY
+- term_id: TERM-CH06-CAUSALITY
+  preferred:
+    zh-TW: 因果關係
+    en-US: causality
+  definitions:
+    zh-TW: 前一行動或狀態改變後續可能性，並能以文本證據說明的關聯；時間先後本身不等於因果。
+    en-US: A relation in which an earlier action or condition changes later possibilities and can be explained with
+      textual evidence; temporal succession alone is not causation.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R046
+  - R047
+  domain: film narrative
+  context: CH06 working definition; theoretical and bilingual review pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH06-MOTIVATION
+  preferred:
+    zh-TW: 動機
+    en-US: motivation
+  definitions:
+    zh-TW: 使人物選擇某項行動的目標、信念、需求或壓力。
+    en-US: A goal, belief, need, or pressure that helps explain a character's choice of action.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R047
+  domain: film narrative
+  context: CH06 working definition.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH06-INCITING-INCIDENT
+  preferred:
+    zh-TW: 觸發事件
+    en-US: inciting incident
+  definitions:
+    zh-TW: 使主要人物採取新行動或使既有平衡難以維持的事件；本章實務用語，非普遍理論定義。
+    en-US: An event that prompts a principal character to act anew or makes the prior balance difficult to sustain;
+      a practical term here, not a universal theoretical definition.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R047
+  domain: screenplay practice
+  context: Chapter operational term; definitions vary by craft tradition.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH06-REVERSAL
+  preferred:
+    zh-TW: 情勢逆轉
+    en-US: reversal / peripeteia
+  definitions:
+    zh-TW: 行動造成的局勢轉向；亞里斯多德在悲劇情節中討論逆轉，並非所有電影必備公式。
+    en-US: A turn in circumstances produced by action; Aristotle discusses reversal in tragic plot, not as a required
+      formula for all films.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R046
+  domain: film narrative theory
+  context: Translation and historical context require review.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH06-RECOGNITION
+  preferred:
+    zh-TW: 認知／發現
+    en-US: recognition / anagnorisis
+  definitions:
+    zh-TW: 人物或觀眾對關鍵身分、關係或事實的理解改變；《詩學》複合情節討論的構成之一。
+    en-US: A changed understanding of a consequential identity, relation, or fact by a character or audience; a
+      component discussed in complex plots in the Poetics.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R046
+  domain: film narrative theory
+  context: Translation and historical context require review.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH06-FORESHADOWING
+  preferred:
+    zh-TW: 預示
+    en-US: foreshadowing
+  definitions:
+    zh-TW: 先行線索令後續事件在回看時更可理解；過度明示可能削弱發現感。
+    en-US: An earlier cue that makes a later event more intelligible in retrospect; over-signaling may reduce discovery.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R047
+  domain: film narrative
+  context: CH06 working definition.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH08-SCENE
+  preferred:
+    zh-TW: 場景
+    en-US: scene
+  definitions:
+    zh-TW: 在劇本分析中，以相對連續時空及戲劇行動構成的工作單位。
+    en-US: A working unit of dramatic action in relatively continuous time and space.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R051
+  domain: screenplay and film dialogue
+  context: CH08 working definition; editor review pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH08-BEAT
+  preferred:
+    zh-TW: 節拍
+    en-US: beat
+  definitions:
+    zh-TW: 行動、策略、資訊或關係出現可辨認變化的實務標記；不同作者定義不一。
+    en-US: A practice marker for a discernible change in action, tactic, information, or relationship; definitions
+      vary.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R061
+  domain: screenplay and film dialogue
+  context: CH08 working definition; editor review pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH08-SUBTEXT
+  preferred:
+    zh-TW: 潛台詞
+    en-US: subtext
+  definitions:
+    zh-TW: 由字面語言以下的脈絡、行動及關係線索推論的可能意義，保留替代讀法。
+    en-US: A possible meaning inferred from contextual, behavioral, and relational cues beneath literal speech;
+      preserve alternatives.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R058
+  domain: screenplay and film dialogue
+  context: CH08 working definition; editor review pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH08-SCENE-OBJECTIVE
+  preferred:
+    zh-TW: 場景目標
+    en-US: scene objective
+  definitions:
+    zh-TW: 角色在當下場景欲取得、避免或改變的具體結果，區分明示與推論。
+    en-US: A concrete result a character seeks, avoids, or changes in a scene; distinguish explicit text from inference.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R061
+  domain: screenplay and film dialogue
+  context: CH08 working definition; editor review pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH08-TACTIC
+  preferred:
+    zh-TW: 策略／手段
+    en-US: tactic
+  definitions:
+    zh-TW: 角色為影響他人或情境採取的可觀察言行方式。
+    en-US: An observable verbal or physical approach used to influence someone or the situation.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R060
+  domain: screenplay and film dialogue
+  context: CH08 working definition; editor review pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH08-TURN
+  preferred:
+    zh-TW: 場景轉折
+    en-US: scene turn
+  definitions:
+    zh-TW: 足以改變後續行動的目標、資訊、權力或關係變化。
+    en-US: A change in objective, information, power, or relationship that can alter subsequent action.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R051
+  domain: screenplay and film dialogue
+  context: CH08 working definition; editor review pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH08-PLAYABLE-ACTION
+  preferred:
+    zh-TW: 可表演行動
+    en-US: playable action
+  definitions:
+    zh-TW: 演員可執行、導演可觀察調整的動詞式意圖，不等於規定情緒。
+    en-US: A verb-based intention an actor can execute and a director can observe; not a prescribed emotion.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R061
+  domain: screenplay and film dialogue
+  context: CH08 working definition; editor review pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH08-OVERLAP
+  preferred:
+    zh-TW: 對白重疊
+    en-US: overlapping dialogue
+  definitions:
+    zh-TW: 兩位以上說話者語音在時間上交疊，需由表演、聲音及混音實現。
+    en-US: Speech by multiple speakers overlapping in time, realized through performance, sound, and mix.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R065
+  domain: screenplay and film dialogue
+  context: CH08 working definition; editor review pending.
+  synonyms: []
+  see_also: []
+- term_id: TERM-CH09-GENRE
+  preferred:
+    zh-TW: 類型
+    en-US: genre
+  definitions:
+    zh-TW: 由作品特徵、產業分類、批評話語與觀眾預期共同形成且會隨歷史改變的分類，不等同單一情節公式。
+    en-US: A changing category formed through textual features, industrial classification, critical discourse, and
+      audience expectation; it is not a single plot formula.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R066
+  domain: film genre and screenwriting
+  context: CH09 working definition; terminology review pending.
+  synonyms: []
+  see_also:
+  - TERM-CH09-GENRE-CONVENTION
+  - TERM-CH09-GENRE-MIX
+- term_id: TERM-CH09-GENRE-CONVENTION
+  preferred:
+    zh-TW: 類型慣例
+    en-US: genre convention
+  definitions:
+    zh-TW: 在特定作品群或語境中可辨識的元素、敘事關係或風格做法；屬可變約定，不是硬性規則。
+    en-US: A recognizable element, narrative relation, or stylistic practice in a particular body of work or context;
+      a convention is a changeable agreement, not a hard rule.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R066
+  domain: film genre and screenwriting
+  context: CH09 working definition; terminology review pending.
+  synonyms: []
+  see_also:
+  - TERM-CH09-GENRE
+- term_id: TERM-CH09-GENRE-MIX
+  preferred:
+    zh-TW: 類型混合
+    en-US: genre mixture
+  definitions:
+    zh-TW: 一部作品同時調用多種類型資源，需說明主要承諾、次要資源及其互動方式。
+    en-US: A work's use of resources from multiple genres, requiring a stated primary promise, secondary resources,
+      and account of their interaction.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R066
+  domain: film genre and screenwriting
+  context: CH09 working definition; terminology review pending.
+  synonyms: []
+  see_also:
+  - TERM-CH09-GENRE
+- term_id: TERM-CH09-EPISODIC
+  preferred:
+    zh-TW: 單集式敘事
+    en-US: episodic narrative
+  definitions:
+    zh-TW: 單集在一定程度上建立並處理自己的主要問題；不排除角色或故事世界跨集發展。
+    en-US: A narrative form in which an episode establishes and addresses its main problem to some degree; it does
+      not preclude character or story-world development across episodes.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R067
+  domain: television narrative
+  context: CH09 working definition; terminology review pending.
+  synonyms: []
+  see_also:
+  - TERM-CH09-SERIAL
+  - TERM-CH09-HYBRID-SERIALITY
+- term_id: TERM-CH09-SERIAL
+  preferred:
+    zh-TW: 連續式敘事
+    en-US: serialized narrative
+  definitions:
+    zh-TW: 故事線跨越多集、季或系列持續發展；單集仍可安排局部變化、資訊或情緒回報。
+    en-US: A form in which storylines continue across episodes, seasons, or a series; an episode may still provide
+      local change, information, or emotional payoff.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R067
+  - R068
+  domain: television narrative
+  context: CH09 working definition; terminology review pending.
+  synonyms: []
+  see_also:
+  - TERM-CH09-EPISODIC
+  - TERM-CH09-HYBRID-SERIALITY
+  - TERM-CH09-PLOTLINE
+- term_id: TERM-CH09-HYBRID-SERIALITY
+  preferred:
+    zh-TW: 混合式系列敘事
+    en-US: hybrid seriality
+  definitions:
+    zh-TW: 在單集局部閉合與長程故事線延續之間配置敘事功能的設計，閉合程度依作品形式而異。
+    en-US: A design allocating narrative work between local episode closure and continuing long-form storylines,
+      with closure varying by format.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R067
+  - R068
+  domain: television narrative
+  context: CH09 working term; not claimed as a universal taxonomy.
+  synonyms: []
+  see_also:
+  - TERM-CH09-EPISODIC
+  - TERM-CH09-SERIAL
+- term_id: TERM-CH09-PLOTLINE
+  preferred:
+    zh-TW: 故事線
+    en-US: plotline
+  definitions:
+    zh-TW: 由人物、目標、阻礙與事件串接的敘事線索；A／B／C 標記是需由團隊定義的製作慣例。
+    en-US: A narrative thread linking characters, goals, obstacles, and events; A/B/C labels are production conventions
+      a team must define for its own use.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R068
+  domain: screenwriting and serial narrative
+  context: CH09 working definition; terminology review pending.
+  synonyms: []
+  see_also:
+  - TERM-CH09-SERIAL
+- term_id: TERM-CH09-NONLINEAR
+  preferred:
+    zh-TW: 非線性敘事
+    en-US: nonlinear narrative
+  definitions:
+    zh-TW: 作品呈現事件的順序不依故事時間先後；在足夠線索下仍可維持因果可理解。
+    en-US: A presentation order that does not follow the chronological order of story events; causality can remain
+      legible when sufficient cues are provided.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R051
+  - R069
+  domain: film narrative
+  context: CH09 working definition; terminology review pending.
+  synonyms: []
+  see_also:
+  - TERM-CH09-REVEAL-MAP
+- term_id: TERM-CH09-REVEAL-MAP
+  preferred:
+    zh-TW: 揭露矩陣
+    en-US: reveal map
+  definitions:
+    zh-TW: 記錄事件發生時間、觀眾得知時間、角色知情時間及揭露對理解的影響的工作文件。
+    en-US: A working document recording when events occur, when audiences and characters learn about them, and how
+      each reveal affects interpretation.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R051
+  domain: screenwriting and film narrative
+  context: CH09 project worksheet term; not attributed as a source's original term.
+  synonyms: []
+  see_also:
+  - TERM-CH09-NONLINEAR
+- term_id: TERM-CH10-SCREENPLAY
+  preferred:
+    zh-TW: 電影劇本
+    en-US: screenplay
+  definitions:
+    zh-TW: 供創作、閱讀及製作溝通的文本；格式服務於工作情境，不表示影像逐字照拍。
+    en-US: A text for creative work, reading, and production communication; format serves the task, not literal
+      screen reproduction.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R070
+  domain: screenwriting and production
+  context: CH10 working definition; bilingual terminology review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH10-SCENE-HEADING
+  preferred:
+    zh-TW: 場景標題
+    en-US: scene heading
+  definitions:
+    zh-TW: 標示內外景、地點、時間等資訊的場景起始行；格式依採用規格或約定。
+    en-US: A scene-opening line identifying interior/exterior, location, and time; details depend on the adopted
+      convention.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R070
+  - R075
+  domain: screenwriting and production
+  context: CH10 working definition; bilingual terminology review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH10-SLUGLINE
+  preferred:
+    zh-TW: 場景行／slugline
+    en-US: slugline
+  definitions:
+    zh-TW: 劇本場景標題的常見業界稱呼；用語依地區與格式而異。
+    en-US: A common industry term for a screenplay scene heading; usage varies by region and format.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R075
+  domain: screenwriting and production
+  context: CH10 working definition; bilingual terminology review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH10-ADAPTATION
+  preferred:
+    zh-TW: 改編
+    en-US: adaptation
+  definitions:
+    zh-TW: 將既有材料重組為另一作品形式；創作和權利狀態不同。
+    en-US: Reorganizing existing material into another work form; creative method and rights status differ.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R072
+  domain: screenwriting and production
+  context: CH10 working definition; bilingual terminology review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH10-DERIVATIVE-WORK
+  preferred:
+    zh-TW: 衍生作品
+    en-US: derivative work
+  definitions:
+    zh-TW: 美國法中基於既有作品改編、轉換或改作的作品；不代表其他法域。
+    en-US: A work adapting or transforming a preexisting work under U.S. law; other jurisdictions may differ.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R072
+  domain: screenwriting and production
+  context: CH10 working definition; bilingual terminology review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH10-REVISION-SET
+  preferred:
+    zh-TW: 修訂稿次
+    en-US: revision set
+  definitions:
+    zh-TW: 標示特定修訂稿與變更的製作慣例；色彩由團隊定義。
+    en-US: A production practice identifying a revision and its changes; the team defines colors.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R073
+  domain: screenwriting and production
+  context: CH10 working definition; bilingual terminology review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH10-LOCKED-PAGES
+  preferred:
+    zh-TW: 鎖定頁
+    en-US: locked pages
+  definitions:
+    zh-TW: 製作中保留頁碼參照的版本方式；程序依工作流程。
+    en-US: A production method for preserving page references; procedure depends on workflow.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R074
+  domain: screenwriting and production
+  context: CH10 working definition; bilingual terminology review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH10-SCREENPLAY-INTERCHANGE
+  preferred:
+    zh-TW: 劇本交換格式
+    en-US: screenplay interchange format
+  definitions:
+    zh-TW: 在工具間傳遞劇本文字及結構的格式；轉檔後須驗證。
+    en-US: A format for transferring screenplay text and structure between tools; verify after conversion.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R075
+  domain: screenwriting and production
+  context: CH10 working definition; bilingual terminology review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH11-DIRECTOR
+  preferred:
+    zh-TW: 導演
+    en-US: film director
+  definitions:
+    zh-TW: 在特定製作安排中，整合故事、表演、視聽形式與協作流程的人員；職權仍取決於工作制度與合約。
+    en-US: In a particular production arrangement, the person who integrates story, performance, audiovisual form,
+      and collaboration; authority still depends on the system and agreement.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R077
+  - R078
+  domain: film production
+  context: CH11 working definition; role scope and bilingual usage require review.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH11-DIRECTORIAL-INTENTION
+  preferred:
+    zh-TW: 導演意圖
+    en-US: directing intention
+  definitions:
+    zh-TW: 對場景要讓觀眾理解、感受或期待什麼的可討論假設，應連結具體行動或聲畫證據。
+    en-US: A discussable hypothesis about what the audience should understand, feel, or anticipate in a scene, connected
+      to concrete action or audiovisual evidence.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R077
+  domain: directing
+  context: Operational working definition for this chapter; not a claim about private authorial intent.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH11-DIRECTING-BRIEF
+  preferred:
+    zh-TW: 導演簡報
+    en-US: directing brief
+  definitions:
+    zh-TW: 整理故事目標、場景限制、共同語彙、待決問題和部門需求，供團隊討論回應的文件。
+    en-US: A document organizing story objectives, scene constraints, shared language, open questions, and department
+      needs for team discussion.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R077
+  domain: directing and production
+  context: Practical term used by this chapter; format is not standardized across productions.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH11-BLOCKING
+  preferred:
+    zh-TW: 演員走位／場面調度
+    en-US: actor blocking
+  definitions:
+    zh-TW: 安排演員相對彼此與攝影機的空間位置和移動；具體用法依場景及製作語境。
+    en-US: The arrangement of performers’ spatial positions and movement in relation to one another and the camera;
+      details depend on scene and production context.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R077
+  domain: directing and staging
+  context: Term overlaps with mise-en-scène and staging; detailed distinction needs editor review.
+  synonyms:
+    zh-TW:
+    - 走位
+    en-US:
+    - blocking
+  see_also: []
+- term_id: TERM-CH11-SHOT-LIST
+  preferred:
+    zh-TW: 鏡頭清單
+    en-US: shot list
+  definitions:
+    zh-TW: 為場景和拍攝日規劃所需鏡頭的工作清單，服務故事及現場條件。
+    en-US: A working list of shots planned for scenes and shooting days, serving story and production conditions.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R077
+  domain: directing and cinematography
+  context: Industry usage and exact document fields vary; not a substitute for on-set judgment.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH11-DEPARTMENT-HANDOFF
+  preferred:
+    zh-TW: 部門交接
+    en-US: department handoff
+  definitions:
+    zh-TW: 將創作目標轉成不同部門可評估、發展或執行的資訊，同時保留各部門專業方法。
+    en-US: Translating a creative objective into information each department can evaluate, develop, or execute while
+      preserving its specialist methods.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R077
+  - R080
+  domain: production collaboration
+  context: Working term for this book; not asserted as a standardized industry label.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH11-DECISION-LOG
+  preferred:
+    zh-TW: 決策紀錄
+    en-US: decision log
+  definitions:
+    zh-TW: 記錄重要決策的日期、問題、選項、依據、責任角色、影響與重開條件的文件。
+    en-US: A record of consequential decisions with date, question, options, rationale, responsible role, impact,
+      and conditions for reopening.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R077
+  domain: production management
+  context: Practical record model for this chapter; not a universal production document.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH11-DIRECTORS-CUT
+  preferred:
+    zh-TW: 導演剪輯版
+    en-US: director’s cut
+  definitions:
+    zh-TW: 在特定製作與合約語境中，指導演剪輯階段的一種版本或權利安排；適用範圍須依協議判讀。
+    en-US: In a particular production and contract context, an editorial version or rights arrangement for the director;
+      scope depends on the agreement.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R078
+  domain: film editing and contracts
+  context: Not a universal right; legal and bilingual review required.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH12-BLOCKING
+  preferred:
+    zh-TW: 演員調度／走位設計
+    en-US: actor blocking
+  definitions:
+    zh-TW: 為表演與攝影安排人物、物件和鏡頭在場景空間中的行動關係，不只是地板標記。
+    en-US: Arranging performers, objects, and camera movement in scene space for dramatic and photographic purposes;
+      more than floor marks.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R088
+  - R089
+  domain: film production practice
+  context: CH12 working definition; bilingual and professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH12-MOVEMENT-BEAT
+  preferred:
+    zh-TW: 動作節拍
+    en-US: movement beat
+  definitions:
+    zh-TW: 具有戲劇功能、可觀察的行動變化，如接近、阻擋或退讓。
+    en-US: An observable action change with dramatic function, such as approaching, blocking, or yielding.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R087
+  domain: performance and directing
+  context: CH12 working definition; bilingual and professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH12-MARK
+  preferred:
+    zh-TW: 走位標記點
+    en-US: mark
+  definitions:
+    zh-TW: 供焦點、構圖、燈光或走位參照的位置，應服務表演任務。
+    en-US: A reference position for focus, framing, lighting, or movement, used in service of a performance task.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R088
+  domain: film production practice
+  context: CH12 working definition; bilingual and professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH12-EYELINE
+  preferred:
+    zh-TW: 視線方向
+    en-US: eyeline
+  definitions:
+    zh-TW: 演員觀看對象及方向／高度，影響人際空間和鏡頭匹配。
+    en-US: The target and direction/height of a performer’s gaze, affecting interpersonal space and shot matching.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R089
+  domain: cinematography
+  context: CH12 working definition; bilingual and professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH12-SCREEN-DIRECTION
+  preferred:
+    zh-TW: 畫面方向
+    en-US: screen direction
+  definitions:
+    zh-TW: 人物在畫面中的移動方向；維持或改變皆須考慮空間和剪輯意圖。
+    en-US: A character’s direction of movement in frame; continuity or change should account for space and editorial
+      intent.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R089
+  domain: editing
+  context: CH12 working definition; bilingual and professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH12-ACTION-MATCH
+  preferred:
+    zh-TW: 動作銜接
+    en-US: match on action
+  definitions:
+    zh-TW: 以相鄰鏡頭中同一動作的連續部分建立時間與空間連接。
+    en-US: Connecting adjacent shots through continuous portions of the same action to establish temporal and spatial
+      flow.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R089
+  domain: editing
+  context: CH12 working definition; bilingual and professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH12-PERFORMANCE-CONTINUITY
+  preferred:
+    zh-TW: 表演連續性
+    en-US: performance continuity
+  definitions:
+    zh-TW: 比對跨鏡頭、take 或非順拍場次的表演、動作、語速、視線和道具互動。
+    en-US: Comparing performance, movement, pace, eyelines, and prop interaction across shots, takes, or scenes
+      shot out of order.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R088
+  - R089
+  domain: editing and performance
+  context: CH12 working definition; bilingual and professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH12-SCRIPT-SUPERVISOR
+  preferred:
+    zh-TW: 劇本監督
+    en-US: script supervisor
+  definitions:
+    zh-TW: 追蹤劇本、動作、視線、道具與拍攝資料並與劇組溝通的職務，配置依製作而異。
+    en-US: A role tracking script, action, eyelines, props, and production details and communicating them to the
+      crew; staffing varies.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R088
+  - R089
+  domain: film production roles
+  context: CH12 working definition; bilingual and professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH12-CONSENT-BOUNDARY
+  preferred:
+    zh-TW: 同意界線
+    en-US: consent boundary
+  definitions:
+    zh-TW: 排演／拍攝中知情、可協商且可撤回或暫停的身體接觸與內容界線。
+    en-US: An informed, negotiable, and revocable boundary for physical contact or content during rehearsal and
+      filming.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R089
+  domain: performer safety
+  context: CH12 working definition; bilingual and professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH13-MISE-EN-SCENE
+  preferred:
+    zh-TW: 場面調度
+    en-US: mise-en-scène
+  definitions:
+    zh-TW: 鏡頭中可見元素及其安排；不同理論傳統對範圍界定不盡相同。
+    en-US: Visible elements in a shot and their arrangement; theoretical traditions define its scope differently.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R094
+  - R095
+  domain: film form
+  context: CH13 working definition; bilingual and film-professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH13-BLOCKING
+  preferred:
+    zh-TW: 走位／調度
+    en-US: blocking
+  definitions:
+    zh-TW: 表演者在空間中的位置、移動路徑與彼此關係。
+    en-US: Performers’ positions, paths, and relationships in a space.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R095
+  - R097
+  domain: directing
+  context: CH13 working definition; bilingual and film-professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH13-EYELINE
+  preferred:
+    zh-TW: 視線軸
+    en-US: eyeline
+  definitions:
+    zh-TW: 角色注視方向形成的畫面關係，須配合鏡頭位置建立可讀性。
+    en-US: The visual relation formed by a character’s gaze direction, made legible in relation to camera position.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R095
+  domain: cinematography
+  context: CH13 working definition; bilingual and film-professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH13-OFFSCREEN-SPACE
+  preferred:
+    zh-TW: 畫面外空間
+    en-US: off-screen space
+  definitions:
+    zh-TW: 畫框外由聲音、視線、出入口或剪接暗示的區域。
+    en-US: Area beyond the frame implied by sound, gaze, entrances, or editing.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R099
+  domain: film form
+  context: CH13 working definition; bilingual and film-professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH13-OCCLUSION
+  preferred:
+    zh-TW: 遮擋
+    en-US: occlusion
+  definitions:
+    zh-TW: 前景或物件部分遮住人物或空間，使資訊受限或分層。
+    en-US: A foreground or object partly conceals a person or space, limiting or layering information.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R098
+  - R099
+  domain: mise-en-scène
+  context: CH13 working definition; bilingual and film-professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []
+- term_id: TERM-CH13-SPATIAL-CONTINUITY
+  preferred:
+    zh-TW: 空間連戲
+    en-US: spatial continuity
+  definitions:
+    zh-TW: 相鄰鏡頭在方向、移動、道具與視線等方面維持可理解關係。
+    en-US: An intelligible relation across adjacent shots in direction, movement, props, and eyelines.
+  status: draft
+  reviewed_by: null
+  reviewed_on: null
+  references:
+  - R097
+  domain: continuity
+  context: CH13 working definition; bilingual and film-professional review pending.
+  synonyms:
+    zh-TW: []
+    en-US: []
+  see_also: []

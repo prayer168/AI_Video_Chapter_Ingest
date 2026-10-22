@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "run_id": "20261021T065143+0800-f153e02e",
+  "chapter_id": "CH06",
+  "created_at": "2026-10-21T06:51:43.234536+08:00",
+  "status": "partial",
+  "chapter": {
+    "chapter_id": "CH06",
+    "part_id": "P02",
+    "number": 6,
+    "slug": "chapter-06",
+    "title_zh": "故事、情節與因果結構",
+    "title_en": "",
+    "legacy_status": "planned",
+    "zh_status": "planned",
+    "en_status": "translation-needed"
+  },
+  "translation_status": {
+    "zh-TW": "planned",
+    "en-US": "translation-needed",
+    "sync_revision": null
+  },
+  "existing_files": [
+    {
+      "path": "content/zh-TW/chapters/CH06-chapter-06.md",
+      "bytes": 1063,
+      "sha256": "fa5646e867a17702e188146f4660b737af70c2e71f4496dc4598e84dd5d699ab"
+    },
+    {
+      "path": "content/en-US/chapters/CH06-chapter-06.md",
+      "bytes": 1135,
+      "sha256": "3d03185316b97da38884d5839549ff44cfb95fba3dbb08faebfeca23cc42b569"
+    },
+    {
+      "path": "assets/chapters/CH06/figure-manifest.yaml",
+      "bytes": 31,
+      "sha256": "9c95fc5057b37ac0d1bc9d1fbe2af89ac29a0ac36c7daf19e4b2bfb2affd8994"
+    }
+  ],
+  "steps": {
+    "inventory": {
+      "status": "pass",
+      "note": "Blank scaffold inspected; 8 pre-edit files backed up with checksums"
+    },
+    "research": {
+      "status": "needs-human-review",
+      "note": "R046-R050 source pages checked; primary book full-text page mapping remains open"
+    },
+    "zh-draft": {
+      "status": "pass",
+      "note": "12-section Traditional Chinese research draft saved"
+    },
+    "en-translation": {
+      "status": "needs-human-review",
+      "note": "12 paired sections drafted; bilingual copyedit pending"
+    },
+    "film-cases": {
+      "status": "needs-human-review",
+      "note": "Rashomon catalogue/critic sources registered; author viewing/version/timecodes pending"
+    },
+    "figure-assets": {
+      "status": "needs-human-review",
+      "note": "No image used; original diagrams/captions/manifest remain uncreated and explicitly open"
+    },
+    "svg-diagrams": {
+      "status": "needs-human-review",
+      "note": "Original causal and multi-perspective diagrams are follow-up work"
+    },
+    "website": {
+      "status": "pass",
+      "note": "Astro 123 pages; CH06 bilingual routes each have 32 unique IDs"
+    },
+    "books": {
+      "status": "pass",
+      "note": "Bilingual DOCX/PDF/EPUB generated; strict PDF fonts and EPUBCheck pass"
+    },
+    "tests": {
+      "status": "pass",
+      "note": "V2 validators and 51 unit tests pass; PDF proof and EPUB structure checked"
+    },
+    "editorial-review": {
+      "status": "needs-human-review",
+      "note": "Film-theory page locators, bilingual copyedit, figure design and author proof pending"
+    },
+    "rights-review": {
+      "status": "needs-human-review",
+      "note": "No image assets in this run; any later original diagrams require full provenance and rights review"
+    },
+    "author-approval": {
+      "status": "needs-human-review",
+      "note": "Author signoff deferred until whole book complete"
+    },
+    "chapter-audit": {
+      "status": "pass",
+      "note": "Acceptance report has itemized automated evidence and named open human actions"
+    }
+  },
+  "events": [
+    {
+      "time": "2026-10-21T06:51:43.234536+08:00",
+      "event": "Checkpoint created. No manuscripts, images, or publication outputs changed."
+    },
+    {
+      "time": "2026-10-21T07:00:14.766433+08:00",
+      "event": "Stage inventory recorded as pass.",
+      "note": "Blank scaffold inspected; 8 pre-edit files backed up with checksums"
+    },
+    {
+      "time": "2026-10-21T07:00:14.979665+08:00",
+      "event": "Stage research recorded as needs-human-review.",
+      "note": "R046-R050 source pages checked; primary book full-text page mapping remains open"
+    },
+    {
+      "time": "2026-10-21T07:00:15.186661+08:00",
+      "event": "Stage zh-draft recorded as pass.",
+      "note": "12-section Traditional Chinese research draft saved"
+    },
+    {
+      "time": "2026-10-21T07:00:15.378039+08:00",
+      "event": "Stage en-translation recorded as needs-human-review.",
+      "note": "12 paired sections drafted; bilingual copyedit pending"
+    },
+    {
+      "time": "2026-10-21T07:00:15.581548+08:00",
+      "event": "Stage film-cases recorded as needs-human-review.",
+      "note": "Rashomon catalogue/critic sources registered; author viewing/version/timecodes pending"
+    },
+    {
+      "time": "2026-10-21T07:00:15.778056+08:00",
+      "event": "Stage figure-assets recorded as needs-human-review.",
+      "note": "No image used; original diagrams/captions/manifest remain uncreated and explicitly open"
+    },
+    {
+      "time": "2026-10-21T07:00:15.985123+08:00",
+      "event": "Stage svg-diagrams recorded as needs-human-review.",
+      "note": "Original causal and multi-perspective diagrams are follow-up work"
+    },
+    {
+      "time": "2026-10-21T07:00:16.185259+08:00",
+      "event": "Stage website recorded as pass.",
+      "note": "Astro 123 pages; CH06 bilingual routes each have 32 unique IDs"
+    },
+    {
+      "time": "2026-10-21T07:00:16.380775+08:00",
+      "event": "Stage books recorded as pass.",
+      "note": "Bilingual DOCX/PDF/EPUB generated; strict PDF fonts and EPUBCheck pass"
+    },
+    {
+      "time": "2026-10-21T07:00:16.583278+08:00",
+      "event": "Stage tests recorded as pass.",
+      "note": "V2 validators and 51 unit tests pass; PDF proof and EPUB structure checked"
+    },
+    {
+      "time": "2026-10-21T07:00:16.784480+08:00",
+      "event": "Stage editorial-review recorded as needs-human-review.",
+      "note": "Film-theory page locators, bilingual copyedit, figure design and author proof pending"
+    },
+    {
+      "time": "2026-10-21T07:00:16.978687+08:00",
+      "event": "Stage rights-review recorded as needs-human-review.",
+      "note": "No image assets in this run; any later original diagrams require full provenance and rights review"
+    },
+    {
+      "time": "2026-10-21T07:00:17.188165+08:00",
+      "event": "Stage author-approval recorded as needs-human-review.",
+      "note": "Author signoff deferred until whole book complete"
+    },
+    {
+      "time": "2026-10-21T07:00:17.400398+08:00",
+      "event": "Stage chapter-audit recorded as pass.",
+      "note": "Acceptance report has itemized automated evidence and named open human actions"
+    },
+    {
+      "time": "2026-10-21T07:00:17.604859+08:00",
+      "event": "Run finished as partial.",
+      "note": ""
+    }
+  ],
+  "finished_at": "2026-10-21T07:00:17.604859+08:00"
+}

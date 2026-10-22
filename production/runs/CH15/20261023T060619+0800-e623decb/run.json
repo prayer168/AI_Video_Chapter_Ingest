@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "run_id": "20261023T060619+0800-e623decb",
+  "chapter_id": "CH15",
+  "created_at": "2026-10-23T06:06:19.724502+08:00",
+  "status": "partial",
+  "chapter": {
+    "chapter_id": "CH15",
+    "part_id": "P03",
+    "number": 15,
+    "slug": "chapter-15",
+    "title_zh": "現場導演：排演、覆蓋與臨場修正",
+    "title_en": "On-Set Directing: Rehearsal, Coverage, and Real-Time Adjustment",
+    "legacy_status": "planned",
+    "zh_status": "review-needed",
+    "en_status": "review-needed"
+  },
+  "translation_status": {
+    "zh-TW": "review-needed",
+    "en-US": "review-needed",
+    "sync_revision": "2.1.0-draft"
+  },
+  "existing_files": [
+    {
+      "path": "content/zh-TW/chapters/CH15-chapter-15.md",
+      "bytes": 1093,
+      "sha256": "63a4dbaa22f9ba555e72e4dca0ae7b2dded9e9d7b2ed191294b116913d566adf"
+    },
+    {
+      "path": "content/en-US/chapters/CH15-chapter-15.md",
+      "bytes": 1135,
+      "sha256": "06e7571bad3343a9bc2c107cc8403be3b41d075df262b80be40c959faf211e16"
+    },
+    {
+      "path": "assets/chapters/CH15/figure-manifest.yaml",
+      "bytes": 31,
+      "sha256": "b6d98c5ed83a1cb33befd04cd66fc4aa7fc7f14ba1858c6bc4765edd6836e1ff"
+    }
+  ],
+  "steps": {
+    "inventory": {
+      "status": "completed",
+      "note": "Read SOP, chapter registries, files, worktree state; found two scaffold manuscripts and empty figure manifest; preserved existing dirty work."
+    },
+    "research": {
+      "status": "completed-with-review-open",
+      "note": "Verified source pages R107-R111 on 2026-10-23; exact locators and film viewing edition/timecodes remain open."
+    },
+    "zh-draft": {
+      "status": "completed-draft",
+      "note": "Substantive S01-S12 Traditional Chinese research draft written; requires directing/film-specialist review."
+    },
+    "en-translation": {
+      "status": "completed-working-translation",
+      "note": "S01-S12 aligned by stable IDs; bilingual copy edit remains open."
+    },
+    "film-cases": {
+      "status": "partial",
+      "note": "Practitioner/source cases documented with scope limits; no specific film edition and scene timecode verified."
+    },
+    "figure-assets": {
+      "status": "completed-draft-pending-review",
+      "note": "Two original editable SVG schematics with SHA-256 and bilingual captions/alt; attribution and publication approval pending."
+    },
+    "svg-diagrams": {
+      "status": "completed-draft-pending-review",
+      "note": "Two hand-authored SVGs; XML well-formed, 1200x620."
+    },
+    "website": {
+      "status": "passed-local",
+      "note": "Astro check passed; Astro built 123 pages; CH15 pages contain two stable figure IDs, two images with alt, and no duplicate rendered IDs; not deployed."
+    },
+    "books": {
+      "status": "passed-draft",
+      "note": "Bilingual DOCX/PDF/EPUB produced in tmp/CH15-draft-20261023-r4; Microsoft JhengHei and Times New Roman PDF font embedding confirmed; EPUBCheck 5.4.0 passed. Noto Serif TC attempt failed and was not counted."
+    },
+    "tests": {
+      "status": "partial",
+      "note": "CH15 tests 5/5; V2/project/site validators pass; full suite 97/98, remaining pre-existing CH01 KeyError status."
+    },
+    "editorial-review": {
+      "status": "needs-human-review",
+      "note": "Bilingual edit and directing/production professional review not performed."
+    },
+    "rights-review": {
+      "status": "needs-human-review",
+      "note": "SVG attribution, similarity, accessibility, rights, and final use pending."
+    },
+    "author-approval": {
+      "status": "needs-human-review",
+      "note": "No author sign-off; publication-ready prohibited."
+    },
+    "chapter-audit": {
+      "status": "completed-partial",
+      "note": "reports/CH15-FINAL-ACCEPTANCE.md records status and evidence; formal publication gates remain."
+    }
+  },
+  "events": [
+    {
+      "time": "2026-10-23T06:06:19.724502+08:00",
+      "event": "Checkpoint created. No manuscripts, images, or publication outputs changed."
+    },
+    {
+      "time": "2026-10-23T06:19:00+08:00",
+      "event": "CH15 bilingual research draft, registries, two original SVGs, local site and draft book tests completed; pending human review. No deploy/commit/push."
+    }
+  ]
+}

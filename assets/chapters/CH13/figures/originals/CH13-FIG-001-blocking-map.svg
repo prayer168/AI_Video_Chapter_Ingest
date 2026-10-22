@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+  <title id="title">Blocking map: positions, paths, and eyelines</title>
+  <desc id="desc">A room plan with doorway, table, window, two performers, camera, movement path, eyeline, and axis.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#bb4d35"/></marker><marker id="blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#315b76"/></marker></defs>
+  <rect width="1000" height="620" fill="#f5f0e7"/>
+  <text x="50" y="55" font-family="sans-serif" font-size="27" fill="#20313b">Blocking plan · original teaching diagram</text>
+  <path d="M130 120H850V520H130V390M130 250V120" fill="none" stroke="#263943" stroke-width="12"/>
+  <path d="M130 250A140 140 0 0 1 270 390" fill="none" stroke="#78909a" stroke-width="3" stroke-dasharray="8 7"/>
+  <text x="70" y="322" font-family="sans-serif" font-size="18" fill="#263943">Door</text>
+  <rect x="650" y="120" width="145" height="12" fill="#5a8790"/><text x="685" y="103" font-family="sans-serif" font-size="18" fill="#263943">Window</text>
+  <rect x="420" y="285" width="190" height="105" rx="5" fill="#d8c9ad" stroke="#735e45" stroke-width="3"/><text x="480" y="345" font-family="sans-serif" font-size="20" fill="#263943">Table</text>
+  <circle cx="260" cy="435" r="28" fill="#bb4d35"/><text x="220" y="483" font-family="sans-serif" font-size="18" fill="#263943">A · start</text>
+  <circle cx="740" cy="225" r="28" fill="#315b76"/><text x="700" y="276" font-family="sans-serif" font-size="18" fill="#263943">B · hold</text>
+  <path d="M280 420C345 390 370 340 435 332" fill="none" stroke="#bb4d35" stroke-width="7" marker-end="url(#arrow)"/>
+  <path d="M290 425L712 235" fill="none" stroke="#315b76" stroke-width="4" stroke-dasharray="12 9" marker-end="url(#blue)"/>
+  <path d="M300 500L790 500" stroke="#7c8790" stroke-width="2" stroke-dasharray="10 10"/><text x="500" y="535" font-family="sans-serif" font-size="17" fill="#59636a">Action axis</text>
+  <path d="M520 475L475 430L565 430Z" fill="#283d49"/><circle cx="520" cy="436" r="8" fill="#f5f0e7"/><text x="480" y="468" font-family="sans-serif" font-size="16" fill="#263943">Camera</text>
+  <text x="55" y="580" font-family="sans-serif" font-size="15" fill="#59636a">Solid arrow: movement · dashed arrow: eyeline · schematic only; not a production plan.</text>
+</svg>

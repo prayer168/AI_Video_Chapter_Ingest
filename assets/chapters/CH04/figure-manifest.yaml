@@ -1,2 +1,60 @@
 chapter_id: CH04
-figures: []
+figures:
+- figure_id: CH04-FIG-001
+  chapter_id: CH04
+  section_id: CH04-S10
+  placement_after: after:CH04-S09
+  asset_original: assets/chapters/CH04/figures/originals/CH04-FIG-001-authorship-evidence.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 4-1
+  asset_status: draft-original-svg
+  rights_status: original-project-svg-pending-human-review
+  width: 1200
+  height: 650
+  bytes: 2888
+  sha256: 44e64c3d18a3aae36983d1facd3a18defb32166178642d517dce50fbe3156c72
+  creator: AI Video Bible project; individual creator attribution pending confirmation
+  attribution: Original project diagram; verify authorship and attribution before publication
+  permission: Publication approval pending
+  original_prompt_or_method: Hand-authored editable SVG using original labels, nodes, and connectors; no third-party images or AI image service.
+  caption_zh: '作者性分析的三條證據線：形式模式、製作脈絡與合作紀錄。原創 SVG 示意圖；出版核准待審。'
+  caption_en: 'Three evidence streams for authorship analysis: formal patterns, production context, and collaboration records. Original SVG diagram; publication approval pending.'
+  alt_zh: 三條箭頭分別由形式模式、製作脈絡和合作紀錄指向作者性分析，提醒讀者綜合多種證據。
+  alt_en: Three arrows from formal patterns, production context, and collaboration records converge on authorship analysis, emphasizing multiple evidence streams.
+  production_log:
+  - date: '2026-10-20'
+    change: Created original editable evidence-stream diagram for CH04 draft.
+  note: Pending human authorship, technical, accessibility, editorial, similarity, and publication-rights review.
+- figure_id: CH04-FIG-002
+  chapter_id: CH04
+  section_id: CH04-S10
+  placement_after: after:CH04-FIG-001
+  asset_original: assets/chapters/CH04/figures/originals/CH04-FIG-002-style-workflow.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 4-2
+  asset_status: draft-original-svg
+  rights_status: original-project-svg-pending-human-review
+  width: 1200
+  height: 650
+  bytes: 3653
+  sha256: c645c4e784d23b27e9c0810ce46b0a9c400a09a5d84a14295b8c5b4b0bf5db1d
+  creator: AI Video Bible project; individual creator attribution pending confirmation
+  attribution: Original project workflow diagram; verify authorship and attribution before publication
+  permission: Publication approval pending
+  original_prompt_or_method: Hand-authored editable SVG using an original process loop; no third-party images or AI image service.
+  caption_zh: '風格規格的製作循環：意圖、可觀察規則、製作變體、人工審看與版本修訂。原創 SVG 示意圖；出版核准待審。'
+  caption_en: 'A style-specification workflow: intent, observable rules, production variants, human review, and revision. Original SVG diagram; publication approval pending.'
+  alt_zh: 五個步驟由創作意圖開始，經可觀察規則、製作變體及人工審看，再回到版本修訂。
+  alt_en: Five steps begin with creative intent, continue through observable rules, production variants, and human review, then return to revision.
+  production_log:
+  - date: '2026-10-20'
+    change: Created original editable workflow diagram for CH04 draft.
+  note: Pending human authorship, technical, accessibility, editorial, similarity, and publication-rights review.

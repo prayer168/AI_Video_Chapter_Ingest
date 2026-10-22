@@ -1,0 +1,64 @@
+chapter_id: CH15
+accessed: '2026-10-23'
+sources:
+- id: R107
+  type: industry-role-profile
+  title: Director (also known as filmmaker) in the film and TV drama industries
+  authors:
+  - ScreenSkills
+  publisher: ScreenSkills
+  url: https://www.screenskills.com/job-profiles/browse/film-and-tv-drama/development-film-and-tv-drama-job-profiles/director-film-and-tv-drama/
+  accessed: '2026-10-23'
+  locator: Online role profile; page scope only, UK industry context.
+  language: en
+  status: verified-source-page-scope-limited
+  notes: Does not establish universal duties, contracts, or set procedures.
+- id: R108
+  type: practitioner-interview
+  title: DPs Who Direct
+  authors:
+  - American Society of Cinematographers
+  publisher: American Cinematographer
+  url: https://theasc.com/article/directing-and-visual-storytelling-dps-who-direct/
+  accessed: '2026-10-23'
+  locator: Online practitioner interviews; exact scene/page locator pending.
+  language: en
+  status: verified-source-page-scope-limited
+  notes: Practitioner accounts; do not generalize as universal workflow.
+- id: R109
+  type: practitioner-interview
+  title: Creative Perspectives For Shot
+  authors:
+  - American Society of Cinematographers
+  publisher: American Cinematographer
+  url: https://theasc.com/article/creative-perspectives-for-shot-1/
+  accessed: '2026-10-23'
+  locator: Online discussion; exact passage locator pending.
+  language: en
+  status: verified-source-page-scope-limited
+  notes: One practitioner discussion; locator and film viewing evidence remain pending.
+- id: R110
+  type: practitioner-interview
+  title: 'Andrzej Bartkowiak, ASC: When Prep Met Opportunity'
+  authors:
+  - American Society of Cinematographers
+  publisher: American Cinematographer
+  url: https://theasc.com/article/andrzej-bartkowiak-asc-when-prep-met-opportunity/
+  accessed: '2026-10-23'
+  locator: Online practitioner / collaborator recollections; exact passage locator pending.
+  language: en
+  status: verified-source-page-scope-limited
+  notes: Specific recollections; not a universal production norm.
+- id: R111
+  type: professional-organization-declaration
+  title: World Film and Television Directors Announce Dublin Declaration
+  authors:
+  - Directors Guild of America
+  publisher: Directors Guild of America
+  publication_date: '2003-09-19'
+  url: https://www.dga.org/News/PressReleases/2003/0919-World-Film-and-Television-Directors-Announce-Dublin-Declaration
+  accessed: '2026-10-23'
+  locator: Online declaration and press release.
+  language: en
+  status: verified-source-page-scope-limited
+  notes: Professional organizations’ statement; not law or a global contract standard.

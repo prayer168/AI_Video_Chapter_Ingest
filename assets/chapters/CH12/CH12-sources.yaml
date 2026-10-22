@@ -1,0 +1,112 @@
+- id: R087
+  type: scholarly-book-chapter
+  title: Blocking for Cinematic Storytelling
+  authors:
+  - Kelly Gordon Brine
+  publisher: Oxford University Press
+  edition: null
+  publication_date: '2020'
+  version: null
+  doi: 10.1093/oso/9780190054328.003.0020
+  url: https://doi.org/10.1093/oso/9780190054328.003.0020
+  accessed: '2026-10-22'
+  locator: Source page / abstract; claim scope limited as noted
+  language: en
+  status: verified-source-page-scope-limited
+  notes: Abstract consulted only; chapter pagination and full text not verified.
+- id: R088
+  type: industry-role-profile
+  title: Script supervisor (Film and TV Drama)
+  authors:
+  - ScreenSkills
+  publisher: ScreenSkills
+  edition: null
+  publication_date: null
+  version: null
+  doi: null
+  url: https://www.screenskills.com/job-profiles/browse/film-and-tv-drama/technical/script-supervisor-film-and-tv-drama/
+  accessed: '2026-10-22'
+  locator: Source page / abstract; claim scope limited as noted
+  language: en
+  status: verified-source-page-scope-limited
+  notes: Undated UK industry role profile; accessed 2026-10-22; role scope varies.
+- id: R089
+  type: occupational-standard
+  title: Monitor script coverage, continuity and technical camera details during shooting (SKSC32)
+  authors:
+  - ScreenSkills
+  publisher: UK National Occupational Standards
+  edition: null
+  publication_date: '2020'
+  version: null
+  doi: SKSC32 v3
+  url: https://www.ukstandards.org.uk/en/nos-finder/SKSC32/monitor-script-coverage,-continuity-and-technical-camera-details-during-shooting
+  accessed: '2026-10-22'
+  locator: Source page / abstract; claim scope limited as noted
+  language: en
+  status: verified-source-page-scope-limited
+  notes: Version 3 approved 2020; accessed 2026-10-22; UK scope.
+- id: R090
+  type: film-production-recollection
+  title: 'Wrap Shot: The Graduate'
+  authors:
+  - David E. Williams
+  publisher: American Cinematographer
+  edition: null
+  publication_date: '2023-11-26'
+  version: null
+  doi: null
+  url: https://theasc.com/article/wrap-shot-the-graduate/
+  accessed: '2026-10-22'
+  locator: Source page / abstract; claim scope limited as noted
+  language: en
+  status: verified-source-page-scope-limited
+  notes: Recounts Herb A. Lightman 1968 article and Robert Surtees recollections; case-specific.
+- id: R091
+  type: film-production-recollection
+  title: 'The Old Ultra-Violence: A Clockwork Orange'
+  authors:
+  - Vincent LoBrutto
+  publisher: American Cinematographer
+  edition: null
+  publication_date: '2018-01-30'
+  version: null
+  doi: null
+  url: https://theasc.com/article/the-old-ultra-violence-a-clockwork-orange/
+  accessed: '2026-10-22'
+  locator: Source page / abstract; claim scope limited as noted
+  language: en
+  status: verified-source-page-scope-limited
+  notes: Web article dated 2018-01-30, originally published 1999-10; attributed recollections.
+- id: R092
+  type: cinematography-interview
+  title: 'Cinematic Instincts: Phedon Papamichael, ASC, GSC'
+  authors:
+  - Terry McCarthy
+  publisher: American Cinematographer
+  edition: null
+  publication_date: '2023-09-12'
+  version: null
+  doi: null
+  url: https://theasc.com/article/cinematic-instincts-phedon-papamichael-asc-gsc/
+  accessed: '2026-10-22'
+  locator: Source page / abstract; claim scope limited as noted
+  language: en
+  status: verified-source-page-scope-limited
+  notes: Interview; illustrative case, not a universal method.
+- id: R093
+  type: film-form-analysis
+  title: 'Masters of space: mise en scène in Ophuls and Hitchcock'
+  authors:
+  - Brad Stevens
+  publisher: Sight and Sound / BFI
+  edition: null
+  publication_date: '2018-07-11'
+  version: null
+  doi: null
+  url: https://www.bfi.org.uk/sight-and-sound/features/masters-space-mise-en-scene-ophuls-hitchcock
+  accessed: '2026-10-22'
+  locator: Source page / abstract; claim scope limited as noted
+  language: en
+  status: verified-source-page-scope-limited
+  notes: Updated 2018-07-11; critic analysis discussing Lola Montès and its 2008 restoration.

@@ -1,0 +1,52 @@
+chapter_id: CH15
+revision: 2.1.0-draft
+status: review-needed
+sections:
+- section_id: CH15-S01
+  zh_heading: 學習目標
+  en_heading: Learning objectives
+  alignment_status: draft-aligned
+- section_id: CH15-S02
+  zh_heading: 先備知識
+  en_heading: Prerequisites
+  alignment_status: draft-aligned
+- section_id: CH15-S03
+  zh_heading: 核心術語
+  en_heading: Key terms
+  alignment_status: draft-aligned
+- section_id: CH15-S04
+  zh_heading: 歷史與原理
+  en_heading: History and principles
+  alignment_status: draft-aligned
+- section_id: CH15-S05
+  zh_heading: 傳統製作實務
+  en_heading: Traditional production practice
+  alignment_status: draft-aligned
+- section_id: CH15-S06
+  zh_heading: AI 時代工作流程與限制
+  en_heading: AI-era workflow and limits
+  alignment_status: draft-aligned
+- section_id: CH15-S07
+  zh_heading: 逐步工作流程
+  en_heading: Step-by-step workflow
+  alignment_status: draft-aligned
+- section_id: CH15-S08
+  zh_heading: 提示詞與技術參數
+  en_heading: Prompt and technical parameters
+  alignment_status: draft-aligned
+- section_id: CH15-S09
+  zh_heading: 鏡頭／電影案例
+  en_heading: Shot / film case study
+  alignment_status: draft-aligned
+- section_id: CH15-S10
+  zh_heading: 常見錯誤與品質檢查
+  en_heading: Common errors and quality checks
+  alignment_status: draft-aligned
+- section_id: CH15-S11
+  zh_heading: 練習、評量與研究
+  en_heading: Exercises, assessment, and research
+  alignment_status: draft-aligned
+- section_id: CH15-S12
+  zh_heading: 參考資料
+  en_heading: References
+  alignment_status: draft-aligned

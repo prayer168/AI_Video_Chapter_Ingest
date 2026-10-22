@@ -1,0 +1,19 @@
+Font family appears installed: Microsoft JhengHei
+name                                 type              encoding         emb sub uni object ID
+------------------------------------ ----------------- ---------------- --- --- --- ---------
+DNLNPX+MicrosoftJhengHeiRegular      CID TrueType      Identity-H       yes yes yes      4  0
+OLWSPN+MicrosoftJhengHeiBold         CID TrueType      Identity-H       yes yes yes      6  0
+PKWWHJ+TimesNewRomanPS-BoldMT        CID TrueType      Identity-H       yes yes yes     10  0
+BUWEMN+TimesNewRomanPSMT             CID TrueType      Identity-H       yes yes yes     13  0
+ZYYNBI+LMMono10-Regular-Identity-H   CID Type 0C       Identity-H       yes yes yes     56  0
+NBNSQU+CairoFont-0-0                 Type 1C           WinAnsi          yes yes yes     35  0
+VTKCUQ+CairoFont-0-1                 CID Type 0C       Identity-H       yes yes yes     41  0
+LJYYEN+CairoFont-1-1                 CID Type 0C       Identity-H       yes yes yes     48  0
+SNYYTS+LMMonoLt10-Bold-Identity-H    CID Type 0C       Identity-H       yes yes yes     61  0
+QBZMTF+TimesNewRomanPS-ItalicMT      CID TrueType      Identity-H       yes yes yes     93  0
+LXDHDH+CairoFont-0-0                 Type 1C           WinAnsi          yes yes yes     66  0
+SKMTOJ+CairoFont-0-1                 CID Type 0C       Identity-H       yes yes yes     72  0
+MPXQWW+CairoFont-1-1                 CID Type 0C       Identity-H       yes yes yes     79  0
+MEFLWN+CairoFont-1-0                 Type 1C           WinAnsi          yes yes yes     86  0
+
+PDF font embedding confirmed for 14 font entries.

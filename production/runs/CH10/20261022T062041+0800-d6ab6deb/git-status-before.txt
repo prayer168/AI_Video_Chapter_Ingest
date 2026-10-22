@@ -1,0 +1,104 @@
+ M CHAPTER_INTEGRATION_MATRIX.md
+ M apps/web/src/content/docs/en/CH04-chapter-04.md
+ M apps/web/src/content/docs/en/CH05-chapter-05.md
+ M apps/web/src/content/docs/en/CH06-chapter-06.md
+ M apps/web/src/content/docs/en/CH07-chapter-07.md
+ M apps/web/src/content/docs/en/CH08-chapter-08.md
+ M apps/web/src/content/docs/en/CH09-chapter-09.md
+ M apps/web/src/content/docs/zh-tw/CH04-chapter-04.md
+ M apps/web/src/content/docs/zh-tw/CH05-chapter-05.md
+ M apps/web/src/content/docs/zh-tw/CH06-chapter-06.md
+ M apps/web/src/content/docs/zh-tw/CH07-chapter-07.md
+ M apps/web/src/content/docs/zh-tw/CH08-chapter-08.md
+ M apps/web/src/content/docs/zh-tw/CH09-chapter-09.md
+ M assets/chapters/CH04/figure-manifest.yaml
+ M assets/chapters/CH05/figure-manifest.yaml
+ M assets/chapters/CH06/figure-manifest.yaml
+ M assets/chapters/CH07/figure-manifest.yaml
+ M assets/chapters/CH08/figure-manifest.yaml
+ M assets/chapters/CH09/figure-manifest.yaml
+ M content/en-US/chapters/CH04-chapter-04.md
+ M content/en-US/chapters/CH05-chapter-05.md
+ M content/en-US/chapters/CH06-chapter-06.md
+ M content/en-US/chapters/CH07-chapter-07.md
+ M content/en-US/chapters/CH08-chapter-08.md
+ M content/en-US/chapters/CH09-chapter-09.md
+ M content/zh-TW/chapters/CH04-chapter-04.md
+ M content/zh-TW/chapters/CH05-chapter-05.md
+ M content/zh-TW/chapters/CH06-chapter-06.md
+ M content/zh-TW/chapters/CH07-chapter-07.md
+ M content/zh-TW/chapters/CH08-chapter-08.md
+ M content/zh-TW/chapters/CH09-chapter-09.md
+ M data/assets.yaml
+ M data/references.yaml
+ M docs/PUBLISHING.md
+ M history.md
+ M metadata/chapters.yaml
+ M metadata/figure-registry.yaml
+ M metadata/references.bib
+ M metadata/terminology.yaml
+ M metadata/translation-status.yaml
+ M scripts/publishing/build_books.py
+ M scripts/publishing/figure-captions.lua
+ M scripts/publishing/smoke_test_formats.py
+ M scripts/publishing/sync_site_content.py
+ M tests/test_v2_architecture.py
+?? apps/web/public/images/chapters/CH04/
+?? apps/web/public/images/chapters/CH05/
+?? apps/web/public/images/chapters/CH06/
+?? apps/web/public/images/chapters/CH07/
+?? apps/web/public/images/chapters/CH08/
+?? apps/web/public/images/chapters/CH09/
+?? assets/chapters/CH04/figures/
+?? assets/chapters/CH05/CH05-GET-OUT-VIEWING-LOG.md
+?? assets/chapters/CH05/CH05-HUMAN-REVIEW-CHECKLIST.md
+?? assets/chapters/CH05/figure-captions.md
+?? assets/chapters/CH05/figures/
+?? assets/chapters/CH06/CH06-FIGURE-RIGHTS-AND-SOURCES.md
+?? assets/chapters/CH06/CH06-HUMAN-REVIEW-CHECKLIST.md
+?? assets/chapters/CH06/CH06-RASHOMON-VIEWING-LOG.md
+?? assets/chapters/CH06/figure-captions.md
+?? assets/chapters/CH06/figures/
+?? assets/chapters/CH07/CH07-HUMAN-REVIEW-CHECKLIST.md
+?? assets/chapters/CH07/CH07-SOURCE-AND-CASE-NOTES.md
+?? assets/chapters/CH07/figure-captions.md
+?? assets/chapters/CH07/figures/
+?? assets/chapters/CH08/CH08-FIGURE-RIGHTS-AND-SOURCES.md
+?? assets/chapters/CH08/CH08-HUMAN-REVIEW-CHECKLIST.md
+?? assets/chapters/CH08/CH08-SOURCE-AND-CASE-NOTES.md
+?? assets/chapters/CH08/figure-captions.md
+?? assets/chapters/CH08/figures/
+?? assets/chapters/CH09/CH09-FIGURE-RIGHTS-AND-SOURCES.md
+?? assets/chapters/CH09/CH09-HUMAN-REVIEW-CHECKLIST.md
+?? assets/chapters/CH09/CH09-SOURCE-AND-CASE-NOTES.md
+?? assets/chapters/CH09/figure-captions.md
+?? assets/chapters/CH09/figures/
+?? backups/CH05-start-20261020-225446/
+?? metadata/translations/CH04-alignment.yaml
+?? metadata/translations/CH05-alignment.yaml
+?? metadata/translations/CH06-alignment.yaml
+?? metadata/translations/CH07-alignment.yaml
+?? metadata/translations/CH08-alignment.yaml
+?? metadata/translations/CH09-alignment.yaml
+?? production/runs/CH04/
+?? production/runs/CH05/
+?? production/runs/CH06/
+?? production/runs/CH07/
+?? production/runs/CH08/
+?? production/runs/CH09/
+?? production/runs/CH10/
+?? reports/CH04-FINAL-ACCEPTANCE.md
+?? reports/CH05-FINAL-ACCEPTANCE.md
+?? reports/CH06-FINAL-ACCEPTANCE.md
+?? reports/CH07-FINAL-ACCEPTANCE.md
+?? reports/CH08-FINAL-ACCEPTANCE.md
+?? reports/CH09-FINAL-ACCEPTANCE.md
+?? reports/CHAPTER-PROGRESS-TRACKER.md
+?? scripts/publishing/pandoc-data/
+?? scripts/update_chapter_progress_tracker.py
+?? tests/test_ch04_content.py
+?? tests/test_ch05_content.py
+?? tests/test_ch06_content.py
+?? tests/test_ch07_content.py
+?? tests/test_ch08_content.py
+?? tests/test_ch09_content.py

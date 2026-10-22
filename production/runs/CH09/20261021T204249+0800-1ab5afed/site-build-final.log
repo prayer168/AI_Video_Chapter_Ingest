@@ -1,0 +1,166 @@
+
+> build
+> python ../../scripts/publishing/sync_site_content.py && astro build
+
+Synced 120 canonical chapter files; updated 0 generated Astro pages; removed 0 obsolete generated MDX projections; checked/copied local image assets.
+21:04:44 [content] Syncing content
+21:04:44 [content] Synced content
+21:04:44 [types] Generated 669ms
+21:04:44 [build] output: "static"
+21:04:44 [build] mode: "static"
+21:04:44 [build] directory: D:\我的雲端硬碟\google drive\000000000backup\00000黑熊講師\00000著作\AI_Video_Bible\apps\web\dist\
+21:04:44 [build] Collecting build info...
+21:04:44 [build] ✓ Completed in 857ms.
+21:04:45 [build] Building static entrypoints...
+21:04:47 [vite] ✓ built in 2.81s
+21:04:47 [build] ✓ Completed in 2.87s.
+
+ building client (vite) 
+21:04:47 [vite] transforming...
+21:04:48 [vite] ✓ 18 modules transformed.
+21:04:48 [vite] rendering chunks...
+21:04:48 [vite] computing gzip size...
+21:04:48 [vite] dist/_astro/ec.0vx5m.js                                                              2.52 kB
+21:04:48 [vite] dist/_astro/ec.v4551.css                                                            18.22 kB │ gzip:  3.96 kB
+21:04:48 [vite] dist/_astro/MobileTableOfContents.astro_astro_type_script_index_0_lang.hwBsy0Mo.js   0.67 kB │ gzip:  0.40 kB
+21:04:48 [vite] dist/_astro/TableOfContents.astro_astro_type_script_index_0_lang.FuRcXuRY.js         2.06 kB │ gzip:  0.97 kB
+21:04:48 [vite] dist/_astro/page.B1D-nYk3.js                                                         2.24 kB │ gzip:  1.01 kB
+21:04:48 [vite] dist/_astro/Search.astro_astro_type_script_index_0_lang.CJiOmi4V.js                  2.69 kB │ gzip:  1.38 kB
+21:04:48 [vite] dist/_astro/ui-core.C0u4jL1_.js                                                     94.19 kB │ gzip: 27.34 kB
+21:04:48 [vite] ✓ built in 335ms
+
+ generating static routes 
+21:04:48 ▶ @astrojs/starlight/routes/static/404.astro
+Entry docs → 404 was not found.
+21:04:48   └─ /404.html (+48ms) 
+21:04:48 ▶ @astrojs/starlight/routes/static/index.astro
+21:04:48   ├─ /en/ch04-chapter-04/index.html (+33ms) 
+21:04:48   ├─ /en/ch05-chapter-05/index.html (+13ms) 
+21:04:48   ├─ /en/ch02-camera-language/index.html (+13ms) 
+21:04:48   ├─ /en/ch01-cinematic-language/index.html (+13ms) 
+21:04:48   ├─ /en/ch03-chapter-03/index.html (+13ms) 
+21:04:48   ├─ /en/ch06-chapter-06/index.html (+10ms) 
+21:04:48   ├─ /en/ch07-chapter-07/index.html (+14ms) 
+21:04:48   ├─ /en/ch08-chapter-08/index.html (+10ms) 
+21:04:48   ├─ /en/ch09-chapter-09/index.html (+14ms) 
+21:04:48   ├─ /en/ch10-chapter-10/index.html (+9ms) 
+21:04:48   ├─ /en/ch11-chapter-11/index.html (+12ms) 
+21:04:48   ├─ /en/ch12-chapter-12/index.html (+10ms) 
+21:04:48   ├─ /en/ch17-chapter-17/index.html (+10ms) 
+21:04:48   ├─ /en/ch14-chapter-14/index.html (+9ms) 
+21:04:48   ├─ /en/ch15-chapter-15/index.html (+10ms) 
+21:04:48   ├─ /en/ch18-chapter-18/index.html (+9ms) 
+21:04:48   ├─ /en/ch13-chapter-13/index.html (+8ms) 
+21:04:48   ├─ /en/ch19-chapter-19/index.html (+8ms) 
+21:04:48   ├─ /en/ch16-chapter-16/index.html (+9ms) 
+21:04:48   ├─ /en/ch20-chapter-20/index.html (+8ms) 
+21:04:48   ├─ /en/ch24-chapter-24/index.html (+9ms) 
+21:04:48   ├─ /en/ch22-chapter-22/index.html (+7ms) 
+21:04:48   ├─ /en/ch21-chapter-21/index.html (+7ms) 
+21:04:48   ├─ /en/ch23-chapter-23/index.html (+10ms) 
+21:04:48   ├─ /en/ch26-chapter-26/index.html (+10ms) 
+21:04:48   ├─ /en/ch25-chapter-25/index.html (+8ms) 
+21:04:48   ├─ /en/ch28-chapter-28/index.html (+10ms) 
+21:04:48   ├─ /en/ch29-chapter-29/index.html (+14ms) 
+21:04:48   ├─ /en/ch27-chapter-27/index.html (+9ms) 
+21:04:48   ├─ /en/ch30-chapter-30/index.html (+7ms) 
+21:04:48   ├─ /en/ch31-chapter-31/index.html (+7ms) 
+21:04:48   ├─ /en/ch32-chapter-32/index.html (+7ms) 
+21:04:48   ├─ /en/ch33-chapter-33/index.html (+7ms) 
+21:04:48   ├─ /en/ch36-chapter-36/index.html (+8ms) 
+21:04:48   ├─ /en/ch37-chapter-37/index.html (+6ms) 
+21:04:48   ├─ /en/ch38-chapter-38/index.html (+8ms) 
+21:04:48   ├─ /en/ch34-chapter-34/index.html (+7ms) 
+21:04:48   ├─ /en/ch39-chapter-39/index.html (+8ms) 
+21:04:48   ├─ /en/ch40-chapter-40/index.html (+9ms) 
+21:04:48   ├─ /en/ch35-chapter-35/index.html (+9ms) 
+21:04:48   ├─ /en/ch45-chapter-45/index.html (+11ms) 
+21:04:48   ├─ /en/ch42-chapter-42/index.html (+10ms) 
+21:04:48   ├─ /en/ch44-chapter-44/index.html (+8ms) 
+21:04:48   ├─ /en/ch47-chapter-47/index.html (+8ms) 
+21:04:48   ├─ /en/ch46-chapter-46/index.html (+8ms) 
+21:04:48   ├─ /en/ch41-chapter-41/index.html (+10ms) 
+21:04:48   ├─ /en/ch48-chapter-48/index.html (+8ms) 
+21:04:48   ├─ /en/ch43-chapter-43/index.html (+10ms) 
+21:04:48   ├─ /en/ch49-chapter-49/index.html (+10ms) 
+21:04:48   ├─ /en/ch50-chapter-50/index.html (+8ms) 
+21:04:48   ├─ /en/ch52-chapter-52/index.html (+8ms) 
+21:04:49   ├─ /en/ch51-chapter-51/index.html (+8ms) 
+21:04:49   ├─ /en/ch53-chapter-53/index.html (+8ms) 
+21:04:49   ├─ /en/ch55-chapter-55/index.html (+16ms) 
+21:04:49   ├─ /en/ch57-chapter-57/index.html (+9ms) 
+21:04:49   ├─ /en/ch58-chapter-58/index.html (+12ms) 
+21:04:49   ├─ /en/ch56-chapter-56/index.html (+12ms) 
+21:04:49   ├─ /en/ch54-chapter-54/index.html (+10ms) 
+21:04:49   ├─ /en/ch60-chapter-60/index.html (+10ms) 
+21:04:49   ├─ /en/ch59-chapter-59/index.html (+8ms) 
+21:04:49   ├─ /zh-tw/ch01-cinematic-language/index.html (+9ms) 
+21:04:49   ├─ /zh-tw/ch02-camera-language/index.html (+11ms) 
+21:04:49   ├─ /zh-tw/ch04-chapter-04/index.html (+8ms) 
+21:04:49   ├─ /zh-tw/ch03-chapter-03/index.html (+8ms) 
+21:04:49   ├─ /zh-tw/ch05-chapter-05/index.html (+7ms) 
+21:04:49   ├─ /en/index.html (+18ms) 
+21:04:49   ├─ /zh-tw/ch06-chapter-06/index.html (+8ms) 
+21:04:49   ├─ /zh-tw/ch07-chapter-07/index.html (+9ms) 
+21:04:49   ├─ /zh-tw/ch08-chapter-08/index.html (+8ms) 
+21:04:49   ├─ /zh-tw/ch09-chapter-09/index.html (+9ms) 
+21:04:49   ├─ /zh-tw/ch10-chapter-10/index.html (+10ms) 
+21:04:49   ├─ /zh-tw/ch14-chapter-14/index.html (+9ms) 
+21:04:49   ├─ /zh-tw/ch15-chapter-15/index.html (+10ms) 
+21:04:49   ├─ /zh-tw/ch11-chapter-11/index.html (+8ms) 
+21:04:49   ├─ /zh-tw/ch13-chapter-13/index.html (+8ms) 
+21:04:49   ├─ /zh-tw/ch16-chapter-16/index.html (+9ms) 
+21:04:49   ├─ /zh-tw/ch12-chapter-12/index.html (+8ms) 
+21:04:49   ├─ /zh-tw/ch17-chapter-17/index.html (+8ms) 
+21:04:49   ├─ /zh-tw/ch18-chapter-18/index.html (+9ms) 
+21:04:49   ├─ /zh-tw/ch19-chapter-19/index.html (+16ms) 
+21:04:49   ├─ /zh-tw/ch20-chapter-20/index.html (+7ms) 
+21:04:49   ├─ /zh-tw/ch23-chapter-23/index.html (+7ms) 
+21:04:49   ├─ /zh-tw/ch21-chapter-21/index.html (+7ms) 
+21:04:49   ├─ /zh-tw/ch22-chapter-22/index.html (+7ms) 
+21:04:49   ├─ /zh-tw/ch26-chapter-26/index.html (+7ms) 
+21:04:49   ├─ /zh-tw/ch24-chapter-24/index.html (+6ms) 
+21:04:49   ├─ /zh-tw/ch25-chapter-25/index.html (+8ms) 
+21:04:49   ├─ /zh-tw/ch27-chapter-27/index.html (+9ms) 
+21:04:49   ├─ /zh-tw/ch29-chapter-29/index.html (+8ms) 
+21:04:49   ├─ /zh-tw/ch28-chapter-28/index.html (+10ms) 
+21:04:49   ├─ /zh-tw/ch31-chapter-31/index.html (+9ms) 
+21:04:49   ├─ /zh-tw/ch32-chapter-32/index.html (+10ms) 
+21:04:49   ├─ /zh-tw/ch30-chapter-30/index.html (+10ms) 
+21:04:49   ├─ /zh-tw/ch33-chapter-33/index.html (+9ms) 
+21:04:49   ├─ /zh-tw/ch36-chapter-36/index.html (+9ms) 
+21:04:49   ├─ /zh-tw/ch35-chapter-35/index.html (+9ms) 
+21:04:49   ├─ /zh-tw/ch34-chapter-34/index.html (+12ms) 
+21:04:49   ├─ /zh-tw/ch37-chapter-37/index.html (+8ms) 
+21:04:49   ├─ /zh-tw/ch38-chapter-38/index.html (+7ms) 
+21:04:49   ├─ /zh-tw/ch39-chapter-39/index.html (+8ms) 
+21:04:49   ├─ /zh-tw/ch41-chapter-41/index.html (+10ms) 
+21:04:49   ├─ /zh-tw/ch40-chapter-40/index.html (+9ms) 
+21:04:49   ├─ /zh-tw/ch42-chapter-42/index.html (+9ms) 
+21:04:49   ├─ /zh-tw/ch43-chapter-43/index.html (+9ms) 
+21:04:49   ├─ /zh-tw/ch45-chapter-45/index.html (+9ms) 
+21:04:49   ├─ /zh-tw/ch46-chapter-46/index.html (+9ms) 
+21:04:49   ├─ /zh-tw/ch47-chapter-47/index.html (+19ms) 
+21:04:49   ├─ /zh-tw/ch44-chapter-44/index.html (+7ms) 
+21:04:49   ├─ /zh-tw/ch48-chapter-48/index.html (+8ms) 
+21:04:49   ├─ /zh-tw/ch49-chapter-49/index.html (+7ms) 
+21:04:49   ├─ /zh-tw/ch50-chapter-50/index.html (+9ms) 
+21:04:49   ├─ /zh-tw/ch54-chapter-54/index.html (+9ms) 
+21:04:49   ├─ /zh-tw/ch51-chapter-51/index.html (+10ms) 
+21:04:49   ├─ /zh-tw/ch52-chapter-52/index.html (+8ms) 
+21:04:49   ├─ /zh-tw/ch55-chapter-55/index.html (+10ms) 
+21:04:49   ├─ /zh-tw/ch53-chapter-53/index.html (+9ms) 
+21:04:49   ├─ /zh-tw/ch56-chapter-56/index.html (+7ms) 
+21:04:49   ├─ /zh-tw/ch58-chapter-58/index.html (+8ms) 
+21:04:49   ├─ /zh-tw/ch57-chapter-57/index.html (+10ms) 
+21:04:49   ├─ /zh-tw/ch59-chapter-59/index.html (+11ms) 
+21:04:49   ├─ /zh-tw/index.html (+14ms) 
+21:04:49   └─ /zh-tw/ch60-chapter-60/index.html (+11ms) 
+21:04:49 ✓ Completed in 1.42s.
+
+21:04:49 [starlight:pagefind] Building search index with Pagefind...
+21:04:51 [starlight:pagefind] Found 123 HTML files.
+21:04:51 [starlight:pagefind] Finished building search index in 1.93s.
+21:04:51 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
+21:04:51 [build] 123 page(s) built in 7.64s
+21:04:51 [build] Complete!

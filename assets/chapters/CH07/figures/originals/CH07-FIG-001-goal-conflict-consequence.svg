@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Character goal, opposition, choice, and consequence</title>
+  <desc id="desc">An original editable diagram. A character goal meets an obstacle and another goal; a choice leads to a consequence that changes the next situation.</desc>
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M1 1 L10 6 L1 11" fill="none" stroke="#bd714f" stroke-width="2"/></marker></defs>
+  <text x="60" y="62" fill="#263238" font-family="Noto Sans TC, sans-serif" font-size="27">CHARACTER ACTION / 角色行動</text>
+  <path d="M215 210 H335 M475 210 H595 M735 210 H855 M995 210 H1080" stroke="#bd714f" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <g font-family="Noto Sans TC, sans-serif" text-anchor="middle">
+    <circle cx="145" cy="210" r="70" fill="#e9d8c8"/><text x="145" y="204" font-size="23" fill="#263238">GOAL</text><text x="145" y="238" font-size="18" fill="#263238">目標</text>
+    <circle cx="405" cy="210" r="70" fill="#d5e0dc"/><text x="405" y="198" font-size="18" fill="#263238">RESISTANCE</text><text x="405" y="232" font-size="15" fill="#263238">阻力／他人目標</text>
+    <circle cx="665" cy="210" r="70" fill="#e9d8c8"/><text x="665" y="204" font-size="23" fill="#263238">CHOICE</text><text x="665" y="238" font-size="18" fill="#263238">策略與選擇</text>
+    <circle cx="925" cy="210" r="70" fill="#d5e0dc"/><text x="925" y="204" font-size="23" fill="#263238">COST</text><text x="925" y="238" font-size="18" fill="#263238">結果與代價</text>
+  </g>
+  <path d="M925 298 C900 375 300 375 145 298" fill="none" stroke="#697b76" stroke-width="2" stroke-dasharray="8 8" marker-end="url(#arrow)"/>
+  <text x="540" y="382" text-anchor="middle" fill="#263238" font-family="Noto Sans TC, sans-serif" font-size="19">new situation / 新情境：因果回饋，不是固定劇作公式</text>
+</svg>

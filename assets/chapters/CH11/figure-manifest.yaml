@@ -1,2 +1,106 @@
 chapter_id: CH11
-figures: []
+figures:
+- figure_id: CH11-FIG-001
+  chapter_id: CH11
+  section_id: CH11-S05
+  placement_after: after:CH11-S05
+  source_ids:
+  - R077
+  - R081
+  asset_original: assets/chapters/CH11/figures/originals/CH11-FIG-001-intention-loop.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 11-1
+  asset_status: draft-original-svg
+  rights_status: original-project-svg-pending-human-review
+  sha256: 9ef0ed556991809997a7f21e9256652aa1f1f995c6ecfaf83da84bd3642a01dc
+  width: 1200
+  height: 450
+  bytes: 2506
+  method: Hand-authored editable bilingual SVG; no image model or third-party image.
+  caption_zh: 圖 11-1｜導演意圖—證據—協作—驗證的工作循環。本圖為本書原創可編輯 SVG 示意圖，非電影劇照；製作者署名、權利及出版核准待審。
+  caption_en: Figure 11-1. The intention–evidence–collaboration–verification loop.
+    This is an original editable SVG illustration for this book, not a film still.
+    Creator attribution, rights, and publication approval are pending.
+  alt_zh: 導演意圖依序連到觀眾證據、部門提案、排演與拍攝驗證，再透過回饋修訂意圖或方法。
+  alt_en: Directing intention leads to audience evidence, department proposals, rehearsal
+    and production tests, then feedback revises the intention or method.
+  creator: AI Video Bible project; individual attribution pending confirmation
+  attribution: Creator and rights-holder attribution pending confirmation.
+  permission: Publication approval pending.
+  original_prompt_or_method: Hand-authored SVG geometry and bilingual labels; no image
+    model or external artwork.
+  production_log:
+  - date: '2026-10-22'
+    change: Original editable vector diagram created and hashed; no AI image service
+      or third-party image used.
+  - date: '2026-10-22'
+    change: 'Revised after PDF visual proof: improved feedback/arrow separation and
+      bilingual label layout; refreshed SHA-256.'
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+- figure_id: CH11-FIG-002
+  chapter_id: CH11
+  section_id: CH11-S07
+  placement_after: after:CH11-S07
+  source_ids:
+  - R077
+  - R080
+  - R083
+  asset_original: assets/chapters/CH11/figures/originals/CH11-FIG-002-department-handoff.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 11-2
+  asset_status: draft-original-svg
+  rights_status: original-project-svg-pending-human-review
+  sha256: 6e17cb9bf8ab88ed75e893b9a20e9870aead9c80aaeb366dc03d182b5c7674b9
+  width: 1200
+  height: 600
+  bytes: 4016
+  method: Hand-authored editable bilingual SVG; no image model or third-party image.
+  caption_zh: 圖 11-2｜同一故事目標轉成不同部門能處理的問題，而非一份通用器材清單。本圖為本書原創可編輯 SVG 示意圖，非電影劇照；署名、權利及出版核准待審。
+  caption_en: Figure 11-2. One story objective becomes different department questions,
+    not a universal equipment list. This is an original editable SVG illustration
+    for this book, not a film still. Attribution, rights, and publication approval
+    are pending.
+  alt_zh: 中央故事目標分別連接表演、攝影、美術、聲音、剪輯及製片提問，並回到共同驗證。
+  alt_en: A central story objective connects to questions for performance, camera,
+    design, sound, editing, and producing, then returns to shared verification.
+  creator: AI Video Bible project; individual attribution pending confirmation
+  attribution: Creator and rights-holder attribution pending confirmation.
+  permission: Publication approval pending.
+  original_prompt_or_method: Hand-authored SVG geometry and bilingual labels; no image
+    model or external artwork.
+  production_log:
+  - date: '2026-10-22'
+    change: Original editable vector diagram created and hashed; no AI image service
+      or third-party image used.
+  - date: '2026-10-22'
+    change: 'Revised after PDF visual proof: improved feedback/arrow separation and
+      bilingual label layout; refreshed SHA-256.'
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending

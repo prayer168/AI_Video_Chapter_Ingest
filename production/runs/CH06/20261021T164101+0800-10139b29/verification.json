@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-21",
+  "run": "production/runs/CH06/20261021T164101+0800-10139b29",
+  "scope": "CH06 continuation draft only",
+  "validators": {
+    "v2": "PASS",
+    "project": "PASS: 12 parts, 60 chapters, 2 canonical chapter files, 52 terms, 46 references"
+  },
+  "tests": {
+    "full_suite": "55/55 PASS",
+    "ch06": "7/7 PASS"
+  },
+  "website": {
+    "astro_check": "0 errors, 0 warnings, 0 hints",
+    "astro_build": "123 pages PASS",
+    "sync_check": "PASS",
+    "local_only": true,
+    "routes": {
+      "zh-TW": {
+        "route": "apps/web/dist/zh-tw/ch06-chapter-06/index.html",
+        "unique_ids": true,
+        "chapter_images": [
+          {
+            "src": "/images/chapters/CH06/CH06-FIG-001-causal-chain.svg",
+            "alt": "原創流程圖以六個連接節點呈現人物目標如何經選擇、阻力、結果與代價，推進至新問題；圖註明這是診斷模型而非固定公式。"
+          },
+          {
+            "src": "/images/chapters/CH06/CH06-FIG-002-story-plot-information.svg",
+            "alt": "原創雙軌示意圖：上軌以 A、B、C 表示推論的故事時間；下軌以 B、A、B′、C 表示作品先呈現後倒敘再重述的順序。"
+          }
+        ],
+        "figures": 4,
+        "built_pages": 123
+      },
+      "en-US": {
+        "route": "apps/web/dist/en/ch06-chapter-06/index.html",
+        "unique_ids": true,
+        "chapter_images": [
+          {
+            "src": "/images/chapters/CH06/CH06-FIG-001-causal-chain.svg",
+            "alt": "An original six-step diagram shows a character goal moving through choice, obstacle, outcome, and cost to a new question; it is labeled as a diagnostic model, not a fixed formula."
+          },
+          {
+            "src": "/images/chapters/CH06/CH06-FIG-002-story-plot-information.svg",
+            "alt": "An original two-track diagram: A, B, C mark inferred story chronology above; B, A, B-prime, C show presentation order with an opening later event, a flashback, and a retelling."
+          }
+        ],
+        "figures": 4,
+        "built_pages": 123
+      }
+    }
+  },
+  "books": {
+    "zh-TW": {
+      "pdf_pages": 7,
+      "pdf_replacement_chars": 0,
+      "figure_labels_present": true,
+      "docx_media_count": 2,
+      "epub_images": 2,
+      "epub_figure_ids": 2,
+      "epub_alt_attributes": 2
+    },
+    "en-US": {
+      "pdf_pages": 9,
+      "pdf_replacement_chars": 0,
+      "figure_labels_present": true,
+      "docx_media_count": 2,
+      "epub_images": 2,
+      "epub_figure_ids": 2,
+      "epub_alt_attributes": 2
+    }
+  },
+  "epubcheck": "EPUBCheck 5.4.0: zh-TW and en-US each 0 errors, 0 warnings, 0 informationals, 0 references",
+  "pdf_fonts": "both PDFs: 14 font entries each, all emb/sub/uni=yes",
+  "svg_assets": {
+    "CH06-FIG-001-causal-chain.svg": "3c7c6ee10623e98ad498f33c5e099b0f0a79f9632b3b537651dc722345c98337",
+    "CH06-FIG-002-story-plot-information.svg": "0d8a07350d64a004b32c6344cbba0e81c3eda102d95a048042838ccbe1e54e4c"
+  },
+  "rights": "pending human author/rights/editorial/publication review; not publication-ready",
+  "v1_preserved": true,
+  "published_or_pushed": false,
+  "publication_policy": {
+    "zh-TW-book": "BLOCKED (exit 2; unapproved assets and rights/attribution pending)",
+    "en-book": "BLOCKED (exit 2; unapproved assets and rights/attribution pending)",
+    "zh-TW-site": "BLOCKED (exit 2; unapproved assets and rights/attribution pending)",
+    "en-site": "BLOCKED (exit 2; unapproved assets and rights/attribution pending)"
+  },
+  "run_status": "partial",
+  "acceptance_report": "reports/CH06-FINAL-ACCEPTANCE.md"
+}

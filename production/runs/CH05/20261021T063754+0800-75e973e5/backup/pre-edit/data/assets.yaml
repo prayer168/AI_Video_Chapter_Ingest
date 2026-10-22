@@ -1,0 +1,262 @@
+- id: ASSET-CH01-FIG-01
+  path: assets/diagrams/ch01-film-unit-hierarchy.svg
+  type: original-svg-diagram
+  description: 原創 SVG 教學示意圖，呈現電影、敘事段落、場景、鏡頭及影格的分析路徑。
+  creator: 待確認；原 SVG 未記錄可追溯作者身分
+  source_url: null
+  created_at: null
+  license: Unconfirmed
+  permission: Not approved for publication pending provenance and rights review
+  attribution: Creator/attribution pending confirmation
+  chapter_ids:
+  - 01-01
+  notes: 此 SVG 雖為專案內原創示意圖，既有來源及 CC BY-SA 聲明尚無可追溯創作證據；在作者、授權與品質審查完成前，正式出版建置必須阻擋。
+  media_kind: image
+  figure_id: FIG-01-01-01
+  paragraph_reference: 01-01 §1.1.5
+  teaching_purpose: 協助讀者理解本章採用的電影單位教學模型；圖示明確表示這不是普遍且嚴格的本體層級。
+  research_sources:
+  - source_id: R001
+    accessed: '2026-10-18'
+    locator: null
+    purpose: 章節採用的教學分類依據；具體頁碼尚未核對。
+  original_prompt_or_method: 以 SVG 原始碼手工編排文字、方框及箭頭；具體作者與編修歷程未記錄，待確認。
+  tool_name: null
+  tool_version: null
+  production_log:
+  - date: null
+    change: 原始檔為可編輯 SVG；來源包未提供作者、日期及歷次修改紀錄。2026-10-18 登錄本政策所需欄位並將出版狀態設為待審。
+  caption_zh_tw: 圖 1-1｜電影單位的教學層級示意圖。此圖呈現本章採用的分析路徑，不宣稱為普遍且嚴格的層級。
+  caption_en: Figure 1-1 | Instructional hierarchy of film units. This diagram presents the analytical
+    model used in this chapter, not a universal or strictly nested ontology.
+  rights_risk_review:
+    status: pending
+    checked_at: '2026-10-18'
+    reviewer: Codex preliminary review
+    findings: 圖中未辨識出第三方作品、人物肖像或商標；仍缺可追溯作者及原始創作紀錄，現有授權聲明缺乏證據，需權利人／編輯確認。不得宣稱完整或排他的著作權。
+  review_status:
+    technical: pending
+    quality: pending
+    rights: pending
+    final: pending
+  approval_status: pending
+  publication_targets:
+    zh-TW-book: pending
+    en-book: pending
+    zh-TW-site: pending
+    en-site: pending
+- id: ASSET-CH01-SHOT-S03
+  path: chapters/01-01-cinematic-language-assets/shot-S03.json
+  type: illustrative-shot-specification
+  description: Structured illustrative shot specification included in the original source pack.
+  creator: Source-pack contributor; attribution to be confirmed
+  source_url: null
+  created_at: null
+  license: Unconfirmed
+  permission: Review provenance before public release
+  attribution: Attribution pending confirmation
+  chapter_ids:
+  - 01-01
+  notes: JSON example is data, not a claim of a completed generation.
+- id: ASSET-CH02-SHOTLIST
+  path: chapters/01-02-camera-language-assets/shot-lists/CH02-science-shortfilm.json
+  type: illustrative-shot-list
+  description: 60 秒七鏡頭科普短片的規劃清單；尚未拍攝或生成。
+  creator: Source-pack contributor; attribution to be confirmed
+  source_url: null
+  created_at: null
+  license: Unconfirmed
+  permission: Review provenance before public release
+  attribution: Attribution pending confirmation
+  chapter_ids:
+  - 01-02
+  notes: Preserved as an editable derivative of the original CH02 ZIP; do not treat as independently created
+    or licensed material.
+- id: ASSET-CH02-GLOSSARY
+  path: chapters/01-02-camera-language-assets/glossary/CH02-glossary.json
+  type: source-glossary-json
+  description: 來源素材包中的 26 個核心術語對照資料。
+  creator: Source-pack contributor; attribution to be confirmed
+  source_url: null
+  created_at: null
+  license: Unconfirmed
+  permission: Review provenance before public release
+  attribution: Attribution pending confirmation
+  chapter_ids:
+  - 01-02
+  notes: Preserved as an editable derivative of the original CH02 ZIP; do not treat as independently created
+    or licensed material.
+- id: ASSET-CH02-ASSESSMENT
+  path: chapters/01-02-camera-language-assets/exercises/CH02-assessment.md
+  type: assessment-source
+  description: 來源素材包中的實作交件要求與評分權重。
+  creator: Source-pack contributor; attribution to be confirmed
+  source_url: null
+  created_at: null
+  license: Unconfirmed
+  permission: Review provenance before public release
+  attribution: Attribution pending confirmation
+  chapter_ids:
+  - 01-02
+  notes: Preserved as an editable derivative of the original CH02 ZIP; do not treat as independently created
+    or licensed material.
+- id: ASSET-CH02-ILLUSTRATION-README
+  path: chapters/01-02-camera-language-assets/assets/README.md
+  type: illustration-provenance-note
+  description: 素材包對尚未建立或授權插圖的來源說明。
+  creator: Source-pack contributor; attribution to be confirmed
+  source_url: null
+  created_at: null
+  license: Unconfirmed
+  permission: Review provenance before public release
+  attribution: Attribution pending confirmation
+  chapter_ids:
+  - 01-02
+  notes: Preserved as an editable derivative of the original CH02 ZIP; do not treat as independently created
+    or licensed material.
+- id: ASSET-CH04-FIG-001
+  path: assets/chapters/CH04/figures/originals/CH04-FIG-001-authorship-evidence.svg
+  type: original-svg-diagram
+  media_kind: image
+  figure_id: CH04-FIG-001
+  description: 三條證據線說明作者性分析可同時檢查形式模式、製作脈絡及合作紀錄。
+  creator: AI Video Bible project; individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-20'
+  license: Unconfirmed
+  permission: Publication approval pending
+  attribution: Original project SVG; creator attribution review pending
+  sha256: 44e64c3d18a3aae36983d1facd3a18defb32166178642d517dce50fbe3156c72
+  chapter_ids: [CH04]
+  paragraph_reference: CH04-S10
+  teaching_purpose: Distinguish formal interpretation from production evidence and legal authorship claims.
+  research_sources:
+  - source_id: R035
+    accessed: '2026-10-20'
+    locator: Publisher abstract and chapter metadata
+    purpose: Supports the discussion of authorship criteria and collaborative authorship.
+  - source_id: R036
+    accessed: '2026-10-20'
+    locator: Publisher abstract
+    purpose: Supports the discussion of collective authorship in film.
+  caption_zh_tw: '作者性分析的三條證據線：形式模式、製作脈絡與合作紀錄。原創 SVG 示意圖；出版核准待審。'
+  caption_en: 'Three evidence streams for authorship analysis: formal patterns, production context, and collaboration records. Original SVG diagram; publication approval pending.'
+  original_prompt_or_method: Hand-authored editable SVG; no third-party images or AI image service.
+  tool_name: text editor / SVG source
+  tool_version: not recorded
+  production_log:
+  - date: '2026-10-20'
+    change: Created an editable authorship-evidence diagram for the CH04 draft; source and rights remain pending human confirmation.
+  review_status: {technical: pending, quality: pending, rights: pending, final: pending}
+  approval_status: pending
+  publication_targets: {zh-TW-book: pending, en-book: pending, zh-TW-site: pending, en-site: pending}
+  rights_risk_review: {status: pending, checked_at: '2026-10-20', reviewer: Codex preliminary review, findings: Original labels and schematic; human creator attribution and publication rights remain to be confirmed.}
+  notes: Draft only; no film still or third-party image used.
+- id: ASSET-CH04-FIG-002
+  path: assets/chapters/CH04/figures/originals/CH04-FIG-002-style-workflow.svg
+  type: original-svg-diagram
+  media_kind: image
+  figure_id: CH04-FIG-002
+  description: 從創作意圖到可觀察規則、製作變體、人工審看片段及版本修訂的循環。
+  creator: AI Video Bible project; individual attribution pending confirmation
+  source_url: null
+  created_at: '2026-10-20'
+  license: Unconfirmed
+  permission: Publication approval pending
+  attribution: Original project SVG; creator attribution review pending
+  sha256: c645c4e784d23b27e9c0810ce46b0a9c400a09a5d84a14295b8c5b4b0bf5db1d
+  chapter_ids: [CH04]
+  paragraph_reference: CH04-S10
+  teaching_purpose: Show a versioned human-reviewed workflow for making and evaluating a style specification.
+  research_sources:
+  - source_id: R038
+    accessed: '2026-10-20'
+    locator: Official Gen-4 prompting guide
+    purpose: Supports the practical example of expressing observable visual rules in a prompt workflow.
+  caption_zh_tw: '風格規格的製作循環：意圖、可觀察規則、製作變體、人工審看與版本修訂。原創 SVG 示意圖；出版核准待審。'
+  caption_en: 'A style-specification workflow: intent, observable rules, production variants, human review, and revision. Original SVG diagram; publication approval pending.'
+  original_prompt_or_method: Hand-authored editable SVG; no third-party images or AI image service.
+  tool_name: text editor / SVG source
+  tool_version: not recorded
+  production_log:
+  - date: '2026-10-20'
+    change: Created an editable style-workflow diagram for the CH04 draft; source and rights remain pending human confirmation.
+  review_status: {technical: pending, quality: pending, rights: pending, final: pending}
+  approval_status: pending
+  publication_targets: {zh-TW-book: pending, en-book: pending, zh-TW-site: pending, en-site: pending}
+  rights_risk_review: {status: pending, checked_at: '2026-10-20', reviewer: Codex preliminary review, findings: Original workflow schematic; human creator attribution and publication rights remain to be confirmed.}
+  notes: Draft only; no film still or third-party image used.
+
+- id: ASSET-CH05-FIG-001
+  path: assets/chapters/CH05/figures/originals/CH05-FIG-001-genre-map.svg
+  type: original-svg-diagram
+  media_kind: image
+  figure_id: CH05-FIG-001
+  description: "類型語義與敘事結構"
+  creator: AI Video Bible project; individual creator attribution not yet confirmed
+  source_url: null
+  created_at: '2026-10-20'
+  license: Unconfirmed
+  permission: Publication approval pending; do not publish.
+  attribution: Individual creator attribution pending confirmation; project provenance recorded.
+  sha256: 1b06e5ed601f3fe5d931446b5d0e80ba64bbedeb5856f0ecf2e78c998cc95cc5
+  chapter_ids: [CH05]
+  paragraph_reference: CH05-S04
+  teaching_purpose: Original explanatory schematic; no film still or third-party artwork.
+  source_ids: [R039, R040]
+  research_sources:
+  - source_id: R039
+    accessed: '2026-10-20'
+    purpose: Provides the theoretical distinction informing this original schematic.
+  caption_zh_tw: "類型系統：可辨識的語義線索，經由結構關係連結故事承諾與觀眾期待。 本圖為原創示意圖，非電影劇照；出版核准待審。"
+  caption_en: "Genre system: recognizable semantic cues connect through syntactic relations to story promise and audience expectation. This original illustration is not a film still; publication approval pending."
+  alt_zh: "原創類型圖示，呈現慣例元素與敘事關係如何形成故事承諾與觀眾期待。"
+  alt_en: "A genre map linking visible conventions through narrative relations to promise and expectation."
+  original_prompt_or_method: Hand-authored editable SVG; no AI image-generation tool used.
+  tool_name: text editor / SVG source
+  tool_version: not recorded
+  production_log:
+  - date: '2026-10-20'
+    change: Created diagram for CH05 research draft.
+  review_status: {technical: pending, quality: pending, rights: pending, final: pending}
+  approval_status: pending
+  publication_targets: {zh-TW-book: pending, en-book: pending, zh-TW-site: pending, en-site: pending}
+  rights_risk_review: {status: pending, checked_at: '2026-10-20', reviewer: Codex preliminary review, findings: Original schematic; creator attribution and publication review pending.}
+  notes: Draft only; not publication-approved.
+
+- id: ASSET-CH05-FIG-002
+  path: assets/chapters/CH05/figures/originals/CH05-FIG-002-representation-audit.svg
+  type: original-svg-diagram
+  media_kind: image
+  figure_id: CH05-FIG-002
+  description: "影視再現與倫理審查"
+  creator: AI Video Bible project; individual creator attribution not yet confirmed
+  source_url: null
+  created_at: '2026-10-20'
+  license: Unconfirmed
+  permission: Publication approval pending; do not publish.
+  attribution: Individual creator attribution pending confirmation; project provenance recorded.
+  sha256: 45975736d298a57f6d0ee1af96c2e3c98d189bd1aba28cc05e881dd92ea6cab7
+  chapter_ids: [CH05]
+  paragraph_reference: CH05-S10
+  teaching_purpose: Original explanatory schematic; no film still or third-party artwork.
+  source_ids: [R039, R040]
+  research_sources:
+  - source_id: R039
+    accessed: '2026-10-20'
+    purpose: Provides the theoretical distinction informing this original schematic.
+  caption_zh_tw: "六項審查面向：視點、能動性、因果、脈絡、同意與補救。 本圖為原創示意圖，非電影劇照；出版核准待審。"
+  caption_en: "Six review dimensions: viewpoint, agency, causality, context, consent, and remedy. This original illustration is not a film still; publication approval pending."
+  alt_zh: "再現倫理審查示意，包含視點、能動性、因果、脈絡、同意及補救。"
+  alt_en: "A six-part audit schematic for representation and ethical review."
+  original_prompt_or_method: Hand-authored editable SVG; no AI image-generation tool used.
+  tool_name: text editor / SVG source
+  tool_version: not recorded
+  production_log:
+  - date: '2026-10-20'
+    change: Created diagram for CH05 research draft.
+  review_status: {technical: pending, quality: pending, rights: pending, final: pending}
+  approval_status: pending
+  publication_targets: {zh-TW-book: pending, en-book: pending, zh-TW-site: pending, en-site: pending}
+  rights_risk_review: {status: pending, checked_at: '2026-10-20', reviewer: Codex preliminary review, findings: Original schematic; creator attribution and publication review pending.}
+  notes: Draft only; not publication-approved.

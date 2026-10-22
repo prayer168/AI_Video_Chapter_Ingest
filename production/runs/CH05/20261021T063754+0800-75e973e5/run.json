@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "run_id": "20261021T063754+0800-75e973e5",
+  "chapter_id": "CH05",
+  "created_at": "2026-10-21T06:37:54.960301+08:00",
+  "status": "partial",
+  "chapter": {
+    "chapter_id": "CH05",
+    "part_id": "P01",
+    "number": 5,
+    "slug": "chapter-05",
+    "title_zh": "類型、再現與影視倫理",
+    "title_en": "Genre, Representation, and Screen Ethics",
+    "legacy_status": "planned",
+    "zh_status": "review-needed",
+    "en_status": "review-needed"
+  },
+  "translation_status": {
+    "zh-TW": "review-needed",
+    "en-US": "review-needed",
+    "sync_revision": "2.1.0-draft"
+  },
+  "existing_files": [
+    {
+      "path": "content/zh-TW/chapters/CH05-chapter-05.md",
+      "bytes": 12033,
+      "sha256": "6e39ef462f84b2363a60a8b2ff43b383190814c36cc6e96a37bb63429fae4dab"
+    },
+    {
+      "path": "content/en-US/chapters/CH05-chapter-05.md",
+      "bytes": 14447,
+      "sha256": "62ea5136b9183f8e24ac45954290e42d4243a4edf07b14f44c7fdaee8c08ddd9"
+    },
+    {
+      "path": "assets/chapters/CH05/figure-manifest.yaml",
+      "bytes": 3198,
+      "sha256": "056909989fb2404d1ad7b8af730453d1f1a6060f5f08088352bd74be8c4aa6ba"
+    },
+    {
+      "path": "metadata/translations/CH05-alignment.yaml",
+      "bytes": 1654,
+      "sha256": "d654f5423327fa32c9db7c9bd3b9a46abce7f65e089206f7379b4f341a693488"
+    }
+  ],
+  "steps": {
+    "inventory": {
+      "status": "pass",
+      "note": "Pre-edit backups and repository state recorded"
+    },
+    "research": {
+      "status": "pass",
+      "note": "R039-R045 source records and limits checked"
+    },
+    "zh-draft": {
+      "status": "pass",
+      "note": "Canonical Traditional Chinese draft 2.1.1-draft checked"
+    },
+    "en-translation": {
+      "status": "needs-human-review",
+      "note": "English draft aligned; professional proofread remains"
+    },
+    "film-cases": {
+      "status": "needs-human-review",
+      "note": "BFI sources checked; author viewing edition/timecodes pending"
+    },
+    "figure-assets": {
+      "status": "needs-human-review",
+      "note": "Two original SVG hashes preserved; rights/editorial approval pending"
+    },
+    "svg-diagrams": {
+      "status": "needs-human-review",
+      "note": "SVG render/build checked; accessibility and print review pending"
+    },
+    "website": {
+      "status": "pass",
+      "note": "Astro 123 pages; each CH05 route has 40 unique IDs and 2 accessible images"
+    },
+    "books": {
+      "status": "pass",
+      "note": "DOCX/PDF/EPUB drafts rebuilt; strict fonts and EPUBCheck pass"
+    },
+    "tests": {
+      "status": "pass",
+      "note": "Validators, 48 unit tests, format smoke, route and visual proofs pass"
+    },
+    "editorial-review": {
+      "status": "needs-human-review",
+      "note": "Theory locators, English proofreading, ethics review and final proof pending"
+    },
+    "rights-review": {
+      "status": "needs-human-review",
+      "note": "Figure authorship, rights, accessibility and publication approvals pending"
+    },
+    "author-approval": {
+      "status": "needs-human-review",
+      "note": "Author approval deferred to whole-book review"
+    },
+    "chapter-audit": {
+      "status": "pass",
+      "note": "Acceptance report contains itemized statuses and evidence; 20 pass, 12 human review"
+    }
+  },
+  "events": [
+    {
+      "time": "2026-10-21T06:37:54.960301+08:00",
+      "event": "Checkpoint created. No manuscripts, images, or publication outputs changed."
+    },
+    {
+      "time": "2026-10-21T06:51:29.580326+08:00",
+      "event": "Stage inventory recorded as pass.",
+      "note": "Pre-edit backups and repository state recorded"
+    },
+    {
+      "time": "2026-10-21T06:51:29.777388+08:00",
+      "event": "Stage research recorded as pass.",
+      "note": "R039-R045 source records and limits checked"
+    },
+    {
+      "time": "2026-10-21T06:51:29.977747+08:00",
+      "event": "Stage zh-draft recorded as pass.",
+      "note": "Canonical Traditional Chinese draft 2.1.1-draft checked"
+    },
+    {
+      "time": "2026-10-21T06:51:30.168748+08:00",
+      "event": "Stage en-translation recorded as needs-human-review.",
+      "note": "English draft aligned; professional proofread remains"
+    },
+    {
+      "time": "2026-10-21T06:51:30.362925+08:00",
+      "event": "Stage film-cases recorded as needs-human-review.",
+      "note": "BFI sources checked; author viewing edition/timecodes pending"
+    },
+    {
+      "time": "2026-10-21T06:51:30.577651+08:00",
+      "event": "Stage figure-assets recorded as needs-human-review.",
+      "note": "Two original SVG hashes preserved; rights/editorial approval pending"
+    },
+    {
+      "time": "2026-10-21T06:51:30.772885+08:00",
+      "event": "Stage svg-diagrams recorded as needs-human-review.",
+      "note": "SVG render/build checked; accessibility and print review pending"
+    },
+    {
+      "time": "2026-10-21T06:51:30.991336+08:00",
+      "event": "Stage website recorded as pass.",
+      "note": "Astro 123 pages; each CH05 route has 40 unique IDs and 2 accessible images"
+    },
+    {
+      "time": "2026-10-21T06:51:31.200569+08:00",
+      "event": "Stage books recorded as pass.",
+      "note": "DOCX/PDF/EPUB drafts rebuilt; strict fonts and EPUBCheck pass"
+    },
+    {
+      "time": "2026-10-21T06:51:31.418660+08:00",
+      "event": "Stage tests recorded as pass.",
+      "note": "Validators, 48 unit tests, format smoke, route and visual proofs pass"
+    },
+    {
+      "time": "2026-10-21T06:51:31.623646+08:00",
+      "event": "Stage editorial-review recorded as needs-human-review.",
+      "note": "Theory locators, English proofreading, ethics review and final proof pending"
+    },
+    {
+      "time": "2026-10-21T06:51:31.821075+08:00",
+      "event": "Stage rights-review recorded as needs-human-review.",
+      "note": "Figure authorship, rights, accessibility and publication approvals pending"
+    },
+    {
+      "time": "2026-10-21T06:51:32.025659+08:00",
+      "event": "Stage author-approval recorded as needs-human-review.",
+      "note": "Author approval deferred to whole-book review"
+    },
+    {
+      "time": "2026-10-21T06:51:32.224021+08:00",
+      "event": "Stage chapter-audit recorded as pass.",
+      "note": "Acceptance report contains itemized statuses and evidence; 20 pass, 12 human review"
+    },
+    {
+      "time": "2026-10-21T06:51:32.434787+08:00",
+      "event": "Run finished as partial.",
+      "note": ""
+    }
+  ],
+  "finished_at": "2026-10-21T06:51:32.434787+08:00"
+}

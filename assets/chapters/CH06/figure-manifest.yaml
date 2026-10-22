@@ -1,2 +1,70 @@
 chapter_id: CH06
-figures: []
+figures:
+- figure_id: CH06-FIG-001
+  chapter_id: CH06
+  zh_title: "因果鏈：目標、選擇、阻力、結果與新問題"
+  en_title: "A causal chain: goal, choice, obstacle, outcome, and a new question"
+  section_id: CH06-S07
+  teaching_goal: "展示可檢查的角色行動因果節點，作為分析工具而非結構公式。"
+  placement_after: after:CH06-S07
+  source_ids: [R046, R051]
+  asset_original: assets/chapters/CH06/figures/originals/CH06-FIG-001-causal-chain.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 6-1
+  asset_status: draft-original-svg
+  rights_status: original-project-svg-pending-human-review
+  sha256: 3c7c6ee10623e98ad498f33c5e099b0f0a79f9632b3b537651dc722345c98337
+  width: 1200
+  height: 480
+  bytes: 3365
+  method: "Hand-authored editable SVG with original labels and shapes; no raster image, third-party artwork, film still, or image-generation service used."
+  caption_zh: "圖 6-1｜因果鏈的工作檢查點：目標、選擇、阻力、結果、代價與新問題。本圖為本書原創可編輯 SVG 教學示意圖，不是電影劇照，也不代表每部作品必須採用此公式；出版核准待審。"
+  caption_en: "Figure 6-1. Working checkpoints in a causal chain: goal, choice, obstacle, outcome, cost, and a new question. This is an original editable SVG teaching diagram, not a film still or a formula required of every work; publication approval pending."
+  alt_zh: "原創流程圖以六個連接節點呈現人物目標如何經選擇、阻力、結果與代價，推進至新問題；圖註明這是診斷模型而非固定公式。"
+  alt_en: "An original six-step diagram shows a character goal moving through choice, obstacle, outcome, and cost to a new question; it is labeled as a diagnostic model, not a fixed formula."
+  creator: AI Video Bible project; individual creator attribution pending confirmation
+  attribution: Original project SVG; individual contributor and rights-holder attribution pending confirmation.
+  permission: Publication approval pending.
+  original_prompt_or_method: Hand-authored editable vector diagram; no generative image model or external image asset.
+  production_log:
+  - date: "2026-10-21"
+    change: Created as a bilingual original SVG; source and checksum recorded.
+  note: Draft only; technical file checks completed, human rights, attribution, accessibility, similarity, editorial and publication reviews remain pending.
+- figure_id: CH06-FIG-002
+  chapter_id: CH06
+  zh_title: "故事時間與作品呈現順序"
+  en_title: "Story chronology and order of presentation"
+  section_id: CH06-S09
+  teaching_goal: "視覺區分推論事件時間與作品資訊呈現順序，並提示重述可新增差異。"
+  placement_after: after:CH06-S09
+  source_ids: [R051, R048, R049]
+  asset_original: assets/chapters/CH06/figures/originals/CH06-FIG-002-story-plot-information.svg
+  asset_approved: null
+  rights_review: pending
+  technical_review: pending
+  editorial_review: pending
+  publication_status: pending-publication-approval
+  display_number: 6-2
+  asset_status: draft-original-svg
+  rights_status: original-project-svg-pending-human-review
+  sha256: 0d8a07350d64a004b32c6344cbba0e81c3eda102d95a048042838ccbe1e54e4c
+  width: 1200
+  height: 560
+  bytes: 3191
+  method: "Hand-authored editable SVG with original abstract event labels; no film-specific characters, plot imagery, raster image, third-party artwork, or image-generation service used."
+  caption_zh: "圖 6-2｜推論出的故事時間與作品呈現順序可以不同；重述可改變資訊而不等同客觀真相。本圖為本書原創可編輯 SVG 教學示意圖，不是電影劇照或任何特定電影鏡頭；出版核准待審。"
+  caption_en: "Figure 6-2. Inferred story chronology can differ from presentation order; a retelling can change available information without becoming objective truth. This is an original editable SVG teaching diagram, not a film still or a depiction of a specific film shot; publication approval pending."
+  alt_zh: "原創雙軌示意圖：上軌以 A、B、C 表示推論的故事時間；下軌以 B、A、B′、C 表示作品先呈現後倒敘再重述的順序。"
+  alt_en: "An original two-track diagram: A, B, C mark inferred story chronology above; B, A, B-prime, C show presentation order with an opening later event, a flashback, and a retelling."
+  creator: AI Video Bible project; individual creator attribution pending confirmation
+  attribution: Original project SVG; individual contributor and rights-holder attribution pending confirmation.
+  permission: Publication approval pending.
+  original_prompt_or_method: Hand-authored editable vector diagram; no generative image model or external image asset.
+  production_log:
+  - date: "2026-10-21"
+    change: Created as a bilingual original SVG; source and checksum recorded.
+  note: Draft only; technical file checks completed, human rights, attribution, accessibility, similarity, editorial and publication reviews remain pending.

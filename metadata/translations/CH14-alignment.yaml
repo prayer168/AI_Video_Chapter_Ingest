@@ -1,0 +1,61 @@
+chapter_id: CH14
+source_locale: zh-TW
+target_locale: en-US
+source_revision: 2.1.0-draft
+target_revision: 2.1.0-draft
+status: review-needed
+reviewer: null
+reviewed_on: null
+sections:
+- section_id: CH14-S00
+  source_heading: 本章導讀
+  target_heading: Chapter Overview
+  status: draft-aligned
+- section_id: CH14-S01
+  source_heading: 學習目標與適用對象
+  target_heading: Learning Objectives and Audience
+  status: draft-aligned
+- section_id: CH14-S02
+  source_heading: 先備知識
+  target_heading: Prerequisites
+  status: draft-aligned
+- section_id: CH14-S03
+  source_heading: 核心術語
+  target_heading: Core Terms
+  status: draft-aligned
+- section_id: CH14-S04
+  source_heading: 歷史與基本原理
+  target_heading: History and Basic Principles
+  status: draft-aligned
+- section_id: CH14-S05
+  source_heading: 傳統製作方法
+  target_heading: Traditional Production Practice
+  status: draft-aligned
+- section_id: CH14-S06
+  source_heading: AI 時代的技術轉換與限制
+  target_heading: Technical Shifts and Limits in the AI Era
+  status: draft-aligned
+- section_id: CH14-S07
+  source_heading: 詳細工作流程
+  target_heading: Detailed Workflow
+  status: draft-aligned
+- section_id: CH14-S08
+  source_heading: 提示詞與技術參數
+  target_heading: Prompt Template and Technical Parameters
+  status: draft-aligned
+- section_id: CH14-S09
+  source_heading: 電影案例分析
+  target_heading: Film Case Studies
+  status: draft-aligned
+- section_id: CH14-S10
+  source_heading: 常見錯誤與品質檢查
+  target_heading: Common Errors and Quality Checks
+  status: draft-aligned
+- section_id: CH14-S11
+  source_heading: 練習、評量與延伸研究
+  target_heading: Exercises, Assessment, and Further Research
+  status: draft-aligned
+- section_id: CH14-S12
+  source_heading: 參考資料
+  target_heading: References
+  status: draft-aligned

@@ -25,6 +25,32 @@ local display_numbers = {
   ["CH02-FIG-005"] = "2-1E",
   ["CH03-FIG-001"] = "3-1",
   ["CH03-FIG-002"] = "3-2",
+  ["CH04-FIG-001"] = "4-1",
+  ["CH04-FIG-002"] = "4-2",
+  ["CH05-FIG-001"] = "5-1",
+  ["CH05-FIG-002"] = "5-2",
+  ["CH06-FIG-001"] = "6-1",
+  ["CH06-FIG-002"] = "6-2",
+  ["CH07-FIG-001"] = "7-1",
+  ["CH07-FIG-002"] = "7-2",
+  ["CH08-FIG-001"] = "8-1",
+  ["CH08-FIG-002"] = "8-2",
+  ["CH09-FIG-001"] = "9-1",
+  ["CH09-FIG-002"] = "9-2",
+  ["CH09-FIG-003"] = "9-3",
+  ["CH10-FIG-001"] = "10-1",
+  ["CH10-FIG-002"] = "10-2",
+  ["CH10-FIG-003"] = "10-3",
+  ["CH11-FIG-001"] = "11-1",
+  ["CH11-FIG-002"] = "11-2",
+  ["CH12-FIG-001"] = "12-1",
+  ["CH12-FIG-002"] = "12-2",
+  ["CH13-FIG-001"] = "13-1",
+  ["CH13-FIG-002"] = "13-2",
+  ["CH15-FIG-001"] = "15-1",
+  ["CH15-FIG-002"] = "15-2",
+  ["CH16-FIG-001"] = "16-1",
+  ["CH16-FIG-002"] = "16-2",
 }
 
 local function strip_display_prefix(inlines, display)
@@ -64,6 +90,7 @@ end
 function Pandoc(doc)
   if FORMAT:match("latex") and pandoc.utils.stringify(doc.meta.lang or ""):match("^zh") then
     local headers = doc.meta["header-includes"] or pandoc.MetaList{}
+    headers:insert(pandoc.MetaBlocks{pandoc.RawBlock("latex", "\\usepackage{caption}")})
     headers:insert(pandoc.MetaBlocks{pandoc.RawBlock("latex", "\\captionsetup[figure]{name=圖}")})
     doc.meta["header-includes"] = headers
   end

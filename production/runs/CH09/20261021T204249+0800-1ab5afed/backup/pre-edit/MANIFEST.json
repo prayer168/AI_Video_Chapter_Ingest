@@ -1,0 +1,154 @@
+{
+  "chapter": "CH09",
+  "run_id": "20261021T204249+0800-1ab5afed",
+  "created_at": "2026-10-21T20:43:00+08:00",
+  "files": [
+    {
+      "path": "content/zh-TW/chapters/CH09-chapter-09.md",
+      "existed": true,
+      "backup_path": "backup/pre-edit/content/zh-TW/chapters/CH09-chapter-09.md",
+      "bytes": 1093,
+      "sha256": "27d6bba72b42282d4ca132d72b5aab4afa652d4dbfb87e750db94c8a06730719"
+    },
+    {
+      "path": "content/en-US/chapters/CH09-chapter-09.md",
+      "existed": true,
+      "backup_path": "backup/pre-edit/content/en-US/chapters/CH09-chapter-09.md",
+      "bytes": 1135,
+      "sha256": "46f1dd7e528e6fbdd00502e4b13efc2066a6303e5701af14e22946f157a2af29"
+    },
+    {
+      "path": "apps/web/src/content/docs/zh-tw/CH09-chapter-09.md",
+      "existed": true,
+      "backup_path": "backup/pre-edit/apps/web/src/content/docs/zh-tw/CH09-chapter-09.md",
+      "bytes": 1174,
+      "sha256": "a91ad7f4db68a7a875d71e7b85be5e64c4404cda1005f9b776b019a683045750"
+    },
+    {
+      "path": "apps/web/src/content/docs/en/CH09-chapter-09.md",
+      "existed": true,
+      "backup_path": "backup/pre-edit/apps/web/src/content/docs/en/CH09-chapter-09.md",
+      "bytes": 1216,
+      "sha256": "afef427beabd9d019505f4e65abbe60f40bb09a9fe7096409f6a6378582864c4"
+    },
+    {
+      "path": "assets/chapters/CH09/figure-manifest.yaml",
+      "existed": true,
+      "backup_path": "backup/pre-edit/assets/chapters/CH09/figure-manifest.yaml",
+      "bytes": 31,
+      "sha256": "39ff9353c1809c4fe8155366954289942f45f893e7ab23f7158f3d583f5e5061"
+    },
+    {
+      "path": "metadata/chapters.yaml",
+      "existed": true,
+      "backup_path": "backup/pre-edit/metadata/chapters.yaml",
+      "bytes": 13649,
+      "sha256": "8de7909668e6ce9fe727010533bd1233a13b63f0061dfe01738f96257a1568f4"
+    },
+    {
+      "path": "metadata/translation-status.yaml",
+      "existed": true,
+      "backup_path": "backup/pre-edit/metadata/translation-status.yaml",
+      "bytes": 5412,
+      "sha256": "29b785434acfeed7ccea9b22c76b7bedd92684a7e05fcb64c3bd3b9098a76b84"
+    },
+    {
+      "path": "metadata/terminology.yaml",
+      "existed": true,
+      "backup_path": "backup/pre-edit/metadata/terminology.yaml",
+      "bytes": 59150,
+      "sha256": "d5b65dc07e603b40534a17951b308b5b08cba1729baad4dee1eaf8cd8c07ee99"
+    },
+    {
+      "path": "data/references.yaml",
+      "existed": true,
+      "backup_path": "backup/pre-edit/data/references.yaml",
+      "bytes": 40022,
+      "sha256": "8d5be24fd4f0efbd3b77e6cfcb17f8f071a9a0e484e87210a4489d28494b28d7"
+    },
+    {
+      "path": "metadata/references.bib",
+      "existed": true,
+      "backup_path": "backup/pre-edit/metadata/references.bib",
+      "bytes": 25289,
+      "sha256": "350217f2db07f0a60b27016e49f7815f8112732e8d7eb3cb36f454c405868c31"
+    },
+    {
+      "path": "data/assets.yaml",
+      "existed": true,
+      "backup_path": "backup/pre-edit/data/assets.yaml",
+      "bytes": 33691,
+      "sha256": "e2978d8c7f36b24fe4bd415cef6e1c1ec8c016b233fbcfa06951b8069100ab1b"
+    },
+    {
+      "path": "metadata/figure-registry.yaml",
+      "existed": true,
+      "backup_path": "backup/pre-edit/metadata/figure-registry.yaml",
+      "bytes": 49389,
+      "sha256": "7709df25cdc8730a12e92071810e9eb4f46a396424a5e39f0c26af727db0085f"
+    },
+    {
+      "path": "scripts/publishing/figure-captions.lua",
+      "existed": true,
+      "backup_path": "backup/pre-edit/scripts/publishing/figure-captions.lua",
+      "bytes": 3890,
+      "sha256": "aee55ad0b3bf36f4783e99e8d2f40c4e60cecddb2e7eeef8b39555aa2777ed27"
+    },
+    {
+      "path": "CHAPTER_INTEGRATION_MATRIX.md",
+      "existed": true,
+      "backup_path": "backup/pre-edit/CHAPTER_INTEGRATION_MATRIX.md",
+      "bytes": 36537,
+      "sha256": "b96258c07ad45594530d9964149386bb0f07d5f38f0f6ec7075cb5fdcd5180fd"
+    },
+    {
+      "path": "history.md",
+      "existed": true,
+      "backup_path": "backup/pre-edit/history.md",
+      "bytes": 125974,
+      "sha256": "ada2c0def27a1dd30c3554303676a6523a3070da6c634c1e77e287378cb975de"
+    },
+    {
+      "path": "reports/CHAPTER-PROGRESS-TRACKER.md",
+      "existed": true,
+      "backup_path": "backup/pre-edit/reports/CHAPTER-PROGRESS-TRACKER.md",
+      "bytes": 14368,
+      "sha256": "85dfd62918676e7e4d2a57e06c8f7d081e1d7cb98238bcfbbd6c0562ad08b96e"
+    },
+    {
+      "path": "scripts/update_chapter_progress_tracker.py",
+      "existed": true,
+      "backup_path": "backup/pre-edit/scripts/update_chapter_progress_tracker.py",
+      "bytes": 4793,
+      "sha256": "2b52d40ff822b92390f3cc1ff7be249568c2f869c1cec9f6e3e983a21068ba0a"
+    },
+    {
+      "path": "metadata/translations/CH09-alignment.yaml",
+      "existed": false
+    },
+    {
+      "path": "assets/chapters/CH09/figure-captions.md",
+      "existed": false
+    },
+    {
+      "path": "assets/chapters/CH09/CH09-FIGURE-RIGHTS-AND-SOURCES.md",
+      "existed": false
+    },
+    {
+      "path": "assets/chapters/CH09/CH09-SOURCE-AND-CASE-NOTES.md",
+      "existed": false
+    },
+    {
+      "path": "assets/chapters/CH09/CH09-HUMAN-REVIEW-CHECKLIST.md",
+      "existed": false
+    },
+    {
+      "path": "tests/test_ch09_content.py",
+      "existed": false
+    },
+    {
+      "path": "reports/CH09-FINAL-ACCEPTANCE.md",
+      "existed": false
+    }
+  ]
+}

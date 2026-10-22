@@ -1,0 +1,3 @@
+usage: image_policy.py [-h] --target {zh-TW-book,en-book,zh-TW-site,en-site}
+                       [--include-docs]
+image_policy.py: error: argument --target: invalid choice: 'en-US-site' (choose from 'zh-TW-book', 'en-book', 'zh-TW-site', 'en-site')

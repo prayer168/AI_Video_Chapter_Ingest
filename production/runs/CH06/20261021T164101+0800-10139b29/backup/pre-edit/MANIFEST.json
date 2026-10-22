@@ -1,0 +1,55 @@
+[
+  {
+    "sha256": "7e64a00bfe5f7f9b79df14a996eaedb1b13ce902852a21b77a64b83fe81e40fe",
+    "path": "content/zh-TW/chapters/CH06-chapter-06.md"
+  },
+  {
+    "sha256": "ca053e55a25d59f5196e37d3ede30743b493d1a3eb7d44cb4caf2a87e0e33745",
+    "path": "content/en-US/chapters/CH06-chapter-06.md"
+  },
+  {
+    "sha256": "9c95fc5057b37ac0d1bc9d1fbe2af89ac29a0ac36c7daf19e4b2bfb2affd8994",
+    "path": "assets/chapters/CH06/figure-manifest.yaml"
+  },
+  {
+    "sha256": "2fb6905773e404ecd98839a836e1e74f0afa9859ac08fb928a61cfa08e1a69bc",
+    "path": "metadata/figure-registry.yaml"
+  },
+  {
+    "sha256": "7717153f39e87d5a981e1b940e555818e3211210243acfaaa98a166b1de9a78a",
+    "path": "data/assets.yaml"
+  },
+  {
+    "sha256": "fce6672c8afc07c2601017c2c4cf22821afab3d4e3a0a8a0ff8139c067f5ed8e",
+    "path": "metadata/references.bib"
+  },
+  {
+    "sha256": "5fdfe19a68134644288652c6f8f9746188f9cef2cd62339b1a8ae95d97659818",
+    "path": "tests/test_ch06_content.py"
+  },
+  {
+    "sha256": "97c818f6b2f18095f478bcde08f9001cdef9202f6b0e591f031809b9ced890c4",
+    "path": "reports/CH06-FINAL-ACCEPTANCE.md"
+  },
+  {
+    "sha256": "0ca41165a1a4e20c24bc1ce59403626380031e8d47797909b7d1aefa75c2d4b2",
+    "path": "CHAPTER_INTEGRATION_MATRIX.md"
+  },
+  {
+    "sha256": "63a67f93d26017ebc3fcf98b46a4f69b66fa5cc97fa4c5cacb4dfe4bf5d25b3f",
+    "path": "history.md"
+  },
+  {
+    "sha256": "61c72d686baf5d60e6b0e9498e5fc2f369b73e54dffbe0002ac9de8b215b9dbc",
+    "path": "scripts/publishing/figure-captions.lua"
+  },
+  {
+    "path": "scripts/publishing/build_books.py",
+    "sha256": "f77ceeaf4e046003805ae5b08558f51d6ff80cc334fe4715a2c79dad7fdb3432"
+  },
+  {
+    "path": "metadata/translations/CH06-alignment.yaml",
+    "sha256": "2f8c0cf7c98a4b47af6324ff968adf3fe91f4780dd23352a74556cd579f88a16",
+    "note": "Reconstructed pre-addendum state by reversing only the R051 and figure-mapping additions; the earlier run backup did not contain this derived map."
+  }
+]

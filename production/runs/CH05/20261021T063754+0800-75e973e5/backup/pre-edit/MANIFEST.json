@@ -1,0 +1,50 @@
+{
+  "checkpoint": "CH05 safe source and documentation updates",
+  "files": [
+    {
+      "path": "content/zh-TW/chapters/CH05-chapter-05.md",
+      "bytes": 12033,
+      "sha256": "6e39ef462f84b2363a60a8b2ff43b383190814c36cc6e96a37bb63429fae4dab"
+    },
+    {
+      "path": "content/en-US/chapters/CH05-chapter-05.md",
+      "bytes": 14447,
+      "sha256": "62ea5136b9183f8e24ac45954290e42d4243a4edf07b14f44c7fdaee8c08ddd9"
+    },
+    {
+      "path": "data/references.yaml",
+      "bytes": 24533,
+      "sha256": "c9065363c3d0d9623ca183b64fc59aab51bc3a369ce41f77f4ec8abacbbafb53"
+    },
+    {
+      "path": "metadata/references.bib",
+      "bytes": 17288,
+      "sha256": "56539ac20ff4d43921636c3ba9c7ed4cc4ee292dce2eeee34004c47482a44cad"
+    },
+    {
+      "path": "metadata/translations/CH05-alignment.yaml",
+      "bytes": 1654,
+      "sha256": "d654f5423327fa32c9db7c9bd3b9a46abce7f65e089206f7379b4f341a693488"
+    },
+    {
+      "path": "assets/chapters/CH05/figure-manifest.yaml",
+      "bytes": 3198,
+      "sha256": "056909989fb2404d1ad7b8af730453d1f1a6060f5f08088352bd74be8c4aa6ba"
+    },
+    {
+      "path": "data/assets.yaml",
+      "bytes": 14467,
+      "sha256": "68dc2bd7902014ea384b5dcf2bbbaecbb585402a80f8d99a230538fa70af8127"
+    },
+    {
+      "path": "reports/CH05-FINAL-ACCEPTANCE.md",
+      "bytes": 8977,
+      "sha256": "b5f462738370b6a8862ec6fd4d90536de08597d04e5a3dec8a7f8b81ae46a280"
+    },
+    {
+      "path": "history.md",
+      "bytes": 105975,
+      "sha256": "84c0d15a1fb59a6a419e133664f8533ab2688fe3d4db6e45c5ffa102fdd63e58"
+    }
+  ]
+}

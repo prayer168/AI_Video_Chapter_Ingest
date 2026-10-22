@@ -1,0 +1,1015 @@
+- id: TERM-01-01-FRAME
+  zh_TW: 影格
+  en: Frame
+  variants: []
+  definition: 影片時間序列中的單幅影像
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-SHOT
+  zh_TW: 鏡頭
+  en: Shot
+  variants: []
+  definition: 成片中的一段連續影像，或拍攝設置的稱呼
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-TAKE
+  zh_TW: 拍攝次數
+  en: Take
+  variants: []
+  definition: 一次實際錄製嘗試
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-SCENE
+  zh_TW: 場景／一場戲
+  en: Scene
+  variants: []
+  definition: 特定戲劇時空中的行動單元
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-SEQUENCE
+  zh_TW: 敘事段落
+  en: Sequence
+  variants: []
+  definition: 完成相對完整敘事目的的一組場景
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-MISE-EN-SC-NE
+  zh_TW: 場面調度
+  en: Mise-en-scène
+  variants: []
+  definition: 鏡頭前人物、道具、空間、光線等安排
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-BLOCKING
+  zh_TW: 走位／調度
+  en: Blocking
+  variants: []
+  definition: 演員位置及動作路徑的設計
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-FRAMING
+  zh_TW: 取景／構圖
+  en: Framing
+  variants: []
+  definition: 畫面內外的選擇與元素配置
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-SHOT-SIZE
+  zh_TW: 景別
+  en: Shot Size
+  variants: []
+  definition: 主體在畫面中相對呈現的尺度
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-CAMERA-ANGLE
+  zh_TW: 攝影角度
+  en: Camera Angle
+  variants: []
+  definition: 攝影機觀察主體的角度
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-CAMERA-MOVEMENT
+  zh_TW: 運鏡
+  en: Camera Movement
+  variants: []
+  definition: 攝影機位置或朝向的變化
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-COVERAGE
+  zh_TW: 拍攝涵蓋素材
+  en: Coverage
+  variants: []
+  definition: 不同角度與景別、供剪輯使用的素材組
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-MASTER-SHOT
+  zh_TW: 主鏡頭
+  en: Master Shot
+  variants: []
+  definition: 涵蓋某場戲主要行動的鏡頭
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-REACTION-SHOT
+  zh_TW: 反應鏡頭
+  en: Reaction Shot
+  variants: []
+  definition: 呈現人物對事件的反應
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-INSERT-SHOT
+  zh_TW: 插入鏡頭
+  en: Insert Shot
+  variants: []
+  definition: 突出物件或行動細節
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-CUTAWAY
+  zh_TW: 切出鏡頭
+  en: Cutaway
+  variants: []
+  definition: 暫時切至主要行動以外的相關畫面
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-CONTINUITY
+  zh_TW: 連續性
+  en: Continuity
+  variants: []
+  definition: 維持動作、位置、時間與視覺邏輯
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-MATCH-ON-ACTION
+  zh_TW: 動作接剪
+  en: Match on Action
+  variants: []
+  definition: 以動作持續性銜接鏡頭
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-MONTAGE
+  zh_TW: 蒙太奇
+  en: Montage
+  variants: []
+  definition: 由鏡頭組合建立意義或濃縮時間
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-01-DIEGETIC-SOUND
+  zh_TW: 故事世界內聲音
+  en: Diegetic Sound
+  variants: []
+  definition: 來自故事世界內的可想像聲源
+  domain: film-language
+  status: draft
+  source_ids:
+  - R001
+  related_terms: []
+  notes: Glossary imported from the original chapter draft; source locator and terminology review remain pending.
+  updated: '2026-10-18'
+- id: TERM-01-02-EWS
+  zh_TW: 極遠景
+  en: Extreme Wide Shot
+  variants: []
+  definition: 人物相對環境極小、環境佔畫面主導的景別。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-WS
+  zh_TW: 遠景
+  en: Wide Shot
+  variants: []
+  definition: 呈現人物全身或主要行動及其周圍空間的景別；具體邊界依劇組慣例。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-FS
+  zh_TW: 全身景
+  en: Full Shot
+  variants: []
+  definition: 以人物頭至腳為主要取景範圍的景別。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-MLS
+  zh_TW: 中遠景
+  en: Medium Long Shot
+  variants: []
+  definition: 介於遠景與中景之間的景別，人物常約膝上入畫；邊界依慣例。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-MS
+  zh_TW: 中景
+  en: Medium Shot
+  variants: []
+  definition: 常以人物腰部以上及部分環境呈現的景別；取景慣例可有差異。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-MCU
+  zh_TW: 中近景
+  en: Medium Close-Up
+  variants: []
+  definition: 常以人物胸部或肩胸以上呈現的景別。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-CU
+  zh_TW: 特寫
+  en: Close-Up
+  variants: []
+  definition: 以人物臉部或物件局部作為畫面主要內容的景別。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-ECU
+  zh_TW: 大特寫
+  en: Extreme Close-Up
+  variants: []
+  definition: 突出眼睛、手指或物件細節的極近距離取景。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-OTS
+  zh_TW: 越肩鏡頭
+  en: Over-the-Shoulder
+  variants: []
+  definition: 由一名人物肩部或後側取景，呈現另一人物或其視點關係的鏡頭。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-POV
+  zh_TW: 主觀鏡頭
+  en: Point of View Shot
+  variants: []
+  definition: 以角色所見位置呈現畫面的鏡頭；上下文需建立主觀關係。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-DOLLY
+  zh_TW: 攝影機移動
+  en: Dolly Movement
+  variants: []
+  definition: 攝影機支撐平台連同機身在空間中平移，常指前後移動。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-ZOOM
+  zh_TW: 變焦
+  en: Zoom
+  variants: []
+  definition: 改變鏡頭焦距以改變視角與畫面取景範圍的操作。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-PAN
+  zh_TW: 水平搖攝
+  en: Pan
+  variants: []
+  definition: 攝影機位置大致固定時，機身繞垂直軸水平轉動。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-TILT
+  zh_TW: 垂直搖攝
+  en: Tilt
+  variants: []
+  definition: 攝影機位置大致固定時，機身繞水平軸上下轉動。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-TRUCK
+  zh_TW: 橫向移動
+  en: Truck Movement
+  variants: []
+  definition: 攝影機整體沿水平方向側向平移。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-PEDESTAL
+  zh_TW: 升降移動
+  en: Pedestal
+  variants: []
+  definition: 攝影機整體垂直升降，而非僅上下俯仰。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-ORBIT
+  zh_TW: 環繞運鏡
+  en: Orbit
+  variants: []
+  definition: 攝影機沿弧線繞拍攝主體移動。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-RACK-FOCUS
+  zh_TW: 移焦
+  en: Rack Focus
+  variants: []
+  definition: 在同一鏡頭中將清晰焦點由一個距離或主體轉移到另一個。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-DEPTH-OF-FIELD
+  zh_TW: 景深
+  en: Depth of Field
+  variants: []
+  definition: 在指定對焦與觀看條件下，影像可感知為清晰的前後距離範圍。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-CONTINUITY
+  zh_TW: 連續性
+  en: Continuity
+  variants: []
+  definition: 維持跨鏡頭人物、動作、道具、空間或時間關係可理解的剪輯與製作原則。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-180-DEGREE-RULE
+  zh_TW: 180 度軸線規則
+  en: 180-Degree Rule
+  variants: []
+  definition: 以動作軸線為基準安排攝影機位置，協助維持跨鏡頭左右與方向關係的慣例。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-LEAD-ROOM
+  zh_TW: 前方留白
+  en: Lead Room
+  variants: []
+  definition: 在人物視線或移動方向前方保留的畫面空間。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-HEADROOM
+  zh_TW: 頭頂留白
+  en: Headroom
+  variants: []
+  definition: 人物頭頂與畫框上緣之間的畫面空間。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-NEGATIVE-SPACE
+  zh_TW: 負空間
+  en: Negative Space
+  variants: []
+  definition: 主體周圍未被主要視覺元素佔據、可參與構圖表意的區域。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-FOCAL-LENGTH
+  zh_TW: 焦距
+  en: Focal Length
+  variants: []
+  definition: 描述鏡頭光學系統的焦距參數；視角還與成像格式相關。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-01-02-PERSPECTIVE
+  zh_TW: 透視
+  en: Perspective
+  variants: []
+  definition: 由攝影機位置和場景空間關係形成的物體相對大小與空間呈現。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R009
+  - R010
+  - R011
+  related_terms: []
+  notes: CH02 素材包及章稿的編輯草案；已建立書目線索，採用版本、術語差異與頁碼定位尚待編輯複核。
+  updated: '2026-10-18'
+- id: TERM-CH01-DEEP-FOCUS
+  zh_TW: 深焦攝影
+  en: Deep focus
+  variants: []
+  definition: 同一鏡頭中，前景與背景等不同距離的元素可同時保持可辨識的清晰度；效果受光學、光圈、照明、感光材料及觀看條件影響。
+  domain: film-form analysis
+  status: draft
+  source_ids:
+  - R013
+  - R020
+  related_terms: []
+  notes: CH01 V2 homage integration; bilingual definition and source locator need editorial review.
+  updated: '2026-10-18'
+- id: TERM-CH01-MULTIPLE-PERSPECTIVE
+  zh_TW: 多重觀點敘事
+  en: Multiple perspectives
+  variants: []
+  definition: 透過不同人物或資訊範圍呈現同一事件的不同觀點；觀點不同本身不能證明敘述者說謊。
+  domain: narrative analysis
+  status: draft
+  source_ids:
+  - R014
+  related_terms: []
+  notes: CH01 V2 homage integration; bilingual definition and source locator need editorial review.
+  updated: '2026-10-18'
+- id: TERM-CH01-OFFSCREEN-SPACE
+  zh_TW: 畫外空間
+  en: Offscreen space
+  variants: []
+  definition: 畫框之外但可由聲音、視線、動作或剪輯關係被觀眾推知的空間。
+  domain: film space
+  status: draft
+  source_ids:
+  - R016
+  - R017
+  related_terms: []
+  notes: CH01 V2 homage integration; bilingual definition and source locator need editorial review.
+  updated: '2026-10-18'
+- id: TERM-CH01-LONG-TAKE
+  zh_TW: 長鏡頭
+  en: Long take
+  variants: []
+  definition: 持續時間較長且內部未剪接的單一鏡頭；本詞沒有跨作品通用的秒數門檻。
+  domain: editing and cinematography
+  status: draft
+  source_ids:
+  - R017
+  related_terms: []
+  notes: CH01 V2 homage integration; bilingual definition and source locator need editorial review.
+  updated: '2026-10-18'
+- id: TERM-CH01-FRAME-WITHIN-FRAME
+  zh_TW: 框中框構圖
+  en: Frame within a frame
+  variants: []
+  definition: 利用門、窗或其他畫面內邊界形成次級框景，改變可見範圍、遮擋或空間層次。
+  domain: composition
+  status: draft
+  source_ids:
+  - R017
+  - R019
+  related_terms: []
+  notes: CH01 V2 homage integration; bilingual definition and source locator need editorial review.
+  updated: '2026-10-18'
+- id: TERM-CH01-LAYERED-COMPOSITION
+  zh_TW: 層次構圖
+  en: Layered composition
+  variants: []
+  definition: 透過景深、前後景、反射或遮擋同時安排多組可見資訊；不等同固定鏡頭類型或必然心理效果。
+  domain: composition
+  status: draft
+  source_ids:
+  - R013
+  - R019
+  related_terms: []
+  notes: CH01 V2 homage integration; bilingual definition and source locator need editorial review.
+  updated: '2026-10-18'
+- id: TERM-CH12-BLOCKING
+  zh_TW: 演員調度／走位設計
+  en: actor blocking
+  variants: []
+  definition: 為表演與攝影安排人物、物件和鏡頭在場景空間中的行動關係，不只是地板標記。
+  domain: film production practice
+  status: draft
+  source_ids:
+  - R088
+  - R089
+  related_terms: []
+  notes: CH12 working definition; bilingual and professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH12-MOVEMENT-BEAT
+  zh_TW: 動作節拍
+  en: movement beat
+  variants: []
+  definition: 具有戲劇功能、可觀察的行動變化，如接近、阻擋或退讓。
+  domain: performance and directing
+  status: draft
+  source_ids:
+  - R087
+  related_terms: []
+  notes: CH12 working definition; bilingual and professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH12-MARK
+  zh_TW: 走位標記點
+  en: mark
+  variants: []
+  definition: 供焦點、構圖、燈光或走位參照的位置，應服務表演任務。
+  domain: film production practice
+  status: draft
+  source_ids:
+  - R088
+  related_terms: []
+  notes: CH12 working definition; bilingual and professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH12-EYELINE
+  zh_TW: 視線方向
+  en: eyeline
+  variants: []
+  definition: 演員觀看對象及方向／高度，影響人際空間和鏡頭匹配。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R089
+  related_terms: []
+  notes: CH12 working definition; bilingual and professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH12-SCREEN-DIRECTION
+  zh_TW: 畫面方向
+  en: screen direction
+  variants: []
+  definition: 人物在畫面中的移動方向；維持或改變皆須考慮空間和剪輯意圖。
+  domain: editing
+  status: draft
+  source_ids:
+  - R089
+  related_terms: []
+  notes: CH12 working definition; bilingual and professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH12-ACTION-MATCH
+  zh_TW: 動作銜接
+  en: match on action
+  variants: []
+  definition: 以相鄰鏡頭中同一動作的連續部分建立時間與空間連接。
+  domain: editing
+  status: draft
+  source_ids:
+  - R089
+  related_terms: []
+  notes: CH12 working definition; bilingual and professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH12-PERFORMANCE-CONTINUITY
+  zh_TW: 表演連續性
+  en: performance continuity
+  variants: []
+  definition: 比對跨鏡頭、take 或非順拍場次的表演、動作、語速、視線和道具互動。
+  domain: editing and performance
+  status: draft
+  source_ids:
+  - R088
+  - R089
+  related_terms: []
+  notes: CH12 working definition; bilingual and professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH12-SCRIPT-SUPERVISOR
+  zh_TW: 劇本監督
+  en: script supervisor
+  variants: []
+  definition: 追蹤劇本、動作、視線、道具與拍攝資料並與劇組溝通的職務，配置依製作而異。
+  domain: film production roles
+  status: draft
+  source_ids:
+  - R088
+  - R089
+  related_terms: []
+  notes: CH12 working definition; bilingual and professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH12-CONSENT-BOUNDARY
+  zh_TW: 同意界線
+  en: consent boundary
+  variants: []
+  definition: 排演／拍攝中知情、可協商且可撤回或暫停的身體接觸與內容界線。
+  domain: performer safety
+  status: draft
+  source_ids:
+  - R089
+  related_terms: []
+  notes: CH12 working definition; bilingual and professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH13-MISE-EN-SCENE
+  zh_TW: 場面調度
+  en: mise-en-scène
+  variants: []
+  definition: 鏡頭中可見元素及其安排；不同理論傳統對範圍界定不盡相同。
+  domain: film form
+  status: draft
+  source_ids:
+  - R094
+  - R095
+  related_terms: []
+  notes: CH13 working definition; bilingual and film-professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH13-BLOCKING
+  zh_TW: 走位／調度
+  en: blocking
+  variants: []
+  definition: 表演者在空間中的位置、移動路徑與彼此關係。
+  domain: directing
+  status: draft
+  source_ids:
+  - R095
+  - R097
+  related_terms: []
+  notes: CH13 working definition; bilingual and film-professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH13-EYELINE
+  zh_TW: 視線軸
+  en: eyeline
+  variants: []
+  definition: 角色注視方向形成的畫面關係，須配合鏡頭位置建立可讀性。
+  domain: cinematography
+  status: draft
+  source_ids:
+  - R095
+  related_terms: []
+  notes: CH13 working definition; bilingual and film-professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH13-OFFSCREEN-SPACE
+  zh_TW: 畫面外空間
+  en: off-screen space
+  variants: []
+  definition: 畫框外由聲音、視線、出入口或剪接暗示的區域。
+  domain: film form
+  status: draft
+  source_ids:
+  - R099
+  related_terms: []
+  notes: CH13 working definition; bilingual and film-professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH13-OCCLUSION
+  zh_TW: 遮擋
+  en: occlusion
+  variants: []
+  definition: 前景或物件部分遮住人物或空間，使資訊受限或分層。
+  domain: mise-en-scène
+  status: draft
+  source_ids:
+  - R098
+  - R099
+  related_terms: []
+  notes: CH13 working definition; bilingual and film-professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH13-SPATIAL-CONTINUITY
+  zh_TW: 空間連戲
+  en: spatial continuity
+  variants: []
+  definition: 相鄰鏡頭在方向、移動、道具與視線等方面維持可理解關係。
+  domain: continuity
+  status: draft
+  source_ids:
+  - R097
+  related_terms: []
+  notes: CH13 working definition; bilingual and film-professional review pending.
+  updated: '2026-10-22'
+- id: TERM-CH14-STORYBOARD
+  zh_TW: 分鏡
+  en: storyboard
+  variants: []
+  definition: 連續圖格表達構圖、動作或資訊變化的製作溝通文件。 / Sequential panels communicating framing, action, or information changes.
+  domain: preproduction visualization
+  status: draft
+  source_ids:
+  - R101
+  - R104
+  - R105
+  related_terms: []
+  notes: CH14 working term; human review pending.
+  updated: '2026-10-22'
+- id: TERM-CH14-PREVIS
+  zh_TW: 預視覺化
+  en: previsualization (previs)
+  variants: []
+  definition: 拍攝前以草圖、動態分鏡、3D 或即時引擎測試影像與動作。 / Pre-shoot visualization using sketches, animatics, 3D, or real-time
+    engines.
+  domain: preproduction visualization
+  status: draft
+  source_ids:
+  - R102
+  - R106
+  related_terms: []
+  notes: CH14 working term; human review pending.
+  updated: '2026-10-22'
+- id: TERM-CH14-TECHVIS
+  zh_TW: 技術預視覺化
+  en: technical visualization (techvis)
+  variants: []
+  definition: 以攝影機、場地、器材、動線和技術可行性為焦點的視覺規劃。 / Visualization focused on camera, location, equipment, movement, and
+    feasibility.
+  domain: preproduction visualization
+  status: draft
+  source_ids:
+  - R102
+  related_terms: []
+  notes: CH14 working term; human review pending.
+  updated: '2026-10-22'
+- id: TERM-CH14-SHOT-LIST
+  zh_TW: 鏡頭清單
+  en: shot list
+  variants: []
+  definition: 可更新的鏡號、內容、技術需求及狀態紀錄。 / An updateable record of shot IDs, content, technical needs, and status.
+  domain: preproduction visualization
+  status: draft
+  source_ids:
+  - R101
+  related_terms: []
+  notes: CH14 working term; human review pending.
+  updated: '2026-10-22'
+- id: TERM-CH14-ANIMATIC
+  zh_TW: 動態分鏡
+  en: animatic
+  variants: []
+  definition: 分鏡圖配暫定時長和剪接形成的粗剪，用來檢查節奏。 / A rough timed edit of storyboard panels used to check rhythm.
+  domain: preproduction visualization
+  status: draft
+  source_ids:
+  - R103
+  - R106
+  related_terms: []
+  notes: CH14 working term; human review pending.
+  updated: '2026-10-22'
+- id: TERM-CH15-REHEARSAL
+  zh_TW: 排演
+  en: rehearsal
+  variants: []
+  definition: 拍攝前或拍攝過程中，用來測試表演、節奏、走位或鏡頭假設的活動；形式依製作情境而異。 / An activity before or during filming to test performance,
+    rhythm, blocking, or camera assumptions; form varies by production.
+  domain: on-set directing
+  status: draft
+  source_ids:
+  - R107
+  - R108
+  related_terms: []
+  notes: CH15 working term; human review pending.
+  updated: '2026-10-23'
+- id: TERM-CH15-BLOCKING
+  zh_TW: 場面調度
+  en: blocking
+  variants: []
+  definition: 演員與攝影機在場景空間中的位置、路徑、視線與時間安排。 / The placement, paths, eyelines, and timing of performers and camera
+    within a scene’s space.
+  domain: on-set directing
+  status: draft
+  source_ids:
+  - R107
+  - R108
+  related_terms: []
+  notes: CH15 working term; human review pending.
+  updated: '2026-10-23'
+- id: TERM-CH15-COVERAGE
+  zh_TW: 覆蓋鏡頭
+  en: coverage
+  variants: []
+  definition: 為敘事與剪輯取得足夠的不同鏡頭素材；充分程度依場景目的與剪輯策略判斷。 / Different shot material obtained for narrative and editorial
+    construction; sufficiency depends on scene objectives and editing strategy.
+  domain: on-set directing
+  status: draft
+  source_ids:
+  - R108
+  - R109
+  related_terms: []
+  notes: CH15 working term; human review pending.
+  updated: '2026-10-23'
+- id: TERM-CH15-MASTER-SHOT
+  zh_TW: 主鏡頭
+  en: master shot
+  variants: []
+  definition: 涵蓋整場或主要動作關係的鏡頭，可作空間與表演參照；不保證一定採用。 / A shot covering a scene or its principal action relationships,
+    potentially serving as spatial and performance reference; not always used.
+  domain: on-set directing
+  status: draft
+  source_ids:
+  - R108
+  related_terms: []
+  notes: CH15 working term; human review pending.
+  updated: '2026-10-23'
+- id: TERM-CH15-ON-SET-ADJUSTMENT
+  zh_TW: 臨場修正
+  en: on-set adjustment
+  variants: []
+  definition: 因現場條件變化而調整計畫，並檢查敘事、技術、安全與連戲後果。 / A plan change in response to set conditions, followed by review of
+    narrative, technical, safety, and continuity consequences.
+  domain: on-set directing
+  status: draft
+  source_ids:
+  - R107
+  - R108
+  related_terms: []
+  notes: CH15 working term; human review pending.
+  updated: '2026-10-23'
+- id: TERM-CH15-COVERAGE-STRATEGY
+  zh_TW: 覆蓋策略
+  en: coverage strategy
+  variants: []
+  definition: 對必要鏡頭、表演完整性、剪輯選項與製作成本的有目的取捨。 / A deliberate trade-off among required shots, performance integrity,
+    editorial options, and production cost.
+  domain: on-set directing
+  status: draft
+  source_ids:
+  - R108
+  - R109
+  related_terms: []
+  notes: CH15 working term; human review pending.
+  updated: '2026-10-23'

@@ -47,6 +47,8 @@ def sync_site_images(source: Path, check: bool) -> list[Path]:
         if destination.exists():
             if hashlib.sha256(destination.read_bytes()).digest() != source_hash:
                 stale.append(destination)
+                if not check:
+                    shutil.copy2(original, destination)
         elif check:
             stale.append(destination)
         else:

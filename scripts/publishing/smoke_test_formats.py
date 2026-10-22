@@ -10,6 +10,7 @@ from pathlib import Path
 from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[2]
+PANDOC_DATA_DIR = ROOT / "scripts" / "publishing" / "pandoc-data"
 SAMPLES = {
     "zh-TW": ("出版流程測試（非正式章節）", "繁體中文測試：電影語言、鏡頭運動、景深與色彩。"),
     "en-US": ("Publishing Workflow Smoke Test (Not Book Content)", "English rendering test: film language, camera movement, depth of field, and color."),
@@ -65,11 +66,11 @@ def main() -> int:
         source.write_text(f"---\ntitle: {title}\nlang: {locale}\nlanguage: {locale}\n---\n\n# {title}\n\n{text}\n", encoding="utf-8")
         if not args.skip_epub:
             epub = args.out_dir / f"SMOKE-{locale}.epub"
-            run([pandoc, str(source), "--from=markdown", "--to=epub3", "--standalone", "--metadata", f"lang={locale}", "--metadata", f"language={locale}", "--output", str(epub)])
+            run([pandoc, str(source), "--from=markdown", "--to=epub3", "--standalone", "--data-dir", str(PANDOC_DATA_DIR), "--metadata", f"lang={locale}", "--metadata", f"language={locale}", "--output", str(epub)])
             verify_epub(epub, locale, text)
         if not args.skip_pdf:
             pdf = args.out_dir / f"SMOKE-{locale}.pdf"
-            pdf_command = [pandoc, str(source), "--from=markdown", "--standalone", "--pdf-engine=xelatex", "--metadata", f"lang={locale}", "-V", f"mainfont={args.latin_font}"]
+            pdf_command = [pandoc, str(source), "--from=markdown", "--standalone", "--data-dir", str(PANDOC_DATA_DIR), "--pdf-engine=xelatex", "--metadata", f"lang={locale}", "-V", f"mainfont={args.latin_font}"]
             expected_font = args.latin_font
             if locale == "zh-TW":
                 pdf_command += ["-V", f"CJKmainfont={args.font}"]

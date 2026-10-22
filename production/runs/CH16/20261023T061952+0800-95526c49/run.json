@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "run_id": "20261023T061952+0800-95526c49",
+  "chapter_id": "CH16",
+  "created_at": "2026-10-23T06:19:52.669223+08:00",
+  "status": "partial",
+  "chapter": {
+    "chapter_id": "CH16",
+    "part_id": "P04",
+    "number": 16,
+    "slug": "chapter-16",
+    "title_zh": "曝光、感光元件與影像形成",
+    "title_en": "",
+    "legacy_status": "planned",
+    "zh_status": "planned",
+    "en_status": "translation-needed"
+  },
+  "translation_status": {
+    "zh-TW": "planned",
+    "en-US": "translation-needed",
+    "sync_revision": null
+  },
+  "existing_files": [
+    {
+      "path": "content/zh-TW/chapters/CH16-chapter-16.md",
+      "bytes": 1075,
+      "sha256": "badf040ed8606f7717d2ff29c0a5b4a42b098aebadb82a509d21c77497af7784"
+    },
+    {
+      "path": "content/en-US/chapters/CH16-chapter-16.md",
+      "bytes": 1135,
+      "sha256": "44713b6bca415b5fedb57e1a51c80cf6e405dd8198abe8942ce2296422194b33"
+    },
+    {
+      "path": "assets/chapters/CH16/figure-manifest.yaml",
+      "bytes": 31,
+      "sha256": "538898e06dfc7bcf917108cabeba8134701d050a436b1499847fb737337d8095"
+    }
+  ],
+  "steps": {
+    "inventory": {
+      "status": "pass",
+      "note": "CH16 scaffold inventoried; timestamped backup and SHA256SUMS at backups/CH16-start-20261023-062121."
+    },
+    "research": {
+      "status": "pass",
+      "note": "R112-R119 registered with source scope/locators; remaining source review explicitly pending."
+    },
+    "zh-draft": {
+      "status": "pass",
+      "note": "Traditional Chinese S01-S12 substantive research draft created; not approved."
+    },
+    "en-translation": {
+      "status": "pass",
+      "note": "English working translation S01-S12 aligned; human copy edit remains pending."
+    },
+    "film-cases": {
+      "status": "needs-human-review",
+      "note": "Technical source cases included; legal film version/viewing log/timecodes require author or editor decision."
+    },
+    "figure-assets": {
+      "status": "pass",
+      "note": "Two original editable SVGs have SHA-256, bilingual captions/alt, production log and pending rights review."
+    },
+    "svg-diagrams": {
+      "status": "pass",
+      "note": "Both SVGs parsed, embedded in website/books, and corresponding figure IDs verified; visual/accessibility review pending."
+    },
+    "website": {
+      "status": "pass",
+      "note": "Site sync check passed; local Astro build generated 123 pages; both CH16 routes and IDs/assets inspected; not deployed."
+    },
+    "books": {
+      "status": "pass",
+      "note": "Bilingual DOCX/PDF/EPUB drafts built in tmp/CH16-draft-20261023-r3; all PDF fonts embedded and EPUBCheck passed."
+    },
+    "tests": {
+      "status": "fail",
+      "note": "CH16 tests 5/5 passed; full suite 102/103 with pre-existing CH01 KeyError status; CH01 untouched."
+    },
+    "editorial-review": {
+      "status": "needs-human-review",
+      "note": "Bilingual editor and cinematography/imaging-science specialist review not performed."
+    },
+    "rights-review": {
+      "status": "needs-human-review",
+      "note": "Original SVG rights, attribution, similarity and accessibility approval pending."
+    },
+    "author-approval": {
+      "status": "needs-human-review",
+      "note": "Author final approval pending; publication-ready prohibited."
+    },
+    "chapter-audit": {
+      "status": "pass",
+      "note": "CH16 acceptance report completed with every gate categorized and evidence/remaining work stated."
+    }
+  },
+  "events": [
+    {
+      "time": "2026-10-23T06:19:52.669223+08:00",
+      "event": "Checkpoint created. No manuscripts, images, or publication outputs changed."
+    },
+    {
+      "time": "2026-10-23T06:47:12.875013+08:00",
+      "event": "Stage inventory recorded as pass.",
+      "note": "CH16 scaffold inventoried; timestamped backup and SHA256SUMS at backups/CH16-start-20261023-062121."
+    },
+    {
+      "time": "2026-10-23T06:47:13.465988+08:00",
+      "event": "Stage research recorded as pass.",
+      "note": "R112-R119 registered with source scope/locators; remaining source review explicitly pending."
+    },
+    {
+      "time": "2026-10-23T06:47:13.914514+08:00",
+      "event": "Stage zh-draft recorded as pass.",
+      "note": "Traditional Chinese S01-S12 substantive research draft created; not approved."
+    },
+    {
+      "time": "2026-10-23T06:47:14.439081+08:00",
+      "event": "Stage en-translation recorded as pass.",
+      "note": "English working translation S01-S12 aligned; human copy edit remains pending."
+    },
+    {
+      "time": "2026-10-23T06:47:15.064925+08:00",
+      "event": "Stage film-cases recorded as needs-human-review.",
+      "note": "Technical source cases included; legal film version/viewing log/timecodes require author or editor decision."
+    },
+    {
+      "time": "2026-10-23T06:47:15.618762+08:00",
+      "event": "Stage figure-assets recorded as pass.",
+      "note": "Two original editable SVGs have SHA-256, bilingual captions/alt, production log and pending rights review."
+    },
+    {
+      "time": "2026-10-23T06:47:16.071254+08:00",
+      "event": "Stage svg-diagrams recorded as pass.",
+      "note": "Both SVGs parsed, embedded in website/books, and corresponding figure IDs verified; visual/accessibility review pending."
+    },
+    {
+      "time": "2026-10-23T06:47:16.578430+08:00",
+      "event": "Stage website recorded as pass.",
+      "note": "Site sync check passed; local Astro build generated 123 pages; both CH16 routes and IDs/assets inspected; not deployed."
+    },
+    {
+      "time": "2026-10-23T06:47:16.987844+08:00",
+      "event": "Stage books recorded as pass.",
+      "note": "Bilingual DOCX/PDF/EPUB drafts built in tmp/CH16-draft-20261023-r3; all PDF fonts embedded and EPUBCheck passed."
+    },
+    {
+      "time": "2026-10-23T06:47:17.320003+08:00",
+      "event": "Stage tests recorded as fail.",
+      "note": "CH16 tests 5/5 passed; full suite 102/103 with pre-existing CH01 KeyError status; CH01 untouched."
+    },
+    {
+      "time": "2026-10-23T06:47:17.609039+08:00",
+      "event": "Stage editorial-review recorded as needs-human-review.",
+      "note": "Bilingual editor and cinematography/imaging-science specialist review not performed."
+    },
+    {
+      "time": "2026-10-23T06:47:17.862490+08:00",
+      "event": "Stage rights-review recorded as needs-human-review.",
+      "note": "Original SVG rights, attribution, similarity and accessibility approval pending."
+    },
+    {
+      "time": "2026-10-23T06:47:18.106578+08:00",
+      "event": "Stage author-approval recorded as needs-human-review.",
+      "note": "Author final approval pending; publication-ready prohibited."
+    },
+    {
+      "time": "2026-10-23T06:47:18.363250+08:00",
+      "event": "Stage chapter-audit recorded as pass.",
+      "note": "CH16 acceptance report completed with every gate categorized and evidence/remaining work stated."
+    },
+    {
+      "time": "2026-10-23T06:47:18.640063+08:00",
+      "event": "Run finished as partial.",
+      "note": "Automated CH16 draft work and audit are complete; professional/editorial/rights/author reviews remain, and full suite has one unrelated existing CH01 test error."
+    }
+  ],
+  "finished_at": "2026-10-23T06:47:18.640063+08:00"
+}

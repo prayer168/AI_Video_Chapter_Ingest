@@ -1,0 +1,27 @@
+chapter_id: CH08
+source_locale: zh-TW
+target_locale: en-US
+source_revision: 2.1.0-draft
+target_revision: 2.1.0-draft
+status: review-needed
+reviewed_by: null
+reviewed_on: null
+sections:
+  - {id: CH08-S01, zh: 學習目標, en: Learning Objectives}
+  - {id: CH08-S02, zh: 先備知識, en: Prerequisites}
+  - {id: CH08-S03, zh: 核心術語, en: Key Terms}
+  - {id: CH08-S04, zh: 歷史與基本原理, en: History and Principles}
+  - {id: CH08-S05, zh: 傳統電影製作方法, en: Traditional Production Practice}
+  - {id: CH08-S06, zh: AI 時代的技術轉換, en: AI-Era Workflow and Limits}
+  - {id: CH08-S07, zh: 詳細工作流程, en: Step-by-Step Workflow}
+  - {id: CH08-S08, zh: 提示詞與技術參數, en: Prompt and Technical Parameters}
+  - {id: CH08-S09, zh: 電影案例分析, en: Film Case Studies}
+  - {id: CH08-S10, zh: 常見錯誤與品質檢查, en: Common Errors and Quality Checks}
+  - {id: CH08-S11, zh: 練習、評量與延伸研究, en: Exercises, Assessment, and Further Research}
+  - {id: CH08-S12, zh: 參考資料, en: References}
+terms: [TERM-CH08-SCENE, TERM-CH08-BEAT, TERM-CH08-SUBTEXT, TERM-CH08-SCENE-OBJECTIVE, TERM-CH08-TACTIC, TERM-CH08-TURN, TERM-CH08-PLAYABLE-ACTION, TERM-CH08-OVERLAP]
+references: [R051, R058, R059, R060, R061, R062, R063, R064, R065]
+figures:
+  - {id: CH08-FIG-001, display_number: 8-1, section_id: CH08-S07, zh_title: 場景行動與節拍變化, en_title: Scene action and beat changes, caption_id: CH08-CAP-001}
+  - {id: CH08-FIG-002, display_number: 8-2, section_id: CH08-S09, zh_title: 對白與潛台詞的證據層次, en_title: Evidence layers in dialogue and subtext, caption_id: CH08-CAP-002}
+editorial_note: English working translation; professional and bilingual review pending.

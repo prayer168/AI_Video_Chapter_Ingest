@@ -1,0 +1,98 @@
+{
+  "chapter_id": "CH13",
+  "run_id": "20261022T205359+0800-185a8aa8",
+  "created_at": "2026-10-22T20:54:30+08:00",
+  "purpose": "Pre-edit copy of all CH13 manuscripts, registry targets, global registries, progress/history and site projections. Existing uncommitted work remains untouched.",
+  "files": [
+    {
+      "path": "content/zh-TW/chapters/CH13-chapter-13.md",
+      "bytes": 1081,
+      "sha256": "64efb180e86e7d1c0e404452fc07e5bf98e4d10c8f0d1d14a2d9b66edfae7b0d"
+    },
+    {
+      "path": "content/en-US/chapters/CH13-chapter-13.md",
+      "bytes": 1135,
+      "sha256": "df2b4fbc918bdbda7ab6bfa1115b1071720347b5e8ecf78fa2d9674cdd6c20eb"
+    },
+    {
+      "path": "apps/web/src/content/docs/zh-tw/CH13-chapter-13.md",
+      "bytes": 1162,
+      "sha256": "1ceca6e175f58a7d1ef72108a9045a9e9c78d0a2e3a69b6d87ad17273ce162aa"
+    },
+    {
+      "path": "apps/web/src/content/docs/en/CH13-chapter-13.md",
+      "bytes": 1216,
+      "sha256": "719689042812e49bbc6eb88ded36e2aced6671092a9d8235880ed529f33e4b10"
+    },
+    {
+      "path": "assets/chapters/CH13/figure-manifest.yaml",
+      "bytes": 31,
+      "sha256": "0e467fcfda4f9aae9b2afe4523027f19b953f9284cf5fc74f8fe331b445c3be4"
+    },
+    {
+      "path": "metadata/chapters.yaml",
+      "bytes": 13309,
+      "sha256": "67b40b998431761a296872d17bd3aeffd6df135e19d60efdb629507fcc919b8f"
+    },
+    {
+      "path": "metadata/translation-status.yaml",
+      "bytes": 5188,
+      "sha256": "e0d43901f2480d02b5220615a9c0d75f2210f572e715b29c376e4bd1155bf543"
+    },
+    {
+      "path": "metadata/terminology.yaml",
+      "bytes": 78187,
+      "sha256": "0e0b81af3e32e4cac286ec78621da253d78179f954ff93cbe0dc4d91fe591705"
+    },
+    {
+      "path": "metadata/references.bib",
+      "bytes": 33746,
+      "sha256": "f395cfc5a4bb69ae83b4a21db77b01653e77668fae507efc5da38af9faa114d6"
+    },
+    {
+      "path": "metadata/figure-registry.yaml",
+      "bytes": 70821,
+      "sha256": "510b02ab4652fcef5ea3326287cc61564f25cc90975260f6c5056f6acb077777"
+    },
+    {
+      "path": "data/references.yaml",
+      "bytes": 55717,
+      "sha256": "e1984a6fb8a4b2c625e68123b4df8d22e3e11780d107664ee84e0d0a01a2cf13"
+    },
+    {
+      "path": "data/terms.yaml",
+      "bytes": 24303,
+      "sha256": "20f8b7c67585ce60450c7c968d525ffc9412637ea8ab5efbe56d777ec43988ea"
+    },
+    {
+      "path": "data/assets.yaml",
+      "bytes": 60209,
+      "sha256": "029d76200b65993be1e23f0c5c4af5789e8fb7c74e7f75ae7eff2d9fe68e0f69"
+    },
+    {
+      "path": "scripts/publishing/figure-captions.lua",
+      "bytes": 4177,
+      "sha256": "bf8e9b65e5b7761d32a26981c7736f218a3aa5c17d16fafa50d3712fc9dbd9dd"
+    },
+    {
+      "path": "CHAPTER_INTEGRATION_MATRIX.md",
+      "bytes": 37336,
+      "sha256": "f9ec1d5aff0ad33a4edeeefe196c39cd75e1cbddf669c316bc679286102a742f"
+    },
+    {
+      "path": "scripts/update_chapter_progress_tracker.py",
+      "bytes": 6883,
+      "sha256": "1691cfd52d9cecd5fb246d083d70311e1325c5c26098d38f07f1b5c03e37c057"
+    },
+    {
+      "path": "reports/CHAPTER-PROGRESS-TRACKER.md",
+      "bytes": 15807,
+      "sha256": "d435073eb77064e6d90899f5cbe95f2717f75e713ce866f4e8f8a9e80f8dbf42"
+    },
+    {
+      "path": "history.md",
+      "bytes": 139792,
+      "sha256": "58e7804fb3cbba8cc56f9a8ada5784de6c1270a1746893b95bf32519af665d39"
+    }
+  ]
+}
